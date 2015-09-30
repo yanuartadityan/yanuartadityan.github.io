@@ -1,0 +1,1885 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title type="text">Mirkwood Ape</title>
+<generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
+<link rel="self" type="application/atom+xml" href="/feed.xml" />
+<link rel="alternate" type="text/html" href="" />
+<updated>2015-09-30T17:20:32+02:00</updated>
+<id>/</id>
+<author>
+  <name>Yanuar Aditya</name>
+  <uri>/</uri>
+  <email>yanuart.adityan@gmail.com</email>
+</author>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[One year in Sweden]]></title>
+  <link rel="alternate" type="text/html" href="/blog/one-year-in-sweden/" />
+  <id>/blog/one-year-in-sweden</id>
+  <published>2015-09-07T00:00:00+02:00</published>
+  <updated>2015-09-07T00:00:00+02:00</updated>
+  <author>
+    <name>Yanuar Aditya</name>
+    <uri></uri>
+    <email>yanuart.adityan@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;h3 id=&quot;flashback&quot;&gt;Flashback&lt;/h3&gt;
+
+&lt;p&gt;Sweden. Hmmm, i wasn’t expecting to be here actually. Upon arrival at Landvetter airport, 23th August last year, my first step into Sweden was full of doubt and uneasy feeling about everything. Yet, from second step towards, myriad of things started to get in places and embrace me to think, what was my motivation to pick Sweden as my next destination for study? Yes, Sweden is my dream. Going to one of the most underrated country in any measured parameters, e.g. GDP, living expectancy, quality of education, etc. Couldn’t be better than that.&lt;/p&gt;
+
+&lt;h3 id=&quot;gteborg&quot;&gt;Göteborg&lt;/h3&gt;
+
+&lt;p&gt;I took a ride on what is described as &lt;em&gt;Flygbussarna&lt;/em&gt;, or airport coach. It’s a shuttle bus connecting Landvetter and Göteborg. On that 25 minutes trip, I did discover Göteborg is quite good looking city with quite awe sceneries.&lt;/p&gt;
+
+&lt;p&gt;In a year, I have visited several cities in Scandinavia. Stockholm is pretty big, Copenhagen as well, Malmö is growing, Jönkoping is somewhat, quiet and very laidback. However, Göteborg is perfect for my taste. The city has everything from what you expect from a A-rated city in Europe. It has big port, beach, modern part of the city, educational sites, islands, old parts of the city also pretty well reserved.&lt;/p&gt;
+
+&lt;p&gt;For an entire year, the transportation in Göteborg is definitely something to be highlighted on. &lt;em&gt;Västtrafik&lt;/em&gt;, the consorsium behind this splendid 
+transportation system, utilizing tram, bus and ferry, got my highest admiration since then. Even, as compared to several big cities, e.g. Amsterdam or Hannover. Göteborg’s average waiting time on each stops is significantly faster than any of mentioned cities. Probably, size of the city has to be considered and taking the weight on number of population in Göteborg that’s not too.&lt;/p&gt;
+
+&lt;h3 id=&quot;chalmers&quot;&gt;Chalmers&lt;/h3&gt;
+
+&lt;p&gt;Chalmers University of Technology. As people argued, probably it is the best technical university in Sweden. And what do you expect from Chalmers at this level? I did not want to expect anything, but everything is way better than my previous campus. The education pace, the labs, impact of the research, the professor, the classmates, study groups and every activities. The campus itself is not that big, it is perfect for any students who likes to walk. Lot of trees, the terrain is not flat at all, and surrounded by small paths.&lt;/p&gt;
+
+&lt;p&gt;As the bureaucracy system, everything is self serviced, available and provided by the intranet of the campus and are accessible through VPN almost anywhere. Yes, almost anywhere. You can print your documents almost from anywhere using PRISMA printer service. The print quota is always topped up every new semester.&lt;/p&gt;
+
+&lt;p&gt;And the exam…Hmmm…Yeah, it’s hard, but realizing that exam is independent to the course itself, I can decide whenever I want to take exam in no hurry. And yes, it’s non stressful system I must say.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/blog/one-year-in-sweden/&quot;&gt;One year in Sweden&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on September 07, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Addition vs Multiplication]]></title>
+  <link rel="alternate" type="text/html" href="/blog/addition-vs-multiplication/" />
+  <id>/blog/addition-vs-multiplication</id>
+  <published>2015-09-05T00:00:00+02:00</published>
+  <updated>2015-09-05T00:00:00+02:00</updated>
+  <author>
+    <name>Yanuar Aditya</name>
+    <uri></uri>
+    <email>yanuart.adityan@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;OK, let’s settle this. If you’re given a question, which is faster, between addition and multiplication? Or in more formal concise way of problem set, given &lt;code&gt;x, y&lt;/code&gt; be two &lt;code&gt;integers&lt;/code&gt;. Which one is easier, an &lt;code&gt;addition&lt;/code&gt; or &lt;code&gt;multiplication&lt;/code&gt; for those two integers?&lt;/p&gt;
+
+&lt;p&gt;I’d rather believe that people will spontaneously chose to add is faster than to multiply. But in what sense people think that way? A conceptual framework is needed to motivate this answer. And I’ll help you on this post.&lt;/p&gt;
+
+&lt;p&gt;We’re going through some definitions here. &lt;code&gt;Addition&lt;/code&gt; and &lt;code&gt;multiplication&lt;/code&gt; are examples of &lt;strong&gt;problems&lt;/strong&gt;. Some inputs, in this case &lt;code&gt;x, y&lt;/code&gt; are the inputs, or precisely, instances for which the problem has to solve. In principle, a problem has infinite instances that should be able to be solved.&lt;/p&gt;
+
+&lt;p&gt;Problems are often solvable by &lt;strong&gt;algorithms&lt;/strong&gt;. Intuitively, an algorithm is an instruction saying how to do the calculation that solves the problem for every possible instance. It must be precise and unambiguous, such that it can be delegated to a machine. The steps of an algorithm must consist of simple operations which can be done mechanically, without human intervention or appeal to human intelligence. They must not leave any room for subjective interpretations.&lt;/p&gt;
+
+&lt;p&gt;Computer programs are nowadays the way to execute algorithms, but algorithms existed already long before the advent of computers. The word is derived from the name &lt;em&gt;al-Khoarizmi&lt;/em&gt;, an Persian scholar (780–850) who wrote an early textbook on arithmetic calculations. Much earlier, various algorithms were already known to ancient mathematicians.&lt;/p&gt;
+
+&lt;p&gt;Examples of algorithms are the well-known “school methods” for adding or multipling two numbers on paper. These methods fulfill all the above criteria. They specify which simple operations with digits we have to do in which order, and how these partial results have to be combined to the correct final result.&lt;/p&gt;
+
+&lt;p&gt;We stress that an algorithm and a computer program is not the same thing! A program implements an algorithm, i.e., it realizes an algorithm in a specific programming language. But an algorithm as such is an abstract mathematical entity. This distinction is more than just academic hair-splitting, rather, it has two major practical consequences.&lt;/p&gt;
+
+&lt;p&gt;OK, then which one is the answer mister?&lt;/p&gt;
+
+&lt;p&gt;The answer lies on what we know with &lt;strong&gt;Time Complexity&lt;/strong&gt;. Good luck study on this guys. Welcome to the Algorithm class.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/blog/addition-vs-multiplication/&quot;&gt;Addition vs Multiplication&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on September 05, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[What's Wrong with May Weather?]]></title>
+  <link rel="alternate" type="text/html" href="/blog/summer/" />
+  <id>/blog/summer</id>
+  <published>2015-06-04T00:00:00+02:00</published>
+  <updated>2015-06-04T00:00:00+02:00</updated>
+  <author>
+    <name>Yanuar Aditya</name>
+    <uri></uri>
+    <email>yanuart.adityan@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;h3 id=&quot;season-in-gothenburg&quot;&gt;Season in Gothenburg&lt;/h3&gt;
+
+&lt;p&gt;If we talk about season in western archipelago of Sweden, then Gothenburg, so to speak, is representing what you may call unforeseen forecasted weather. It is May already, several parts of Europe already bathing in 20-hours of sunlight, pretty close to body temperature warmth that attracts Summer’s Mood of everyone to come out. However, it is still 10 Degree Celcius here in Gothenburg. Valkommn till Sverige!&lt;/p&gt;
+
+&lt;h3 id=&quot;so-whats-next&quot;&gt;So, What’s Next?&lt;/h3&gt;
+
+&lt;p&gt;Prepare for the worst. It’s a routine to check today’s weather before you leave home. Always make sure to dress properly and do not forget to bring your worst case suit all the time. I do prefer wearing my trusty waterproof hardshell everytime anytime, probably with fleece and a shirt. Always come with spare of shirts and socks on the backpack.&lt;/p&gt;
+
+&lt;h3 id=&quot;killing-time&quot;&gt;Killing Time&lt;/h3&gt;
+
+&lt;p&gt;The weather can change quickly. Always think positive, if you don’t wanna get &lt;em&gt;jinxed&lt;/em&gt;. When the weather is good, just enjoy. Do not think about probability of raining or cloud will come in a glimpse of your eye.&lt;/p&gt;
+
+&lt;h3 id=&quot;so-what&quot;&gt;So What?&lt;/h3&gt;
+
+&lt;p&gt;Sweden is pretty country. Gothenburg itself is amazing. Fantastic public transportation, superb education and industry, big port and ships and the weather as well. So, please come and enjoy Gothenburg.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/blog/summer/&quot;&gt;What&#39;s Wrong with May Weather?&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on June 04, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Network Security Recap]]></title>
+  <link rel="alternate" type="text/html" href="/blog/netsec-exams/" />
+  <id>/blog/netsec-exams</id>
+  <published>2015-06-01T00:00:00+02:00</published>
+  <updated>2015-06-01T00:00:00+02:00</updated>
+  <author>
+    <name>Yanuar Aditya</name>
+    <uri></uri>
+    <email>yanuart.adityan@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;h1 id=&quot;eda491--network-security&quot;&gt;EDA491 | Network Security&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;april-2015&quot;&gt;&lt;strong&gt;April 2015&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;IP fragmentation&lt;/strong&gt; is problematic in many situations. Consider a firewall or IDS system inspecting the traffic and mention &lt;strong&gt;three problems&lt;/strong&gt; related to fragmentation that may affect security. Describe the problems and what problems they may cause.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;IP fragmentation is a process to split up IP datagram into several packets of smaller size. Usually first fragment starts with ICMP message and the following fragmented packets are ICMP without header (like a beheaded datagrams).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;An IDS or firewall will have to check several informations found on the header, e.g. ID, Flag and Offsets and the size of the fragments. Small fragments could lead into an next fragment header overwrite, big fragments could lead into overlapping datagrams.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Teardrop attack&lt;/strong&gt; happens when there is a mismatch between offset length and the actual datagrams size. This caused an overlapping between datagrams and the overlapped part of the datagrams often used as a place to insert malicious information. When the reassembly is not properly concatenate all of the fragments, the attack will go undetected.&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;Overrun DoS&lt;/strong&gt; happens when the complete reassembled datagrams size is more than allowed IP packet 65,535 bytes. Processing data this large could lead the system into network crash state and resulted on Denial-of-Service.&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;Rose Attack&lt;/strong&gt; happens when there are too many incomplete fragments detected on the network. This kind of incomplete fragment usually is used to bypass IDR or to launch DoS attack.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;What is required by an attacker to do a &lt;strong&gt;blind insertion&lt;/strong&gt; of a packet into an ongoing TCP session between two other users? What is the &lt;strong&gt;countermeasure&lt;/strong&gt; we have in TCP against it? Is the solution good enough? How likely is the attacker to succeed?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;When we are dealing with TCP connection, there is an established connection between two sides. Both of them have to maintain the sequences of the communication using sequence number for their packets.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;An attacker that wants to perform blind insertion, should have a knowledge about target IP address and try to catch the sequence number prediction as soon as the initial 3-way handshake is finished. However, when both sides are using random number to generate the sequence number, then the attacker is completely blind and it is very hard in practice. Sequence number has 32-bits of length in the TCP header, thus 2^32 chances are too much for the attacker.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Describe in some detail the process of how a &lt;strong&gt;certificate&lt;/strong&gt; is used, i.e. how the owner’s identity can be verified by another party! What does the receiver of the certificate do? How is the certificate distributed to the receiver?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;When user receives developer’s certificate, it contains the CA’s private key that’s signed by the developer. CA’s public key that comes with the preloaded certificates within browser is used to check the integrity of the developer’s certificate. A hash of this preloaded certificate is created and encrypted then compared to the one comes with the developer’s certificate.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;To check the owner’s identity, basic digital signature is used. User can challenge the owner to encrypt the data using its private key and later on user can use owner’s public key to decrypt and make sure that the owner is the one it supposed to.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Identity management&lt;/strong&gt; (IDM) is a relatively new field. What is the fundamental problem IDM tries to solve?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Identity management put the security measure closer to the center and control oriented. It brings the consciousness of security aware in full control from the organization.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If a dishonest supplicant can both send and listen to the traffic between the Authenticator and the &lt;strong&gt;Radius&lt;/strong&gt; server, it is possible to do a number of attacks. Give one example of an &lt;strong&gt;attack against the shared secret&lt;/strong&gt; and one against someone else’s password!&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If the dishonest supplicant observed valid Access-Request (ARq) and associated Access-Accept (AA) or Access-Reject (ARj), then it is possible for the supplicant, now a potential attacker, to perform exhaustive attack on &lt;strong&gt;shared_secret&lt;/strong&gt; within response_authenticator part of the response. The attacker will compute MD5 state for &lt;strong&gt;code&lt;/strong&gt; + &lt;strong&gt;ID&lt;/strong&gt; + &lt;strong&gt;length&lt;/strong&gt; + &lt;strong&gt;request_auth&lt;/strong&gt; + &lt;strong&gt;attribute&lt;/strong&gt; which are known. The attacker will then resume the hash once for each shared secret &lt;strong&gt;guess&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Radius uses stream cipher and good attacker can find information about the rate of authentication limit imposed by the client. First, attacker attempts to authenticate to the client using fake username and password. The authenticator will try to send AR to the &lt;strong&gt;Radius&lt;/strong&gt; server. Attacker captures AR and replay the AR to the &lt;strong&gt;Radius&lt;/strong&gt; using different variations of password. If the server does not impose rate authentication limit, then this attack can be performed in an exhaustive way to find correct password.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;What is a &lt;strong&gt;DMZ&lt;/strong&gt;, where is it located and what &lt;strong&gt;purpose&lt;/strong&gt; does it have?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;DMZ or demilitarized zone, or perimeter network, is an external network outside the local network that runs several services, e.g. web servers, mail servers etc to avoid forwarding traffic to the internal (local) network.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;You are now given the task to connect a small office network to the Internet and a firewall is needed. Assume that you are considering two different rather cheap firewall configurations:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;a stateless firewall, &lt;strong&gt;OR&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;NAT gateway that takes care of security&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;compare the two solutions and discuss advantages and disadvantages with them. Discuss what types of attacks they may be vulnerable against, if any.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Stateless&lt;/strong&gt; firewall watch network traffic, working and decisions are taken by rules on source or destination addresses. This firewall does not aware about the state of the connection, e.g. TCP sequence number, traffic patterns or data flow. Lot of packets can be rogue and let this alone enough to lead the system prone to &lt;strong&gt;spoofing attack&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;NAT&lt;/strong&gt; gateway works by looking at the translation table. Thus, it is as good as the table is. It works like a firewall with default setting set to ‘not letting’ any connections that are not originated from the network. However, NAT gateway still can be attacked, not by spoofing attack, but with &lt;strong&gt;SYN flood&lt;/strong&gt; or ping-of-death that does not harm the main security measure of the system, but will lead to the denial-of-service (&lt;strong&gt;DoS&lt;/strong&gt;) problem.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In the picture above, &lt;strong&gt;two firewalls&lt;/strong&gt; not specially designed for this purpose, are placed in parallel by someone believing they could increase both reliability if one fails and improve performance by sharing the load. Does this work? List some problems with this approach!&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;From &lt;strong&gt;redundancy&lt;/strong&gt; point of view, in order to keep both of the firewalls at the same state everytime, the switch has to broadcast every packets. It is doable and easy, however the problem arise when we have two same state firewalls that forward exactly same packets. This will create duplicate of packets that is not good for the network. So, one of the firewall must halt the forwarding when the other firewall, let say the &lt;strong&gt;primary firewall&lt;/strong&gt; works 100% well.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;From &lt;strong&gt;performance&lt;/strong&gt; point of view, load sharing ideally performed by stripping packet per packet and let the packets forwarded to each of the firewalls in order. However, this doesn’t really work since TCP is connection based and for each session, the connection has to be maintained between both sides.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;SSL consists of several protocols. Describe the functionality of the record layer, change cipher, alert and handshake protocols!&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Record layer&lt;/strong&gt; performs fragmentation &amp;gt; compression &amp;gt; MAC &amp;gt; encryption. 
+&lt;strong&gt;Change cipher&lt;/strong&gt; tells the other side about last security parameter negotiated and starts the encryption phase
+&lt;strong&gt;Alert&lt;/strong&gt; protocol sends warning and error messages to the other side
+&lt;strong&gt;Handshake&lt;/strong&gt; protocol negotiates cipher key, exchanging public key and certificate, and performs authentication.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The first &lt;strong&gt;SSL&lt;/strong&gt; messages exchanged between the client and the server are the &lt;strong&gt;HELLO&lt;/strong&gt; messages:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;{ verC&lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt;r1&lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt;sid&lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt;ciphers&lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt;comps } -&amp;gt; server&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;{ verS&lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt;r2&lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt;sid&lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt;cipherA&lt;/td&gt;
+          &lt;td&gt; &lt;/td&gt;
+          &lt;td&gt;compA } &amp;lt;- server&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Explain clearly what each field &lt;strong&gt;contains&lt;/strong&gt; and the purpose of it (what it is used for)!&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;verC&lt;/strong&gt; is the highest protocol that’s supported by the browser (client side). 
+&lt;strong&gt;r1&lt;/strong&gt; is the unique nonce from client side (&lt;strong&gt;r2&lt;/strong&gt; is from server side) that is used for limited time (one occasion). It is a random number that will be used for key generation later. 
+&lt;strong&gt;sid&lt;/strong&gt; or session ID is the number for identifying the session, new connection start from 0 and non-zero &lt;strong&gt;sid&lt;/strong&gt; means that clients want to resume existing connection.
+&lt;strong&gt;ciphers&lt;/strong&gt; is a list supported cipher suite by the client side, while &lt;strong&gt;cipherA&lt;/strong&gt; is the cipher suite that is selected by the server.
+&lt;strong&gt;comps&lt;/strong&gt; is a list of compression that can be used for compressing the payload. &lt;strong&gt;compA&lt;/strong&gt; is the compression method that is selected by the server.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In &lt;strong&gt;IPsec tunnel&lt;/strong&gt; mode, a new IP header is created. Why? Why is this not necessary in transport mode? Explain!&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Because in &lt;strong&gt;tunnel&lt;/strong&gt; mode, header is needed due to the presence of gateway. Tunnel mode isn’t like &lt;strong&gt;transport&lt;/strong&gt; mode which the datas are completely decrypted and unpacked by end point, instead the gateway is the one who does that then forward the necessary packets (decrypted) to the end user. Thus, in &lt;strong&gt;tunnel&lt;/strong&gt; mode, one of the advantage is the user doesn’t have to implement &lt;strong&gt;IPSec&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Mention &lt;strong&gt;five typical functions&lt;/strong&gt; that characterize a &lt;strong&gt;security protocol,&lt;/strong&gt; i.e. things you would expect to find in a protocol that is supposed to be secure. For each such function, explain its purpose (why it is there) and give an example of how it can be solved/implemented.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In practice, implementation of security protocol is quite close with each other and several functions are being used many times due to the performance, reliability and the practicality. From &lt;strong&gt;algorithm negotiation&lt;/strong&gt;, &lt;strong&gt;key exchange&lt;/strong&gt;, &lt;strong&gt;data integrity&lt;/strong&gt;, &lt;strong&gt;two-step verification&lt;/strong&gt; and &lt;strong&gt;security protection&lt;/strong&gt; or measure.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Algorithm negotiation&lt;/strong&gt; usually is performed at early phase, e.g. SSL and SSH, to determine what kind of cipher suite or encryption algorithm to be used later on.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Key exchange&lt;/strong&gt; is necessary for both sides to get to know the master key to be used for the encryption. Usually it implements Diffie-Helmann or RSA key exchange algorithm.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Data integrity&lt;/strong&gt; means that the encrypted data should not be changed while transmitting. To maintain the data integrity, one way encryption, e.g. Hash MD5 or HMAC can be used.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Two-step verification&lt;/strong&gt; is needed when typical username &amp;amp; password combinations is not enough. Usually it is implemented by asking the user something using questions, e.g. watermark, captcha, etc. The answer for this kind of questions is precomputed and saved alongside the sessions in the server.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Security protection&lt;/strong&gt; has to be carried out to maintain the confidentiality, integrity and authenticity of the communications. We speak this because there is always a non-zero chance that a dishonest user or a man-in-the-middle that wants to exploit some of the weakness in our security protocols. Several specific protections are &lt;strong&gt;replay-attack&lt;/strong&gt; protection by utilizing sessions token,  protection for &lt;strong&gt;MiTM&lt;/strong&gt; using mutual-authentication and PKI&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;How does &lt;strong&gt;WEP&lt;/strong&gt; prevent packets from being modified? Is this mechanism sufficient, or does it result in any (known) security problems? Give some details!&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;No, WEP doesn’t guarantee a modification of the packets. WEP uses &lt;strong&gt;CRC&lt;/strong&gt; feature to enable data integrity check later on. Simple CRC implementation basically takes several bits of the datas and append them on the last part of the datas. It is possible to find out what &lt;strong&gt;bit is changed on the checksum&lt;/strong&gt; when input is changed. Thus, it is possible for an attacker to resolve this and do some modifications on the datas.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;WEP has at least one problem with its handling of IVs. Explain how an attacker may use this weakness! Is this problem likely to occur?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;WEP allows IV to be reused. That means two packets can be encoded/encrypted using stream cipher with same IV &amp;amp; shared keys. That means, &lt;strong&gt;XOR&lt;/strong&gt; operations of those two ciphertexts will also affect &lt;strong&gt;XOR&lt;/strong&gt; operations on the cleartexts.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;c1 &lt;strong&gt;xor&lt;/strong&gt; c2=(p1 &lt;strong&gt;xor&lt;/strong&gt; b) &lt;strong&gt;xor&lt;/strong&gt; (p2 &lt;strong&gt;xor&lt;/strong&gt; b) = p1 &lt;strong&gt;xor&lt;/strong&gt; p2&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If one of the cleartext is longer than the other, then the longer part could be revealed. And since the IV is merely 24-bit, it is likely reused by busy AP (Access Points).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Some more advanced switches may have more &lt;strong&gt;intelligent&lt;/strong&gt; functionality than a simple €10 switch, and can prevent some &lt;strong&gt;link-layer&lt;/strong&gt; attacks. Describe two such possible functions and what kind of attacks they protect against!&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If we are on link-layer attack, mostly the protection is all about MAC addresses. We can &lt;strong&gt;limit the number MAC addresses&lt;/strong&gt; on specific ports. By limiting this, it will prevent broadcast message flooding to all ports by specific MAC address. Other solution is to &lt;strong&gt;implement trust&lt;/strong&gt; on specific ports. With this we are limiting what ports to answer specific requests. Going further and more detail, we can limit &lt;strong&gt;one MAC one port&lt;/strong&gt; thus limiting the functionality as well. Also, MAC-spoofing protection is feasible to do by performing monitoring both for IP and MAC.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;DHCP spoofing&lt;/strong&gt; is another problem advanced switches can deal with. What is DHCP spoofing? And how can it be dealt with by a switch?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;An attacker may intercept the DHCP request message and give an answer. That means the attacker becomes &lt;strong&gt;man-in-the-middle&lt;/strong&gt;. The trusted ports function implemented by the switch only allow associated ports to answer this DHCP request.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;### &lt;strong&gt;August 2014&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Give one example each of a &lt;strong&gt;Link Layer&lt;/strong&gt;, &lt;strong&gt;Network Layer&lt;/strong&gt; and &lt;strong&gt;Transport Layer&lt;/strong&gt; attack! Clearly explain how each attack works and what the possible results of it may be&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In link layer, &lt;strong&gt;ARP spoofing&lt;/strong&gt; is one of the attack example. ARP is like a question message about who has certain IP address. When there is a reply (ARP reply), ARP updates the ARP table with the IP address and its associated MAC address. Attacker could spoof the MAC address thus mismatch the IP-MAC relation in the table. By this, letting the traffic to be routed to attackers MAC. The &lt;strong&gt;countermeasure&lt;/strong&gt; for this is &lt;em&gt;antidote&lt;/em&gt; patch like in Linux. The host check the old MAC first before accept new MAC.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In network layer, every abuse about IP header can be considered potentially harmful. For example, &lt;strong&gt;IP spoofing&lt;/strong&gt; attack, is an attack on which the attacker send malicious packets using victim’s IP address as source IP address. With this, the attacker can hide his identity and potentially exploit the trusted connection between two sides.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In transport layer, anyone can insert malicious data in UDP packet. This leads an &lt;strong&gt;UDP attack&lt;/strong&gt;. This attack is done by inserting malicious information within UDP datagram into the host. It is hard to detect because there is sequence number in UDP packets. Another good example is &lt;strong&gt;SYN flooding&lt;/strong&gt; attack. Attacker sends SYN flooding from many zombie clients into one host. This makes the host to send SYN/ACK to any zombies in such a short time. Probably will lead into chaotic denial-of-service problem.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The goal of some &lt;strong&gt;DoS attacks&lt;/strong&gt; is to try to exhaust the resources of the target, for example memory, internal tables, network or the CPU. Describe two possible DoS attacks targeting different resources, how they work and what weaknesses they make use of!&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;DoS attack usually targets several different resources. &lt;strong&gt;Reflection attack&lt;/strong&gt; is an example of DoS attack that target the bandwidth of the victim to be exhausted. This attack is initiated by an attacker doing an authentication with the victim A. After A sent a challenge request to the attacker, it opens new connection to the B and forward that &lt;strong&gt;challenge request&lt;/strong&gt; from A to B. The response from B to the attacker, then forwarded back to A. Without careful inspection, if we have lot of B, then there will be lot of open connections between A and Bs.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Another DoS attack that targets internal resource is &lt;strong&gt;SYN flooding&lt;/strong&gt; attack. Attacker sends SYN flooding from many zombie clients into one host. This makes the host to send SYN/ACK to any zombies in such a short time and wasting lot of victim’s resources. Probably will lead into chaotic denial-of-service problem.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Explain how &lt;strong&gt;encryption&lt;/strong&gt; of data traffic is done in &lt;strong&gt;WEP&lt;/strong&gt;! A figure together with explaining text is needed. You need to discuss how encryption is done, all input and output&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Well, WEP uses &lt;strong&gt;stream cipher&lt;/strong&gt; that takes IV + key (seed) as an input to the RC4 symmetric cipher algorithm to produce keystream. The keystream bit length is exactly the same with the stream plaintext of datas. Then &lt;strong&gt;XOR operation&lt;/strong&gt; is performed between the keystream and the plaintext. The ciphertext is produced and then used.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Even though WEP encrypted traffic contains an &lt;strong&gt;encrypted checksum&lt;/strong&gt; or CRC, it cannot prevent an attacker from modifying the packets. Explain why this is possible and explain how WEP should have been designed to avoid this problem!&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;WEP uses &lt;strong&gt;CRC&lt;/strong&gt; feature to enable data integrity check later on. Simple CRC implementation basically takes several first bits (24-bits if we use CRC24) of the datas and append them on the last part of the datas. It is possible to find out what &lt;strong&gt;bit is changed on the checksum&lt;/strong&gt; when input is changed. Thus, it is possible for an attacker to resolve this in exhaustive fashion and do some modifications on the datas.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Mention briefly two things &lt;strong&gt;TKIP&lt;/strong&gt; (temporal key integrity protocol, present &lt;strong&gt;in WPA&lt;/strong&gt;) does to enhance security?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;TKIP ensures the encryption key not static or changeing over time. It extends the regular IV into EIV by incorporating MAC address as a input for pseudo random generator. Another purpose is to make sure that the sequence number of the packets is unique thorough all the communication sessions.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Give six examples of different types of rules to filter traffic that a &lt;strong&gt;screening router&lt;/strong&gt; likely would have! You may use text or your own “pseudo-language” for the filter rules as long as they are possible to understand (comments to the rules are necessary).&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Screening router is a stateless firewall. This means that the screening router doesn’t have capabilities to check the state of connections. Several common filter that we should have are:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;reserved IP address&lt;/strong&gt;
+source_addr : 0.x.x.x &amp;gt; DROP | &lt;strong&gt;never used 0.x.x.x net&lt;/strong&gt;
+source_addr : 127.x.x.x &amp;gt; DROP &lt;strong&gt;localhost  should be used internally&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;broadcast and multicast address&lt;/strong&gt;
+source_addr : x.x.255.255 &amp;gt; DROP | &lt;strong&gt;multicast source should be dropped&lt;/strong&gt;
+source_addr : x.x.x.x, y.y.y.y &amp;gt; DROP | &lt;strong&gt;multicast source should be dropped&lt;/strong&gt;
+dest_addr : x.x.x.x, y.y.y.y &amp;gt; DROP |  &lt;strong&gt;tcp doesn’t utilize multicast&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;malformed packet&lt;/strong&gt;
+flag SYN=1 &lt;strong&gt;and&lt;/strong&gt; FIN=1 &amp;gt; DROP | &lt;strong&gt;never ever SYN &amp;amp; FIN in same packet&lt;/strong&gt;
+if &lt;strong&gt;tiny_fragment&lt;/strong&gt;=1, DROP | &lt;strong&gt;tiny fragment is dangerous&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;block ICMP reply&lt;/strong&gt;
+protocol : ICMP, flag: reply &amp;gt; DROP | &lt;strong&gt;prevent smurf attack&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In the course we have discussed several ways to &lt;strong&gt;evade IDS&lt;/strong&gt; systems and &lt;strong&gt;firewalls&lt;/strong&gt;. One problem for the IDS system is to select proper timeouts for IP fragment reassembly. Why is this problematic? Give two examples of what would happen if the IDS system selects a too long or too short timeout!&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;When fragmented packets are received, there has to be a timeout before unfinished fragment will be dropped. If the timeout duration in IDS is shorter, there is a chance that the fragments will be dropped while the target system may find the fragment is complete datagram. If the timeout duration in IDS is longer, then IDS will find that the fragments discarded in target system.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;TTL&lt;/strong&gt; can sometimes also be used to fool firewalls and intrusion detection (IDS) systems. How? Mention a possible protection mechanism against this attack.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Low TTL value can cause fragments or packets to be discarded due to early timeout. This in turn may leads to a situation where IDS and target host receiving different meaning of what had been communicated through the communications. Border routers could normalize TTL value to, let say 20.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If you are given the task to test whether a &lt;strong&gt;firewall&lt;/strong&gt; is &lt;strong&gt;stateful&lt;/strong&gt; or &lt;strong&gt;not&lt;/strong&gt;, how would you do this? Describe what you do (send) and the expected result! Explain clearly why this test would work!&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;To check for the statefulness of a firewall, we may send ACK message and check for the result. If the firewall is stateless, it doesn’t read the state of the connection and then will forward the ACK to the destination. Normal systems &lt;strong&gt;will respond the ACK with RST&lt;/strong&gt; if the ACK doesn’t belong to a known session. If the firewall is stateful, then the ACK message will be dropped.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;NAT gateways&lt;/strong&gt; are strictly speaking not firewalls, but they are still useful and can in many situations replace a conventional firewall. Why?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;NAT&lt;/strong&gt; helps to &lt;strong&gt;hide&lt;/strong&gt; the internal systems from the outer network. Any information that is not inside NAT’s translation table is not visible. Also, NAT doesn’t inspect any traversed packets, thus it grants better performance metrics. For the application, NAT gateways are suitable for small network or home users.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;On the last page, there is a picture of an &lt;strong&gt;IPsec&lt;/strong&gt; header. Explain what the next header, SPI and padding fields are used for and what purposes they have!&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Next header&lt;/strong&gt; tells what upper layer protocol should receive the data.
+&lt;strong&gt;SPI&lt;/strong&gt; is an index that tells what kind of SA (Security Association) to be used.
+&lt;strong&gt;Padding&lt;/strong&gt; field is to disguise to an attacker about the actual amount of the datas being transmitted.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;IKE&lt;/strong&gt; is a protocol often used together with IPsec. What does it do (mention its three main functions)?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;IKE or Internet Key Exchange is used for establishing crypto session keys, negotiate ciphers suite and performing two-sides verification.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The figure on the last page shows the &lt;strong&gt;SSL handshake&lt;/strong&gt; protocol and how a client and a server exchange information. Explain briefly the messages, what they contain and their purpose/function!&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;In the &lt;strong&gt;Hello&lt;/strong&gt; part, basically client and server are just exchanging information about &lt;strong&gt;random numbers&lt;/strong&gt;, &lt;strong&gt;ciphers suite&lt;/strong&gt; and &lt;strong&gt;session ID&lt;/strong&gt;. Then server sends certificate that is signed and verified by the Certificated Authority (CA), alongside with server’s Public Key. Then browser verifies the certificate with the one loaded into the browser. If it is verified that the certificate comes from the trusted CA. If there is no public key shared between client and the server, then extra step &lt;strong&gt;server key exchange&lt;/strong&gt; is needed. Later on, client responded by sending &lt;strong&gt;client key exchange&lt;/strong&gt; that consists shared key secret encrypted using server’s public key. Then the server is authenticated, everything is done and client ends the phase sending &lt;strong&gt;client finished&lt;/strong&gt;. Last phase is all about sending cipher spec where both sides negotiate about everything based on previously happened communication. This phase ends the handshake because everything will be encrypted after this.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;SSH (Secure Shell) offers a concept called &lt;strong&gt;port forwarding&lt;/strong&gt;. What is it? What functionality does it offer? Explain with 2-3 sentences, not more.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The SSH client opens a local port (e.g. 80) and local applications can connect to it. All data written (and read) is &lt;strong&gt;sent&lt;/strong&gt; encrypted &lt;strong&gt;to&lt;/strong&gt; the &lt;strong&gt;SSH server&lt;/strong&gt; which decrypts it and &lt;strong&gt;forwards&lt;/strong&gt; it &lt;strong&gt;to&lt;/strong&gt; the final &lt;strong&gt;target&lt;/strong&gt; (in this case, a &lt;strong&gt;web server&lt;/strong&gt; at the other end).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;When port forwarding is used, SSH opens a number of ports. This may enable attacks by other users, local and remote. Explain!&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Basically, a port &lt;strong&gt;doesn’t offer access control.&lt;/strong&gt; Establishing port forwarding to certain port will make end user to that port vulnerable to an intruder. Thus that means that everyone can connect to the port and access the service (sending datas to the remote server). On multi user systems, this is a bad thing because there will be numerous of users that could communicate with corresponding port and access the remote server.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;### &lt;strong&gt;May 2014&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;There are several ways to &lt;strong&gt;scan&lt;/strong&gt; networks and systems, for example with &lt;strong&gt;SYN&lt;/strong&gt; and &lt;strong&gt;ACK&lt;/strong&gt; scans. Explain the difference(s) between these two types and describe what the expected results from them are. It should be obvious from your answer that there is a reason why scanning tools offer different methods to scan systems.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Both SYN and ACK scans follow the TCP 3-way handshake sequences to conform specific purposes. SYN scan will &lt;strong&gt;probe ports&lt;/strong&gt; on the target host with TCP message with &lt;strong&gt;SYN flag&lt;/strong&gt; is &lt;strong&gt;set to 1&lt;/strong&gt;. If there is a SYN/ACK result from the target host, then there is an open port in the host. If there is a RST result, then the port is closed. If there is no reply, there is a firewall in between.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;ACK scan is performed to &lt;strong&gt;check the state&lt;/strong&gt; of the firewall. If you got the RST, then there is an either closed or open port on the target host. If there is no reply, then maybe the packet is &lt;strong&gt;filtered&lt;/strong&gt; by stateful firewall or there is no host at all.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;UDP scanning is harder to do than TCP scanning. Why? How can operating systems, at least to some degree, protect themselves against this type of scanning?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Because UDP doesn’t maintain the connection (like TCP, which maintain the connection state using TCP sequence number). Thus, we never really know whether the packet is dropped or silently accepted. If there is no host open, then we will get &lt;strong&gt;ICMP Unreachable Host&lt;/strong&gt; reply. A protection can be implemented, e.g. limiting the number of ICMP reply rate (1 reply per second) to avoid ICMP flood.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Give two examples of attacks against IP (one sentence per attack is enough)&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;First is &lt;strong&gt;IP spoofing&lt;/strong&gt; attack. IP spoofing is when an attacker send a packet to a target host with the victim’s IP address set as the source IP in the header. Attacker uses this to hide their true identity and to exploit trust connection between victim and the target host.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Second is &lt;strong&gt;LAND&lt;/strong&gt; attack. It is performed by sending a packet to the victim with victim’s IP address set as both the source and destination IP in the message header. This attack will produce bug that leads to a system crash.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The allocation of &lt;strong&gt;SYN cookies&lt;/strong&gt; is a possible defense against &lt;strong&gt;SYN flooding&lt;/strong&gt; DoS attacks. The defense is to store a SYN cookie in the initial serial number (ISN) selected by the server:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;ISN = hash ( src and dest IP &amp;amp; port addr + secret + client’s ISN )&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;What is a &lt;strong&gt;SYN flooding&lt;/strong&gt; attack? Also explain clearly why SYN cookies can offer protection and why it works! Are there any drawbacks or problems with this method?&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;After receiving SYN message, target host will allocate internal resource to maintain the state of the connection and then return SYN/ACK message. When attacker keep sending SYN message in a very frequent fashion, then eventually the resource will be &lt;strong&gt;exhausted&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The idea of &lt;strong&gt;SYN cookies&lt;/strong&gt; is the target host will not save the state internally. Instead, they will let the client to save their own state. The state contained inside ISN that will be compared with what client sends back later on. If there is no ACK (unfinished handshake), then ISN is discarded. If there is an ACK reply from the client (either from attacker or from legitimate client), the ACK will be compared with the ISN to check the integrity.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The &lt;strong&gt;drawback&lt;/strong&gt; of  SYN cookies is all about performance. The hash function will take some computation time obviously that the attacker should consider.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Written&lt;/strong&gt; by &lt;a href=&quot;http://januaditya.com&quot;&gt;Yanuar T. Aditya&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/blog/netsec-exams/&quot;&gt;Network Security Recap&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on June 01, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Dreamhack]]></title>
+  <link rel="alternate" type="text/html" href="/blog/dreamhack-memory/" />
+  <id>/blog/dreamhack-memory</id>
+  <published>2015-05-26T00:00:00+02:00</published>
+  <updated>2015-05-26T00:00:00+02:00</updated>
+  <author>
+    <name>Yanuar Aditya</name>
+    <uri></uri>
+    <email>yanuart.adityan@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Last yea November, I was in Dreamhack Winter 2014, Jönkoping. I was there with three friends of mine. David &amp;amp; Sushil, both are my classmates and avid Dota 2 fans (same with me), and Raymond. Raymond is from States and prolific Hearthstone player.&lt;/p&gt;
+
+&lt;p&gt;We left Göteborg at Saturday while Dreamhack took place since Wednesday. It was quite cold but there was no sign of snow coming in. I still remember when we arrived at Jönkoping Bus Terminal, we encountered several gamers sleeping in the terminal with their PCs inside their sleeping bag. Duh, those guys need some serious sleep after days of sleepless gaming I suppose.&lt;/p&gt;
+
+&lt;p&gt;WE ARE IN DREAMHACK DUDE!&lt;/p&gt;
+
+&lt;p&gt;I don’t know but Dreamhack is something very special to me. I know Dreamhack since 2004 when I played World of Warcraft III for the first time. I know there was Starcraft back then that’s quite popular on some unknown event called Dreamhack. But I know that it is a serious stuff 3 years later when I was in 2nd year on college. I started to play Dota and with generous help from so-thing-called Internet, I’ve found what I need about Dreamhack.&lt;/p&gt;
+
+&lt;p&gt;Back then I’ve put Dreamhack into my bucket list of place I must visit once in my life and in 2014, I was in Dream-come-true-Hack 2014! LIVE from Sweden! I met several pro players of Dota 2 and casters, e.g. whole Evil Geniuses, Cloud Nine, Virtus Pro, Sheever, LD, SingSing and not to mention [A] legends, Lod[A] and [A]kke.&lt;/p&gt;
+
+&lt;p&gt;Can’t wait for this year Dreamhack Winter again to visit!&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/blog/dreamhack-memory/&quot;&gt;Dreamhack&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on May 26, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Superspring]]></title>
+  <link rel="alternate" type="text/html" href="/blog/superspring/" />
+  <id>/blog/superspring</id>
+  <published>2015-04-22T00:00:00+02:00</published>
+  <updated>2015-04-22T00:00:00+02:00</updated>
+  <author>
+    <name>Yanuar Aditya</name>
+    <uri></uri>
+    <email>yanuart.adityan@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;section id=&quot;table-of-contents&quot; class=&quot;toc&quot;&gt;
+  &lt;header&gt;
+    &lt;h3&gt;tic toc&lt;/h3&gt;
+  &lt;/header&gt;
+&lt;div id=&quot;drawer&quot;&gt;
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#first-failed-exam&quot; id=&quot;markdown-toc-first-failed-exam&quot;&gt;First Failed Exam&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#first-bike-oh-wait&quot; id=&quot;markdown-toc-first-bike-oh-wait&quot;&gt;First Bike, oh Wait…&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#first-sakura-sightseeing&quot; id=&quot;markdown-toc-first-sakura-sightseeing&quot;&gt;First Sakura Sightseeing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/section&gt;
+&lt;!-- /#table-of-contents --&gt;
+
+&lt;h3 id=&quot;first-failed-exam&quot;&gt;First Failed Exam&lt;/h3&gt;
+
+&lt;p&gt;Two exams in 4 days, 1 whole week of preparation, just to study the first one. Looking down at the latter. Result? 21 from 60. Couldn’t even get PASS result.&lt;/p&gt;
+
+&lt;p&gt;Do I feel regret? Yes of course, but from 8 problems of nightmare, what could even be worse than somebody triggered the class fire alarm right in the middle of the exam?&lt;/p&gt;
+
+&lt;p&gt;Watching the exam guards walking in and out, while thinking on how to mitigate this chaotic situation. Well, I was thinking that maybe they will move us to a new class. But then, those guys just came in with earplug instead. Later on, thanks God, finally one guy raised his hand and asking if there’s any better solution than just wearing earplug. Then here it comes, the &lt;code&gt;whoa&lt;/code&gt; moment. One of the guard asking all of us to raise our hands if we would like to have new room. How many people do you think raised their hands?&lt;/p&gt;
+
+&lt;p&gt;Two…&lt;/p&gt;
+
+&lt;h3 id=&quot;first-bike-oh-wait&quot;&gt;First Bike, oh Wait…&lt;/h3&gt;
+
+&lt;p&gt;I used to have a bicycle in Indonesia. It was a roadbike and I hate it. Because I did not like it. The road condition was terrible, slightly better than Cyprus rally courses I presume. Also, lot of dust and the worst part is too many humans in the street, either walking or riding vehicles.&lt;/p&gt;
+
+&lt;p&gt;Now, after 8 months in Sweden, I’m ready to have my own bike. But my God, everything is not cheap in here. Even second hand 3-years ago bike. I really admire Lance Armstrong, even now. I know Trek was famous before Lance used it on pro tour. Known for its superlight frame, sophisticated design and in-house Bontrager non-moving components gives you a thrill whenever you look at every Trek bikes in Gothenburg.&lt;/p&gt;
+
+&lt;p&gt;Then, I’ve found someone selling Superfly 6, nonsense hardtail butted aluminum with SRAM components, Bontrager and FSA mixed all together. But, for 9000 SEK price? 2 years ago it was &amp;gt;10000, but now why it still hang in there?&lt;/p&gt;
+
+&lt;p&gt;So, another wait I guess…&lt;/p&gt;
+
+&lt;h3 id=&quot;first-sakura-sightseeing&quot;&gt;First Sakura Sightseeing&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/images/post-sakura.jpg&quot; /&gt;
+&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Sweden is my first experience on winter, minus Celcius, and lot more. New addition is sakura! Swedish are very kind to plant cherry trees everywhere in Gothenburg and I have to admit, they’re beautiful.&lt;/p&gt;
+
+&lt;p&gt;Saaaaa ku raaaaaaaaaa…&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/blog/superspring/&quot;&gt;Superspring&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on April 22, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[d3.js on Jekyll]]></title>
+  <link rel="alternate" type="text/html" href="/blog/first-d3js/" />
+  <id>/blog/first-d3js</id>
+  <published>2015-04-01T00:00:00+02:00</published>
+  <updated>2015-04-01T00:00:00+02:00</updated>
+  <author>
+    <name>Yanuar Aditya</name>
+    <uri></uri>
+    <email>yanuart.adityan@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;h2 id=&quot;intro&quot;&gt;Intro&lt;/h2&gt;
+
+&lt;p&gt;So, &lt;a href=&quot;http://d3js.org&quot;&gt;d3.js&lt;/a&gt; has been around for a moment now and I guess it’s good time to start playing with it!&lt;/p&gt;
+
+&lt;h2 id=&quot;trivia&quot;&gt;Trivia&lt;/h2&gt;
+
+&lt;p&gt;It needs extra steps implementing d3.js onto Jekyll, especially when we’re working on Markdown instead of HTML. But, with
+proper anchor, it’s like taking a candy from a baby. Cheers.&lt;/p&gt;
+
+&lt;h2 id=&quot;first-bar-chart-with-div&quot;&gt;First Bar Chart with #div&lt;/h2&gt;
+
+&lt;div class=&quot;second&quot;&gt; &lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://mbostock.github.com/d3/d3.js&quot;&gt;&lt;/script&gt;
+
+&lt;style&gt;
+.second div {
+  font: 10px sans-serif;
+  background-color: steelblue;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  color: white;
+}
+&lt;/style&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+
+var data = [4, 5, 6, 8, 12, 15, 16, 18, 21, 23, 27, 35, 42];
+
+d3.select(&quot;div.second&quot;)
+	.selectAll(&quot;div&quot;)
+		.data(data)
+	.enter().append(&quot;div&quot;)
+		.style(&quot;width&quot;, function(d) { return (d) * 10 + &quot;px&quot;; })
+    	.text(function(d) { return d; });
+
+&lt;/script&gt;
+
+&lt;h2 id=&quot;first-bar-chart-with-svg&quot;&gt;First Bar Chart with SVG&lt;/h2&gt;
+
+&lt;div id=&quot;convas&quot; style=&quot;background: rgb(105, 187, 210)&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;http://mbostock.github.com/d3/d3.js&quot;&gt;&lt;/script&gt;
+
+&lt;script type=&quot;text/javascript&quot;&gt;
+      var w = 535,
+          h= 500,
+          z = d3.scale.category20(),
+          i = 0;
+      var svg = d3.select(&quot;div#convas&quot;).append(&quot;svg&quot;)
+          .attr(&quot;width&quot;, w)
+          .attr(&quot;height&quot;, h)
+          .style(&quot;pointer-events&quot;, &quot;all&quot;)
+          .on(&quot;mousemove&quot;, heart_line);
+      var line = d3.svg.line()
+                    .interpolate(&quot;cardinal&quot;)
+                    .x(function(d) { return d[0]; })
+                    .y(function(d) { return d[1]; });
+      function heart_shape(x, y, r)
+      {
+        var points = [];
+        for (i=0; i&lt;=360; i=i+12){
+          pointX = x -  r*(12*Math.sin(i*Math.PI/180) - 4*Math.sin(3*i*Math.PI/180));
+          pointY = y -  r*(13*Math.cos(i*Math.PI/180) - 5*Math.cos(2*i*Math.PI/180) - 2*Math.cos(3*i*Math.PI/180));
+          points.push([pointX, pointY]);
+        }
+        return points;
+      }
+      function heart_line() {
+        var m = d3.svg.mouse(this); 
+        svg.append(&quot;path&quot;)
+            .attr(&quot;d&quot;, function() {return line(heart_shape(m[0], m[1], 1e-6)); })
+            .style(&quot;stroke&quot;, function() { return z(parseInt(Math.random() * 100));})
+            .style(&quot;fill&quot;, &quot;none&quot;)
+            .style(&quot;stroke-opacity&quot;, 1)
+            .style(&quot;stroke-width&quot;, 3.5)
+            .attr(&#39;class&#39;, &#39;heart_shape&#39;)
+            .transition()
+            .duration(1000)
+            .ease(Math.sqrt)
+            .attr(&quot;d&quot;, function() { return line(heart_shape(m[0], m[1], 10)); })
+            .style(&quot;stroke-opacity&quot;, 1e-4)
+            .remove();
+            }
+&lt;/script&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;/blog/first-d3js/&quot;&gt;d3.js on Jekyll&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on April 01, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Penyakit Hati?]]></title>
+  <link rel="alternate" type="text/html" href="/blog/penyakit-hati/" />
+  <id>/blog/penyakit-hati</id>
+  <published>2015-03-25T00:00:00+01:00</published>
+  <updated>2015-03-25T00:00:00+01:00</updated>
+  <author>
+    <name>Yanuar Aditya</name>
+    <uri></uri>
+    <email>yanuart.adityan@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;hr /&gt;
+&lt;section id=&quot;table-of-contents&quot; class=&quot;toc&quot;&gt;
+  &lt;header&gt;
+    &lt;h3&gt;Penyakit Hati&lt;/h3&gt;
+  &lt;/header&gt;
+&lt;div id=&quot;drawer&quot;&gt;
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#introduction&quot; id=&quot;markdown-toc-introduction&quot;&gt;Introduction&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#tanda-tanda-hati-yang-kotor&quot; id=&quot;markdown-toc-tanda-tanda-hati-yang-kotor&quot;&gt;Tanda Tanda Hati yang Kotor&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#riya&quot; id=&quot;markdown-toc-riya&quot;&gt;Riya’&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#perbedaan-mendasar-riya-dan-perbuatan-terpuji&quot; id=&quot;markdown-toc-perbedaan-mendasar-riya-dan-perbuatan-terpuji&quot;&gt;Perbedaan mendasar Riya’ dan perbuatan terpuji&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#bentuk-riya&quot; id=&quot;markdown-toc-bentuk-riya&quot;&gt;Bentuk Riya’&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#ciri-ciri-orang-riya-dan-tanda&quot; id=&quot;markdown-toc-ciri-ciri-orang-riya-dan-tanda&quot;&gt;Ciri-ciri orang Riya’ dan Tanda&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#bahaya-riya&quot; id=&quot;markdown-toc-bahaya-riya&quot;&gt;Bahaya Riya’&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#mitigasi-riya&quot; id=&quot;markdown-toc-mitigasi-riya&quot;&gt;Mitigasi Riya’&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#jaga-lisan&quot; id=&quot;markdown-toc-jaga-lisan&quot;&gt;Jaga Lisan&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#bersyukur&quot; id=&quot;markdown-toc-bersyukur&quot;&gt;Bersyukur&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#ghibah&quot; id=&quot;markdown-toc-ghibah&quot;&gt;Ghibah&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#definisi-ghibah-dari-rasulullah&quot; id=&quot;markdown-toc-definisi-ghibah-dari-rasulullah&quot;&gt;Definisi Ghibah dari Rasulullah&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#dalil-dan-hadits-yang-melarang-ghibah&quot; id=&quot;markdown-toc-dalil-dan-hadits-yang-melarang-ghibah&quot;&gt;Dalil dan Hadits yang Melarang Ghibah&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#jenis-ghibah&quot; id=&quot;markdown-toc-jenis-ghibah&quot;&gt;Jenis Ghibah&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#dalil-tentang-haramnya-ghibah&quot; id=&quot;markdown-toc-dalil-tentang-haramnya-ghibah&quot;&gt;Dalil tentang Haramnya Ghibah&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#ghibah-boleh-untuk&quot; id=&quot;markdown-toc-ghibah-boleh-untuk&quot;&gt;Ghibah Boleh untuk?&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#dosa-ghibah&quot; id=&quot;markdown-toc-dosa-ghibah&quot;&gt;Dosa Ghibah?&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#bagaimana-sebagai-pendengar&quot; id=&quot;markdown-toc-bagaimana-sebagai-pendengar&quot;&gt;Bagaimana sebagai Pendengar?&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#cara-bertobat-dari-ghibah&quot; id=&quot;markdown-toc-cara-bertobat-dari-ghibah&quot;&gt;Cara Bertobat dari Ghibah&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#ujub&quot; id=&quot;markdown-toc-ujub&quot;&gt;Ujub&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#faktor-penyebab-ujub&quot; id=&quot;markdown-toc-faktor-penyebab-ujub&quot;&gt;Faktor Penyebab Ujub&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#bahaya-ujub&quot; id=&quot;markdown-toc-bahaya-ujub&quot;&gt;Bahaya Ujub&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#mitigasi-ujub&quot; id=&quot;markdown-toc-mitigasi-ujub&quot;&gt;Mitigasi Ujub&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#penutup&quot; id=&quot;markdown-toc-penutup&quot;&gt;Penutup&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#appendix&quot; id=&quot;markdown-toc-appendix&quot;&gt;Appendix&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#tanda-tanda-ahlul-bidah&quot; id=&quot;markdown-toc-tanda-tanda-ahlul-bidah&quot;&gt;Tanda-tanda Ahlul Bid’ah&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/section&gt;
+&lt;!-- /#table-of-contents --&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;Di dalam setiap diri manusia, terdapatlah yang namanya hati. Di dalam bahasa Arab disebut sebagai qalbu. Tetapi dalam penggunaannya biasanya menggunakan ‘kibd’.&lt;/p&gt;
+
+&lt;p&gt;Dalam bahasa Indonesia, hati sendiri merupakan terjemahan dari ‘heart’ dalam bahasa Inggris, yang berarti jantung. Sedangkan qalbu sendiri ditulis dengan ‘q’ karena teks Arabnya berasal dari ‘qaf’. Namun, seringkali kita dapati di dalam bahasa Indonesia, ‘q’ diadaptasikan menjadi ‘k’, sehingga menjadi kalbu. Padahal kalbu sendiri maknanya ‘anjing’ di dalam bahasa Arab. Walaupun tidak ada definisi di dalam kamus besar bahasa Indonesia bahwa kalbu diartikan anjing, namun untuk konteks Islam sebagai agama multinasional, pengucapan kalbu lebih baik diperbaiki mengikuti kaidah bahasa arabnya langsung. Terutama ‘qaf’ sendiri dalam bahasa Indonesia ada representasinya, yaitu ‘q’.&lt;/p&gt;
+
+&lt;p&gt;Tetapi sebaiknya tidak usah pula kita meributkan permasalahan arti dan makna dari qalbu itu sendiri. Karena selama kita berniat untuk memberitakan yang baik dan selama pendengar meyakini apa yang kita bawa adalah positif, maka tentu tidak jadi masalah. Apalah arti sebuah nama.&lt;/p&gt;
+
+&lt;p&gt;AA Gym juga adalah contoh orang yang tidak mempermasalahkan penggunaan qalbu atau kalbu. Beliau sendiri terdengar menggunakan kalbu dalam setiap bahasan tausiyah beliau. Namun tidak pernah sedikitpun beliau menyisipkan berita anjing disetiap tausiyah beliau.&lt;/p&gt;
+
+&lt;p&gt;Jadi kembali ke penyakit hati, &lt;strong&gt;Rasulullah SAW&lt;/strong&gt; bersabda,&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;”…bahwa dalam diri setiap manusia terdapat segumpal daging, apabila ia baik maka baik pula seluruh amalnya, dan apabila ia itu rusak maka rusak pula seluruh perbuatannya. Gumpalan daging itu adalah hati.”&lt;/em&gt;
+(HR Imam Al-Bukhari)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Boleh diartikan dari hadits tersebut bahwa jika manusia mempunyai penyakit hati, dimana boleh diartikan bahwa mempunyai hati yang rusak, maka akan rusaklah semua perbuatannya. Semua diawali dari hati nurani setiap individu. Ketika ketika sudah mempunyai niat jelek dari hati, maka segeralah kita istighfar dan mengingat akan bahaya yang bisa disebabkan.&lt;/p&gt;
+
+&lt;p&gt;Yang menarik lagi, jika kita baca cuilan hadits diatas versi lengkapnya,&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;“Sesungguhnya, yang &lt;strong&gt;halal&lt;/strong&gt; itu jelas dan yang &lt;strong&gt;haram&lt;/strong&gt; itupun jelas. Di antara yang halal dan haram ada beberapa hal yang &lt;strong&gt;syubhat&lt;/strong&gt;, yang tidak diketahui banyak orang. Maka &lt;strong&gt;barangsiapa yang menjaga dirinya dari perbuatan-perbuatan syubhat&lt;/strong&gt;, maka ia telah melepaskan dirinya dari melakukan sesuatu yang mencemarkan agama serta kehormatannya. Dan barangsiapa yang telah &lt;strong&gt;jatuh dalam syubhat-syubhat&lt;/strong&gt;, maka jatuhlah ia dalam &lt;strong&gt;keharaman&lt;/strong&gt;, sebagaimana halnya seorang &lt;strong&gt;penggembala&lt;/strong&gt; yang menggembala di sekitar &lt;strong&gt;tempat yang terlarang&lt;/strong&gt;, hampir saja ternaknya itu makan dari tempat larangan tadi. Ingatlah bahwa setiap raja itu mempunyai larangan-larangan. Ingatlah bahwa larangan-larangan Allah adalah apa yang diharamkan oleh-Nya. Ingatlah bahwa di dalam tubuh manusia itu ada &lt;strong&gt;segumpal daging&lt;/strong&gt;, apabila gumpalan daging itu baik, maka baiklah seluruh tubuh. Dan apabila gumpalan daging itu rusak, maka rusaklah seluruh tubuh. Ingatlah bahwa &lt;strong&gt;gumpalan daging itu adalah hati&lt;/strong&gt;.”&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Dari hadits di atas, ketika manusia dihadapkan terhadap sesuatu yang &lt;em&gt;syubhat&lt;/em&gt; atau ambigu, terutama untuk contoh kasus halal dan haram. Peran hati nurani kita sangat krusial dalam menentukan apakah kita masuk ke tipe orang yang jatuh ke dalam &lt;em&gt;syubhat&lt;/em&gt; atau yang berhasil melepaskan diri darinya. Maka selayaknya hadits diatas bisa selalu menjadi pengingat kita tatkala kualitas hati nurani atau qalbu kita sedang diuji.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;From &lt;strong&gt;good qalbu&lt;/strong&gt;, comes &lt;strong&gt;good deeds&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;tanda-tanda-hati-yang-kotor&quot;&gt;Tanda Tanda Hati yang Kotor&lt;/h3&gt;
+
+&lt;p&gt;Kita terlahir sebagai manusia yang fitrah, atau dalam artian, kita lahir dalam keadaan yang suci, belum mengenal namanya dosa. Atau lebih tepatnya kita belum mengenal dan mengetahui mana yang baik dan mana yang benar, karena kita belum berakal.&lt;/p&gt;
+
+&lt;p&gt;Tetapi di dalam perjalanan hidup, manusia sering lalai dan lupa dalam menjalankan perintah agama kita sehingga terjerumus ke dalam ‘syaithoniyah’. Ada beberapa tanda manusia yang terjerumus ke dalam ‘syaithoniyah’&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Mengaku kenal Allah SWT, tetapi tidak menunaikan hak-hak-Nya.&lt;/li&gt;
+  &lt;li&gt;Mengaku cinta kepada Rasulullah SAW, tetapi mengabaikan sunnah baginda.&lt;/li&gt;
+  &lt;li&gt;Membaca al-Quran, tetapi tidak beramal dengan hukum-hukum di dalamnya.&lt;/li&gt;
+  &lt;li&gt;Memakan nikmat-nikmat Allah SWT, tetapi tidak mensyukuri atas pemberian-Nya.&lt;/li&gt;
+  &lt;li&gt;Mengaku syaitan itu musuh, tetapi tidak berjuang menentangnya.&lt;/li&gt;
+  &lt;li&gt;Mengaku adanya nikmat syurga, tetapi tidak beramal untuk mendapatkannya.&lt;/li&gt;
+  &lt;li&gt;Mengaku adanya seksa neraka, tetapi tidak berusaha untuk menjauhinya.&lt;/li&gt;
+  &lt;li&gt;Mengaku kematian pasti tiba bagi setiap jiwa, tetapi masih tidak bersedia untuknya.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Menyibukkan diri membuka keaiban orang lain, tetapi lupa akan keaiban diri sendiri.&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Menghantar dan menguburkan jenazah/mayat saudara se-Islam, tetapi tidak mengambil pengajaran daripadanya.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Pada kesempatan kali ini saya akan menjelaskan sedikit tentang beberapa penyakit hati yang cukup kita kenal. Ada banyak sekali jenis-jenis penyakit hati yang kita kenal. Seperti layaknya penyakit yang menyerang jasmani manusia, ada banyak sekali ragamnya. Penyakit hati pun ada yang menular, persisten dan ada level-level konsekuensinya.&lt;/p&gt;
+
+&lt;p&gt;Beberapa jenis penyakit hati yang populer menyerang hati kita antara lain:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Riya’&lt;/li&gt;
+  &lt;li&gt;Syirik&lt;/li&gt;
+  &lt;li&gt;Sombong&lt;/li&gt;
+  &lt;li&gt;Ujub&lt;/li&gt;
+  &lt;li&gt;Hasad&lt;/li&gt;
+  &lt;li&gt;Ghibah&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Tetapi yang saya pilih untuk tausiyah ini hanya 3 saja, yaitu Riya’, Ghibah, dan Ujub.&lt;/p&gt;
+
+&lt;h2 id=&quot;riya&quot;&gt;Riya’&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Riya’&lt;/strong&gt; dalam bahasa berarti pamer, memperlihatkan sesuatu yang bukan sebenarnya. Dalam Islam sendiri riya’ berarti memperlihatkan suatu amal salih dan ibadah bukan karena Allah tetapi dengan harapan mendapatkan pujian atau penghargaan dari orang lain.&lt;/p&gt;
+
+&lt;p&gt;Sementara  memperdengarkan ucapan tentang ibadah dan amal salehnya kepada orang lain disebut &lt;strong&gt;sum’ah&lt;/strong&gt; (ingin didengar).&lt;/p&gt;
+
+&lt;p&gt;Baik riya’ maupun sum’ah, kedua-duanya termasuk perbuatan yang dilarang oleh Islam dan hukumnya haram. Kedua-duanya termasuk dosa syirik kecil yang dijelaskan mudharatnya di dalam QS An Nisa 142:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Sesungguhnya orang-orang munafik itu menipu Allah, dan Allah akan membalas tipuan mereka. Dan jika mereka berdiri untuk shalat mereka berdiri dengan malas, mereka bermaksud riya’ ( dengan shalat itu ) dihadapan manusia, dan tidaklah mereka dzikir kepada Allah kecuali sedikit sekali.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Konteks riya’ pun sering ditemukan di dalam pencarian mati syahid. Mati syahid sendiri artinya muslim yang meninggal dunia ketika berperang atau berjuang di jalan Allah membela kebenaran atau mempertahankan hak dengan penuh kesabaran dan keikhlasan untuk menegakkan agama Allah. Siapa yang berjuang membela harta miliknya, jiwanya, keluarganya, agamanya, dan meninggal dalam perjuangannya itu, maka ia meninggal &lt;em&gt;fi sabilillah&lt;/em&gt; atau mati syahid. Mati syahid merupakan cita-cita tertinggi umat Islam. Salah satu jalan menuju mati syahid adalah berjuang di jalan Allah. Namun Rasulullah bercerita:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;”Di hari kiamat nanti ada orang yang mati syahid diperintahkan oleh Allah untuk masuk ke neraka. Lalu orang itu melakukan protes, ‘Wahai Tuhanku, aku ini telah mati syahid dalam perjuangan membela agama-Mu, mengapa aku dimasukkan ke neraka?’ Allah menjawab, ‘Kamu berdusta dalam berjuang. Kamu hanya ingin mendapatkan pujian dari orang lain, agar dirimu dikatakan sebagai pemberani. Dan, apabila pujian itu telah dikatakan oleh mereka, maka itulah sebagai balasan dari perjuanganmu’.”&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Singkatnya, orang yang berjuang atau beribadah demi sesuatu yang bukan ikhlas karena Allah SWT, dalam agama disebut riya’. Sepintas, sifat riya merupakan perkara yang sepele, namun akibatnya sangat fatal. Sifat riya dapat memberangus seluruh amal kebaikan, bagaikan air hujan yang menimpa debu di atas bebatuan.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;”Dan Kami hadapi segala amal yang mereka kerjakan, lalu Kami jadikan amal itu (bagaikan) debu yang beterbangan”. (QS. Al-Furqan : 23)”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Rasulullah SAW bercerita kepada sahabat:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Rasulullah: 	“Takutlah kamu kepada syirik kecil.”
+Sahabat:		“Wahai Rasulullah, apa yang dimaksud dengan syirik kecil itu?”
+Rasulullah: 	“Yaitu sifat &lt;strong&gt;riya’&lt;/strong&gt;. Kelak di hari pembalasan, Allah mengatakan kepada mereka yang memiliki sifat &lt;strong&gt;riya’&lt;/strong&gt;, &lt;em&gt;‘pergilah kalian kepada mereka, di mana kalian pernah memperlihatkan amal kalian kepada mereka semasa di dunia. Lihatlah apakah kalian memperoleh imbalan pahala dari mereka’&lt;/em&gt;”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;perbedaan-mendasar-riya-dan-perbuatan-terpuji&quot;&gt;Perbedaan mendasar Riya’ dan perbuatan terpuji&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Terpuji&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Riya’&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Niat karena Allah&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Niat bukan karena Allah&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Ikhlas&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Tidak ikhlas&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Sesuai dengan kemampuan&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Mengada-ada&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Tidak pilih kasih&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Pilih kasih&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Rahmat bagi semesta alam&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Mengharap imbalan/pujian&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;bentuk-riya&quot;&gt;Bentuk Riya’&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Riya’ dalam Niat&lt;/strong&gt;
+  Ria yang berkaitan dengan hati, maksud ria dalam niat, yaitu sejak awal perbuatan bahkan yang dilakukannya tidak didasari ikhlas sebelumnya sudah didasari ria. Yang mengetahui hanya Allah SWT dan dirinya saja. Apabila seseorang ingin melakukan amal perbuatan baik atau tidak tergantung pada niat&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Riya’ dalam Perbuatan&lt;/strong&gt;
+  Yaitu memamerkan atau menunjukkan perbuatan di depan orang banyak, agar perbuatan tersebut dipuji, diperhatikan, dan disanjung orang lain.
+Di antara contoh riya dalam perbuatan, bila seorang pelajar terlihat belajar dengan sungguh-sungguh hanya karena ingin mendapat nilai yang bagus. Dan dia melakukan hal itu kepada orang tuanya hanya karena ingin mendapatkan apa yang dia minta dari orang tuanya cepat-cepat terkabul.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ciri-ciri-orang-riya-dan-tanda&quot;&gt;Ciri-ciri orang Riya’ dan Tanda&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Tidak akan berbuat baik jika tidak dilihat orang atau tidak ada imbalan.&lt;/li&gt;
+  &lt;li&gt;Melakukan amal saleh tanpa dasar, ikut-ikutan.&lt;/li&gt;
+  &lt;li&gt;Tampak rajin penuh semangat hanya di kulit.&lt;/li&gt;
+  &lt;li&gt;Ucapannya selalu menunjukkan bahwa dia yang paling hebat, paling tinggi dan paling mampu.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ali bin Abi Thalib ra. pernah berkata:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;“Orang yang riya itu memiliki tiga ciri, yaitu malas beramal ketika sendirian dan giat beramal ketika berada di tengah-tengah orang ramai, menambah amaliyahnya ketika dirinya dipuji, dan mengurangi amaliyahnya ketika dirinya dicela.”&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;bahaya-riya&quot;&gt;Bahaya Riya’&lt;/h3&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Diri Sendiri&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Orang Lain&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Tidak pernah puas&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Konflik horisontal&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Sakit hati jika tidak dihargai&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Kesan yang buruk&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Berujung ke kesombongan&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;mitigasi-riya&quot;&gt;Mitigasi Riya’&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Niat HANYA karena Allah SWT
+  Kembalikan semua kepada Allah SWT. Sadar bahwa kita di dunia ini hanya sementara dan hanya karena Allah yang mengatur semua roda kehidupan.&lt;/li&gt;
+  &lt;li&gt;Kekuatan bacaan Basmallah
+  Dari maknanya sendiri, ucapan Basmallah membuat kita untuk selalu ingat akan Allah SWT bahwa Allah SWT Maha Pemurah dan Penyayang. Selain itu, dengan Basmallah, kita berarti meminta akan barokah yang lebih atas apa yang kita lakukan.&lt;/li&gt;
+  &lt;li&gt;Jaga lisan,  ketahuilah bahwa lidah itu tajam&lt;/li&gt;
+  &lt;li&gt;Biasakan diri ikhlas dan gemar menolong, tanpa didasari alasan&lt;/li&gt;
+  &lt;li&gt;Bersedekah untuk melatih keikhlasan, e.g. zakat&lt;/li&gt;
+  &lt;li&gt;Bersyukur&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;jaga-lisan&quot;&gt;Jaga Lisan&lt;/h4&gt;
+
+&lt;p&gt;Lisan jauh lebih tajam daripada pedang. Luka karena pedang bisa diobati, luka karena lisan akan terus terkenang.&lt;/p&gt;
+
+&lt;p&gt;Mu’adz bin Jabal pernah bertanya terhadap Rasulullah tentang hal-hal yang bisa membawa umatnya jauh dari pintu neraka dan membawa mereka lebih dekat ke pintu surga:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;“Pokok segala perkara adalah &lt;strong&gt;Islam&lt;/strong&gt;, tiangnya adalah &lt;strong&gt;shalat&lt;/strong&gt; dan puncaknya adalah &lt;strong&gt;jihad&lt;/strong&gt;. Sesuatu dapat membuat kalian memiliki semua itu. (Rasulullah memegang lidahnya lalu bersabda) Jagalah ini”&lt;/em&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Muadz bertanya: &lt;em&gt;Ya Nabi, apakah kita akan &lt;strong&gt;dihukum&lt;/strong&gt; atas apa yang kita &lt;strong&gt;ucapkan&lt;/strong&gt;? * 
+Beliau bersabda: *…adakah yang menyebabkan seseorang &lt;strong&gt;terjungkal&lt;/strong&gt; wajahnya di neraka selain &lt;strong&gt;buah dari lisan mereka&lt;/strong&gt;”&lt;/em&gt; (HR. Tirmizi)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Cerita berikutnya yaitu ketika sahabat bertanya tentang seorang wanita ahli sholat malam namun suka menganggu tetangga dengan lisannya. Rasulullah berkata, &lt;em&gt;”Dia di neraka!”&lt;/em&gt;. Kemudian sahabat bertanya tentang seseorang yang sedikit ibadahnya namun tidak suka menganggu tetangga dengan lisannya.  Rasulullah bersabda, &lt;em&gt;“Dia di surga!”.&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;“Yang paling banyak memasukkan manusia ke dalam neraka adalah dua lubang, yaitu mulut dan farji.”&lt;/em&gt; (HR Tirmidzi)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;bersyukur&quot;&gt;Bersyukur&lt;/h4&gt;
+
+&lt;p&gt;Bersyukur adalah ungkapan terima kasih yang dihadapkan terhadap Allah SWT. Walaupun biasanya kita bersyukur jika mendapatkan rezeki, tetapi sebenarnya makna bersyukur bisa lebih dari sekedar berterima kasih atas rezeki yang diberikan.&lt;/p&gt;
+
+&lt;p&gt;Langkah konkrit awal untuk bersyukur, e.g. flashback ke beberapa tahun yang lalu ketika kita masih belum tahu akan masa depan kita. Kemudian sekarang, kita bisa melihat betapa banyak hal-hal, baik itu keinginan, cita-cita, pencapaian yang telah kita dapatkan. Semua itu sebenarnya bisa membuat kita sadar bahwa itu ada dan terwujud hanya karena ridho Allah SWT.&lt;/p&gt;
+
+&lt;p&gt;Syukur sendiri ada 3 jenis:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Syukur Hati
+ Asal mula dan landasan semua syukur. Kata kunci disini adalah ‘sadar’, bahwa nikmat yang kita peroleh semua ini datang dari Allah SWT. Dari hal-hal kecil yang kita dapatkan, e.g. waktu untuk ibadah, pekerjaan, istri, dkk.&lt;/p&gt;
+
+    &lt;p&gt;Bahkan juga dianjurkan kita bersyukur ketika mendapat musibah atau malapetaka, bukan atas malapetakanya, tetapi melainkan karena kita bisa berasumsi, &lt;em&gt;it could be worse than this&lt;/em&gt;. Subhanallah.&lt;/p&gt;
+
+    &lt;p&gt;Bentuk perwujudan syukur hati yang paling mudah adalah sujud syukur. Boleh dilakukan dimana saja, kapanpun, boleh tidak berwudlu dahulu dan hanya sekali.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Syukur Lidah
+ Kemudian terucap, paling sederhana dengan mengucap Hamdallah.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Syukur Perbuatan
+ Contohnya adalah shalat, bekerja, zakat, dkk. Sebenarnya bekerja lebih mengarahkan kita untuk mensyukuri atas nikmat alam yang diberikan Allah SWT, hasil pertanian, perikanan dan hasil laut, dan hasil bumi lainnya.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;ghibah&quot;&gt;Ghibah&lt;/h2&gt;
+
+&lt;p&gt;Ghibah, secara definisi bahasa berarti &lt;strong&gt;menggunjingkan&lt;/strong&gt; orang lain. Atau mungkin lebih dikenal dengan &lt;strong&gt;gosip&lt;/strong&gt;. Atau secara harfiah, berarti mengomongkan kejelekan dan aib orang lain supaya &lt;strong&gt;khalayak&lt;/strong&gt; tahu akan hal-hal tersebut.&lt;/p&gt;
+
+&lt;p&gt;Seringkali, setiap kali kita bertemu dengan teman-teman, tidak lengkap tanpa kita mengobrolkan orang lain (gosip). Walaupun gosip lebih disukai oleh kalangan perempuan, tetapi sebenarnya gosip sekarang lebih general dan bisa dilakukan oleh siapapun, perempuan dengan perempuan, perempuan dengan lelaki atau bahkan gosip ala lelaki dengan lelaki. Bentuk ghibah seringkali ditutupi dengan istilah &lt;strong&gt;curhat&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Perbuatan ghibah ini tidak hanya menimpa orang yang buta atau tidak peduli dengan agamanya, bahkan juga menimpa Muslimah yang telah mengerti tentang hukum-hukum agama ini. Di tempat pengajian mereka mendapat wejangan untuk berhati-hati dari membicarakan aib saudaranya sesama Muslim, mereka diberi peringatan dan ancaman untuk menjaga lisan. Namun ketika keluar dari tempat pengajian mereka tenggelam dalam perbuatan ini dengan sadar ataupun tanpa sadar. Dan memang &lt;strong&gt;setan&lt;/strong&gt; begitu bersemangat untuk &lt;strong&gt;menyesatkan anak Adam&lt;/strong&gt;, Wallahul Musta’an.&lt;/p&gt;
+
+&lt;h3 id=&quot;definisi-ghibah-dari-rasulullah&quot;&gt;Definisi Ghibah dari Rasulullah&lt;/h3&gt;
+
+&lt;p&gt;Kembali lagi ke penafsiran, tidak ada penafsiran terbaik tentang makna ghibah selain penafsiran Rasulullah SAW dalam hadits beliau. Bila ada penafsiran para ulama tentang ghibah maka tidak akan terlepas dari penafsiran beliau meski dengan ungkapan yang berbeda. Rasulullah SAW menjelaskan makna ghibah ini dalam sebuah hadits dari Abu Hurairah bahwa Rasulullah SAW bersabda:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;“Tahukah kalian apa yang dimaksud dengan ghibah?” Mereka berkata: “Allah dan Rasul-Nya yang lebih tahu.” Beliau bersabda: “Kamu menceritakan tentang saudaramu apa yang dia tidak sukai.” Dikatakan kepada beliau: “Bagaimana pendapat engkau bila apa yang aku katakan ada pada saudaraku itu?” Beliau menjawab: “Jika apa yang kamu katakan ada pada saudaramu maka kamu telah mengghibahinya, dan jika apa yang kamu katakan tidak ada pada dirinya, maka kamu telah berdusta.”&lt;/em&gt; (Shahih, HR. Muslim no. 2589, Abu Dawud no. 4874, dan At-Tirmidzi no. 1435)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;dalil-dan-hadits-yang-melarang-ghibah&quot;&gt;Dalil dan Hadits yang Melarang Ghibah&lt;/h3&gt;
+
+&lt;p&gt;Dari keterangan di atas, diambil kesimpulan bahwa makna ghibah adalah menceritakan seseorang kepada orang lain dan orang yang dijadikan objek pembicaraan tidak menyukai apa yang dibicarakan. Bila apa yang diceritakan tidak ada pada orang tersebut, ini merupakan dusta atas namanya dan tentu saja dosanya lebih besar dari yang pertama.&lt;/p&gt;
+
+&lt;h3 id=&quot;jenis-ghibah&quot;&gt;Jenis Ghibah&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Ghibah&lt;/em&gt;
+  Menceritakan apa yang ada&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Ifk&lt;/em&gt;
+  Meneruskan apa yang orang ceritakan&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Buhtaan&lt;/em&gt;
+  Menceritakan yang tidak apa adanya&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;dalil-tentang-haramnya-ghibah&quot;&gt;Dalil tentang Haramnya Ghibah&lt;/h3&gt;
+
+&lt;p&gt;Ada beberapa dalil dari Al Quran yang CUKUP JELAS mengatakan bahwa ghibah itu haram dan berbahaya. Salah satunya adalah dari QS Al Hujurat 12, berikut saya sajikan arti dan tafsirannya menurut Ibn’ Katsir.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;“Hai orang-orang yang beriman, jauhilah kebanyakan dari prasangka, sesungguhnya sebagian prasangka itu adalah dosa dan janganlah kamu mencari-cari kesalahan orang lain dan janganlah sebagian kamu menggunjing sebagian yang lain. Sukakah seorang dari kalian suka memakan daging saudaranya yang sudah mati? Maka tentulah kalian merasa jijik kepadanya. Bertaqwalah kalian kepada Allah. Sesungguhnya Allah itu Tawwab (Maha Penerima taubat) lagi Rahim (Maha Menyampaikan rahmat).”&lt;/em&gt; [QS Al Hujurat: 12]&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Jelas diberitakan dari cuplikan ayat tersebut bahwa ghibah haram, dari katan “janganlah kalian menggunjingkan satu sama lain”. Dari tafsir Ibn’ Katsir dan Al Qurthubi:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Hai orang-orang yang beriman, jauhilah kebanyakan dari prasangka”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Ayat ini diturunkan tentang 2 orang sahabat Nabi SAW yang menggunjing seorang temannya. Peristiwa itu bermula dari kebiasaan Rasulullah SAW saat melakukan perjalanan dimana Rasulullah SAW selalu menggabungkan seorang lelaki miskin kepada dua orang lelaki kaya, dimana lelaki miskin ini bertugas untuk melayani mereka.&lt;/p&gt;
+
+&lt;p&gt;Dalam kasus ini, Rasulullah SAW kemudian menggabungkan Salman kepada dua orang lelaki kaya. Singkat cerita, pada saat 2 orang lelaki kaya tersebut lapar (tidak ada lauk maupun makanan yang dapat dimakan), mereka meminta Salman untuk meminta makan kepada Rasulullah SAW. Kemudian Rasulullah SAW berkata, “Pergilah engkau kepada Usamah bin Zaid, katakanlah kepadanya, jika dia mempunyai sisa makanan, maka hendaklah dia memberikannya kepadamu.”&lt;/p&gt;
+
+&lt;p&gt;Setelah bertemu dengan Usamah, beliau mengatakan bahwa beliau tidak memiliki apapun. Akhirnya Salman kembali kepada dua lelaki kaya tersebut dan memberitahukan hal itu. Namun kedua lelaki itu berkata, “Sesungguhnya Usamah itu mempunyai sesuatu tapi dia itu kikir”. Selanjutnya mereka mengutus Salman ketempat sekelompok sahabat, namun Salman tidak menemukan apapun di tempat mereka.&lt;/p&gt;
+
+&lt;p&gt;Akhirnya kedua lelaki tersebut memata-matai Usamah untuk melihat apakah Usamah memiliki sesuatu atau tidak. Rasulullah SAW melihat mereka dan beliau bersabda, “Mengapa aku melihat daging segar di mulut kalian berdua?”. Mereka menjawab, “Wahai Nabi Allah, demi Allah, hari ini kami tidak makan daging atau yang lainnya.” Rasulullah SAW bersabda, “Tapi kalian sudah memakan daging Usamah dan Salman.” Maka turunlah ayat tersebut.&lt;/p&gt;
+
+&lt;p&gt;Maksud dari tafsir ini adalah: &lt;strong&gt;Jangan kalian mempunyai dugaan buruk terhadap orang yang baik, jika kalian tahu bahwa pada zahirnya mereka itu baik.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Bagi orang yang mengghibah, siksaannya adalah neraka. Seperti apa? Berikut cerita pengalaman Rasulullah SAW saat Isra’ Miraj.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;“Tatkala aku di-Mi’raj-kan (dibawa ke langit oleh Malaikat Jibril dalam peristiwa Isra’ Mi’ra), aku melewati suatu &lt;strong&gt;kaum&lt;/strong&gt; (di neraka, pent.) yang mereka memiliki &lt;strong&gt;kuku-kuku dari tembaga&lt;/strong&gt;. Dengan kuku-kuku tersebut mereka &lt;strong&gt;mencakari wajah dan dada mereka&lt;/strong&gt;. Maka aku bertanya kepada Jibril : “&lt;strong&gt;Siapa mereka&lt;/strong&gt; itu, wahai Jibril?” Jibril menjawab : “Mereka adalah orang-orang yang (ketika di dunia, pent.) &lt;strong&gt;memakan daging manusia&lt;/strong&gt; (berbuat ghibah, pent.) dan melanggar kehormatan manusia.”&lt;/em&gt; (HR. Abu Daud. Dishahihkan Asy Syaikh Albani dalam Shahih Sunan Abi Daud nomor 4082. As Shahihah nomor 533).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Jadi intinya, prasangka yang dilarang adalah prasangka yang tidak memiliki tanda dan sebab yang pasti. Maksudnya, bila orang yang kita curigai itu pada zahirnya baik, tidak ada informasi sebelumnya tentang keburukan yang dia pernah lakukan, maupun tabiatnya yang memang tercela, serta memang orang tersebut adalah orang yang “baik” maka kita tidak boleh berprasangka buruk kepada orang tersebut. Berbeda bila orang tersebut memang terkenal akan keburukannya, suka menipu, suka berbuat onar, mencari masalah, yang pada intinya orang tersebut memang terkenal dengan tabiat buruknya, suka berbuat keburukan terang-terangan, maka diperbolehkan kita berhati-hati dan tidak mudah/langsung percaya terhadap apa yang informasinya.&lt;/p&gt;
+
+&lt;h3 id=&quot;ghibah-boleh-untuk&quot;&gt;Ghibah Boleh untuk?&lt;/h3&gt;
+
+&lt;p&gt;Ghibah ternyata dibolehkan dengan tujuan syariat yang tidak mungkin mencapai tujuan tersebut melainkan dengannya. Atau dengan kata lain, jika jalan menuju keadilan hanya terjadi jika ghibah adalah jalan satu-satunya.&lt;/p&gt;
+
+&lt;p&gt;Al Imam Nawawi ra (beliau adalah bapak Fiqih) dalam kitabnya Riyadlus Salihin menyebutkan beberapa perkara yang dikecualikan dari ghibah:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Menuntut keadilan&lt;/li&gt;
+  &lt;li&gt;Meminta tolong agar dilepaskan dari suatu perbuatan mungkar&lt;/li&gt;
+  &lt;li&gt;Meminta fatwa&lt;/li&gt;
+  &lt;li&gt;Pengingat
+    &lt;ol&gt;
+      &lt;li&gt;Kesalahan Perawi hadits&lt;/li&gt;
+      &lt;li&gt;Ketika musyawarah dalam mencari pasangan hidup, maka tidak apa-apa untuk tidak menyembunyikan fakta dari calon. Hal ini juga dilakukan oleh Rasulullah SAW ketika dimintai pendapat oleh Fathimah binti Qais ra dalam menentukan pilihan antara menerima pinangan &lt;strong&gt;Muawiyyah&lt;/strong&gt; atau &lt;strong&gt;Abu Jahm&lt;/strong&gt; ra. Maka Rasulullah SAW menasehatkan: 
+ *“Adapun Muawiyyah, maka dia seorang yang fakir, tidak memiliki harta. Sedangkan Abu Jahm dia tidak pernah meletakkan tongkatnya dari pundaknya (yakni suka memukul wanita, pent.).” *(HR. Bukhari dan Muslim nomor 1480).&lt;/li&gt;
+      &lt;li&gt;Mengingatkan seseorang biar tidak terjebak oleh ahlul bid’ah.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Membuka tabir&lt;/li&gt;
+  &lt;li&gt;Sebagai tanda pengenal&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;dosa-ghibah&quot;&gt;Dosa Ghibah?&lt;/h3&gt;
+
+&lt;p&gt;Untuk dosa ghibah sendiri, masih menjadi bahan diskusi banyak ulama. Yang jelas adalah ketika bahan ghibah sendiri itu adalah dusta, maka yang jelas dosanya adalah besar, mengingat Allah sampai menyebut kata dusta sebanyak 11 kali di surah Al Mursalat. Bahkan Rasulullah SAW pun sering berucap &lt;em&gt;“Iyyakum Walkadziba”&lt;/em&gt;, yang berarti sekalinya kita berdusta, akan melahirkan dusta-dusta yang lain. Dusta membekaskan titik “nuqthoh” atau titik hitam permanen di qalbu kita. Nuqthoh ini yang menjadi salah satu sumber kegelisahan manusia.&lt;/p&gt;
+
+&lt;p&gt;Tapi untuk ghibah sendiri, tergantung apa yang dighibahi dan seberapa besar konsekuensinya. Jika yang dighibahi menjadi bahan sasaran murka orang banyak, tentu dosanya menjadi besar.&lt;/p&gt;
+
+&lt;h3 id=&quot;bagaimana-sebagai-pendengar&quot;&gt;Bagaimana sebagai Pendengar?&lt;/h3&gt;
+
+&lt;p&gt;Lalu bagaimana kalau kita yang terlibat dalam suatu pembicaraan ghibah? Ketika kita menjadi pendengar. Apa dan bagaimana seharusnya yang harus kita lakukan?&lt;/p&gt;
+
+&lt;p&gt;Sekali lagi Al Imam Nawawi ra dalam Al Adhkar:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Ketahuilah sebagaimana ghibah itu diharamkan bagi pelakunya, diharamkan pula bagi pendengar untuk mendengarkannya. Maka wajib bagi orang yang mendengar seseorang ingin berbuat ghibah untuk melarangnya apabila ia tidak mengkhawatirkan terjadinya mudlarat.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Apabila ia khawatir terjadi mudlarat maka hendaknya ia mengingkarinya dengan hatinya dan meninggalkan majelis itu bila memungkinkan.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Apabila ia mampu untuk mengingkari dengan lisannya atau memotong pembicaraan ghibah dengan membelokkan pada pembicaraan lain, maka wajib baginya untuk melakukannya. Bila tidak ia lakukan maka sungguh ia telah bermaksiat.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Apabila ia berkata dengan lisannya : ‘Diam’ (berhentilah dari ghibah) sementara hatinya menginginkan ghibah itu diteruskan, maka yang demikian itu adalah nifak dan pelakunya berdosa. Seharusnya ketika lisan melarang, hati pun turut mengingkari.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Namun, apabila kita tahu akan mendengar ghibah, tetapi tidak memungkinkan untuk mendiamkan atau meninggalkan tempat, maka wajib bagi kita untuk mengingkari pendengaran atau perhatian kita ke pembicaraan ghibah tersebut. Karena kita tahu sendiri bahwa sesuai &lt;strong&gt;QS Al Isra’ 36&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;“Sesungguhnya pendengaran, penglihatan, dan hati, semuanya itu akan diminta pertanggungjawabannya.”&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;cara-bertobat-dari-ghibah&quot;&gt;Cara Bertobat dari Ghibah&lt;/h3&gt;
+
+&lt;p&gt;Jadi ada dua pendapat tentang bagaimana cara bertobat dari perbuatan ghibah.&lt;/p&gt;
+
+&lt;p&gt;Pertama, kita harus memberitahu atau jujur terhadap orang yang kita ghibahi. Dengan berharap serta memohon maaf terhadap perbuatan ghibah kita tersebut.&lt;/p&gt;
+
+&lt;p&gt;Kedua, jika yang dighibahi belum tahu akan dia sedang dighibahi, maka kita tidak perlu untuk memberitahu bahwa dia sedang dighibahi oleh kita, namun cukup dengan kita memberitakan kebaikan-kebaikan dia di tempat yang sama dengan tempat dimana kita menghibahinya.&lt;/p&gt;
+
+&lt;h2 id=&quot;ujub&quot;&gt;Ujub&lt;/h2&gt;
+
+&lt;p&gt;Ujub adalah perbuatan mengagumi diri sendiri. Dalam konteks ketika merasa bahwa diri ketika melebihi kelebihan tertentu yang tidak dimiliki oleh orang lain.&lt;/p&gt;
+
+&lt;p&gt;Imam Al Ghozali berkata bahwa “Perasaan ‘ujub adalah kecintaan seseorang pada suatu karunia dan merasa memilikinya sendiri, tanpa mengembalikan keutamaannya kepada Allah SWT.”&lt;/p&gt;
+
+&lt;p&gt;Kita sebagai manusia, kita tahu bahwa setiap manusia adalah unik. Kita diciptakan berbeda-beda, walaupun hanya diciptakan sebagai lelaki atau perempuan. Namun pantasnya kita bertanya ke diri kita, milik siapakah kelebihan-kelebihan (dan juga kekurangan-kekurangan tersebut)? Jelas Allah SWT, seperti yang telah dituliskan dalam QS Al Maidah 120:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;em&gt;“Bagi Allah semua kerajaan langit dan bumi dan apa yang ada di antaranya.”&lt;/em&gt; (QS. Al Maidah : 120)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;faktor-penyebab-ujub&quot;&gt;Faktor Penyebab Ujub&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Ingin banyak dipuji orang
+ Dengan terlalu banyak dipuji orang, maka akan lebih mudah bagi orang tersebut untuk semakin lupa daratan, semakin lupa dimanakah dia berdiri. Apakah tujuan hidup dan tujuan asli dalam setiap langkahnya, karena semua akan menjadi bias. Pendek kata, membuat orang semakin malas mengejar target, adanya malah mengejar pujian.&lt;/li&gt;
+  &lt;li&gt;Persaingan
+ Karena suatu persaingan horizontal, manusia yang rentan terhadap ujub, cenderung mengikuti hal-hal yang bid’ah demi bisa bersanding dengan idolanya atau dengan orang yang memotivasinya. Tanpa niat yang baik, maka ini bisa membuat manusia menjadi ujub.&lt;/li&gt;
+  &lt;li&gt;Kekuasaan
+ Posisi. Dengan posisi, seperti posisi dalam kasta masyarakat, semakin tinggi cenderung memberikan exposure yang lebih bagi seseorang untuk menjadi lebih arogan dan menunjukkan kekuasannya. Contoh yang paling terkenal disini adalah Raja Namrud, yang menyebut dirinya sebagai Tuhan.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;bahaya-ujub&quot;&gt;Bahaya Ujub&lt;/h3&gt;
+
+&lt;p&gt;Bahaya ujub sebenarnya hampir sama dengan dosa-dosa dari penyakit hati lainnya. Tetapi ada beberapa jenis bahaya yang lebih spesifik untuk ujub, antara lain:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lupa introspeksi diri&lt;/strong&gt;. Bahaya pertama dari ujub adalah membuat kita lupa akan diri sendiri, lupa untuk menjadi pribadi yang lebih baik dan mengurangi pergaulannya dengan orang-orang yang dianggap lebih tidak baik dari dirinya.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mengumbar-ngumbar posesinya&lt;/strong&gt;. Seperti berpakaian yang tidak pantas, mengumbar harta, menuju ke arah riya’ dan sombong.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Suka menyebut-nyebut kembali apa yang sudah diberikan&lt;/strong&gt;. Dengan kata lain, membuat sesuatu yang dari niat ikhlas, menjadi tidak ikhlas lagi.&lt;/p&gt;
+
+&lt;h3 id=&quot;mitigasi-ujub&quot;&gt;Mitigasi Ujub&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Kurangi pergaulan&lt;/strong&gt; dengan orang-orang yang kagum berlebihan terhadap diri sendiri. Banyaklah bergaul dengan orang-orang yang &lt;em&gt;tawadhu’&lt;/em&gt; atau rendah hati.&lt;/p&gt;
+
+&lt;p&gt;Bercontohlah terhadap pribadi terbaik yang umat manusia punya, &lt;strong&gt;Rasulullah SAW&lt;/strong&gt;. Banyak sekali contoh &lt;em&gt;tawadhu’&lt;/em&gt; dari Rasulullah SAW yang sangat menginspirasi.&lt;/p&gt;
+
+&lt;p&gt;Melihat keadaan di bawah. Mengamati keadaan &lt;em&gt;lowest of the low&lt;/em&gt;, keadaan dimana kita sering dilanda kesialan atau sakit. Ikut dalam ziarah kubur saudara-saudara Muslim yang meninggal. Hal ini membantu kita untuk menyadari bahwa hidup ini sementara, dan kita hanyalah semut yang bertebaran saja di dunia ini. Semoga dengan ini kita bisa &lt;strong&gt;berintrospeksi diri&lt;/strong&gt; dan kembali ke jalan yang baik.&lt;/p&gt;
+
+&lt;p&gt;Anas ra berkata:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Nabi SAW memiliki seekor unta yang diberi nama &lt;strong&gt;al-‘adhba’&lt;/strong&gt; yang tidak terkalahkan larinya, maka datang seorang orang dengan untanya dan mampu mengalahkan, maka hati kaum muslimin terpukul menyaksikan hal tersebut. Hal itu diketahui oleh nabi SAW, maka beliau bersabda: *Menjadi haq Allah jika ada sesuatu yang meninggikan diri di dunia pasti akan direndahkan-Nya. * (HR Bukhari [Fathul Bari’-2872]).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;penutup&quot;&gt;Penutup&lt;/h2&gt;
+
+&lt;p&gt;Sekian tausiyah singkat dari saya. Sedikit pesan, marilah kita mengurangi kesibukan kita dalam melakukan penyakit-penyakit hati di atas. Hidup ini terlalu singkat untuk sekedar mengakui eksistensi kita jika hanya dilandaskan terhadap sesuatu yang duniawi. Jika kita curiga terhadap suatu aib dari orang lain, jika kita tidak mempunyai landasan terhadap kecurigaan tersebut, biarkanlah Allah SWT yang mengadili nanti di hari akhir. Niscaya hukumannya akan setimpal, Allah SWT Maha Adil.&lt;/p&gt;
+
+&lt;p&gt;Salam,
+Adit&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;appendix&quot;&gt;Appendix&lt;/h2&gt;
+
+&lt;h3 id=&quot;tanda-tanda-ahlul-bidah&quot;&gt;Tanda-tanda Ahlul Bid’ah&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Berpecah Belah&lt;/li&gt;
+  &lt;li&gt;Mengikuti Hawa Nafsu&lt;/li&gt;
+  &lt;li&gt;Mengikuti Ayat-Ayat yang Samar&lt;/li&gt;
+  &lt;li&gt;Mempertentangkan Sunnah dengan Al Quran&lt;/li&gt;
+  &lt;li&gt;Membenci Ahli Hadits&lt;/li&gt;
+  &lt;li&gt;Tidak berpegang terhadap Madzhab Salaf&lt;/li&gt;
+  &lt;li&gt;Memvonis Kafir tanpa disertai Dalil&lt;/li&gt;
+  &lt;li&gt;etc&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Written with &lt;a href=&quot;https://stackedit.io/&quot;&gt;StackEdit&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/blog/penyakit-hati/&quot;&gt;Penyakit Hati?&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on March 25, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[What to do in December?]]></title>
+  <link rel="alternate" type="text/html" href="/blog/december-is-coming/" />
+  <id>/blog/december-is-coming</id>
+  <published>2014-12-11T00:00:00+01:00</published>
+  <updated>2014-12-11T00:00:00+01:00</updated>
+  <author>
+    <name>Yanuar Aditya</name>
+    <uri></uri>
+    <email>yanuart.adityan@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Allright, now we’re in December. And Sweden is a land of OCD! Well, I mean OCD in a good way. Christmas mood starts at the end of November and that’s pretty early I must say. People are setting up their red coloured candles anywhere, light bulbs and obviously, Christmas Tree. Well, I don’t care at all about all of this. It just feels that I feel people are so motivated by the this &lt;em&gt;Jul&lt;/em&gt;, or Christmas, or Natal, or the-birth-of-Jesus.&lt;/p&gt;
+
+&lt;p&gt;Anyway, I do not celebrate Christmas, and I will have full 3 weeks of holiday before exams starting next week. And 3 weeks is quite long I believe. Thus, I’m going to Iceland before Christmas and I’m planning to stay two days in Copenhagen right after it. And while I am so excited to go there, I feel there is something wrong with this trip. I don’t know why, but I feel that we’re gonna to Iceland, land of northern wild, land where ice and fire meet. A land so wild for a regular ordinary tropical dude like me and without that much of preparation…and money. It’s just I’m afraid I can’t visit every place on my stay there, e.g. volcano, glacier walk, chasing northern light, literally hot river, blue lagoon, and much more.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;First Day&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;19th Dec&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Lab Demonstration&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Hope it will go great&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Göteborg Nils Ericson Terminal&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Travel to Copenhagen by Bus&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Copenhagen Terminal&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Travel to Copenhagen Airport by Bus&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Copenhagen Airport&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Travel to Kevlafik Airport, ICE by WOWAir®&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Second Day&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;20th Dec&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Keflavik Airport&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Already in 20th December, time to go to Reykjavik&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Reykjavik&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Check-in and buy stuffs&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;ICE in 1-Day Trip&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;6-hours trip to:&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&amp;gt; Great Circle&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&amp;gt; Outskirt of Reykjavik&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Third Day&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;21st Dec&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Apartment&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Wake up and buy stuffs, cooking meals&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Reykjavik&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Local Trip guided by no-one&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Chasing Nortern Light Trip&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Whole night trip to watch earth’s wonder&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Fourth Day&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;22nd Dec&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Apartment&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Wake up (if still alive), buy stuffs, and make breakfast&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Reykjavik&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Rent a car and explore:&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&amp;gt; Blue Lagoon&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&amp;gt; Hafnarfjordur&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Reykjavik&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Another northern lights trip (optional)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Fifth Day&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;23rd Dec&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Apartment&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Wake up and prepare for the final trip&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Þorvaldseyri&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Rent a car and go to ICE southeast on Route 1:&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&amp;gt; Eyjafjallajokul Volcano&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&amp;gt; Iceland Erupts Village Trip&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&amp;gt; Seljavallalaug Nature Swimming Pool&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Sixth Day&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;24th Dec&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Apartment&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Prepare for the flight back to Copenhagen&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Copenhagen Airport&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Find a way to check-in at David’s Flat&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Copenhagen&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Take a walk and enjoy Copenhagen afternoon&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Seventh Day&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;25th Dec&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Apartment&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Breakfast or maybe look for a café&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Copenhagen&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Christmas, sightseeing to Copenhagen biggest cathedral&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Copenhagen is very close to shore. Visit shore!&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Eighth Day&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;26th Dec&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Apartment&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Time to go back&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Copenhagen&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Packing and go to terminal&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Copenhagen Terminal&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Go back to Göteborg&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Göteborg Nils Ericson&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Arrive in Göteborg safe and sound&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;That’s a long list but not quite detailed. Anyway, for the whole week of vacation, we will spend approximately 5000 SEK. Not cheap but I hope it will worth it. So, see you in Iceland!&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Oh, and yeah, check out this video!&lt;/p&gt;
+
+&lt;div style=&quot;text-align:center&quot;&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;//www.youtube.com/embed/Nkkx_0nJ1sY&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;/blog/december-is-coming/&quot;&gt;What to do in December?&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on December 11, 2014.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Autumn and Post Exam...Hibernation Time?]]></title>
+  <link rel="alternate" type="text/html" href="/blog/autumn-hibernation/" />
+  <id>/blog/autumn-hibernation</id>
+  <published>2014-11-06T10:40:37+01:00</published>
+  <updated>2014-11-06T10:40:37+01:00</updated>
+  <author>
+    <name>Yanuar Aditya</name>
+    <uri></uri>
+    <email>yanuart.adityan@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;hr /&gt;
+&lt;p&gt;If you ask me, “When is the best in Sweden?”. I don’t think I can answer that. It is my 75th day in Göteborg and temperature is decreasing so quickly. I can still remember that last September the temperature was around 15-20 degree Celcius and now less than 5. And good news is, it won’t get any better until April.&lt;/p&gt;
+
+&lt;p class=&quot;image-pull-right&quot;&gt;&lt;img src=&quot;/images/post-arianne53-1.jpg&quot; alt=&quot;Arianne 5 Computer Image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;However, no time for blabbing and regret this. Even for my first exam in Chalmers. It was quite a mixed-bag for me, with two courses all about Fault Tolerant Computer Systems and Self Stabilizing Algorithm. The first one was good but the latter…mmmm…I don’t know. The course was Computer Networks, but we had three examiners or lecturers and the focus on the course was all about how to design a self-stabilizing distributed systems. Why self-stabilizing? It grants you an independent system which can be started in any &lt;code&gt;arbitrary-condition&lt;/code&gt; and will eventually recover to its desireable state in finite step executions. How? By communicating with their neighbours. It is a distributed systems! Stop! I’m not gonna continue this…&lt;/p&gt;
+
+&lt;p&gt;And what was fault-tolerant thing all about? Hmmmm…Two words, damn good! The idea is when you are working on something which potentially has a very big impact and severe risks when failed, you don’t want it to be failed. Use self-stabilizing then! No, we’re talking about serious stuff for a sake of gazillion bucks and human lifes. We’re talking about space shuttle, big aircraft, etc. Those are example of stuffs which you have to put &lt;code&gt;zero tolerate&lt;/code&gt; on errors.&lt;/p&gt;
+
+&lt;p&gt;This course is all about putting spare system here and there, adding some redundancy and hazard analysis while at the same time, inviting several guest lecturers from the the best men in the field. One of them was the designer of ESA Arianne 5 computer system. We took several pictures and my God, it was real thing, I got my hand on that super familiar computer featured in one of the world most expensive fireworks.&lt;/p&gt;
+
+&lt;p&gt;Well, in 1996, Europe Space Agency or ESA, was ready to launch their new rocket, Arianne 5. Some components were new, some of them were derived from previous Arianne 4. Everything seems good when after launch, different arc direction when it was leaving earth, brought an overflow into the computer system, triggering self-destruct mode as its final resolve. And the infamous computer, was brought to my class.
+And since then, Arianne 5 has been working really great. From 75 rockets launched, only the first failed on a catastrophic failure.&lt;/p&gt;
+
+&lt;p&gt;It is great to know that I still have ‘WOW’ feeling. I’m easily impressed with such thing, yet I’m just wanting and hoping to stand at that level sometimes in the future. So, no hibernating for sure. Lot of ladder steps need to be taken, effort is a function within time so, give your best effort in this finite time of your life. Make great stuffs for the sake of billion people on earth, will you?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Ariane_5&quot;&gt;Arianne 5 - Wikipedia&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.ruag.com/aviation/aviation-home/&quot;&gt;RUAG Aviation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/blog/autumn-hibernation/&quot;&gt;Autumn and Post Exam...Hibernation Time?&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on November 06, 2014.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Embrace the Uncomfortable...Again]]></title>
+  <link rel="alternate" type="text/html" href="/blog/embrace-the-uncomfortable-again/" />
+  <id>/blog/embrace-the-uncomfortable-again</id>
+  <published>2014-11-05T22:48:44+01:00</published>
+  <updated>2014-11-05T22:48:44+01:00</updated>
+  <author>
+    <name>Yanuar Aditya</name>
+    <uri></uri>
+    <email>yanuart.adityan@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;hr /&gt;
+
+&lt;p&gt;Alright, if you do Google Image for &lt;code&gt;embrace&lt;/code&gt;, then I’m quite sure it will turn you on. Yes, it will. Lot of hugs and kisses. Yeah, the definition of embrace is ‘holding somebody closely in your arms’. Then &lt;code&gt;embrace the uncomfortable&lt;/code&gt; is trying to hold and live closely with your uncomfortable sides. I know you have one or twos, I know we have it.&lt;/p&gt;
+
+&lt;p&gt;I ain’t a programmer, just happens to be able to finish some stuffs with programming. Yet, programming, similar with other occupations, is kinda boring if you feel that you start to get stuck. So, what ordinary programmers secret to prevent this? The answer is embrace something you are unconfident, you are weak on them, you are ugly on them and everything you are certainly uncomfortable. Yeah, lot of Google queries about how this approach can become a really great solution to cherish your daily lives.&lt;/p&gt;
+
+&lt;p&gt;For a reason which I don’t really know, I get easily bored, even when I’m doing something really fun, e.g. &lt;code&gt;gaming&lt;/code&gt;, &lt;code&gt;movie&lt;/code&gt;, &lt;code&gt;book&lt;/code&gt; etc. Even, for some people, to fulfil their nasty desire, they’re willing to invest a lot of money in which they never used it after the momentum is gone. I’ll take myself for an example. I love to play game and I want to do game properly. I bought my own games and spent not cheap money for that since 2009. Yet, only 15% of them which I’ve played, and rest of them I didn’t even try to install it. Then, I’m trying to follow the waves and bought myself a big camera. Yet, &lt;code&gt;seldom&lt;/code&gt; is how frequent I am using that gear. Thus, what then? New hobby didn’t work out, so how I should tackle this bland routine and get some fun out of the moments?&lt;/p&gt;
+
+&lt;p&gt;The answer is my friend, one of the best answers is to &lt;code&gt;embrace&lt;/code&gt; it, like I said twice or thrice before. If &lt;code&gt;excitement&lt;/code&gt; is the thing you’re looking for, then it is my best approach. How we should do this? To make it short, I will just use three simple steps,&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Start exploring yourself, from top of your head to your toes.&lt;/li&gt;
+  &lt;li&gt;Find what kind of weakness do you have, in which, there are few folks out there that good at it. Best words for this, find your &lt;code&gt;limitation&lt;/code&gt;. Improve the threshold and work on it!&lt;/li&gt;
+  &lt;li&gt;Try to match them!&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;For example,&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;I’ve done, I’m doing and always do a lot of typing.&lt;/li&gt;
+  &lt;li&gt;Yet, I realize that I’m just using 5 fingers from 10 possibilities. Then I realize that there’s a lot of people out there that can type flawlesly using 10 fingers.&lt;/li&gt;
+  &lt;li&gt;I’m trying to match them, kinda killing me all the time, but it is a nice flavour addition to my life. And for a bonus, now I can type faster and more efficient.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Another example, this is my friend’s,&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;He realized that he is having a hard time talking to a stranger.&lt;/li&gt;
+  &lt;li&gt;Found a goals, in which, he has to talk to 5 strangers in a day.&lt;/li&gt;
+  &lt;li&gt;Now, he’s a king of pickup around here.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I know those examples are too specific and not so common, but you can always start with something that really simple,&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Arrange your schedule, so that you can go analog once in a week for entire day. Without your laptop, without your phones, no chargers, no internet. Just social!&lt;/li&gt;
+  &lt;li&gt;I know you are pretty bad with drawings LOL, start drawing back what you can remember from your first drawing in kindergarten and compare, which one is prettier? Kid-version of yours or present?&lt;/li&gt;
+  &lt;li&gt;If you’re wearing glasses, try to walk carefully around your area without it.&lt;/li&gt;
+  &lt;li&gt;If reading books is to common, then try to read something really nonsense, e.g. scientific journals and papers.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I know that it is more like a trivial steps on how to fight your limitation, but at least it gives me a &lt;code&gt;variation&lt;/code&gt; that I need to keep my day cherished. Lot of things you can harvest from doing those silly stuffs. Believe me. It is nonsense at start, then you will realize that world is too big to be left doing nothing. Start from now my friends.&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;/blog/embrace-the-uncomfortable-again/&quot;&gt;Embrace the Uncomfortable...Again&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on November 05, 2014.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[A Month in Sweden]]></title>
+  <link rel="alternate" type="text/html" href="/blog/all-about-sweden/" />
+  <id>/blog/all-about-sweden</id>
+  <published>2014-10-01T00:00:00+02:00</published>
+  <updated>2014-10-01T00:00:00+02:00</updated>
+  <author>
+    <name>Yanuar Aditya</name>
+    <uri></uri>
+    <email>yanuart.adityan@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;hr /&gt;
+&lt;section id=&quot;table-of-contents&quot; class=&quot;toc&quot;&gt;
+  &lt;header&gt;
+    &lt;h3&gt;1st Month in Göteborg&lt;/h3&gt;
+  &lt;/header&gt;
+&lt;div id=&quot;drawer&quot;&gt;
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#first-impression&quot; id=&quot;markdown-toc-first-impression&quot;&gt;First Impression!&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#apartemen&quot; id=&quot;markdown-toc-apartemen&quot;&gt;Apartemen&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#transportasi&quot; id=&quot;markdown-toc-transportasi&quot;&gt;Transportasi&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#makanan&quot; id=&quot;markdown-toc-makanan&quot;&gt;Makanan&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#kuliah&quot; id=&quot;markdown-toc-kuliah&quot;&gt;Kuliah&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#does-it-satisfy-my-expectation-on-chalmers-gteborg-and-sweden&quot; id=&quot;markdown-toc-does-it-satisfy-my-expectation-on-chalmers-gteborg-and-sweden&quot;&gt;Does it satisfy my expectation on Chalmers, Göteborg and Sweden?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/section&gt;
+&lt;!-- /#table-of-contents --&gt;
+
+&lt;p&gt;Secara ga sadar, ini post pertama saya pake Bahasa Indonesia selama nulis di blog ini (ouyeah). Ada banyak hal yang saya dapet selama 30 hari pertama di Göteborg (Gothenburg). Ini mau saya ulas satu per satu deh.&lt;/p&gt;
+
+&lt;h2 id=&quot;first-impression&quot;&gt;First Impression!&lt;/h2&gt;
+
+&lt;p&gt;OK, bandara Landvetter bukanlah bandara besar, jadi ga rame-rame amat cem Changi, Attaturk, ato Cengkareng punya. Pesawat-pesawat yang parkir juga namanya ga ada yang kenal selain Turkish Airline, wong itu pesawat saya. Ada macem Ryan Air, Finnish Airline, KLM dkk. Katanya sih Ryan Air ini Air Asia sini, tapi lom sempet coba sih jadi ga bisa klarifikasi :P. Malah pengen klarifikasi kenapa namanya Ryan, ga menjual pisan. Proses pengecekan stuffs dan personal ID juga lancar dan ngantri deh di Bus. Tiketnya waktu itu beli dahulu secara online, seharga 80:- saja. FYI, notasi simbolik Krona itu ‘:-‘, jadi kalau mau nulis 1 juta Krona cukup tulis aja 1E6:- gitu deh. Busnya OK, selama 40 menit perjalanan ke central Göteborg, bisa nyimpulin nih kota dengan 3 kata: batu, Batu dan BATU!&lt;/p&gt;
+
+&lt;h2 id=&quot;apartemen&quot;&gt;Apartemen&lt;/h2&gt;
+
+&lt;p&gt;Ceileh, selama 6 tahun cuman pake istilah kos, 1 tahun istilah numpang, sekarang boleh lah pake kata apartemen. Cukup hoki nih, dapet CIS code, jadi apartemen ga perlu susah-susah antri, langsung dikasih ama Chalmers gitu ceritanya, tapi sharing ama 6 penghuni yang lain. Sedikit ngarep ada cewek diantara kita sih, tapi apa daya, isinya dominator semua. Two tall guys dari Jerman, one handsome guy dari Bulgaria, one charming guy dari France, one macho padre dari Spain dan two dudes dari Indonesia. Kita semua sharing satu bathroom gede yang isinya dua shower spot (pake tirai kok), dan 2 toilet. So far, ga ada antri-antrian, toh jarang mandi kali. Cuman sekali-duakali shower chat bareng. Asik juga, melatih naked instinct while talking in English. Di Swedia, apartemen kebanyakan sudah berisi gitu, kasur, meja, wajan, panci, vacuum, heater, and stuffs. Enak lah, paling beli cem karpet ato pernak-pernik dari IKEA. Saya sengaja beli pernak-pernik yang ga Asia-Asia banget gitu, biar ga cepet mabuk pengen pulang. So far, benda paling mahal yang dibeli buat rias-rias kamar adalah…Gitar!&lt;/p&gt;
+
+&lt;h2 id=&quot;transportasi&quot;&gt;Transportasi&lt;/h2&gt;
+
+&lt;p&gt;Di region Västra Götaland ini, transportasi dipegang oleh konsorsium independen, Västraffik. Dia melayani, bus innercity, tram dan ferry. Ferry-nya ini bisa dipakai untuk jalan-jalan ke pulau di daerah barat kota dan nyebrang sungai yang ngebelah Göteborg jadi utara dan selatan. Selama sebulan ini udah 3x naik Ferry, so far cuman dipakai untuk ngeceng. Untuk biayanya, ada yang perbulan, per tiga bulan, ada yang model pulsa. Belinya bisa di toko-toko serba ada gitu, saya tapi cuman nyaranin ke Pressbyrån aja, karena neng-neng Swedishnya well selected (if you know what I mean). Saya beli tiga bulan harga normal 1400:- karena untuk yang diskon, hanya untuk yang umurnya tidak lebih tua dari 26 tahun. Padahal, udah coba ngaku muda, tapi tetep aja diminta nunjukin passport. Udah pinter, fasih English, jujur lagi nih mbak-mbak Pressbyrån-nya, suka deh. Ahahahaha.&lt;/p&gt;
+
+&lt;h2 id=&quot;makanan&quot;&gt;Makanan&lt;/h2&gt;
+
+&lt;p&gt;Aman bro, so far saya ga masalah. Kekhawatiran dini seperti terbatasnya barang halal ga terbukti kok, banyak imigran di Göteborg, terutama dari timur tengah, jadinya banyak juga toko-toko kebab gitu, bahkan kayaknya selalu ada menu Vegetarisk untuk mereka yang khawatir cacingan :P. Cuman untuk menu jadi yang obvious babi susah juga dibedain, kek Köttbullar, yang baksonya Swedia itu, ingredientnya sih cuman beef, tapi ternyata daging baby, jadinya haram untuk Moslem. Untung nih deket apartemen ada toko oriental gitu, saya ngiranya sih oriental alá Chinatown, tapi ternyata Turkiyé punya. Ilmu baru disini, Halal dan Helal itu sama bro :).&lt;/p&gt;
+
+&lt;h2 id=&quot;kuliah&quot;&gt;Kuliah&lt;/h2&gt;
+
+&lt;p&gt;30 hari pertama, isinya have fun doang. Ada serangkaian acara seru cem tram race dan challenges gitu. Tiap kelompok biasanya berisi 10-12 orang dari berbagai negara. Kelompok saya lumayan kompak dan kocak, terutama anak-anak India dan Spain sih, cenderung open dan ga garing. Mirip orang Jawanya Eropa kali ya ahahaha. Nah di grup ini, kenalan ama cew dari Delft, doi cakeparat sih. Trus kita ngobrol-ngobrol dan akhirnya dia tahu kalo saya lepas Delft demi Chalmers dan saya expect dia bakal kek kaget trus tapi responnya malah cenderung setuju ama saya (yey). Soalnya, dari atmosfernya, Chalmers lebih fun dan lebih non study-oriented. Doi sih cuman exchange student selama 6 bulan karena Delft ama Chalmers itu ternyata masuk ke IDEA League (bareng RWTH Aachen dan ETH Zurich). Jadi peluang exchange gitu banyak amit-amit kayaknya sih. OK, beda kuliah sini ama ITB apa? Hmmm…PERIOD vs SEMESTER! Satu semester disini diisi 2 period. Per period ambil cuman 2 courses, dan dihabisin di satu period. Jadi jangan heran, tiap hari ketemunya kuliah itu-itu mulu. Plusnya, kita jadi fokus, minusnya? Sekali ketinggalan, makin jauh bro kalau ga dikejar. Tapi Chalmers punya banyak tempat seru kok buat break the ice, pas summer sih kita bisa gulung-gulung di rumput, makan rumput, atau minum air dari air mancur gitu. Tapi hawanya udah mulai dingin karena uda mau masuk Fall ’14, jadi gulung-gulungnya dikurangin deh.&lt;/p&gt;
+
+&lt;h2 id=&quot;does-it-satisfy-my-expectation-on-chalmers-gteborg-and-sweden&quot;&gt;Does it satisfy my expectation on Chalmers, Göteborg and Sweden?&lt;/h2&gt;
+
+&lt;p&gt;Absolutely YES, salah satu motivasi saya pilih Chalmers vs Delft, yang paling penting, adalah lingkup profesional yang lebih bagus di Swedia. Baru masuk minggu ketiga kuliah, sudah diundang ama Spotify AB untuk study evening, Cisco Sweden untuk Fika &amp;amp; Lunch Class, bahkan Volvo dan Ericsson juga ngadain Lunch Class juga. Göteborg sendiri walaupun secara statistik, kota paling ramai kedua di Swedia dan Skandinavia, tetep aja boleh dibilang sepi dari standar ex Jakartanian. Tapi justru itu yang aciek. Orang-orangnya? Bule-bulenya? Swedish-swedish? So far, they stand by their reputation kok, friendly, cenderung low profile (lagom) dan tidak seronok. Suka belajar bareng dan baca buku, trus logat English-nya absolutely inhuman.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/blog/all-about-sweden/&quot;&gt;A Month in Sweden&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 01, 2014.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Get Better Soon, Jakarta]]></title>
+  <link rel="alternate" type="text/html" href="/blog/last-week-on-jakarta/" />
+  <id>/blog/last-week-on-jakarta</id>
+  <published>2014-07-14T00:00:00+02:00</published>
+  <updated>2014-07-14T00:00:00+02:00</updated>
+  <author>
+    <name>Yanuar Aditya</name>
+    <uri></uri>
+    <email>yanuart.adityan@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;hr /&gt;
+&lt;div style=&quot;text-align:center;&quot;&gt;
+	&lt;img src=&quot;/images/post-jakarta.jpg&quot; alt=&quot;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;
+This is my last week on Jakarta and I have to say, I am really &lt;code&gt;grateful&lt;/code&gt; about it. Why? For the last 6 months, you can consider me as one amongst thousands of motorist trapped on &lt;code&gt;deadlock traffic&lt;/code&gt; as shown on above image.&lt;/p&gt;
+
+&lt;p&gt;I was working on Sudirman, quite busy office district in Center – South Jakarta border which is merely ~10 mins walk to Bunderan HI, a famous landmark of Jakarta. However, my home is &lt;code&gt;26 kilometres&lt;/code&gt; away.&lt;/p&gt;
+
+&lt;p&gt;Technically, if you ride anything which resulted on average 26 km per hour of speed, you will spend an hour on the road. However, that’s not really true on the practice. My record was 3 and half hours for only 26 km of distance. Which means, LESS than third of average speed. For 3.5 hours, I need to battle hot weather, sweat, CO2 smoke and &lt;code&gt;emotional feeling&lt;/code&gt; by understanding that you will go nowhere in a minute or two.&lt;/p&gt;
+
+&lt;p&gt;I have a brother who can considered as an avid motorist. He drove his motor to his office &lt;code&gt;since 2001&lt;/code&gt;. He said that Jakarta in 2001 was really empty. Same distance covered only in 25 to 30 minutes, less fatigue and less chance to be &lt;code&gt;killed&lt;/code&gt; on duty. However, urbanisation to Jakarta is &lt;code&gt;uncontrollable&lt;/code&gt; and people start their family outside the Jakarta, e.g. Tangerang, Bekasi, Depok even Bogor. &lt;code&gt;Slow commuter&lt;/code&gt; and &lt;code&gt;not enough&lt;/code&gt; Busway corridor motivate people to buy &lt;code&gt;cheaper-than-ever&lt;/code&gt; motor and start to be a motorist. Plus, it was very easy to get a driving license at that time caused everyone to officially eligible to ride motor every day every night.&lt;/p&gt;
+
+&lt;p&gt;Well, traffic is a sign of a &lt;code&gt;ache&lt;/code&gt; or &lt;code&gt;disease&lt;/code&gt; of a city. If that’s true (you have to agree with me on this), then Jakarta only have couple of days to live from this disease. That’s my opinion on how bad, how monstrous traffic in Jakarta can be.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/blog/last-week-on-jakarta/&quot;&gt;Get Better Soon, Jakarta&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on July 14, 2014.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Remembering Good Old 90&#8217;s Song]]></title>
+  <link rel="alternate" type="text/html" href="/blog/remembering-good-old-90s-song/" />
+  <id>/blog/remembering-good-old-90s-song</id>
+  <published>2014-04-13T00:00:00+02:00</published>
+  <updated>2014-04-13T00:00:00+02:00</updated>
+  <author>
+    <name>Yanuar Aditya</name>
+    <uri></uri>
+    <email>yanuart.adityan@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;hr /&gt;
+
+&lt;p&gt;I don’t know, but for me, I really hate MTV for now. I’m willing to put it onto bottom three of ‘channels I’ll never watch again’ after MTV and MTV. I see how they’re trying to gather younger audiences by delivering some of the worst songs I’ve ever listen and, well, I’ve pretty much given up to love it once again.&lt;/p&gt;
+
+&lt;p&gt;Well, they used to be my favorite channel. That was back in 1998, I was 10 years old, I was in mad love with 98 World Cup theme, ‘Chumbawamba – Tubthumping’. I was really thankful that MTV aired this song more than twice in a day.&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;
+&lt;img src=&quot;/images/post-mtv.jpg&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;And it was going better and better, especially when my sister bought me MTV Fresh album in 1999. That was my first CD cassette. I can still remember properly the entire list:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;SIDE A&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Arkarna – So Little Time&lt;/li&gt;
+  &lt;li&gt;Chumbawamba – Tubthumping&lt;/li&gt;
+  &lt;li&gt;Blur – Song 2&lt;/li&gt;
+  &lt;li&gt;Green Day – Hitchin’ a Ride&lt;/li&gt;
+  &lt;li&gt;Third Eye Blind – Semi Charmed Life&lt;/li&gt;
+  &lt;li&gt;Catatonia – Mulder &amp;amp; Scully&lt;/li&gt;
+  &lt;li&gt;The Verve – The Drugs Don’t Work&lt;/li&gt;
+  &lt;li&gt;Cornershop – Brime of Asha&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;SIDE B&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Everclear – Everything to Everyone&lt;/li&gt;
+  &lt;li&gt;Meredith Brooks – Bitch&lt;/li&gt;
+  &lt;li&gt;Mansun – Wide Open Space&lt;/li&gt;
+  &lt;li&gt;Radiohead – Karma Police&lt;/li&gt;
+  &lt;li&gt;Suede – Beautiful Ones&lt;/li&gt;
+  &lt;li&gt;Matchbox Twenty – Push&lt;/li&gt;
+  &lt;li&gt;Oasis – D’you Know What I Mean&lt;/li&gt;
+  &lt;li&gt;Sugar Ray – Every Morning&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Maybe if you’re lucky enough, you can find the list on &lt;a title=&quot;Youtube&quot; href=&quot;http://www.youtube.com/&quot; target=&quot;_blank&quot;&gt;Youtube &lt;/a&gt;or &lt;a title=&quot;SoundCloud&quot; href=&quot;http://soundcloud.com/&quot; target=&quot;_blank&quot;&gt;Soundcloud&lt;/a&gt;. But remember, 90s is just too good to be forgotten.
+So MTV, will you learn from it? I don’t think you will.
+Cheers!&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/blog/remembering-good-old-90s-song/&quot;&gt;Remembering Good Old 90&amp;#8217;s Song&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on April 13, 2014.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Frontier of Sovereignty]]></title>
+  <link rel="alternate" type="text/html" href="/blog/a-thousand-of/" />
+  <id>/blog/a-thousand-of</id>
+  <published>2014-04-13T00:00:00+02:00</published>
+  <updated>2014-04-13T00:00:00+02:00</updated>
+  <author>
+    <name>Yanuar Aditya</name>
+    <uri></uri>
+    <email>yanuart.adityan@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;hr /&gt;
+&lt;blockquote&gt;
+  &lt;p style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/images/post-frontier.jpg&quot; /&gt;
+&lt;/p&gt;
+
+  &lt;p style=&quot;text-align: center;&quot;&gt;
+  &amp;#8220;A thousand of old men are just able to dream. A young man is able to change the world.&amp;#8221;
+&lt;/p&gt;
+
+  &lt;p style=&quot;text-align: center;&quot;&gt;
+  -Ir. Soekarno
+&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p style=&quot;text-align: left;&quot;&gt;
+  After having 12 days of leadership oriented training held by LPDP Scholarship, which half of them spent on outdoor (Halim Perdanakusumah Military Airfield and Mount Salak mountainside), maybe that quote from the very first prominent president of Indonesia just feels right.
+&lt;/p&gt;
+
+&lt;p&gt;As a young generation, we were doctrined and visioned as a potential ruler and leader at the time of 100th Anniversary of Indonesia in 2045. But, was it worth to spent 12 days just to tell us that? Was it efficient enough? I’d rather eat hell lot of quotes from Ir. Soekarno and done with it. Maybe it just takes you a whole day to learn to understand what it feels like to be a leader of a nation.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;However, I have to be honest now and those days were absolutely unforgettable. I was in tears when we were having ‘failed’ closing night bonfire party at airfield. Those armies were still trying so hard to make a fire out of watery-wood and when I start to realize that they are the frontier of sovereignty, they are the last people who stand when we, poor citizens, losing hope easily because of conflict, war and disaster. I immediately started to cry and tried so hard to hid it.&lt;/p&gt;
+
+&lt;p&gt;Oh, why didn’t we just learn to live like they were doing, not for only 3 days, but hundred of days. Believe me, I can live with them for couple of years. I should say let’s do a mandatory military service for every young generations. 1 year is OK, 2 years is perfect. Let’s make those armies shout and yell at us, because I love it. I love to be shouted, by the frontier of sovereignty. But no ass-spanking. Hey ho!?&lt;/p&gt;
+
+&lt;p&gt;Lastly, those 3 days was a happy moment for them, they were so proud about Indonesia, and I thought that was good for them. They need sympathy from all of us. They need to be acknowledged. Well, some of them are jackass for sure, but maybe because I was jealous when they got attention easily from the girls. LOL. Well, well done sir, you deserve that. Maybe….just maybe.&lt;/p&gt;
+
+&lt;p&gt;Looking forward to meet those guys again anytime soon. Sukhoi!?&lt;/p&gt;
+
+&lt;p&gt;Cheers.&lt;/p&gt;
+
+&lt;p&gt; &lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/blog/a-thousand-of/&quot;&gt;Frontier of Sovereignty&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on April 13, 2014.&lt;/p&gt;
+  </content>
+</entry>
+
+</feed>
