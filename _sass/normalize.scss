@@ -65,6 +65,9 @@ html {
     font-family: sans-serif; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
     -ms-text-size-adjust: 100%; /* 2 */
+
+    /* added by adit to always on scrollbar */
+    overflow-y: scroll; 
 }
 
 /**

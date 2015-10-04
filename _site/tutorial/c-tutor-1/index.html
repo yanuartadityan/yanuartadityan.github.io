@@ -5,15 +5,15 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Addition vs Multiplication &#8211; Mirkwood Ape</title>
-<meta name="description" content="No need for such an argue for this problem">
-<meta name="keywords" content="sweden, chalmers, algorithm">
+<title>C Tutorial #1 | Getting Acquintance &#8211; Mirkwood Ape</title>
+<meta name="description" content="Get to know with some reasons why C-Programming is necessary">
+<meta name="keywords" content="tutorial, C">
 
 
 
 <!-- Twitter Cards -->
-<meta name="twitter:title" content="Addition vs Multiplication">
-<meta name="twitter:description" content="No need for such an argue for this problem">
+<meta name="twitter:title" content="C Tutorial #1 | Getting Acquintance">
+<meta name="twitter:description" content="Get to know with some reasons why C-Programming is necessary">
 <meta name="twitter:site" content="@yanuartadityan">
 <meta name="twitter:creator" content="@yanuartadityan">
 
@@ -23,16 +23,16 @@
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Addition vs Multiplication">
-<meta property="og:description" content="No need for such an argue for this problem">
-<meta property="og:url" content="/blog/addition-vs-multiplication/">
+<meta property="og:title" content="C Tutorial #1 | Getting Acquintance">
+<meta property="og:description" content="Get to know with some reasons why C-Programming is necessary">
+<meta property="og:url" content="/tutorial/c-tutor-1/">
 <meta property="og:site_name" content="Mirkwood Ape">
 
 
 
 
 
-<link rel="canonical" href="/blog/addition-vs-multiplication/">
+<link rel="canonical" href="/tutorial/c-tutor-1/">
 <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Mirkwood Ape Feed">
 
 <!-- http://t.co/dKP3o1e -->
@@ -147,27 +147,69 @@
   <article class="post">
     <div class="headline-wrap">
       
-        <h1><a href="/blog/addition-vs-multiplication/" rel="bookmark" title="Addition vs Multiplication">Addition vs Multiplication</a></h1>
+        <h1><a href="/tutorial/c-tutor-1/" rel="bookmark" title="C Tutorial #1 | Getting Acquintance">C Tutorial #1 | Getting Acquintance</a></h1>
       
     </div><!--/ .headline-wrap -->
     <div class="article-wrap">
-      <p>OK, let’s settle this. If you’re given a question, which is faster, between addition and multiplication? Or in more formal concise way of problem set, given <code>x, y</code> be two <code>integers</code>. Which one is easier, an <code>addition</code> or <code>multiplication</code> for those two integers?</p>
+      <p>Probably, you will see C-language as nothing special. You might even say C sucks compared to Java, Ruby or Python nowadays. But, is it? Well, if you start coding from 90s, probably you’ve encountered a hard time developing with <code>Fortran</code>, or <code>Assembly</code> and C came as a saviour from the darkness, it’s like a <a href="http://www.woohooitsbacon.com/10-reasons-why-c-is-still-the-best-programming-language/">programming heaven</a>.</p>
 
-<p>I’d rather believe that people will spontaneously chose to add is faster than to multiply. But in what sense people think that way? A conceptual framework is needed to motivate this answer. And I’ll help you on this post.</p>
+<p>There are several top reasons why C is still a good language to learn, here I’ve compiled some.</p>
 
-<p>We’re going through some definitions here. <code>Addition</code> and <code>multiplication</code> are examples of <strong>problems</strong>. Some inputs, in this case <code>x, y</code> are the inputs, or precisely, instances for which the problem has to solve. In principle, a problem has infinite instances that should be able to be solved.</p>
+<h4 id="c-has-nice-syntax"><strong>1. C has nice syntax</strong></h4>
 
-<p>Problems are often solvable by <strong>algorithms</strong>. Intuitively, an algorithm is an instruction saying how to do the calculation that solves the problem for every possible instance. It must be precise and unambiguous, such that it can be delegated to a machine. The steps of an algorithm must consist of simple operations which can be done mechanically, without human intervention or appeal to human intelligence. They must not leave any room for subjective interpretations.</p>
+<p>As a language that often interacts with the <code>machine</code>, C is considered to be a <em>pretty</em> language with beautiful syntax.</p>
 
-<p>Computer programs are nowadays the way to execute algorithms, but algorithms existed already long before the advent of computers. The word is derived from the name <em>al-Khoarizmi</em>, an Persian scholar (780–850) who wrote an early textbook on arithmetic calculations. Much earlier, various algorithms were already known to ancient mathematicians.</p>
+<div class="highlight"><pre><code class="language-c" data-lang="c"><span class="lineno">1</span> <span class="cp">#include &lt;stdio.h&gt;</span>
+<span class="lineno">2</span> 
+<span class="lineno">3</span> <span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="lineno">4</span> <span class="p">{</span>
+<span class="lineno">5</span>   <span class="n">printf</span><span class="p">(</span><span class="s">&quot;Hi World</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
+<span class="lineno">6</span>   
+<span class="lineno">7</span>   <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="lineno">8</span> <span class="p">}</span></code></pre></div>
 
-<p>Examples of algorithms are the well-known “school methods” for adding or multipling two numbers on paper. These methods fulfill all the above criteria. They specify which simple operations with digits we have to do in which order, and how these partial results have to be combined to the correct final result.</p>
+<p>As we can see, <code>Pygments</code> rendered C-syntax (with line numbers) beautifully. Now, time for a trivia. Can you guess, how many programmers which are saved by C-syntax from obfuscating codes? Count me one!</p>
 
-<p>We stress that an algorithm and a computer program is not the same thing! A program implements an algorithm, i.e., it realizes an algorithm in a specific programming language. But an algorithm as such is an abstract mathematical entity. This distinction is more than just academic hair-splitting, rather, it has two major practical consequences.</p>
+<h4 id="c-macros-are-the-best"><strong>2. C macros are the best</strong></h4>
 
-<p>OK, then which one is the answer mister?</p>
+<p>Macros is one of the most important preprocessor <code>#</code> implementation in C. It can be used to create a fast function without putting everything on the stack. Check this out,</p>
 
-<p>The answer lies on what we know with <strong>Time Complexity</strong>. Good luck study on this guys. Welcome to the Algorithm class.</p>
+<div class="highlight"><pre><code class="language-c" data-lang="c"><span class="lineno"> 1</span> <span class="cp">#include &lt;stdio.h&gt;</span>
+<span class="lineno"> 2</span> 
+<span class="lineno"> 3</span> <span class="cm">/* preprocessor for a logical OR */</span>
+<span class="lineno"> 4</span> <span class="cp">#define MACRO_OR(a, b) (a || b)</span>
+<span class="lineno"> 5</span> 
+<span class="lineno"> 6</span> <span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="lineno"> 7</span> <span class="p">{</span>
+<span class="lineno"> 8</span> 	<span class="kt">bool</span> <span class="n">a</span> <span class="o">=</span> <span class="nb">true</span><span class="p">;</span>
+<span class="lineno"> 9</span> 	<span class="kt">bool</span> <span class="n">b</span> <span class="o">=</span> <span class="nb">false</span><span class="p">;</span>
+<span class="lineno">10</span> 
+<span class="lineno">11</span> 	<span class="cm">/* invoke the MACRO_OR */</span>
+<span class="lineno">12</span> 	<span class="kt">bool</span> <span class="n">c</span> <span class="o">=</span> <span class="n">MACRO_OR</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">);</span>
+<span class="lineno">13</span> 
+<span class="lineno">14</span> 	<span class="n">return0</span><span class="p">;</span>
+<span class="lineno">15</span> <span class="p">}</span></code></pre></div>
+
+<p>In <strong>line:4</strong>, we define the macro function <code>MACRO_OR</code> that takes <em>a</em> and <em>b</em> as an input. Then, this macro will return the logical <code>OR</code> result from <em>a</em> and <em>b</em>. Super neat!</p>
+
+<p>In <strong>line:12</strong>, the macro is invoked to compute the logical <code>OR</code> between <em>a</em> and <em>b</em> and return the result to <em>c</em>.</p>
+
+<h4 id="c-is-small"><strong>3. C is small</strong></h4>
+
+<p>C utilised merely variables, macros, functions and structures. Therefore, C is considered small in size, complexity and that much of it. Due to this, C has been heavily used on embedded system, modern microprocessor, even modern <code>Arduino</code>.</p>
+
+<p>More about this, lot of parallel programming languages, OpenMP, OpenCL, CUDA, etc, are based on C language due to its relative connection to lower level hardware compared with other languages.</p>
+
+<h4 id="c-is-root-of-all-goodness"><strong>4. C is root of all goodness</strong></h4>
+
+<p>You can pretty much stand on opinion that C is different compared to <em>C++</em> or <em>ObjectiveC</em>, but from pedagogical approach, lot of programming expert will tell you to learn basic things from C, e.g. <em>overflow</em>, <em>memory addressing</em>, <em>pointer</em>, <em>profiling</em> and <em>debugging</em>. A true concept of those languages can be learned from C.</p>
+
+<h4 id="c-is-still-alive-and-sound"><strong>5. C is still alive and sound</strong></h4>
+
+<p>The number one reason C is the best programming language today is still the fact that it simply powers everything. From your phone to your <code>Wii</code>, no other language provides the level of hardware interaction with the practicality of a concise and expressive syntax. Unless you’re still using an early <code>IBM</code> (please switch soon, if so), the screen you’re reading this article on is probably powered by C.</p>
+
+<p>With C, we can forget writing thousands of complex <em>Assembly</em> routines, thousands of processor-specific instructions, and spaghetti like code. Because of C, the CPU, memory, and graphics cards have turned from their messy, low-level pasts into an easier, readable format</p>
+
 
       <hr />
       <footer role="contentinfo">
@@ -175,17 +217,17 @@
   <h4>Share on</h4>
   <ul>
     <li>
-      <a href="https://twitter.com/intent/tweet?text=/blog/addition-vs-multiplication/" class="twitter" title="Share on Twitter"><i class="fa fa-twitter"></i><span> Twitter</span></a>
+      <a href="https://twitter.com/intent/tweet?text=/tutorial/c-tutor-1/" class="twitter" title="Share on Twitter"><i class="fa fa-twitter"></i><span> Twitter</span></a>
     </li>
     <li>
-      <a href="https://www.facebook.com/sharer/sharer.php?u=/blog/addition-vs-multiplication/" class="facebook" title="Share on Facebook"><i class="fa fa-facebook"></i><span> Facebook</span></a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=/tutorial/c-tutor-1/" class="facebook" title="Share on Facebook"><i class="fa fa-facebook"></i><span> Facebook</span></a>
     </li>
     <li>
-      <a href="https://plus.google.com/share?url=/blog/addition-vs-multiplication/" class="google-plus" title="Share on Google Plus"><i class="fa fa-google-plus"></i><span> Google+</span></a>
+      <a href="https://plus.google.com/share?url=/tutorial/c-tutor-1/" class="google-plus" title="Share on Google Plus"><i class="fa fa-google-plus"></i><span> Google+</span></a>
     </li>
   </ul>
 </div><!-- /.social-share -->
-        <p class="byline"><strong>Addition vs Multiplication</strong> was published on <time datetime="2015-09-05T00:00:00+02:00">September 05, 2015</time>.</p>
+        <p class="byline"><strong>C Tutorial #1 | Getting Acquintance</strong> was published on <time datetime="2015-10-02T00:00:00+02:00">October 02, 2015</time>.</p>
       </footer>
     </div><!-- /.article-wrap -->
   
@@ -199,9 +241,9 @@
   <h4>You might also enjoy <small class="pull-right">(<a href="/posts/">View all posts</a>)</small></h4>
     <ul>
     
-      <li><a href="/tutorial/c-tutor-1/" title="C Tutorial #1 | Getting Acquintance">C Tutorial #1 | Getting Acquintance</a></li>
-    
       <li><a href="/blog/one-year-in-sweden/" title="One year in Sweden">One year in Sweden</a></li>
+    
+      <li><a href="/blog/addition-vs-multiplication/" title="Addition vs Multiplication">Addition vs Multiplication</a></li>
     
       <li><a href="/blog/summer/" title="What's Wrong with May Weather?">What's Wrong with May Weather?</a></li>
     
