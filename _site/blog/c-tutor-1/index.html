@@ -5,15 +5,15 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>d3.js on Jekyll &#8211; Mirkwood Ape</title>
-<meta name="description" content="Not really practical, but doable and beautiful">
-<meta name="keywords" content="js, d3js, plot">
+<title>C Tutorial #1 | Getting Acquintance &#8211; Mirkwood Ape</title>
+<meta name="description" content="Get to know with some reasons why C-Programming is necessary">
+<meta name="keywords" content="tutorial, C">
 
 
 
 <!-- Twitter Cards -->
-<meta name="twitter:title" content="d3.js on Jekyll">
-<meta name="twitter:description" content="Not really practical, but doable and beautiful">
+<meta name="twitter:title" content="C Tutorial #1 | Getting Acquintance">
+<meta name="twitter:description" content="Get to know with some reasons why C-Programming is necessary">
 <meta name="twitter:site" content="@yanuartadityan">
 <meta name="twitter:creator" content="@yanuartadityan">
 
@@ -23,16 +23,16 @@
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="d3.js on Jekyll">
-<meta property="og:description" content="Not really practical, but doable and beautiful">
-<meta property="og:url" content="/blog/first-d3js/">
+<meta property="og:title" content="C Tutorial #1 | Getting Acquintance">
+<meta property="og:description" content="Get to know with some reasons why C-Programming is necessary">
+<meta property="og:url" content="/blog/c-tutor-1/">
 <meta property="og:site_name" content="Mirkwood Ape">
 
 
 
 
 
-<link rel="canonical" href="/blog/first-d3js/">
+<link rel="canonical" href="/blog/c-tutor-1/">
 <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Mirkwood Ape Feed">
 
 <!-- http://t.co/dKP3o1e -->
@@ -142,94 +142,68 @@
   <article class="post">
     <div class="headline-wrap">
       
-        <h1><a href="/blog/first-d3js/" rel="bookmark" title="d3.js on Jekyll">d3.js on Jekyll</a></h1>
+        <h1><a href="/blog/c-tutor-1/" rel="bookmark" title="C Tutorial #1 | Getting Acquintance">C Tutorial #1 | Getting Acquintance</a></h1>
       
     </div><!--/ .headline-wrap -->
     <div class="article-wrap">
-      <h2 id="intro">Intro</h2>
+      <p>Probably, you will see C-language as nothing special. You might even say C sucks compared to Java, Ruby or Python nowadays. But, is it? Well, if you start coding from 90s, probably you’ve encountered a hard time developing with <code>Fortran</code>, or <code>Assembly</code> and C came as a saviour from the darkness, it’s like a <a href="http://www.woohooitsbacon.com/10-reasons-why-c-is-still-the-best-programming-language/">programming heaven</a>.</p>
 
-<p>So, <a href="http://d3js.org">d3.js</a> has been around for a moment now and I guess it’s good time to start playing with it!</p>
+<p>There are several top reasons why C is still a good language to learn, here I’ve compiled some.</p>
 
-<h2 id="trivia">Trivia</h2>
+<h4 id="c-has-nice-syntax"><strong>1. C has nice syntax</strong></h4>
 
-<p>It needs extra steps implementing d3.js onto Jekyll, especially when we’re working on Markdown instead of HTML. But, with
-proper anchor, it’s like taking a candy from a baby. Cheers.</p>
+<p>As a language that often interacts with the <code>machine</code>, C is considered to be a <em>pretty</em> language with beautiful syntax.</p>
 
-<h2 id="first-bar-chart-with-div">First Bar Chart with #div</h2>
+<div class="highlight"><pre><code class="language-c" data-lang="c"><span class="lineno">1</span> <span class="cp">#include &lt;stdio.h&gt;</span>
+<span class="lineno">2</span> 
+<span class="lineno">3</span> <span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="lineno">4</span> <span class="p">{</span>
+<span class="lineno">5</span>   <span class="n">printf</span><span class="p">(</span><span class="s">&quot;Hi World</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
+<span class="lineno">6</span>   
+<span class="lineno">7</span>   <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="lineno">8</span> <span class="p">}</span></code></pre></div>
 
-<div class="second"> </div>
-<script type="text/javascript" src="http://mbostock.github.com/d3/d3.js"></script>
+<p>As we can see, <code>Pygments</code> rendered C-syntax (with line numbers) beautifully. Now, time for a trivia. Can you guess, how many programmers which are saved by C-syntax from obfuscating codes? Count me one!</p>
 
-<style>
-.second div {
-  font: 10px sans-serif;
-  background-color: steelblue;
-  text-align: right;
-  padding: 3px;
-  margin: 1px;
-  color: white;
-}
-</style>
+<h4 id="c-macros-are-the-best"><strong>2. C macros are the best</strong></h4>
 
-<script type="text/javascript">
+<p>Macros is one of the most important preprocessor <code>#</code> implementation in C. It can be used to create a fast function without putting everything on the stack. Check this out,</p>
 
-var data = [4, 5, 6, 8, 12, 15, 16, 18, 21, 23, 27, 35, 42];
+<div class="highlight"><pre><code class="language-c" data-lang="c"><span class="lineno"> 1</span> <span class="cp">#include &lt;stdio.h&gt;</span>
+<span class="lineno"> 2</span> 
+<span class="lineno"> 3</span> <span class="cm">/* preprocessor for a logical OR */</span>
+<span class="lineno"> 4</span> <span class="cp">#define MACRO_OR(a, b) (a || b)</span>
+<span class="lineno"> 5</span> 
+<span class="lineno"> 6</span> <span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="lineno"> 7</span> <span class="p">{</span>
+<span class="lineno"> 8</span> 	<span class="kt">bool</span> <span class="n">a</span> <span class="o">=</span> <span class="nb">true</span><span class="p">;</span>
+<span class="lineno"> 9</span> 	<span class="kt">bool</span> <span class="n">b</span> <span class="o">=</span> <span class="nb">false</span><span class="p">;</span>
+<span class="lineno">10</span> 
+<span class="lineno">11</span> 	<span class="cm">/* invoke the MACRO_OR */</span>
+<span class="lineno">12</span> 	<span class="kt">bool</span> <span class="n">c</span> <span class="o">=</span> <span class="n">MACRO_OR</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">);</span>
+<span class="lineno">13</span> 
+<span class="lineno">14</span> 	<span class="n">return0</span><span class="p">;</span>
+<span class="lineno">15</span> <span class="p">}</span></code></pre></div>
 
-d3.select("div.second")
-	.selectAll("div")
-		.data(data)
-	.enter().append("div")
-		.style("width", function(d) { return (d) * 10 + "px"; })
-    	.text(function(d) { return d; });
+<p>In <strong>line:4</strong>, we define the macro function <code>MACRO_OR</code> that takes <em>a</em> and <em>b</em> as an input. Then, this macro will return the logical <code>OR</code> result from <em>a</em> and <em>b</em>. Super neat!</p>
 
-</script>
+<p>In <strong>line:12</strong>, the macro is invoked to compute the logical <code>OR</code> between <em>a</em> and <em>b</em> and return the result to <em>c</em>.</p>
 
-<h2 id="first-bar-chart-with-svg">First Bar Chart with SVG</h2>
+<h4 id="c-is-small"><strong>3. C is small</strong></h4>
 
-<div id="convas" style="background: rgb(105, 187, 210)"></div>
-<script type="text/javascript" src="http://mbostock.github.com/d3/d3.js"></script>
+<p>C utilised merely variables, macros, functions and structures. Therefore, C is considered small in size, complexity and that much of it. Due to this, C has been heavily used on embedded system, modern microprocessor, even modern <code>Arduino</code>.</p>
 
-<script type="text/javascript">
-      var w = 535,
-          h= 500,
-          z = d3.scale.category20(),
-          i = 0;
-      var svg = d3.select("div#convas").append("svg")
-          .attr("width", w)
-          .attr("height", h)
-          .style("pointer-events", "all")
-          .on("mousemove", heart_line);
-      var line = d3.svg.line()
-                    .interpolate("cardinal")
-                    .x(function(d) { return d[0]; })
-                    .y(function(d) { return d[1]; });
-      function heart_shape(x, y, r)
-      {
-        var points = [];
-        for (i=0; i<=360; i=i+12){
-          pointX = x -  r*(12*Math.sin(i*Math.PI/180) - 4*Math.sin(3*i*Math.PI/180));
-          pointY = y -  r*(13*Math.cos(i*Math.PI/180) - 5*Math.cos(2*i*Math.PI/180) - 2*Math.cos(3*i*Math.PI/180));
-          points.push([pointX, pointY]);
-        }
-        return points;
-      }
-      function heart_line() {
-        var m = d3.svg.mouse(this); 
-        svg.append("path")
-            .attr("d", function() {return line(heart_shape(m[0], m[1], 1e-6)); })
-            .style("stroke", function() { return z(parseInt(Math.random() * 100));})
-            .style("fill", "none")
-            .style("stroke-opacity", 1)
-            .style("stroke-width", 3.5)
-            .attr('class', 'heart_shape')
-            .transition()
-            .duration(1000)
-            .ease(Math.sqrt)
-            .attr("d", function() { return line(heart_shape(m[0], m[1], 10)); })
-            .style("stroke-opacity", 1e-4)
-            .remove();
-            }
-</script>
+<p>More about this, lot of parallel programming languages, OpenMP, OpenCL, CUDA, etc, are based on C language due to its relative connection to lower level hardware compared with other languages.</p>
+
+<h4 id="c-is-root-of-all-goodness"><strong>4. C is root of all goodness</strong></h4>
+
+<p>You can pretty much stand on opinion that C is different compared to <em>C++</em> or <em>ObjectiveC</em>, but from pedagogical approach, lot of programming expert will tell you to learn basic things from C, e.g. <em>overflow</em>, <em>memory addressing</em>, <em>pointer</em>, <em>profiling</em> and <em>debugging</em>. A true concept of those languages can be learned from C.</p>
+
+<h4 id="c-is-still-alive-and-sound"><strong>5. C is still alive and sound</strong></h4>
+
+<p>The number one reason C is the best programming language today is still the fact that it simply powers everything. From your phone to your <code>Wii</code>, no other language provides the level of hardware interaction with the practicality of a concise and expressive syntax. Unless you’re still using an early <code>IBM</code> (please switch soon, if so), the screen you’re reading this article on is probably powered by C.</p>
+
+<p>With C, we can forget writing thousands of complex <em>Assembly</em> routines, thousands of processor-specific instructions, and spaghetti like code. Because of C, the CPU, memory, and graphics cards have turned from their messy, low-level pasts into an easier, readable format</p>
 
 
       <hr />
@@ -238,17 +212,17 @@ d3.select("div.second")
   <h4>Share on</h4>
   <ul>
     <li>
-      <a href="https://twitter.com/intent/tweet?text=/blog/first-d3js/" class="twitter" title="Share on Twitter"><i class="fa fa-twitter"></i><span> Twitter</span></a>
+      <a href="https://twitter.com/intent/tweet?text=/blog/c-tutor-1/" class="twitter" title="Share on Twitter"><i class="fa fa-twitter"></i><span> Twitter</span></a>
     </li>
     <li>
-      <a href="https://www.facebook.com/sharer/sharer.php?u=/blog/first-d3js/" class="facebook" title="Share on Facebook"><i class="fa fa-facebook"></i><span> Facebook</span></a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=/blog/c-tutor-1/" class="facebook" title="Share on Facebook"><i class="fa fa-facebook"></i><span> Facebook</span></a>
     </li>
     <li>
-      <a href="https://plus.google.com/share?url=/blog/first-d3js/" class="google-plus" title="Share on Google Plus"><i class="fa fa-google-plus"></i><span> Google+</span></a>
+      <a href="https://plus.google.com/share?url=/blog/c-tutor-1/" class="google-plus" title="Share on Google Plus"><i class="fa fa-google-plus"></i><span> Google+</span></a>
     </li>
   </ul>
 </div><!-- /.social-share -->
-        <p class="byline"><strong>d3.js on Jekyll</strong> was published on <time datetime="2015-04-01T00:00:00+02:00">April 01, 2015</time>.</p>
+        <p class="byline"><strong>C Tutorial #1 | Getting Acquintance</strong> was published on <time datetime="2015-10-02T00:00:00+02:00">October 02, 2015</time>.</p>
       </footer>
     </div><!-- /.article-wrap -->
   
@@ -262,11 +236,11 @@ d3.select("div.second")
   <h4>You might also enjoy <small class="pull-right">(<a href="/posts/">View all posts</a>)</small></h4>
     <ul>
     
-      <li><a href="/blog/c-tutor-1/" title="C Tutorial #1 | Getting Acquintance">C Tutorial #1 | Getting Acquintance</a></li>
-    
       <li><a href="/blog/one-year-in-sweden/" title="One year in Sweden">One year in Sweden</a></li>
     
       <li><a href="/blog/addition-vs-multiplication/" title="Addition vs Multiplication">Addition vs Multiplication</a></li>
+    
+      <li><a href="/blog/summer/" title="What's Wrong with May Weather?">What's Wrong with May Weather?</a></li>
     
     </ul>
     <hr />

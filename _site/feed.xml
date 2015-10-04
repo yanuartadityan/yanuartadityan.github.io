@@ -4,13 +4,92 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2015-09-30T17:20:32+02:00</updated>
+<updated>2015-10-04T20:37:19+02:00</updated>
 <id>/</id>
 <author>
   <name>Yanuar Aditya</name>
   <uri>/</uri>
   <email>yanuart.adityan@gmail.com</email>
 </author>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[C Tutorial #1 | Getting Acquintance]]></title>
+  <link rel="alternate" type="text/html" href="/blog/c-tutor-1/" />
+  <id>/blog/c-tutor-1</id>
+  <published>2015-10-02T00:00:00+02:00</published>
+  <updated>2015-10-02T00:00:00+02:00</updated>
+  <author>
+    <name>Yanuar Aditya</name>
+    <uri></uri>
+    <email>yanuart.adityan@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Probably, you will see C-language as nothing special. You might even say C sucks compared to Java, Ruby or Python nowadays. But, is it? Well, if you start coding from 90s, probably you’ve encountered a hard time developing with &lt;code&gt;Fortran&lt;/code&gt;, or &lt;code&gt;Assembly&lt;/code&gt; and C came as a saviour from the darkness, it’s like a &lt;a href=&quot;http://www.woohooitsbacon.com/10-reasons-why-c-is-still-the-best-programming-language/&quot;&gt;programming heaven&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;There are several top reasons why C is still a good language to learn, here I’ve compiled some.&lt;/p&gt;
+
+&lt;h4 id=&quot;c-has-nice-syntax&quot;&gt;&lt;strong&gt;1. C has nice syntax&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;As a language that often interacts with the &lt;code&gt;machine&lt;/code&gt;, C is considered to be a &lt;em&gt;pretty&lt;/em&gt; language with beautiful syntax.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;lineno&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;#include &amp;lt;stdio.h&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;2&lt;/span&gt; 
+&lt;span class=&quot;lineno&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;5&lt;/span&gt;   &lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;Hi World&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;6&lt;/span&gt;   
+&lt;span class=&quot;lineno&quot;&gt;7&lt;/span&gt;   &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;8&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;As we can see, &lt;code&gt;Pygments&lt;/code&gt; rendered C-syntax (with line numbers) beautifully. Now, time for a trivia. Can you guess, how many programmers which are saved by C-syntax from obfuscating codes? Count me one!&lt;/p&gt;
+
+&lt;h4 id=&quot;c-macros-are-the-best&quot;&gt;&lt;strong&gt;2. C macros are the best&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;Macros is one of the most important preprocessor &lt;code&gt;#&lt;/code&gt; implementation in C. It can be used to create a fast function without putting everything on the stack. Check this out,&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;lineno&quot;&gt; 1&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;#include &amp;lt;stdio.h&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 2&lt;/span&gt; 
+&lt;span class=&quot;lineno&quot;&gt; 3&lt;/span&gt; &lt;span class=&quot;cm&quot;&gt;/* preprocessor for a logical OR */&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 4&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;#define MACRO_OR(a, b) (a || b)&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 5&lt;/span&gt; 
+&lt;span class=&quot;lineno&quot;&gt; 6&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 7&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 8&lt;/span&gt; 	&lt;span class=&quot;kt&quot;&gt;bool&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt; 9&lt;/span&gt; 	&lt;span class=&quot;kt&quot;&gt;bool&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;10&lt;/span&gt; 
+&lt;span class=&quot;lineno&quot;&gt;11&lt;/span&gt; 	&lt;span class=&quot;cm&quot;&gt;/* invoke the MACRO_OR */&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;12&lt;/span&gt; 	&lt;span class=&quot;kt&quot;&gt;bool&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;MACRO_OR&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;13&lt;/span&gt; 
+&lt;span class=&quot;lineno&quot;&gt;14&lt;/span&gt; 	&lt;span class=&quot;n&quot;&gt;return0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;15&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;In &lt;strong&gt;line:4&lt;/strong&gt;, we define the macro function &lt;code&gt;MACRO_OR&lt;/code&gt; that takes &lt;em&gt;a&lt;/em&gt; and &lt;em&gt;b&lt;/em&gt; as an input. Then, this macro will return the logical &lt;code&gt;OR&lt;/code&gt; result from &lt;em&gt;a&lt;/em&gt; and &lt;em&gt;b&lt;/em&gt;. Super neat!&lt;/p&gt;
+
+&lt;p&gt;In &lt;strong&gt;line:12&lt;/strong&gt;, the macro is invoked to compute the logical &lt;code&gt;OR&lt;/code&gt; between &lt;em&gt;a&lt;/em&gt; and &lt;em&gt;b&lt;/em&gt; and return the result to &lt;em&gt;c&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;c-is-small&quot;&gt;&lt;strong&gt;3. C is small&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;C utilised merely variables, macros, functions and structures. Therefore, C is considered small in size, complexity and that much of it. Due to this, C has been heavily used on embedded system, modern microprocessor, even modern &lt;code&gt;Arduino&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;More about this, lot of parallel programming languages, OpenMP, OpenCL, CUDA, etc, are based on C language due to its relative connection to lower level hardware compared with other languages.&lt;/p&gt;
+
+&lt;h4 id=&quot;c-is-root-of-all-goodness&quot;&gt;&lt;strong&gt;4. C is root of all goodness&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;You can pretty much stand on opinion that C is different compared to &lt;em&gt;C++&lt;/em&gt; or &lt;em&gt;ObjectiveC&lt;/em&gt;, but from pedagogical approach, lot of programming expert will tell you to learn basic things from C, e.g. &lt;em&gt;overflow&lt;/em&gt;, &lt;em&gt;memory addressing&lt;/em&gt;, &lt;em&gt;pointer&lt;/em&gt;, &lt;em&gt;profiling&lt;/em&gt; and &lt;em&gt;debugging&lt;/em&gt;. A true concept of those languages can be learned from C.&lt;/p&gt;
+
+&lt;h4 id=&quot;c-is-still-alive-and-sound&quot;&gt;&lt;strong&gt;5. C is still alive and sound&lt;/strong&gt;&lt;/h4&gt;
+
+&lt;p&gt;The number one reason C is the best programming language today is still the fact that it simply powers everything. From your phone to your &lt;code&gt;Wii&lt;/code&gt;, no other language provides the level of hardware interaction with the practicality of a concise and expressive syntax. Unless you’re still using an early &lt;code&gt;IBM&lt;/code&gt; (please switch soon, if so), the screen you’re reading this article on is probably powered by C.&lt;/p&gt;
+
+&lt;p&gt;With C, we can forget writing thousands of complex &lt;em&gt;Assembly&lt;/em&gt; routines, thousands of processor-specific instructions, and spaghetti like code. Because of C, the CPU, memory, and graphics cards have turned from their messy, low-level pasts into an easier, readable format&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;/blog/c-tutor-1/&quot;&gt;C Tutorial #1 | Getting Acquintance&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 02, 2015.&lt;/p&gt;
+  </content>
+</entry>
 
 
   
@@ -825,7 +904,7 @@ d3.select(&quot;div.second&quot;)
 &lt;p&gt;Jadi kembali ke penyakit hati, &lt;strong&gt;Rasulullah SAW&lt;/strong&gt; bersabda,&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;”…bahwa dalam diri setiap manusia terdapat segumpal daging, apabila ia baik maka baik pula seluruh amalnya, dan apabila ia itu rusak maka rusak pula seluruh perbuatannya. Gumpalan daging itu adalah hati.”&lt;/em&gt;
+  &lt;p&gt;&lt;em&gt;“…bahwa dalam diri setiap manusia terdapat segumpal daging, apabila ia baik maka baik pula seluruh amalnya, dan apabila ia itu rusak maka rusak pula seluruh perbuatannya. Gumpalan daging itu adalah hati.”&lt;/em&gt;
 (HR Imam Al-Bukhari)&lt;/p&gt;
 &lt;/blockquote&gt;
 
