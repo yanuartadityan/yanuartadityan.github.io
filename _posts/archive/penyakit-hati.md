@@ -2,7 +2,7 @@
 layout: post
 title: "Penyakit Hati?"
 modified:
-category: blog
+category: archive
 excerpt: "A good qalbu leads a good deed"
 tags: [sweden, life, islam]
 image:

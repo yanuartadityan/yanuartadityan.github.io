@@ -4,13 +4,60 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2015-10-05T09:36:22+02:00</updated>
+<updated>2015-10-05T10:46:59+02:00</updated>
 <id>/</id>
 <author>
   <name>Yanuar Aditya</name>
   <uri>/</uri>
   <email>yanuart.adityan@gmail.com</email>
 </author>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Avoid Misconceptions from Now]]></title>
+  <link rel="alternate" type="text/html" href="/blog/misconceptions/" />
+  <id>/blog/misconceptions</id>
+  <published>2015-10-04T00:00:00+02:00</published>
+  <updated>2015-10-04T00:00:00+02:00</updated>
+  <author>
+    <name>Yanuar Aditya</name>
+    <uri></uri>
+    <email>yanuart.adityan@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Is &lt;code&gt;CPU&lt;/code&gt; the whole computers? Or just a jargon for processor? 
+Is by clicking &lt;code&gt;refresh&lt;/code&gt; button rapidly will make your system faster? 
+Is it correct, more &lt;code&gt;GHz&lt;/code&gt; will always give you faster overall performance?
+Which one is to use, &lt;code&gt;byte&lt;/code&gt; or &lt;code&gt;bit&lt;/code&gt;?
+How &lt;code&gt;RAM&lt;/code&gt; works similar as compared in an analogy to the famous librarian?&lt;/p&gt;
+
+&lt;p&gt;All of those questions are quite common to be found almost anywhere. I thought at first, those are misconceptions about computer that will not happen when I am in Sweden. A friend of mine told me when he brought his broken PC to one of the electronic retail store here to let them fix it, when he told me he heard the IT-guy said,&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Allright, we will try to fix your CPU as soon as possible. I’ll let you know afterward.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Well, how many people consider CPU as a whole computer? Probably most of you are doing this all the time. Sometimes, I do too. Even, this misconception has occurred since long time ago and I think, even for IT-guy, it is better for him to use it as if he mentioned something technically correct, &lt;em&gt;e.g&lt;/em&gt; desktop or machine, will be deemed too uncommon for most of people.&lt;/p&gt;
+
+&lt;p&gt;In one of opportunities to talk in front of people, I brought this misconceptions material. I’ve compiled some quite common misconceptions, especially about basic computer organizations and explain more about how computer do this and that to give audience better understanding about how computer works.&lt;/p&gt;
+
+&lt;iframe src=&quot;//slides.com/yanuartriadityanugraha/adoption-of-hybrid-electric-cars/embed&quot; width=&quot;576&quot; height=&quot;420&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;You see, now there are more computers than world’s population. By bringing this fact, I would like to stand on my opinion that humans, no matter what background we are, we will encounter computers anywhere and anytime. Yeah, they don’t have soul, but people made computers not just to help us, but if we think, without computers, we couldn’t as efficient as today. We couldn’t talk to relatives thousand miles away, we couldn’t share what inside our heads, i couldn’t write things like this and you’re reading it now.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Love your computers, love your electronic devices, become better users and be better at troubleshooting your own goods.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Cheers and tack så mycket!&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/blog/misconceptions/&quot;&gt;Avoid Misconceptions from Now&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 04, 2015.&lt;/p&gt;
+  </content>
+</entry>
 
 
   
@@ -52,6 +99,14 @@
 &lt;p&gt;&lt;strong&gt;line:05&lt;/strong&gt; shows the invocation of function &lt;code&gt;printf&lt;/code&gt; and an argument &lt;code&gt;&quot;Hi, world\n&quot;&lt;/code&gt;. This function is called from the library &lt;code&gt;stdio.h&lt;/code&gt; that is described from &lt;strong&gt;line:01&lt;/strong&gt;. &lt;code&gt;printf&lt;/code&gt; prints output to the screen, in this case, strings from our argument between quotes &lt;code&gt;&quot; &quot;&lt;/code&gt;. &lt;code&gt;\n&lt;/code&gt; tells &lt;code&gt;printf&lt;/code&gt; to give a newline after printing the argument.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;line:07&lt;/strong&gt; with &lt;code&gt;return&lt;/code&gt; statement terminates the execution. However, as the name implies, &lt;code&gt;return&lt;/code&gt; gives certain value back to the calling function. If you call a function A within function &lt;code&gt;main&lt;/code&gt;, and you invoke &lt;code&gt;return value&lt;/code&gt; from within A, then &lt;code&gt;main&lt;/code&gt; will get the value that computed inside A. More detailed about return statement can be found on &lt;a href=&quot;https://en.wikipedia.org/wiki/Return_statement&quot;&gt;Wiki&lt;/a&gt; page.&lt;/p&gt;
+
+&lt;p&gt;Also, one thing to notice about C-syntax is, it does not care about spaces.&lt;/p&gt;
+
+&lt;noscript&gt;&lt;pre&gt;400: Invalid request
+&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/9b9901f6c2fcca06851b.js&quot;&gt; &lt;/script&gt;
+
+&lt;p&gt;Those lines will resulted on same result with previous codes. But, remember humans will read your codes as well. So, keep it mind to make readable codes for your colleagues, friend or bosses.&lt;/p&gt;
 
 &lt;p&gt;Next, we will go through the basic compilation using command line with &lt;code&gt;gcc&lt;/code&gt;.&lt;/p&gt;
 
@@ -870,519 +925,6 @@ d3.select(&quot;div.second&quot;)
 
 
     &lt;p&gt;&lt;a href=&quot;/blog/first-d3js/&quot;&gt;d3.js on Jekyll&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on April 01, 2015.&lt;/p&gt;
-  </content>
-</entry>
-
-
-  
-
-<entry>
-  <title type="html"><![CDATA[Penyakit Hati?]]></title>
-  <link rel="alternate" type="text/html" href="/blog/penyakit-hati/" />
-  <id>/blog/penyakit-hati</id>
-  <published>2015-03-25T00:00:00+01:00</published>
-  <updated>2015-03-25T00:00:00+01:00</updated>
-  <author>
-    <name>Yanuar Aditya</name>
-    <uri></uri>
-    <email>yanuart.adityan@gmail.com</email>
-  </author>
-  <content type="html">
-    &lt;hr /&gt;
-&lt;section id=&quot;table-of-contents&quot; class=&quot;toc&quot;&gt;
-  &lt;header&gt;
-    &lt;h3&gt;Penyakit Hati&lt;/h3&gt;
-  &lt;/header&gt;
-&lt;div id=&quot;drawer&quot;&gt;
-&lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#introduction&quot; id=&quot;markdown-toc-introduction&quot;&gt;Introduction&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#tanda-tanda-hati-yang-kotor&quot; id=&quot;markdown-toc-tanda-tanda-hati-yang-kotor&quot;&gt;Tanda Tanda Hati yang Kotor&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#riya&quot; id=&quot;markdown-toc-riya&quot;&gt;Riya’&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#perbedaan-mendasar-riya-dan-perbuatan-terpuji&quot; id=&quot;markdown-toc-perbedaan-mendasar-riya-dan-perbuatan-terpuji&quot;&gt;Perbedaan mendasar Riya’ dan perbuatan terpuji&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#bentuk-riya&quot; id=&quot;markdown-toc-bentuk-riya&quot;&gt;Bentuk Riya’&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#ciri-ciri-orang-riya-dan-tanda&quot; id=&quot;markdown-toc-ciri-ciri-orang-riya-dan-tanda&quot;&gt;Ciri-ciri orang Riya’ dan Tanda&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#bahaya-riya&quot; id=&quot;markdown-toc-bahaya-riya&quot;&gt;Bahaya Riya’&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#mitigasi-riya&quot; id=&quot;markdown-toc-mitigasi-riya&quot;&gt;Mitigasi Riya’&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#jaga-lisan&quot; id=&quot;markdown-toc-jaga-lisan&quot;&gt;Jaga Lisan&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#bersyukur&quot; id=&quot;markdown-toc-bersyukur&quot;&gt;Bersyukur&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#ghibah&quot; id=&quot;markdown-toc-ghibah&quot;&gt;Ghibah&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#definisi-ghibah-dari-rasulullah&quot; id=&quot;markdown-toc-definisi-ghibah-dari-rasulullah&quot;&gt;Definisi Ghibah dari Rasulullah&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#dalil-dan-hadits-yang-melarang-ghibah&quot; id=&quot;markdown-toc-dalil-dan-hadits-yang-melarang-ghibah&quot;&gt;Dalil dan Hadits yang Melarang Ghibah&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#jenis-ghibah&quot; id=&quot;markdown-toc-jenis-ghibah&quot;&gt;Jenis Ghibah&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#dalil-tentang-haramnya-ghibah&quot; id=&quot;markdown-toc-dalil-tentang-haramnya-ghibah&quot;&gt;Dalil tentang Haramnya Ghibah&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#ghibah-boleh-untuk&quot; id=&quot;markdown-toc-ghibah-boleh-untuk&quot;&gt;Ghibah Boleh untuk?&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#dosa-ghibah&quot; id=&quot;markdown-toc-dosa-ghibah&quot;&gt;Dosa Ghibah?&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#bagaimana-sebagai-pendengar&quot; id=&quot;markdown-toc-bagaimana-sebagai-pendengar&quot;&gt;Bagaimana sebagai Pendengar?&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#cara-bertobat-dari-ghibah&quot; id=&quot;markdown-toc-cara-bertobat-dari-ghibah&quot;&gt;Cara Bertobat dari Ghibah&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#ujub&quot; id=&quot;markdown-toc-ujub&quot;&gt;Ujub&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#faktor-penyebab-ujub&quot; id=&quot;markdown-toc-faktor-penyebab-ujub&quot;&gt;Faktor Penyebab Ujub&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#bahaya-ujub&quot; id=&quot;markdown-toc-bahaya-ujub&quot;&gt;Bahaya Ujub&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#mitigasi-ujub&quot; id=&quot;markdown-toc-mitigasi-ujub&quot;&gt;Mitigasi Ujub&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#penutup&quot; id=&quot;markdown-toc-penutup&quot;&gt;Penutup&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#appendix&quot; id=&quot;markdown-toc-appendix&quot;&gt;Appendix&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#tanda-tanda-ahlul-bidah&quot; id=&quot;markdown-toc-tanda-tanda-ahlul-bidah&quot;&gt;Tanda-tanda Ahlul Bid’ah&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-  &lt;/div&gt;
-&lt;/section&gt;
-&lt;!-- /#table-of-contents --&gt;
-
-&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
-
-&lt;p&gt;Di dalam setiap diri manusia, terdapatlah yang namanya hati. Di dalam bahasa Arab disebut sebagai qalbu. Tetapi dalam penggunaannya biasanya menggunakan ‘kibd’.&lt;/p&gt;
-
-&lt;p&gt;Dalam bahasa Indonesia, hati sendiri merupakan terjemahan dari ‘heart’ dalam bahasa Inggris, yang berarti jantung. Sedangkan qalbu sendiri ditulis dengan ‘q’ karena teks Arabnya berasal dari ‘qaf’. Namun, seringkali kita dapati di dalam bahasa Indonesia, ‘q’ diadaptasikan menjadi ‘k’, sehingga menjadi kalbu. Padahal kalbu sendiri maknanya ‘anjing’ di dalam bahasa Arab. Walaupun tidak ada definisi di dalam kamus besar bahasa Indonesia bahwa kalbu diartikan anjing, namun untuk konteks Islam sebagai agama multinasional, pengucapan kalbu lebih baik diperbaiki mengikuti kaidah bahasa arabnya langsung. Terutama ‘qaf’ sendiri dalam bahasa Indonesia ada representasinya, yaitu ‘q’.&lt;/p&gt;
-
-&lt;p&gt;Tetapi sebaiknya tidak usah pula kita meributkan permasalahan arti dan makna dari qalbu itu sendiri. Karena selama kita berniat untuk memberitakan yang baik dan selama pendengar meyakini apa yang kita bawa adalah positif, maka tentu tidak jadi masalah. Apalah arti sebuah nama.&lt;/p&gt;
-
-&lt;p&gt;AA Gym juga adalah contoh orang yang tidak mempermasalahkan penggunaan qalbu atau kalbu. Beliau sendiri terdengar menggunakan kalbu dalam setiap bahasan tausiyah beliau. Namun tidak pernah sedikitpun beliau menyisipkan berita anjing disetiap tausiyah beliau.&lt;/p&gt;
-
-&lt;p&gt;Jadi kembali ke penyakit hati, &lt;strong&gt;Rasulullah SAW&lt;/strong&gt; bersabda,&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;“…bahwa dalam diri setiap manusia terdapat segumpal daging, apabila ia baik maka baik pula seluruh amalnya, dan apabila ia itu rusak maka rusak pula seluruh perbuatannya. Gumpalan daging itu adalah hati.”&lt;/em&gt;
-(HR Imam Al-Bukhari)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Boleh diartikan dari hadits tersebut bahwa jika manusia mempunyai penyakit hati, dimana boleh diartikan bahwa mempunyai hati yang rusak, maka akan rusaklah semua perbuatannya. Semua diawali dari hati nurani setiap individu. Ketika ketika sudah mempunyai niat jelek dari hati, maka segeralah kita istighfar dan mengingat akan bahaya yang bisa disebabkan.&lt;/p&gt;
-
-&lt;p&gt;Yang menarik lagi, jika kita baca cuilan hadits diatas versi lengkapnya,&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;“Sesungguhnya, yang &lt;strong&gt;halal&lt;/strong&gt; itu jelas dan yang &lt;strong&gt;haram&lt;/strong&gt; itupun jelas. Di antara yang halal dan haram ada beberapa hal yang &lt;strong&gt;syubhat&lt;/strong&gt;, yang tidak diketahui banyak orang. Maka &lt;strong&gt;barangsiapa yang menjaga dirinya dari perbuatan-perbuatan syubhat&lt;/strong&gt;, maka ia telah melepaskan dirinya dari melakukan sesuatu yang mencemarkan agama serta kehormatannya. Dan barangsiapa yang telah &lt;strong&gt;jatuh dalam syubhat-syubhat&lt;/strong&gt;, maka jatuhlah ia dalam &lt;strong&gt;keharaman&lt;/strong&gt;, sebagaimana halnya seorang &lt;strong&gt;penggembala&lt;/strong&gt; yang menggembala di sekitar &lt;strong&gt;tempat yang terlarang&lt;/strong&gt;, hampir saja ternaknya itu makan dari tempat larangan tadi. Ingatlah bahwa setiap raja itu mempunyai larangan-larangan. Ingatlah bahwa larangan-larangan Allah adalah apa yang diharamkan oleh-Nya. Ingatlah bahwa di dalam tubuh manusia itu ada &lt;strong&gt;segumpal daging&lt;/strong&gt;, apabila gumpalan daging itu baik, maka baiklah seluruh tubuh. Dan apabila gumpalan daging itu rusak, maka rusaklah seluruh tubuh. Ingatlah bahwa &lt;strong&gt;gumpalan daging itu adalah hati&lt;/strong&gt;.”&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Dari hadits di atas, ketika manusia dihadapkan terhadap sesuatu yang &lt;em&gt;syubhat&lt;/em&gt; atau ambigu, terutama untuk contoh kasus halal dan haram. Peran hati nurani kita sangat krusial dalam menentukan apakah kita masuk ke tipe orang yang jatuh ke dalam &lt;em&gt;syubhat&lt;/em&gt; atau yang berhasil melepaskan diri darinya. Maka selayaknya hadits diatas bisa selalu menjadi pengingat kita tatkala kualitas hati nurani atau qalbu kita sedang diuji.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;From &lt;strong&gt;good qalbu&lt;/strong&gt;, comes &lt;strong&gt;good deeds&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;tanda-tanda-hati-yang-kotor&quot;&gt;Tanda Tanda Hati yang Kotor&lt;/h3&gt;
-
-&lt;p&gt;Kita terlahir sebagai manusia yang fitrah, atau dalam artian, kita lahir dalam keadaan yang suci, belum mengenal namanya dosa. Atau lebih tepatnya kita belum mengenal dan mengetahui mana yang baik dan mana yang benar, karena kita belum berakal.&lt;/p&gt;
-
-&lt;p&gt;Tetapi di dalam perjalanan hidup, manusia sering lalai dan lupa dalam menjalankan perintah agama kita sehingga terjerumus ke dalam ‘syaithoniyah’. Ada beberapa tanda manusia yang terjerumus ke dalam ‘syaithoniyah’&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Mengaku kenal Allah SWT, tetapi tidak menunaikan hak-hak-Nya.&lt;/li&gt;
-  &lt;li&gt;Mengaku cinta kepada Rasulullah SAW, tetapi mengabaikan sunnah baginda.&lt;/li&gt;
-  &lt;li&gt;Membaca al-Quran, tetapi tidak beramal dengan hukum-hukum di dalamnya.&lt;/li&gt;
-  &lt;li&gt;Memakan nikmat-nikmat Allah SWT, tetapi tidak mensyukuri atas pemberian-Nya.&lt;/li&gt;
-  &lt;li&gt;Mengaku syaitan itu musuh, tetapi tidak berjuang menentangnya.&lt;/li&gt;
-  &lt;li&gt;Mengaku adanya nikmat syurga, tetapi tidak beramal untuk mendapatkannya.&lt;/li&gt;
-  &lt;li&gt;Mengaku adanya seksa neraka, tetapi tidak berusaha untuk menjauhinya.&lt;/li&gt;
-  &lt;li&gt;Mengaku kematian pasti tiba bagi setiap jiwa, tetapi masih tidak bersedia untuknya.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Menyibukkan diri membuka keaiban orang lain, tetapi lupa akan keaiban diri sendiri.&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Menghantar dan menguburkan jenazah/mayat saudara se-Islam, tetapi tidak mengambil pengajaran daripadanya.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Pada kesempatan kali ini saya akan menjelaskan sedikit tentang beberapa penyakit hati yang cukup kita kenal. Ada banyak sekali jenis-jenis penyakit hati yang kita kenal. Seperti layaknya penyakit yang menyerang jasmani manusia, ada banyak sekali ragamnya. Penyakit hati pun ada yang menular, persisten dan ada level-level konsekuensinya.&lt;/p&gt;
-
-&lt;p&gt;Beberapa jenis penyakit hati yang populer menyerang hati kita antara lain:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Riya’&lt;/li&gt;
-  &lt;li&gt;Syirik&lt;/li&gt;
-  &lt;li&gt;Sombong&lt;/li&gt;
-  &lt;li&gt;Ujub&lt;/li&gt;
-  &lt;li&gt;Hasad&lt;/li&gt;
-  &lt;li&gt;Ghibah&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Tetapi yang saya pilih untuk tausiyah ini hanya 3 saja, yaitu Riya’, Ghibah, dan Ujub.&lt;/p&gt;
-
-&lt;h2 id=&quot;riya&quot;&gt;Riya’&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Riya’&lt;/strong&gt; dalam bahasa berarti pamer, memperlihatkan sesuatu yang bukan sebenarnya. Dalam Islam sendiri riya’ berarti memperlihatkan suatu amal salih dan ibadah bukan karena Allah tetapi dengan harapan mendapatkan pujian atau penghargaan dari orang lain.&lt;/p&gt;
-
-&lt;p&gt;Sementara  memperdengarkan ucapan tentang ibadah dan amal salehnya kepada orang lain disebut &lt;strong&gt;sum’ah&lt;/strong&gt; (ingin didengar).&lt;/p&gt;
-
-&lt;p&gt;Baik riya’ maupun sum’ah, kedua-duanya termasuk perbuatan yang dilarang oleh Islam dan hukumnya haram. Kedua-duanya termasuk dosa syirik kecil yang dijelaskan mudharatnya di dalam QS An Nisa 142:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Sesungguhnya orang-orang munafik itu menipu Allah, dan Allah akan membalas tipuan mereka. Dan jika mereka berdiri untuk shalat mereka berdiri dengan malas, mereka bermaksud riya’ ( dengan shalat itu ) dihadapan manusia, dan tidaklah mereka dzikir kepada Allah kecuali sedikit sekali.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Konteks riya’ pun sering ditemukan di dalam pencarian mati syahid. Mati syahid sendiri artinya muslim yang meninggal dunia ketika berperang atau berjuang di jalan Allah membela kebenaran atau mempertahankan hak dengan penuh kesabaran dan keikhlasan untuk menegakkan agama Allah. Siapa yang berjuang membela harta miliknya, jiwanya, keluarganya, agamanya, dan meninggal dalam perjuangannya itu, maka ia meninggal &lt;em&gt;fi sabilillah&lt;/em&gt; atau mati syahid. Mati syahid merupakan cita-cita tertinggi umat Islam. Salah satu jalan menuju mati syahid adalah berjuang di jalan Allah. Namun Rasulullah bercerita:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;”Di hari kiamat nanti ada orang yang mati syahid diperintahkan oleh Allah untuk masuk ke neraka. Lalu orang itu melakukan protes, ‘Wahai Tuhanku, aku ini telah mati syahid dalam perjuangan membela agama-Mu, mengapa aku dimasukkan ke neraka?’ Allah menjawab, ‘Kamu berdusta dalam berjuang. Kamu hanya ingin mendapatkan pujian dari orang lain, agar dirimu dikatakan sebagai pemberani. Dan, apabila pujian itu telah dikatakan oleh mereka, maka itulah sebagai balasan dari perjuanganmu’.”&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Singkatnya, orang yang berjuang atau beribadah demi sesuatu yang bukan ikhlas karena Allah SWT, dalam agama disebut riya’. Sepintas, sifat riya merupakan perkara yang sepele, namun akibatnya sangat fatal. Sifat riya dapat memberangus seluruh amal kebaikan, bagaikan air hujan yang menimpa debu di atas bebatuan.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;”Dan Kami hadapi segala amal yang mereka kerjakan, lalu Kami jadikan amal itu (bagaikan) debu yang beterbangan”. (QS. Al-Furqan : 23)”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Rasulullah SAW bercerita kepada sahabat:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Rasulullah: 	“Takutlah kamu kepada syirik kecil.”
-Sahabat:		“Wahai Rasulullah, apa yang dimaksud dengan syirik kecil itu?”
-Rasulullah: 	“Yaitu sifat &lt;strong&gt;riya’&lt;/strong&gt;. Kelak di hari pembalasan, Allah mengatakan kepada mereka yang memiliki sifat &lt;strong&gt;riya’&lt;/strong&gt;, &lt;em&gt;‘pergilah kalian kepada mereka, di mana kalian pernah memperlihatkan amal kalian kepada mereka semasa di dunia. Lihatlah apakah kalian memperoleh imbalan pahala dari mereka’&lt;/em&gt;”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;perbedaan-mendasar-riya-dan-perbuatan-terpuji&quot;&gt;Perbedaan mendasar Riya’ dan perbuatan terpuji&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Terpuji&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Riya’&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Niat karena Allah&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Niat bukan karena Allah&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Ikhlas&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Tidak ikhlas&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Sesuai dengan kemampuan&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Mengada-ada&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Tidak pilih kasih&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Pilih kasih&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Rahmat bagi semesta alam&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Mengharap imbalan/pujian&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&quot;bentuk-riya&quot;&gt;Bentuk Riya’&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Riya’ dalam Niat&lt;/strong&gt;
-  Ria yang berkaitan dengan hati, maksud ria dalam niat, yaitu sejak awal perbuatan bahkan yang dilakukannya tidak didasari ikhlas sebelumnya sudah didasari ria. Yang mengetahui hanya Allah SWT dan dirinya saja. Apabila seseorang ingin melakukan amal perbuatan baik atau tidak tergantung pada niat&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Riya’ dalam Perbuatan&lt;/strong&gt;
-  Yaitu memamerkan atau menunjukkan perbuatan di depan orang banyak, agar perbuatan tersebut dipuji, diperhatikan, dan disanjung orang lain.
-Di antara contoh riya dalam perbuatan, bila seorang pelajar terlihat belajar dengan sungguh-sungguh hanya karena ingin mendapat nilai yang bagus. Dan dia melakukan hal itu kepada orang tuanya hanya karena ingin mendapatkan apa yang dia minta dari orang tuanya cepat-cepat terkabul.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;ciri-ciri-orang-riya-dan-tanda&quot;&gt;Ciri-ciri orang Riya’ dan Tanda&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Tidak akan berbuat baik jika tidak dilihat orang atau tidak ada imbalan.&lt;/li&gt;
-  &lt;li&gt;Melakukan amal saleh tanpa dasar, ikut-ikutan.&lt;/li&gt;
-  &lt;li&gt;Tampak rajin penuh semangat hanya di kulit.&lt;/li&gt;
-  &lt;li&gt;Ucapannya selalu menunjukkan bahwa dia yang paling hebat, paling tinggi dan paling mampu.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Ali bin Abi Thalib ra. pernah berkata:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;“Orang yang riya itu memiliki tiga ciri, yaitu malas beramal ketika sendirian dan giat beramal ketika berada di tengah-tengah orang ramai, menambah amaliyahnya ketika dirinya dipuji, dan mengurangi amaliyahnya ketika dirinya dicela.”&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;bahaya-riya&quot;&gt;Bahaya Riya’&lt;/h3&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Diri Sendiri&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Orang Lain&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Tidak pernah puas&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Konflik horisontal&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Sakit hati jika tidak dihargai&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Kesan yang buruk&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Berujung ke kesombongan&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;-&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&quot;mitigasi-riya&quot;&gt;Mitigasi Riya’&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Niat HANYA karena Allah SWT
-  Kembalikan semua kepada Allah SWT. Sadar bahwa kita di dunia ini hanya sementara dan hanya karena Allah yang mengatur semua roda kehidupan.&lt;/li&gt;
-  &lt;li&gt;Kekuatan bacaan Basmallah
-  Dari maknanya sendiri, ucapan Basmallah membuat kita untuk selalu ingat akan Allah SWT bahwa Allah SWT Maha Pemurah dan Penyayang. Selain itu, dengan Basmallah, kita berarti meminta akan barokah yang lebih atas apa yang kita lakukan.&lt;/li&gt;
-  &lt;li&gt;Jaga lisan,  ketahuilah bahwa lidah itu tajam&lt;/li&gt;
-  &lt;li&gt;Biasakan diri ikhlas dan gemar menolong, tanpa didasari alasan&lt;/li&gt;
-  &lt;li&gt;Bersedekah untuk melatih keikhlasan, e.g. zakat&lt;/li&gt;
-  &lt;li&gt;Bersyukur&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;jaga-lisan&quot;&gt;Jaga Lisan&lt;/h4&gt;
-
-&lt;p&gt;Lisan jauh lebih tajam daripada pedang. Luka karena pedang bisa diobati, luka karena lisan akan terus terkenang.&lt;/p&gt;
-
-&lt;p&gt;Mu’adz bin Jabal pernah bertanya terhadap Rasulullah tentang hal-hal yang bisa membawa umatnya jauh dari pintu neraka dan membawa mereka lebih dekat ke pintu surga:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;“Pokok segala perkara adalah &lt;strong&gt;Islam&lt;/strong&gt;, tiangnya adalah &lt;strong&gt;shalat&lt;/strong&gt; dan puncaknya adalah &lt;strong&gt;jihad&lt;/strong&gt;. Sesuatu dapat membuat kalian memiliki semua itu. (Rasulullah memegang lidahnya lalu bersabda) Jagalah ini”&lt;/em&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Muadz bertanya: &lt;em&gt;Ya Nabi, apakah kita akan &lt;strong&gt;dihukum&lt;/strong&gt; atas apa yang kita &lt;strong&gt;ucapkan&lt;/strong&gt;? * 
-Beliau bersabda: *…adakah yang menyebabkan seseorang &lt;strong&gt;terjungkal&lt;/strong&gt; wajahnya di neraka selain &lt;strong&gt;buah dari lisan mereka&lt;/strong&gt;”&lt;/em&gt; (HR. Tirmizi)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Cerita berikutnya yaitu ketika sahabat bertanya tentang seorang wanita ahli sholat malam namun suka menganggu tetangga dengan lisannya. Rasulullah berkata, &lt;em&gt;”Dia di neraka!”&lt;/em&gt;. Kemudian sahabat bertanya tentang seseorang yang sedikit ibadahnya namun tidak suka menganggu tetangga dengan lisannya.  Rasulullah bersabda, &lt;em&gt;“Dia di surga!”.&lt;/em&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;“Yang paling banyak memasukkan manusia ke dalam neraka adalah dua lubang, yaitu mulut dan farji.”&lt;/em&gt; (HR Tirmidzi)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&quot;bersyukur&quot;&gt;Bersyukur&lt;/h4&gt;
-
-&lt;p&gt;Bersyukur adalah ungkapan terima kasih yang dihadapkan terhadap Allah SWT. Walaupun biasanya kita bersyukur jika mendapatkan rezeki, tetapi sebenarnya makna bersyukur bisa lebih dari sekedar berterima kasih atas rezeki yang diberikan.&lt;/p&gt;
-
-&lt;p&gt;Langkah konkrit awal untuk bersyukur, e.g. flashback ke beberapa tahun yang lalu ketika kita masih belum tahu akan masa depan kita. Kemudian sekarang, kita bisa melihat betapa banyak hal-hal, baik itu keinginan, cita-cita, pencapaian yang telah kita dapatkan. Semua itu sebenarnya bisa membuat kita sadar bahwa itu ada dan terwujud hanya karena ridho Allah SWT.&lt;/p&gt;
-
-&lt;p&gt;Syukur sendiri ada 3 jenis:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Syukur Hati
- Asal mula dan landasan semua syukur. Kata kunci disini adalah ‘sadar’, bahwa nikmat yang kita peroleh semua ini datang dari Allah SWT. Dari hal-hal kecil yang kita dapatkan, e.g. waktu untuk ibadah, pekerjaan, istri, dkk.&lt;/p&gt;
-
-    &lt;p&gt;Bahkan juga dianjurkan kita bersyukur ketika mendapat musibah atau malapetaka, bukan atas malapetakanya, tetapi melainkan karena kita bisa berasumsi, &lt;em&gt;it could be worse than this&lt;/em&gt;. Subhanallah.&lt;/p&gt;
-
-    &lt;p&gt;Bentuk perwujudan syukur hati yang paling mudah adalah sujud syukur. Boleh dilakukan dimana saja, kapanpun, boleh tidak berwudlu dahulu dan hanya sekali.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Syukur Lidah
- Kemudian terucap, paling sederhana dengan mengucap Hamdallah.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Syukur Perbuatan
- Contohnya adalah shalat, bekerja, zakat, dkk. Sebenarnya bekerja lebih mengarahkan kita untuk mensyukuri atas nikmat alam yang diberikan Allah SWT, hasil pertanian, perikanan dan hasil laut, dan hasil bumi lainnya.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&quot;ghibah&quot;&gt;Ghibah&lt;/h2&gt;
-
-&lt;p&gt;Ghibah, secara definisi bahasa berarti &lt;strong&gt;menggunjingkan&lt;/strong&gt; orang lain. Atau mungkin lebih dikenal dengan &lt;strong&gt;gosip&lt;/strong&gt;. Atau secara harfiah, berarti mengomongkan kejelekan dan aib orang lain supaya &lt;strong&gt;khalayak&lt;/strong&gt; tahu akan hal-hal tersebut.&lt;/p&gt;
-
-&lt;p&gt;Seringkali, setiap kali kita bertemu dengan teman-teman, tidak lengkap tanpa kita mengobrolkan orang lain (gosip). Walaupun gosip lebih disukai oleh kalangan perempuan, tetapi sebenarnya gosip sekarang lebih general dan bisa dilakukan oleh siapapun, perempuan dengan perempuan, perempuan dengan lelaki atau bahkan gosip ala lelaki dengan lelaki. Bentuk ghibah seringkali ditutupi dengan istilah &lt;strong&gt;curhat&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Perbuatan ghibah ini tidak hanya menimpa orang yang buta atau tidak peduli dengan agamanya, bahkan juga menimpa Muslimah yang telah mengerti tentang hukum-hukum agama ini. Di tempat pengajian mereka mendapat wejangan untuk berhati-hati dari membicarakan aib saudaranya sesama Muslim, mereka diberi peringatan dan ancaman untuk menjaga lisan. Namun ketika keluar dari tempat pengajian mereka tenggelam dalam perbuatan ini dengan sadar ataupun tanpa sadar. Dan memang &lt;strong&gt;setan&lt;/strong&gt; begitu bersemangat untuk &lt;strong&gt;menyesatkan anak Adam&lt;/strong&gt;, Wallahul Musta’an.&lt;/p&gt;
-
-&lt;h3 id=&quot;definisi-ghibah-dari-rasulullah&quot;&gt;Definisi Ghibah dari Rasulullah&lt;/h3&gt;
-
-&lt;p&gt;Kembali lagi ke penafsiran, tidak ada penafsiran terbaik tentang makna ghibah selain penafsiran Rasulullah SAW dalam hadits beliau. Bila ada penafsiran para ulama tentang ghibah maka tidak akan terlepas dari penafsiran beliau meski dengan ungkapan yang berbeda. Rasulullah SAW menjelaskan makna ghibah ini dalam sebuah hadits dari Abu Hurairah bahwa Rasulullah SAW bersabda:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;“Tahukah kalian apa yang dimaksud dengan ghibah?” Mereka berkata: “Allah dan Rasul-Nya yang lebih tahu.” Beliau bersabda: “Kamu menceritakan tentang saudaramu apa yang dia tidak sukai.” Dikatakan kepada beliau: “Bagaimana pendapat engkau bila apa yang aku katakan ada pada saudaraku itu?” Beliau menjawab: “Jika apa yang kamu katakan ada pada saudaramu maka kamu telah mengghibahinya, dan jika apa yang kamu katakan tidak ada pada dirinya, maka kamu telah berdusta.”&lt;/em&gt; (Shahih, HR. Muslim no. 2589, Abu Dawud no. 4874, dan At-Tirmidzi no. 1435)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;dalil-dan-hadits-yang-melarang-ghibah&quot;&gt;Dalil dan Hadits yang Melarang Ghibah&lt;/h3&gt;
-
-&lt;p&gt;Dari keterangan di atas, diambil kesimpulan bahwa makna ghibah adalah menceritakan seseorang kepada orang lain dan orang yang dijadikan objek pembicaraan tidak menyukai apa yang dibicarakan. Bila apa yang diceritakan tidak ada pada orang tersebut, ini merupakan dusta atas namanya dan tentu saja dosanya lebih besar dari yang pertama.&lt;/p&gt;
-
-&lt;h3 id=&quot;jenis-ghibah&quot;&gt;Jenis Ghibah&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;em&gt;Ghibah&lt;/em&gt;
-  Menceritakan apa yang ada&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Ifk&lt;/em&gt;
-  Meneruskan apa yang orang ceritakan&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Buhtaan&lt;/em&gt;
-  Menceritakan yang tidak apa adanya&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;dalil-tentang-haramnya-ghibah&quot;&gt;Dalil tentang Haramnya Ghibah&lt;/h3&gt;
-
-&lt;p&gt;Ada beberapa dalil dari Al Quran yang CUKUP JELAS mengatakan bahwa ghibah itu haram dan berbahaya. Salah satunya adalah dari QS Al Hujurat 12, berikut saya sajikan arti dan tafsirannya menurut Ibn’ Katsir.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;“Hai orang-orang yang beriman, jauhilah kebanyakan dari prasangka, sesungguhnya sebagian prasangka itu adalah dosa dan janganlah kamu mencari-cari kesalahan orang lain dan janganlah sebagian kamu menggunjing sebagian yang lain. Sukakah seorang dari kalian suka memakan daging saudaranya yang sudah mati? Maka tentulah kalian merasa jijik kepadanya. Bertaqwalah kalian kepada Allah. Sesungguhnya Allah itu Tawwab (Maha Penerima taubat) lagi Rahim (Maha Menyampaikan rahmat).”&lt;/em&gt; [QS Al Hujurat: 12]&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Jelas diberitakan dari cuplikan ayat tersebut bahwa ghibah haram, dari katan “janganlah kalian menggunjingkan satu sama lain”. Dari tafsir Ibn’ Katsir dan Al Qurthubi:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Hai orang-orang yang beriman, jauhilah kebanyakan dari prasangka”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Ayat ini diturunkan tentang 2 orang sahabat Nabi SAW yang menggunjing seorang temannya. Peristiwa itu bermula dari kebiasaan Rasulullah SAW saat melakukan perjalanan dimana Rasulullah SAW selalu menggabungkan seorang lelaki miskin kepada dua orang lelaki kaya, dimana lelaki miskin ini bertugas untuk melayani mereka.&lt;/p&gt;
-
-&lt;p&gt;Dalam kasus ini, Rasulullah SAW kemudian menggabungkan Salman kepada dua orang lelaki kaya. Singkat cerita, pada saat 2 orang lelaki kaya tersebut lapar (tidak ada lauk maupun makanan yang dapat dimakan), mereka meminta Salman untuk meminta makan kepada Rasulullah SAW. Kemudian Rasulullah SAW berkata, “Pergilah engkau kepada Usamah bin Zaid, katakanlah kepadanya, jika dia mempunyai sisa makanan, maka hendaklah dia memberikannya kepadamu.”&lt;/p&gt;
-
-&lt;p&gt;Setelah bertemu dengan Usamah, beliau mengatakan bahwa beliau tidak memiliki apapun. Akhirnya Salman kembali kepada dua lelaki kaya tersebut dan memberitahukan hal itu. Namun kedua lelaki itu berkata, “Sesungguhnya Usamah itu mempunyai sesuatu tapi dia itu kikir”. Selanjutnya mereka mengutus Salman ketempat sekelompok sahabat, namun Salman tidak menemukan apapun di tempat mereka.&lt;/p&gt;
-
-&lt;p&gt;Akhirnya kedua lelaki tersebut memata-matai Usamah untuk melihat apakah Usamah memiliki sesuatu atau tidak. Rasulullah SAW melihat mereka dan beliau bersabda, “Mengapa aku melihat daging segar di mulut kalian berdua?”. Mereka menjawab, “Wahai Nabi Allah, demi Allah, hari ini kami tidak makan daging atau yang lainnya.” Rasulullah SAW bersabda, “Tapi kalian sudah memakan daging Usamah dan Salman.” Maka turunlah ayat tersebut.&lt;/p&gt;
-
-&lt;p&gt;Maksud dari tafsir ini adalah: &lt;strong&gt;Jangan kalian mempunyai dugaan buruk terhadap orang yang baik, jika kalian tahu bahwa pada zahirnya mereka itu baik.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Bagi orang yang mengghibah, siksaannya adalah neraka. Seperti apa? Berikut cerita pengalaman Rasulullah SAW saat Isra’ Miraj.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;“Tatkala aku di-Mi’raj-kan (dibawa ke langit oleh Malaikat Jibril dalam peristiwa Isra’ Mi’ra), aku melewati suatu &lt;strong&gt;kaum&lt;/strong&gt; (di neraka, pent.) yang mereka memiliki &lt;strong&gt;kuku-kuku dari tembaga&lt;/strong&gt;. Dengan kuku-kuku tersebut mereka &lt;strong&gt;mencakari wajah dan dada mereka&lt;/strong&gt;. Maka aku bertanya kepada Jibril : “&lt;strong&gt;Siapa mereka&lt;/strong&gt; itu, wahai Jibril?” Jibril menjawab : “Mereka adalah orang-orang yang (ketika di dunia, pent.) &lt;strong&gt;memakan daging manusia&lt;/strong&gt; (berbuat ghibah, pent.) dan melanggar kehormatan manusia.”&lt;/em&gt; (HR. Abu Daud. Dishahihkan Asy Syaikh Albani dalam Shahih Sunan Abi Daud nomor 4082. As Shahihah nomor 533).&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Jadi intinya, prasangka yang dilarang adalah prasangka yang tidak memiliki tanda dan sebab yang pasti. Maksudnya, bila orang yang kita curigai itu pada zahirnya baik, tidak ada informasi sebelumnya tentang keburukan yang dia pernah lakukan, maupun tabiatnya yang memang tercela, serta memang orang tersebut adalah orang yang “baik” maka kita tidak boleh berprasangka buruk kepada orang tersebut. Berbeda bila orang tersebut memang terkenal akan keburukannya, suka menipu, suka berbuat onar, mencari masalah, yang pada intinya orang tersebut memang terkenal dengan tabiat buruknya, suka berbuat keburukan terang-terangan, maka diperbolehkan kita berhati-hati dan tidak mudah/langsung percaya terhadap apa yang informasinya.&lt;/p&gt;
-
-&lt;h3 id=&quot;ghibah-boleh-untuk&quot;&gt;Ghibah Boleh untuk?&lt;/h3&gt;
-
-&lt;p&gt;Ghibah ternyata dibolehkan dengan tujuan syariat yang tidak mungkin mencapai tujuan tersebut melainkan dengannya. Atau dengan kata lain, jika jalan menuju keadilan hanya terjadi jika ghibah adalah jalan satu-satunya.&lt;/p&gt;
-
-&lt;p&gt;Al Imam Nawawi ra (beliau adalah bapak Fiqih) dalam kitabnya Riyadlus Salihin menyebutkan beberapa perkara yang dikecualikan dari ghibah:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Menuntut keadilan&lt;/li&gt;
-  &lt;li&gt;Meminta tolong agar dilepaskan dari suatu perbuatan mungkar&lt;/li&gt;
-  &lt;li&gt;Meminta fatwa&lt;/li&gt;
-  &lt;li&gt;Pengingat
-    &lt;ol&gt;
-      &lt;li&gt;Kesalahan Perawi hadits&lt;/li&gt;
-      &lt;li&gt;Ketika musyawarah dalam mencari pasangan hidup, maka tidak apa-apa untuk tidak menyembunyikan fakta dari calon. Hal ini juga dilakukan oleh Rasulullah SAW ketika dimintai pendapat oleh Fathimah binti Qais ra dalam menentukan pilihan antara menerima pinangan &lt;strong&gt;Muawiyyah&lt;/strong&gt; atau &lt;strong&gt;Abu Jahm&lt;/strong&gt; ra. Maka Rasulullah SAW menasehatkan: 
- *“Adapun Muawiyyah, maka dia seorang yang fakir, tidak memiliki harta. Sedangkan Abu Jahm dia tidak pernah meletakkan tongkatnya dari pundaknya (yakni suka memukul wanita, pent.).” *(HR. Bukhari dan Muslim nomor 1480).&lt;/li&gt;
-      &lt;li&gt;Mengingatkan seseorang biar tidak terjebak oleh ahlul bid’ah.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Membuka tabir&lt;/li&gt;
-  &lt;li&gt;Sebagai tanda pengenal&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;dosa-ghibah&quot;&gt;Dosa Ghibah?&lt;/h3&gt;
-
-&lt;p&gt;Untuk dosa ghibah sendiri, masih menjadi bahan diskusi banyak ulama. Yang jelas adalah ketika bahan ghibah sendiri itu adalah dusta, maka yang jelas dosanya adalah besar, mengingat Allah sampai menyebut kata dusta sebanyak 11 kali di surah Al Mursalat. Bahkan Rasulullah SAW pun sering berucap &lt;em&gt;“Iyyakum Walkadziba”&lt;/em&gt;, yang berarti sekalinya kita berdusta, akan melahirkan dusta-dusta yang lain. Dusta membekaskan titik “nuqthoh” atau titik hitam permanen di qalbu kita. Nuqthoh ini yang menjadi salah satu sumber kegelisahan manusia.&lt;/p&gt;
-
-&lt;p&gt;Tapi untuk ghibah sendiri, tergantung apa yang dighibahi dan seberapa besar konsekuensinya. Jika yang dighibahi menjadi bahan sasaran murka orang banyak, tentu dosanya menjadi besar.&lt;/p&gt;
-
-&lt;h3 id=&quot;bagaimana-sebagai-pendengar&quot;&gt;Bagaimana sebagai Pendengar?&lt;/h3&gt;
-
-&lt;p&gt;Lalu bagaimana kalau kita yang terlibat dalam suatu pembicaraan ghibah? Ketika kita menjadi pendengar. Apa dan bagaimana seharusnya yang harus kita lakukan?&lt;/p&gt;
-
-&lt;p&gt;Sekali lagi Al Imam Nawawi ra dalam Al Adhkar:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“Ketahuilah sebagaimana ghibah itu diharamkan bagi pelakunya, diharamkan pula bagi pendengar untuk mendengarkannya. Maka wajib bagi orang yang mendengar seseorang ingin berbuat ghibah untuk melarangnya apabila ia tidak mengkhawatirkan terjadinya mudlarat.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Apabila ia khawatir terjadi mudlarat maka hendaknya ia mengingkarinya dengan hatinya dan meninggalkan majelis itu bila memungkinkan.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Apabila ia mampu untuk mengingkari dengan lisannya atau memotong pembicaraan ghibah dengan membelokkan pada pembicaraan lain, maka wajib baginya untuk melakukannya. Bila tidak ia lakukan maka sungguh ia telah bermaksiat.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Apabila ia berkata dengan lisannya : ‘Diam’ (berhentilah dari ghibah) sementara hatinya menginginkan ghibah itu diteruskan, maka yang demikian itu adalah nifak dan pelakunya berdosa. Seharusnya ketika lisan melarang, hati pun turut mengingkari.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Namun, apabila kita tahu akan mendengar ghibah, tetapi tidak memungkinkan untuk mendiamkan atau meninggalkan tempat, maka wajib bagi kita untuk mengingkari pendengaran atau perhatian kita ke pembicaraan ghibah tersebut. Karena kita tahu sendiri bahwa sesuai &lt;strong&gt;QS Al Isra’ 36&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;“Sesungguhnya pendengaran, penglihatan, dan hati, semuanya itu akan diminta pertanggungjawabannya.”&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;cara-bertobat-dari-ghibah&quot;&gt;Cara Bertobat dari Ghibah&lt;/h3&gt;
-
-&lt;p&gt;Jadi ada dua pendapat tentang bagaimana cara bertobat dari perbuatan ghibah.&lt;/p&gt;
-
-&lt;p&gt;Pertama, kita harus memberitahu atau jujur terhadap orang yang kita ghibahi. Dengan berharap serta memohon maaf terhadap perbuatan ghibah kita tersebut.&lt;/p&gt;
-
-&lt;p&gt;Kedua, jika yang dighibahi belum tahu akan dia sedang dighibahi, maka kita tidak perlu untuk memberitahu bahwa dia sedang dighibahi oleh kita, namun cukup dengan kita memberitakan kebaikan-kebaikan dia di tempat yang sama dengan tempat dimana kita menghibahinya.&lt;/p&gt;
-
-&lt;h2 id=&quot;ujub&quot;&gt;Ujub&lt;/h2&gt;
-
-&lt;p&gt;Ujub adalah perbuatan mengagumi diri sendiri. Dalam konteks ketika merasa bahwa diri ketika melebihi kelebihan tertentu yang tidak dimiliki oleh orang lain.&lt;/p&gt;
-
-&lt;p&gt;Imam Al Ghozali berkata bahwa “Perasaan ‘ujub adalah kecintaan seseorang pada suatu karunia dan merasa memilikinya sendiri, tanpa mengembalikan keutamaannya kepada Allah SWT.”&lt;/p&gt;
-
-&lt;p&gt;Kita sebagai manusia, kita tahu bahwa setiap manusia adalah unik. Kita diciptakan berbeda-beda, walaupun hanya diciptakan sebagai lelaki atau perempuan. Namun pantasnya kita bertanya ke diri kita, milik siapakah kelebihan-kelebihan (dan juga kekurangan-kekurangan tersebut)? Jelas Allah SWT, seperti yang telah dituliskan dalam QS Al Maidah 120:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;“Bagi Allah semua kerajaan langit dan bumi dan apa yang ada di antaranya.”&lt;/em&gt; (QS. Al Maidah : 120)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;faktor-penyebab-ujub&quot;&gt;Faktor Penyebab Ujub&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Ingin banyak dipuji orang
- Dengan terlalu banyak dipuji orang, maka akan lebih mudah bagi orang tersebut untuk semakin lupa daratan, semakin lupa dimanakah dia berdiri. Apakah tujuan hidup dan tujuan asli dalam setiap langkahnya, karena semua akan menjadi bias. Pendek kata, membuat orang semakin malas mengejar target, adanya malah mengejar pujian.&lt;/li&gt;
-  &lt;li&gt;Persaingan
- Karena suatu persaingan horizontal, manusia yang rentan terhadap ujub, cenderung mengikuti hal-hal yang bid’ah demi bisa bersanding dengan idolanya atau dengan orang yang memotivasinya. Tanpa niat yang baik, maka ini bisa membuat manusia menjadi ujub.&lt;/li&gt;
-  &lt;li&gt;Kekuasaan
- Posisi. Dengan posisi, seperti posisi dalam kasta masyarakat, semakin tinggi cenderung memberikan exposure yang lebih bagi seseorang untuk menjadi lebih arogan dan menunjukkan kekuasannya. Contoh yang paling terkenal disini adalah Raja Namrud, yang menyebut dirinya sebagai Tuhan.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;bahaya-ujub&quot;&gt;Bahaya Ujub&lt;/h3&gt;
-
-&lt;p&gt;Bahaya ujub sebenarnya hampir sama dengan dosa-dosa dari penyakit hati lainnya. Tetapi ada beberapa jenis bahaya yang lebih spesifik untuk ujub, antara lain:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Lupa introspeksi diri&lt;/strong&gt;. Bahaya pertama dari ujub adalah membuat kita lupa akan diri sendiri, lupa untuk menjadi pribadi yang lebih baik dan mengurangi pergaulannya dengan orang-orang yang dianggap lebih tidak baik dari dirinya.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Mengumbar-ngumbar posesinya&lt;/strong&gt;. Seperti berpakaian yang tidak pantas, mengumbar harta, menuju ke arah riya’ dan sombong.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Suka menyebut-nyebut kembali apa yang sudah diberikan&lt;/strong&gt;. Dengan kata lain, membuat sesuatu yang dari niat ikhlas, menjadi tidak ikhlas lagi.&lt;/p&gt;
-
-&lt;h3 id=&quot;mitigasi-ujub&quot;&gt;Mitigasi Ujub&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;Kurangi pergaulan&lt;/strong&gt; dengan orang-orang yang kagum berlebihan terhadap diri sendiri. Banyaklah bergaul dengan orang-orang yang &lt;em&gt;tawadhu’&lt;/em&gt; atau rendah hati.&lt;/p&gt;
-
-&lt;p&gt;Bercontohlah terhadap pribadi terbaik yang umat manusia punya, &lt;strong&gt;Rasulullah SAW&lt;/strong&gt;. Banyak sekali contoh &lt;em&gt;tawadhu’&lt;/em&gt; dari Rasulullah SAW yang sangat menginspirasi.&lt;/p&gt;
-
-&lt;p&gt;Melihat keadaan di bawah. Mengamati keadaan &lt;em&gt;lowest of the low&lt;/em&gt;, keadaan dimana kita sering dilanda kesialan atau sakit. Ikut dalam ziarah kubur saudara-saudara Muslim yang meninggal. Hal ini membantu kita untuk menyadari bahwa hidup ini sementara, dan kita hanyalah semut yang bertebaran saja di dunia ini. Semoga dengan ini kita bisa &lt;strong&gt;berintrospeksi diri&lt;/strong&gt; dan kembali ke jalan yang baik.&lt;/p&gt;
-
-&lt;p&gt;Anas ra berkata:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Nabi SAW memiliki seekor unta yang diberi nama &lt;strong&gt;al-‘adhba’&lt;/strong&gt; yang tidak terkalahkan larinya, maka datang seorang orang dengan untanya dan mampu mengalahkan, maka hati kaum muslimin terpukul menyaksikan hal tersebut. Hal itu diketahui oleh nabi SAW, maka beliau bersabda: *Menjadi haq Allah jika ada sesuatu yang meninggikan diri di dunia pasti akan direndahkan-Nya. * (HR Bukhari [Fathul Bari’-2872]).&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;penutup&quot;&gt;Penutup&lt;/h2&gt;
-
-&lt;p&gt;Sekian tausiyah singkat dari saya. Sedikit pesan, marilah kita mengurangi kesibukan kita dalam melakukan penyakit-penyakit hati di atas. Hidup ini terlalu singkat untuk sekedar mengakui eksistensi kita jika hanya dilandaskan terhadap sesuatu yang duniawi. Jika kita curiga terhadap suatu aib dari orang lain, jika kita tidak mempunyai landasan terhadap kecurigaan tersebut, biarkanlah Allah SWT yang mengadili nanti di hari akhir. Niscaya hukumannya akan setimpal, Allah SWT Maha Adil.&lt;/p&gt;
-
-&lt;p&gt;Salam,
-Adit&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;appendix&quot;&gt;Appendix&lt;/h2&gt;
-
-&lt;h3 id=&quot;tanda-tanda-ahlul-bidah&quot;&gt;Tanda-tanda Ahlul Bid’ah&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Berpecah Belah&lt;/li&gt;
-  &lt;li&gt;Mengikuti Hawa Nafsu&lt;/li&gt;
-  &lt;li&gt;Mengikuti Ayat-Ayat yang Samar&lt;/li&gt;
-  &lt;li&gt;Mempertentangkan Sunnah dengan Al Quran&lt;/li&gt;
-  &lt;li&gt;Membenci Ahli Hadits&lt;/li&gt;
-  &lt;li&gt;Tidak berpegang terhadap Madzhab Salaf&lt;/li&gt;
-  &lt;li&gt;Memvonis Kafir tanpa disertai Dalil&lt;/li&gt;
-  &lt;li&gt;etc&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Written with &lt;a href=&quot;https://stackedit.io/&quot;&gt;StackEdit&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-    &lt;p&gt;&lt;a href=&quot;/blog/penyakit-hati/&quot;&gt;Penyakit Hati?&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on March 25, 2015.&lt;/p&gt;
   </content>
 </entry>
 

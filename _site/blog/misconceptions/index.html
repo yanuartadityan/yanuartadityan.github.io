@@ -5,15 +5,15 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>d3.js on Jekyll &#8211; Mirkwood Ape</title>
-<meta name="description" content="Not really practical, but doable and beautiful">
-<meta name="keywords" content="js, d3js, plot">
+<title>Avoid Misconceptions from Now &#8211; Mirkwood Ape</title>
+<meta name="description" content="There are lot of misunderstandings about tech stuffs. This post highlight my presentation on how to avoid misconceptions on basic computer organization">
+<meta name="keywords" content="sweden, chalmers, algorithm">
 
 
 
 <!-- Twitter Cards -->
-<meta name="twitter:title" content="d3.js on Jekyll">
-<meta name="twitter:description" content="Not really practical, but doable and beautiful">
+<meta name="twitter:title" content="Avoid Misconceptions from Now">
+<meta name="twitter:description" content="There are lot of misunderstandings about tech stuffs. This post highlight my presentation on how to avoid misconceptions on basic computer organization">
 <meta name="twitter:site" content="@yanuartadityan">
 <meta name="twitter:creator" content="@yanuartadityan">
 
@@ -23,16 +23,16 @@
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="d3.js on Jekyll">
-<meta property="og:description" content="Not really practical, but doable and beautiful">
-<meta property="og:url" content="/blog/first-d3js/">
+<meta property="og:title" content="Avoid Misconceptions from Now">
+<meta property="og:description" content="There are lot of misunderstandings about tech stuffs. This post highlight my presentation on how to avoid misconceptions on basic computer organization">
+<meta property="og:url" content="/blog/misconceptions/">
 <meta property="og:site_name" content="Mirkwood Ape">
 
 
 
 
 
-<link rel="canonical" href="/blog/first-d3js/">
+<link rel="canonical" href="/blog/misconceptions/">
 <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Mirkwood Ape Feed">
 
 <!-- http://t.co/dKP3o1e -->
@@ -147,95 +147,37 @@
   <article class="post">
     <div class="headline-wrap">
       
-        <h1><a href="/blog/first-d3js/" rel="bookmark" title="d3.js on Jekyll">d3.js on Jekyll</a></h1>
+        <h1><a href="/blog/misconceptions/" rel="bookmark" title="Avoid Misconceptions from Now">Avoid Misconceptions from Now</a></h1>
       
     </div><!--/ .headline-wrap -->
     <div class="article-wrap">
-      <h2 id="intro">Intro</h2>
+      <p>Is <code>CPU</code> the whole computers? Or just a jargon for processor? 
+Is by clicking <code>refresh</code> button rapidly will make your system faster? 
+Is it correct, more <code>GHz</code> will always give you faster overall performance?
+Which one is to use, <code>byte</code> or <code>bit</code>?
+How <code>RAM</code> works similar as compared in an analogy to the famous librarian?</p>
 
-<p>So, <a href="http://d3js.org">d3.js</a> has been around for a moment now and I guess it’s good time to start playing with it!</p>
+<p>All of those questions are quite common to be found almost anywhere. I thought at first, those are misconceptions about computer that will not happen when I am in Sweden. A friend of mine told me when he brought his broken PC to one of the electronic retail store here to let them fix it, when he told me he heard the IT-guy said,</p>
 
-<h2 id="trivia">Trivia</h2>
+<blockquote>
+  <p>“Allright, we will try to fix your CPU as soon as possible. I’ll let you know afterward.”</p>
+</blockquote>
 
-<p>It needs extra steps implementing d3.js onto Jekyll, especially when we’re working on Markdown instead of HTML. But, with
-proper anchor, it’s like taking a candy from a baby. Cheers.</p>
+<p>Well, how many people consider CPU as a whole computer? Probably most of you are doing this all the time. Sometimes, I do too. Even, this misconception has occurred since long time ago and I think, even for IT-guy, it is better for him to use it as if he mentioned something technically correct, <em>e.g</em> desktop or machine, will be deemed too uncommon for most of people.</p>
 
-<h2 id="first-bar-chart-with-div">First Bar Chart with #div</h2>
+<p>In one of opportunities to talk in front of people, I brought this misconceptions material. I’ve compiled some quite common misconceptions, especially about basic computer organizations and explain more about how computer do this and that to give audience better understanding about how computer works.</p>
 
-<div class="second"> </div>
-<script type="text/javascript" src="http://mbostock.github.com/d3/d3.js"></script>
+<iframe src="//slides.com/yanuartriadityanugraha/adoption-of-hybrid-electric-cars/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
 
-<style>
-.second div {
-  font: 10px sans-serif;
-  background-color: steelblue;
-  text-align: right;
-  padding: 3px;
-  margin: 1px;
-  color: white;
-}
-</style>
+<p><br /></p>
 
-<script type="text/javascript">
+<p>You see, now there are more computers than world’s population. By bringing this fact, I would like to stand on my opinion that humans, no matter what background we are, we will encounter computers anywhere and anytime. Yeah, they don’t have soul, but people made computers not just to help us, but if we think, without computers, we couldn’t as efficient as today. We couldn’t talk to relatives thousand miles away, we couldn’t share what inside our heads, i couldn’t write things like this and you’re reading it now.</p>
 
-var data = [4, 5, 6, 8, 12, 15, 16, 18, 21, 23, 27, 35, 42];
+<blockquote>
+  <p>Love your computers, love your electronic devices, become better users and be better at troubleshooting your own goods.</p>
+</blockquote>
 
-d3.select("div.second")
-	.selectAll("div")
-		.data(data)
-	.enter().append("div")
-		.style("width", function(d) { return (d) * 10 + "px"; })
-    	.text(function(d) { return d; });
-
-</script>
-
-<h2 id="first-bar-chart-with-svg">First Bar Chart with SVG</h2>
-
-<div id="convas" style="background: rgb(105, 187, 210)"></div>
-<script type="text/javascript" src="http://mbostock.github.com/d3/d3.js"></script>
-
-<script type="text/javascript">
-      var w = 535,
-          h= 500,
-          z = d3.scale.category20(),
-          i = 0;
-      var svg = d3.select("div#convas").append("svg")
-          .attr("width", w)
-          .attr("height", h)
-          .style("pointer-events", "all")
-          .on("mousemove", heart_line);
-      var line = d3.svg.line()
-                    .interpolate("cardinal")
-                    .x(function(d) { return d[0]; })
-                    .y(function(d) { return d[1]; });
-      function heart_shape(x, y, r)
-      {
-        var points = [];
-        for (i=0; i<=360; i=i+12){
-          pointX = x -  r*(12*Math.sin(i*Math.PI/180) - 4*Math.sin(3*i*Math.PI/180));
-          pointY = y -  r*(13*Math.cos(i*Math.PI/180) - 5*Math.cos(2*i*Math.PI/180) - 2*Math.cos(3*i*Math.PI/180));
-          points.push([pointX, pointY]);
-        }
-        return points;
-      }
-      function heart_line() {
-        var m = d3.svg.mouse(this); 
-        svg.append("path")
-            .attr("d", function() {return line(heart_shape(m[0], m[1], 1e-6)); })
-            .style("stroke", function() { return z(parseInt(Math.random() * 100));})
-            .style("fill", "none")
-            .style("stroke-opacity", 1)
-            .style("stroke-width", 3.5)
-            .attr('class', 'heart_shape')
-            .transition()
-            .duration(1000)
-            .ease(Math.sqrt)
-            .attr("d", function() { return line(heart_shape(m[0], m[1], 10)); })
-            .style("stroke-opacity", 1e-4)
-            .remove();
-            }
-</script>
-
+<p>Cheers and tack så mycket!</p>
 
       <hr />
       <footer role="contentinfo">
@@ -243,17 +185,17 @@ d3.select("div.second")
   <h4>Share on</h4>
   <ul>
     <li>
-      <a href="https://twitter.com/intent/tweet?text=/blog/first-d3js/" class="twitter" title="Share on Twitter"><i class="fa fa-twitter"></i><span> Twitter</span></a>
+      <a href="https://twitter.com/intent/tweet?text=/blog/misconceptions/" class="twitter" title="Share on Twitter"><i class="fa fa-twitter"></i><span> Twitter</span></a>
     </li>
     <li>
-      <a href="https://www.facebook.com/sharer/sharer.php?u=/blog/first-d3js/" class="facebook" title="Share on Facebook"><i class="fa fa-facebook"></i><span> Facebook</span></a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=/blog/misconceptions/" class="facebook" title="Share on Facebook"><i class="fa fa-facebook"></i><span> Facebook</span></a>
     </li>
     <li>
-      <a href="https://plus.google.com/share?url=/blog/first-d3js/" class="google-plus" title="Share on Google Plus"><i class="fa fa-google-plus"></i><span> Google+</span></a>
+      <a href="https://plus.google.com/share?url=/blog/misconceptions/" class="google-plus" title="Share on Google Plus"><i class="fa fa-google-plus"></i><span> Google+</span></a>
     </li>
   </ul>
 </div><!-- /.social-share -->
-        <p class="byline"><strong>d3.js on Jekyll</strong> was published on <time datetime="2015-04-01T00:00:00+02:00">April 01, 2015</time>.</p>
+        <p class="byline"><strong>Avoid Misconceptions from Now</strong> was published on <time datetime="2015-10-04T00:00:00+02:00">October 04, 2015</time>.</p>
       </footer>
     </div><!-- /.article-wrap -->
   
@@ -267,11 +209,11 @@ d3.select("div.second")
   <h4>You might also enjoy <small class="pull-right">(<a href="/posts/">View all posts</a>)</small></h4>
     <ul>
     
-      <li><a href="/blog/misconceptions/" title="Avoid Misconceptions from Now">Avoid Misconceptions from Now</a></li>
-    
       <li><a href="/tutorial/c-tutor-2/" title="C Tutorial #2 | The First Program">C Tutorial #2 | The First Program</a></li>
     
       <li><a href="/tutorial/c-tutor-1/" title="C Tutorial #1 | Getting Acquintance">C Tutorial #1 | Getting Acquintance</a></li>
+    
+      <li><a href="/blog/one-year-in-sweden/" title="One year in Sweden">One year in Sweden</a></li>
     
     </ul>
     <hr />
