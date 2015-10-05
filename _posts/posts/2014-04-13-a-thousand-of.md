@@ -1,6 +1,6 @@
 ---
 title: Frontier of Sovereignty
-excerpt: "Just an experience working together with TNI-AU for 3 days"
+excerpt: "Just an experience working together with TNI-AU for 3 days."
 category: blog
 layout: post
 comments: true

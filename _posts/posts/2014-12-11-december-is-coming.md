@@ -3,7 +3,7 @@ layout: post
 title: "What to do in December?"
 modified:
 category: blog
-excerpt: "Snow hasn't coming yet, but no excuse not to enjoy December"
+excerpt: "Snow hasn't coming yet, but no excuse not to enjoy December."
 tags: [sweden, life, jul, christmas, chalmers]
 image:
   feature: post-december.jpg

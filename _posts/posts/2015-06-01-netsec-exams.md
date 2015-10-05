@@ -3,7 +3,7 @@ layout: post
 title: "Network Security Recap"
 modified:
 category: blog
-excerpt: "Damn Good Shit"
+excerpt: "It is a damn good shit. A good material for catching up with network security stuffs."
 tags: [sweden, education, chalmers]
 image:
   feature: 

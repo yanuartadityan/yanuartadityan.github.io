@@ -3,7 +3,7 @@ layout: post
 title: "Superspring"
 modified:
 category: blog
-excerpt: "One month recap of my life | April '15"
+excerpt: "One month recap of my life | April '15."
 tags: [blog, mumbling]
 image:
   feature: 

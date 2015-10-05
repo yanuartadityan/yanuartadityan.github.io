@@ -3,7 +3,7 @@ layout: post
 title: "Avoid Misconceptions from Now"
 modified:
 category: blog
-excerpt: "There are lot of misunderstandings about tech stuffs. This post highlight my presentation on how to avoid misconceptions on basic computer organization"
+excerpt: "There are lot of misunderstandings about tech stuffs. This post highlight my presentation on how to avoid misconceptions on basic computer organization."
 tags: [sweden, chalmers, algorithm]
 image:
   feature: 

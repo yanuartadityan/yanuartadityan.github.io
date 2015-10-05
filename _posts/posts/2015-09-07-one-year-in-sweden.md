@@ -3,7 +3,7 @@ layout: post
 title: "One year in Sweden"
 modified:
 category: blog
-excerpt: "Quick recap of my life"
+excerpt: "Quick recap of my life after 365-days in Göteborg, Sweden"
 tags: [sweden, chalmers, 365]
 image:
   feature: 

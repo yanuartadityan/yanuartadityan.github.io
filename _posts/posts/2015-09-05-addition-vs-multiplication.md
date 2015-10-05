@@ -3,7 +3,7 @@ layout: post
 title: "Addition vs Multiplication"
 modified:
 category: blog
-excerpt: "No need for such an argue for this problem"
+excerpt: "No need for such an argue for this problem."
 tags: [sweden, chalmers, algorithm]
 image:
   feature: 

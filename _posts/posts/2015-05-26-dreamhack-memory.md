@@ -3,7 +3,7 @@ layout: post
 title: "Dreamhack"
 modified:
 category: blog
-excerpt: "Suddenly, I missed Dreamhack this early"
+excerpt: "Suddenly, I missed Dreamhack this early."
 tags: [blog, mumbling]
 image:
   feature: 
