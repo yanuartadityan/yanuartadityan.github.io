@@ -4,13 +4,61 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2015-10-04T22:33:41+02:00</updated>
+<updated>2015-10-05T09:36:22+02:00</updated>
 <id>/</id>
 <author>
   <name>Yanuar Aditya</name>
   <uri>/</uri>
   <email>yanuart.adityan@gmail.com</email>
 </author>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[C Tutorial #2 | The First Program]]></title>
+  <link rel="alternate" type="text/html" href="/tutorial/c-tutor-2/" />
+  <id>/tutorial/c-tutor-2</id>
+  <published>2015-10-03T00:00:00+02:00</published>
+  <updated>2015-10-03T00:00:00+02:00</updated>
+  <author>
+    <name>Yanuar Aditya</name>
+    <uri></uri>
+    <email>yanuart.adityan@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Wise and experienced programmers will always tell you this, &lt;em&gt;the only way to learn a programming language is to write programs&lt;/em&gt;. It is true and I will just jumpstart by creating the very first simple C program. This program will simply prints some words, and play with how to bring the texts appear on the screen with &lt;code&gt;printf&lt;/code&gt; function.&lt;/p&gt;
+
+&lt;p&gt;First thing to know is that, C-language are written in &lt;code&gt;.c&lt;/code&gt; and &lt;code&gt;.h&lt;/code&gt; file extensions. &lt;code&gt;.c&lt;/code&gt; is the compile-able file that consist every functions and routines while &lt;code&gt;.h&lt;/code&gt; is where you stores function names, variables, headers etc. You can live with &lt;code&gt;.c&lt;/code&gt; alone but sometimes in order for programmer to be able to hide the intellectual property of, &lt;em&gt;e.g&lt;/em&gt; the functions inside &lt;code&gt;.c&lt;/code&gt;, programmers  merely write the function name inside &lt;code&gt;.h&lt;/code&gt; and let the compiler transform &lt;code&gt;.c&lt;/code&gt; with the definition of the function into either static or dynamic &lt;em&gt;library&lt;/em&gt;. Thus, everyone who wants to use corresponding function, they will be provided by just the &lt;code&gt;.h&lt;/code&gt; and the library, without requiring them to have the original &lt;code&gt;.c&lt;/code&gt; code.&lt;/p&gt;
+
+&lt;noscript&gt;&lt;pre&gt;400: Invalid request
+&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/300a69849266f41b58c9.js&quot;&gt; &lt;/script&gt;
+
+&lt;p&gt;&lt;strong&gt;line:01&lt;/strong&gt; demonstrates the use of a &lt;code&gt;#&lt;/code&gt; preprocessor. A preprocessor provides the ability for the inclusion of header files, macro expansions, conditional compilation, and line control. In many C implementations, it is a separate program invoked by the compiler as the first part of translation. &lt;a href=&quot;https://en.wikipedia.org/wiki/C_preprocessor&quot;&gt;Check…&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Preprocessor is a separate step in the compilation process, thus is not part of the compiler. If you invoke a preprocessor in C, it will substitute the text with the one that is referred by the preprocessor, whether it is a macro function or a file header. Here a list of preprocessor that will be used frequently on this tutorial.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-java&quot; data-lang=&quot;java&quot;&gt;&lt;span class=&quot;err&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;define&lt;/span&gt; 	&lt;span class=&quot;cm&quot;&gt;/* substitutes a preprocessor macro */&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;include&lt;/span&gt; 	&lt;span class=&quot;cm&quot;&gt;/* inserts a particular header from file */&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; 		&lt;span class=&quot;cm&quot;&gt;/* test if a compile time condition is satisfied (true) */&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; 		&lt;span class=&quot;cm&quot;&gt;/* alternative branch if #if does not satisfied the condition */&lt;/span&gt;
+&lt;span class=&quot;err&quot;&gt;#&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;endif&lt;/span&gt; 		&lt;span class=&quot;cm&quot;&gt;/* end preprocessor conditional */&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;line:03&lt;/strong&gt; is where you can find the first function called &lt;code&gt;main&lt;/code&gt;. A bracket &lt;code&gt;()&lt;/code&gt; after the function name collects the argument. Empty bracket means no argument passed onto the function.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;line:04&lt;/strong&gt; and &lt;strong&gt;line:08&lt;/strong&gt; contain the function braces &lt;code&gt;{}&lt;/code&gt;. Statements of a function are enclosed in braces. &lt;code&gt;{&lt;/code&gt; begins the statements and &lt;code&gt;}&lt;/code&gt; ends the statements.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;line:05&lt;/strong&gt; shows the invocation of function &lt;code&gt;printf&lt;/code&gt; and an argument &lt;code&gt;&quot;Hi, world\n&quot;&lt;/code&gt;. This function is called from the library &lt;code&gt;stdio.h&lt;/code&gt; that is described from &lt;strong&gt;line:01&lt;/strong&gt;. &lt;code&gt;printf&lt;/code&gt; prints output to the screen, in this case, strings from our argument between quotes &lt;code&gt;&quot; &quot;&lt;/code&gt;. &lt;code&gt;\n&lt;/code&gt; tells &lt;code&gt;printf&lt;/code&gt; to give a newline after printing the argument.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;line:07&lt;/strong&gt; with &lt;code&gt;return&lt;/code&gt; statement terminates the execution. However, as the name implies, &lt;code&gt;return&lt;/code&gt; gives certain value back to the calling function. If you call a function A within function &lt;code&gt;main&lt;/code&gt;, and you invoke &lt;code&gt;return value&lt;/code&gt; from within A, then &lt;code&gt;main&lt;/code&gt; will get the value that computed inside A. More detailed about return statement can be found on &lt;a href=&quot;https://en.wikipedia.org/wiki/Return_statement&quot;&gt;Wiki&lt;/a&gt; page.&lt;/p&gt;
+
+&lt;p&gt;Next, we will go through the basic compilation using command line with &lt;code&gt;gcc&lt;/code&gt;.&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;/tutorial/c-tutor-2/&quot;&gt;C Tutorial #2 | The First Program&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 03, 2015.&lt;/p&gt;
+  </content>
+</entry>
 
 
   

@@ -5,15 +5,15 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Remembering Good Old 90&#8217;s Song &#8211; Mirkwood Ape</title>
-<meta name="description" content="This will be your good playlist. If you like 90s music of course.">
-<meta name="keywords" content="90s, music">
+<title>C Tutorial #2 | The First Program &#8211; Mirkwood Ape</title>
+<meta name="description" content="Build your first program written in C, learn about basic input output and how to include library">
+<meta name="keywords" content="tutorial, c">
 
 
 
 <!-- Twitter Cards -->
-<meta name="twitter:title" content="Remembering Good Old 90&#8217;s Song">
-<meta name="twitter:description" content="This will be your good playlist. If you like 90s music of course.">
+<meta name="twitter:title" content="C Tutorial #2 | The First Program">
+<meta name="twitter:description" content="Build your first program written in C, learn about basic input output and how to include library">
 <meta name="twitter:site" content="@yanuartadityan">
 <meta name="twitter:creator" content="@yanuartadityan">
 
@@ -23,16 +23,16 @@
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Remembering Good Old 90&#8217;s Song">
-<meta property="og:description" content="This will be your good playlist. If you like 90s music of course.">
-<meta property="og:url" content="/blog/remembering-good-old-90s-song/">
+<meta property="og:title" content="C Tutorial #2 | The First Program">
+<meta property="og:description" content="Build your first program written in C, learn about basic input output and how to include library">
+<meta property="og:url" content="/tutorial/c-tutor-2/">
 <meta property="og:site_name" content="Mirkwood Ape">
 
 
 
 
 
-<link rel="canonical" href="/blog/remembering-good-old-90s-song/">
+<link rel="canonical" href="/tutorial/c-tutor-2/">
 <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Mirkwood Ape Feed">
 
 <!-- http://t.co/dKP3o1e -->
@@ -147,55 +147,38 @@
   <article class="post">
     <div class="headline-wrap">
       
-        <h1><a href="/blog/remembering-good-old-90s-song/" rel="bookmark" title="Remembering Good Old 90&#8217;s Song">Remembering Good Old 90&#8217;s Song</a></h1>
+        <h1><a href="/tutorial/c-tutor-2/" rel="bookmark" title="C Tutorial #2 | The First Program">C Tutorial #2 | The First Program</a></h1>
       
     </div><!--/ .headline-wrap -->
     <div class="article-wrap">
-      <hr />
+      <p>Wise and experienced programmers will always tell you this, <em>the only way to learn a programming language is to write programs</em>. It is true and I will just jumpstart by creating the very first simple C program. This program will simply prints some words, and play with how to bring the texts appear on the screen with <code>printf</code> function.</p>
 
-<p>I don’t know, but for me, I really hate MTV for now. I’m willing to put it onto bottom three of ‘channels I’ll never watch again’ after MTV and MTV. I see how they’re trying to gather younger audiences by delivering some of the worst songs I’ve ever listen and, well, I’ve pretty much given up to love it once again.</p>
+<p>First thing to know is that, C-language are written in <code>.c</code> and <code>.h</code> file extensions. <code>.c</code> is the compile-able file that consist every functions and routines while <code>.h</code> is where you stores function names, variables, headers etc. You can live with <code>.c</code> alone but sometimes in order for programmer to be able to hide the intellectual property of, <em>e.g</em> the functions inside <code>.c</code>, programmers  merely write the function name inside <code>.h</code> and let the compiler transform <code>.c</code> with the definition of the function into either static or dynamic <em>library</em>. Thus, everyone who wants to use corresponding function, they will be provided by just the <code>.h</code> and the library, without requiring them to have the original <code>.c</code> code.</p>
 
-<p>Well, they used to be my favorite channel. That was back in 1998, I was 10 years old, I was in mad love with 98 World Cup theme, ‘Chumbawamba – Tubthumping’. I was really thankful that MTV aired this song more than twice in a day.</p>
+<noscript><pre>400: Invalid request
+</pre></noscript>
+<script src="https://gist.github.com/300a69849266f41b58c9.js"> </script>
 
-<p style="text-align: center;">
-<img src="/images/post-mtv.jpg" />
-</p>
+<p><strong>line:01</strong> demonstrates the use of a <code>#</code> preprocessor. A preprocessor provides the ability for the inclusion of header files, macro expansions, conditional compilation, and line control. In many C implementations, it is a separate program invoked by the compiler as the first part of translation. <a href="https://en.wikipedia.org/wiki/C_preprocessor">Check…</a></p>
 
-<p>And it was going better and better, especially when my sister bought me MTV Fresh album in 1999. That was my first CD cassette. I can still remember properly the entire list:</p>
+<p>Preprocessor is a separate step in the compilation process, thus is not part of the compiler. If you invoke a preprocessor in C, it will substitute the text with the one that is referred by the preprocessor, whether it is a macro function or a file header. Here a list of preprocessor that will be used frequently on this tutorial.</p>
 
-<blockquote>
-  <p>SIDE A</p>
-</blockquote>
+<div class="highlight"><pre><code class="language-java" data-lang="java"><span class="err">#</span><span class="n">define</span> 	<span class="cm">/* substitutes a preprocessor macro */</span>
+<span class="err">#</span><span class="n">include</span> 	<span class="cm">/* inserts a particular header from file */</span>
+<span class="err">#</span><span class="k">if</span> 		<span class="cm">/* test if a compile time condition is satisfied (true) */</span>
+<span class="err">#</span><span class="k">else</span> 		<span class="cm">/* alternative branch if #if does not satisfied the condition */</span>
+<span class="err">#</span><span class="n">endif</span> 		<span class="cm">/* end preprocessor conditional */</span></code></pre></div>
 
-<ul>
-  <li>Arkarna – So Little Time</li>
-  <li>Chumbawamba – Tubthumping</li>
-  <li>Blur – Song 2</li>
-  <li>Green Day – Hitchin’ a Ride</li>
-  <li>Third Eye Blind – Semi Charmed Life</li>
-  <li>Catatonia – Mulder &amp; Scully</li>
-  <li>The Verve – The Drugs Don’t Work</li>
-  <li>Cornershop – Brime of Asha</li>
-</ul>
+<p><strong>line:03</strong> is where you can find the first function called <code>main</code>. A bracket <code>()</code> after the function name collects the argument. Empty bracket means no argument passed onto the function.</p>
 
-<blockquote>
-  <p>SIDE B</p>
-</blockquote>
+<p><strong>line:04</strong> and <strong>line:08</strong> contain the function braces <code>{}</code>. Statements of a function are enclosed in braces. <code>{</code> begins the statements and <code>}</code> ends the statements.</p>
 
-<ul>
-  <li>Everclear – Everything to Everyone</li>
-  <li>Meredith Brooks – Bitch</li>
-  <li>Mansun – Wide Open Space</li>
-  <li>Radiohead – Karma Police</li>
-  <li>Suede – Beautiful Ones</li>
-  <li>Matchbox Twenty – Push</li>
-  <li>Oasis – D’you Know What I Mean</li>
-  <li>Sugar Ray – Every Morning</li>
-</ul>
+<p><strong>line:05</strong> shows the invocation of function <code>printf</code> and an argument <code>"Hi, world\n"</code>. This function is called from the library <code>stdio.h</code> that is described from <strong>line:01</strong>. <code>printf</code> prints output to the screen, in this case, strings from our argument between quotes <code>" "</code>. <code>\n</code> tells <code>printf</code> to give a newline after printing the argument.</p>
 
-<p>Maybe if you’re lucky enough, you can find the list on <a title="Youtube" href="http://www.youtube.com/" target="_blank">Youtube </a>or <a title="SoundCloud" href="http://soundcloud.com/" target="_blank">Soundcloud</a>. But remember, 90s is just too good to be forgotten.
-So MTV, will you learn from it? I don’t think you will.
-Cheers!</p>
+<p><strong>line:07</strong> with <code>return</code> statement terminates the execution. However, as the name implies, <code>return</code> gives certain value back to the calling function. If you call a function A within function <code>main</code>, and you invoke <code>return value</code> from within A, then <code>main</code> will get the value that computed inside A. More detailed about return statement can be found on <a href="https://en.wikipedia.org/wiki/Return_statement">Wiki</a> page.</p>
+
+<p>Next, we will go through the basic compilation using command line with <code>gcc</code>.</p>
+
 
       <hr />
       <footer role="contentinfo">
@@ -203,17 +186,17 @@ Cheers!</p>
   <h4>Share on</h4>
   <ul>
     <li>
-      <a href="https://twitter.com/intent/tweet?text=/blog/remembering-good-old-90s-song/" class="twitter" title="Share on Twitter"><i class="fa fa-twitter"></i><span> Twitter</span></a>
+      <a href="https://twitter.com/intent/tweet?text=/tutorial/c-tutor-2/" class="twitter" title="Share on Twitter"><i class="fa fa-twitter"></i><span> Twitter</span></a>
     </li>
     <li>
-      <a href="https://www.facebook.com/sharer/sharer.php?u=/blog/remembering-good-old-90s-song/" class="facebook" title="Share on Facebook"><i class="fa fa-facebook"></i><span> Facebook</span></a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=/tutorial/c-tutor-2/" class="facebook" title="Share on Facebook"><i class="fa fa-facebook"></i><span> Facebook</span></a>
     </li>
     <li>
-      <a href="https://plus.google.com/share?url=/blog/remembering-good-old-90s-song/" class="google-plus" title="Share on Google Plus"><i class="fa fa-google-plus"></i><span> Google+</span></a>
+      <a href="https://plus.google.com/share?url=/tutorial/c-tutor-2/" class="google-plus" title="Share on Google Plus"><i class="fa fa-google-plus"></i><span> Google+</span></a>
     </li>
   </ul>
 </div><!-- /.social-share -->
-        <p class="byline"><strong>Remembering Good Old 90&#8217;s Song</strong> was published on <time datetime="2014-04-13T00:00:00+02:00">April 13, 2014</time>.</p>
+        <p class="byline"><strong>C Tutorial #2 | The First Program</strong> was published on <time datetime="2015-10-03T00:00:00+02:00">October 03, 2015</time>.</p>
       </footer>
     </div><!-- /.article-wrap -->
   
@@ -227,11 +210,11 @@ Cheers!</p>
   <h4>You might also enjoy <small class="pull-right">(<a href="/posts/">View all posts</a>)</small></h4>
     <ul>
     
-      <li><a href="/tutorial/c-tutor-2/" title="C Tutorial #2 | The First Program">C Tutorial #2 | The First Program</a></li>
-    
       <li><a href="/tutorial/c-tutor-1/" title="C Tutorial #1 | Getting Acquintance">C Tutorial #1 | Getting Acquintance</a></li>
     
       <li><a href="/blog/one-year-in-sweden/" title="One year in Sweden">One year in Sweden</a></li>
+    
+      <li><a href="/blog/addition-vs-multiplication/" title="Addition vs Multiplication">Addition vs Multiplication</a></li>
     
     </ul>
     <hr />

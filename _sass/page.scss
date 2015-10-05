@@ -244,6 +244,10 @@ $button-size: 1.5rem;
 	}
 
 	/* added by adit */
+	/* modify margin between two paragraphs*/
+	/*p {margin: 10px;}*/
+	
+	/* change the URL color on paragraphs */
 	p > a {
 		color: #0099FF;
 	}
