@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2015-10-05T12:38:35+02:00</updated>
+<updated>2015-10-05T15:06:43+02:00</updated>
 <id>/</id>
 <author>
   <name>Yanuar Aditya</name>
@@ -16,9 +16,9 @@
   
 
 <entry>
-  <title type="html"><![CDATA[Avoid Misconceptions from Now]]></title>
-  <link rel="alternate" type="text/html" href="/blog/misconceptions/" />
-  <id>/blog/misconceptions</id>
+  <title type="html"><![CDATA[C Tutorial #3 | Types and Variables]]></title>
+  <link rel="alternate" type="text/html" href="/tutorial/c-tutor-3/" />
+  <id>/tutorial/c-tutor-3</id>
   <published>2015-10-04T00:00:00+02:00</published>
   <updated>2015-10-04T00:00:00+02:00</updated>
   <author>
@@ -27,35 +27,55 @@
     <email>yanuart.adityan@gmail.com</email>
   </author>
   <content type="html">
-    &lt;p&gt;Is &lt;code&gt;CPU&lt;/code&gt; the whole computers? Or just a jargon for processor? 
-Is by clicking &lt;code&gt;refresh&lt;/code&gt; button rapidly will make your system faster? 
-Is it correct, more &lt;code&gt;GHz&lt;/code&gt; will always give you faster overall performance?
-Which one is to use, &lt;code&gt;byte&lt;/code&gt; or &lt;code&gt;bit&lt;/code&gt;?
-How &lt;code&gt;RAM&lt;/code&gt; works similar as compared in an analogy to the famous librarian?&lt;/p&gt;
+    &lt;p&gt;As we start working on every programming languages, we will encounter datas. Each programming languages have different approach on how to store and manipulate datas. C for example, it is known for quite strict on data types, due to the native environment of C that is often considered low-level compared to &lt;code&gt;Python&lt;/code&gt;, &lt;code&gt;Ruby&lt;/code&gt; or even &lt;code&gt;Java&lt;/code&gt;. Without understanding data types on C, it can lead into a situation where ‘supposed-to-be-efficient’ code becomes ‘resource-consuming’ code. It is certainly an opposite of the motivation people use C at the beginning, to build fast, small and efficient program. Even, unwanted issues that should be hindered, &lt;em&gt;e.g.&lt;/em&gt;, buffer overrun, memory leaks, or segmentation fault could be there causing potential bugs.&lt;/p&gt;
 
-&lt;p&gt;All of those questions are quite common to be found almost anywhere. I thought at first, those are misconceptions about computer that will not happen when I am in Sweden. A friend of mine told me when he brought his broken PC to one of the electronic retail store here to let them fix it, when he told me he heard the IT-guy said,&lt;/p&gt;
+&lt;h3 id=&quot;variables&quot;&gt;Variables&lt;/h3&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;“Allright, we will try to fix your CPU as soon as possible. I’ll let you know afterward.”&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;Variables or the basic data objects in a program, allow programmers to store datas such as integer values, string characters and floating points (real numbers). A variable tells the compiler how much the storage should be created in memory to store datas. A variable can be composed of letters, no matter whether it is in uppercase or lowercase letters. Also digits and underscore can be put upon a variable name. In C-programming, variables have to be declared first before you can using it.&lt;/p&gt;
 
-&lt;p&gt;Well, how many people consider CPU as a whole computer? Probably most of you are doing this all the time. Sometimes, I do too. Even, this misconception has occurred since long time ago and I think, even for IT-guy, it is better for him to use it as if he mentioned something technically correct, &lt;em&gt;e.g&lt;/em&gt; desktop or machine, will be deemed too uncommon for most of people.&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;lineno&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;numX&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;2&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;numY&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;float&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;numA&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;numB&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;lineno&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;In one of opportunities to talk in front of people, I brought this misconceptions material. I’ve compiled some quite common misconceptions, especially about basic computer organizations and explain more about how computer do this and that to give audience better understanding about how computer works.&lt;/p&gt;
+&lt;p&gt;Variable name can be composed of letters (both uppercase and lowercase letters), digits and underscore ‘_’ only. However, it is discouraged to use underscore as first letter on variable name even though it is permittable and legal. Just keep in mind, that some system and compiler specific names also uses variable with underscore as the first letter, thus it can become an unwanted conflict.&lt;/p&gt;
 
-&lt;iframe src=&quot;//slides.com/yanuartriadityanugraha/adoption-of-hybrid-electric-cars/embed&quot; width=&quot;576&quot; height=&quot;420&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;strong&gt;line:01&lt;/strong&gt; and &lt;strong&gt;line:02&lt;/strong&gt; show two instances of variable declaration. Both variables are &lt;code&gt;integer&lt;/code&gt; type. This means each of &lt;code&gt;numX&lt;/code&gt; and &lt;code&gt;numY&lt;/code&gt; will use 4 bytes in memory, as once those variables are declared, 32 bits (for each) is allocated to store the value. In integer, with 32 bits of length, there are 4,294,967,296 decimal values that can be computed. The minimal and maximal value however, will start from -2,147,483,648 and end at 2,147,483,647. If you are confident enough that your data values will never become negative integer, then you can initiate an &lt;code&gt;unsigned&lt;/code&gt; integer to make the value start from zero and end at 4,294,967,295.&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;float&lt;/code&gt; variable in &lt;strong&gt;line:04&lt;/strong&gt; are the numeric constants that has either fractional form or exponent form. This type of data store a floating point value in single precision (32 bits). An example, &lt;code&gt;float pi = 3.14159265;&lt;/code&gt;, will let the system to have Phi value stored as floating point. The accuracy of floating point. The fact about floating point is that it can’t represent precisely all real numbers. Some certain value will be rounded here and there to get closest representation. Such this problem can be circumvented by utilising &lt;code&gt;double&lt;/code&gt; precision (64 bits) data type.&lt;/p&gt;
 
-&lt;p&gt;You see, now there are more computers than world’s population. By bringing this fact, I would like to stand on my opinion that humans, no matter what background we are, we will encounter computers anywhere and anytime. Yeah, they don’t have soul, but people made computers not just to help us, but if we think, without computers, we couldn’t as efficient as today. We couldn’t talk to relatives thousand miles away, we couldn’t share what inside our heads, i couldn’t write things like this and you’re reading it now.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;line:05&lt;/strong&gt; shows &lt;code&gt;char&lt;/code&gt; variable that store single character which is typically 8 bits in size. A char can be assigned a signed value between -128 to 127, an unsigned value between 0 to 255 or a single quoted ASCII character, &lt;em&gt;e.g.&lt;/em&gt; &lt;code&gt;char text = &quot;X&quot;&lt;/code&gt;.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;Love your computers, love your electronic devices, become better users and be better at troubleshooting your own goods.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/IEEE_754-2008&quot;&gt;More&lt;/a&gt; about floating points…&lt;/p&gt;
 
-&lt;p&gt;Cheers and tack så mycket!&lt;/p&gt;
+&lt;h3 id=&quot;type-modifiers&quot;&gt;Type Modifiers&lt;/h3&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/blog/misconceptions/&quot;&gt;Avoid Misconceptions from Now&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 04, 2015.&lt;/p&gt;
+&lt;p&gt;A compiler defines whether the default is signed or unsigned, so to be safe you should declare which type you want to use. Still, using signed or unsigned modifiers to a type data, &lt;em&gt;e.g.&lt;/em&gt; integer, will not change the size of the variable inside the memory. An integer stays 32 bit no matter it is signed or unsigned. Since introduction of &lt;a href=&quot;https://en.wikipedia.org/wiki/C99&quot;&gt;C99&lt;/a&gt;, the newest C-programming language standard, modifier &lt;code&gt;long&lt;/code&gt; is supported to enhance the precision of integer, float and double.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;cm&quot;&gt;/* OK */&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;unsigned&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;A&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;294&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;967&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;295&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 	
+
+&lt;span class=&quot;cm&quot;&gt;/* overflow problem */&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;unsigned&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;B&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;294&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;967&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;296&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;	
+
+&lt;span class=&quot;cm&quot;&gt;/* OK */&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;unsigned&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;long&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;C&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;294&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;967&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;296&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Another modifier, &lt;code&gt;const&lt;/code&gt; will let the corresponding variable fixed throughout the runtime.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;cm&quot;&gt;/* declare A and init the value */&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;A&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;cm&quot;&gt;/* try to overwrite A with new value */&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;A&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;cm&quot;&gt;/* check the result */&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;%d&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Still there are more modifiers in C99 standard, but we are not gonna look for it too deep for now. However, C can be quite demanding on how it stores the datas. This required more knowledge in order to master for ones to get the most of the C.&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;/tutorial/c-tutor-3/&quot;&gt;C Tutorial #3 | Types and Variables&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 04, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -191,6 +211,53 @@ How &lt;code&gt;RAM&lt;/code&gt; works similar as compared in an analogy to the 
 
 
     &lt;p&gt;&lt;a href=&quot;/tutorial/c-tutor-1/&quot;&gt;C Tutorial #1 | Getting Acquintance&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 02, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Avoid Misconceptions from Now]]></title>
+  <link rel="alternate" type="text/html" href="/blog/misconceptions/" />
+  <id>/blog/misconceptions</id>
+  <published>2015-09-30T00:00:00+02:00</published>
+  <updated>2015-09-30T00:00:00+02:00</updated>
+  <author>
+    <name>Yanuar Aditya</name>
+    <uri></uri>
+    <email>yanuart.adityan@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Is &lt;code&gt;CPU&lt;/code&gt; the whole computers? Or just a jargon for processor? 
+Is by clicking &lt;code&gt;refresh&lt;/code&gt; button rapidly will make your system faster? 
+Is it correct, more &lt;code&gt;GHz&lt;/code&gt; will always give you faster overall performance?
+Which one is to use, &lt;code&gt;byte&lt;/code&gt; or &lt;code&gt;bit&lt;/code&gt;?
+How &lt;code&gt;RAM&lt;/code&gt; works similar as compared in an analogy to the famous librarian?&lt;/p&gt;
+
+&lt;p&gt;All of those questions are quite common to be found almost anywhere. I thought at first, those are misconceptions about computer that will not happen when I am in Sweden. A friend of mine told me when he brought his broken PC to one of the electronic retail store here to let them fix it, when he told me he heard the IT-guy said,&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Allright, we will try to fix your CPU as soon as possible. I’ll let you know afterward.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Well, how many people consider CPU as a whole computer? Probably most of you are doing this all the time. Sometimes, I do too. Even, this misconception has occurred since long time ago and I think, even for IT-guy, it is better for him to use it as if he mentioned something technically correct, &lt;em&gt;e.g&lt;/em&gt; desktop or machine, will be deemed too uncommon for most of people.&lt;/p&gt;
+
+&lt;p&gt;In one of opportunities to talk in front of people, I brought this misconceptions material. I’ve compiled some quite common misconceptions, especially about basic computer organizations and explain more about how computer do this and that to give audience better understanding about how computer works.&lt;/p&gt;
+
+&lt;iframe src=&quot;//slides.com/yanuartriadityanugraha/adoption-of-hybrid-electric-cars/embed&quot; width=&quot;576&quot; height=&quot;420&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;You see, now there are more computers than world’s population. By bringing this fact, I would like to stand on my opinion that humans, no matter what background we are, we will encounter computers anywhere and anytime. Yeah, they don’t have soul, but people made computers not just to help us, but if we think, without computers, we couldn’t as efficient as today. We couldn’t talk to relatives thousand miles away, we couldn’t share what inside our heads, i couldn’t write things like this and you’re reading it now.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Love your computers, love your electronic devices, become better users and be better at troubleshooting your own goods.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Cheers and tack så mycket!&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/blog/misconceptions/&quot;&gt;Avoid Misconceptions from Now&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on September 30, 2015.&lt;/p&gt;
   </content>
 </entry>
 
