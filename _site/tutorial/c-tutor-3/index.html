@@ -157,17 +157,26 @@
 
 <p>Variables or the basic data objects in a program, allow programmers to store datas such as integer values, string characters and floating points (real numbers). A variable tells the compiler how much the storage should be created in memory to store datas. A variable can be composed of letters, no matter whether it is in uppercase or lowercase letters. Also digits and underscore can be put upon a variable name. In C-programming, variables have to be declared first before you can using it.</p>
 
-<div class="highlight"><pre><code class="language-c" data-lang="c"><span class="lineno">1</span> <span class="cm">/* declarations */</span>
-<span class="lineno">2</span> <span class="kt">int</span> <span class="n">numX</span><span class="p">;</span>
-<span class="lineno">3</span> <span class="kt">int</span> <span class="n">numY</span><span class="p">;</span>
-<span class="lineno">4</span> <span class="kt">float</span> <span class="n">numA</span><span class="p">,</span> <span class="n">numB</span><span class="p">;</span>
-<span class="lineno">5</span> <span class="kt">char</span> <span class="n">text</span><span class="p">;</span></code></pre></div>
+<div class="highlight"><pre><code class="language-c" data-lang="c"><span class="lineno"> 1</span> <span class="cm">/* declarations */</span>
+<span class="lineno"> 2</span> <span class="kt">int</span> <span class="n">numX</span><span class="p">;</span>
+<span class="lineno"> 3</span> <span class="kt">int</span> <span class="n">numY</span><span class="p">;</span>
+<span class="lineno"> 4</span> <span class="kt">float</span> <span class="n">numA</span><span class="p">,</span> <span class="n">numB</span><span class="p">;</span>
+<span class="lineno"> 5</span> 
+<span class="lineno"> 6</span> <span class="cm">/* declaration with initiation */</span>
+<span class="lineno"> 7</span> <span class="kt">char</span> <span class="n">text</span> <span class="o">=</span> <span class="s">&quot;X&quot;</span><span class="p">;</span>
+<span class="lineno"> 8</span> 
+<span class="lineno"> 9</span> <span class="cm">/* definition */</span>
+<span class="lineno">10</span> <span class="n">numX</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
+<span class="lineno">11</span> <span class="n">numY</span> <span class="o">=</span> <span class="n">numX</span><span class="p">;</span>
+<span class="lineno">12</span> 
+<span class="lineno">13</span> <span class="n">numA</span> <span class="o">=</span> <span class="mf">3.14159625</span><span class="p">;</span>
+<span class="lineno">14</span> <span class="n">numB</span> <span class="o">=</span> <span class="n">numA</span><span class="p">;</span></code></pre></div>
 
 <p>Variable name can be composed of letters (both uppercase and lowercase letters), digits and underscore ‘_’ only. However, it is discouraged to use underscore as first letter on variable name even though it is permittable and legal. Just keep in mind, that some system and compiler specific names also uses variable with underscore as the first letter, thus it can become an unwanted conflict.</p>
 
 <p><strong>line:01</strong> and <strong>line:02</strong> show two instances of variable declaration. Both variables are <code>integer</code> type. This means each of <code>numX</code> and <code>numY</code> will use 4 bytes in memory, as once those variables are declared, 32 bits (for each) is allocated to store the value. In integer, with 32 bits of length, there are 4,294,967,296 decimal values that can be computed. The minimal and maximal value however, will start from -2,147,483,648 and end at 2,147,483,647. If you are confident enough that your data values will never become negative integer, then you can initiate an <code>unsigned</code> integer to make the value start from zero and end at 4,294,967,295.</p>
 
-<p><code>float</code> variable in <strong>line:04</strong> are the numeric constants that has either fractional form or exponent form. This type of data store a floating point value in single precision (32 bits). An example, <code>float pi = 3.14159265;</code>, will let the system to have Phi value stored as floating point. The accuracy of floating point. The fact about floating point is that it can’t represent precisely all real numbers. Some certain value will be rounded here and there to get closest representation. Such this problem can be circumvented by utilising <code>double</code> precision (64 bits) data type.</p>
+<p><code>float</code> variable in <strong>line:04</strong> are the numeric constants that has either fractional form or exponent form. This type of data store a floating point value in single precision (32 bits). An example, <code>float pi = 3.14159265;</code>, will let the system to have Phi value stored as floating point. The accuracy of floating point however, is something that still be quite problematic for some programmers. Some certain value will be rounded here and there to get closest representation. The fact about floating point is that it can’t represent precisely all real numbers, thus for a highly critical computation that requires very precise numbers, this problem can be circumvented by utilising <code>double</code> precision (64 bits) data type or with help from <code>long</code> type modifier.</p>
 
 <p><strong>line:05</strong> shows <code>char</code> variable that store single character which is typically 8 bits in size. A char can be assigned a signed value between -128 to 127, an unsigned value between 0 to 255 or a single quoted ASCII character, <em>e.g.</em> <code>char text = "X"</code>.</p>
 
