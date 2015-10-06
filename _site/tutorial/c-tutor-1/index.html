@@ -155,56 +155,39 @@
 
 <p>There are several top reasons why C is still a good language to learn, here I’ve compiled some.</p>
 
-<h3 id="c-has-nice-syntax"><strong>1. C has nice syntax</strong></h3>
+<h3 id="c-has-nice-syntax">C has nice syntax</h3>
 
-<p>As a language that often interacts with the <code>machine</code>, C is considered to be a <em>pretty</em> language with beautiful syntax.</p>
+<p>As a language that often interacts with the machine, C is considered to be a pretty language with beautiful syntax.</p>
 
-<div class="highlight"><pre><code class="language-c" data-lang="c"><span class="lineno">1</span> <span class="cp">#include &lt;stdio.h&gt;</span>
-<span class="lineno">2</span> 
-<span class="lineno">3</span> <span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
-<span class="lineno">4</span> <span class="p">{</span>
-<span class="lineno">5</span>   <span class="n">printf</span><span class="p">(</span><span class="s">&quot;Hi World</span><span class="se">\n</span><span class="s">&quot;</span><span class="p">);</span>
-<span class="lineno">6</span>   
-<span class="lineno">7</span>   <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-<span class="lineno">8</span> <span class="p">}</span></code></pre></div>
+<noscript><pre>400: Invalid request
+</pre></noscript>
+<script src="https://gist.github.com/300a69849266f41b58c9.js"> </script>
 
 <p>As we can see, <code>Pygments</code> rendered C-syntax (with line numbers) beautifully. Now, time for a trivia. Can you guess, how many programmers which are saved by C-syntax from obfuscating codes? Count me one!</p>
 
-<h3 id="c-macros-are-the-best"><strong>2. C macros are the best</strong></h3>
+<h3 id="c-macros-are-the-best">C macros are the best</h3>
 
 <p>Macros is one of the most important preprocessor <code>#</code> implementation in C. It can be used to create a fast function without putting everything on the stack. Check this out,</p>
 
-<div class="highlight"><pre><code class="language-c" data-lang="c"><span class="lineno"> 1</span> <span class="cp">#include &lt;stdio.h&gt;</span>
-<span class="lineno"> 2</span> 
-<span class="lineno"> 3</span> <span class="cm">/* preprocessor for a logical OR */</span>
-<span class="lineno"> 4</span> <span class="cp">#define MACRO_OR(a, b) (a || b)</span>
-<span class="lineno"> 5</span> 
-<span class="lineno"> 6</span> <span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
-<span class="lineno"> 7</span> <span class="p">{</span>
-<span class="lineno"> 8</span> 	<span class="kt">bool</span> <span class="n">a</span> <span class="o">=</span> <span class="nb">true</span><span class="p">;</span>
-<span class="lineno"> 9</span> 	<span class="kt">bool</span> <span class="n">b</span> <span class="o">=</span> <span class="nb">false</span><span class="p">;</span>
-<span class="lineno">10</span> 
-<span class="lineno">11</span> 	<span class="cm">/* invoke the MACRO_OR */</span>
-<span class="lineno">12</span> 	<span class="kt">bool</span> <span class="n">c</span> <span class="o">=</span> <span class="n">MACRO_OR</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">);</span>
-<span class="lineno">13</span> 
-<span class="lineno">14</span> 	<span class="n">return0</span><span class="p">;</span>
-<span class="lineno">15</span> <span class="p">}</span></code></pre></div>
+<noscript><pre>400: Invalid request
+</pre></noscript>
+<script src="https://gist.github.com/b7a1b47ffdff16237ae1.js"> </script>
 
 <p>In <strong>line:4</strong>, we define the macro function <code>MACRO_OR</code> that takes <em>a</em> and <em>b</em> as an input. Then, this macro will return the logical <code>OR</code> result from <em>a</em> and <em>b</em>. Super neat!</p>
 
 <p>In <strong>line:12</strong>, the macro is invoked to compute the logical <code>OR</code> between <em>a</em> and <em>b</em> and return the result to <em>c</em>.</p>
 
-<h3 id="c-is-small"><strong>3. C is small</strong></h3>
+<h3 id="c-is-small">C is small</h3>
 
 <p>C utilised merely variables, macros, functions and structures. Therefore, C is considered small in size, complexity and that much of it. Due to this, C has been heavily used on embedded system, modern microprocessor, even modern <code>Arduino</code>.</p>
 
 <p>More about this, lot of parallel programming languages, OpenMP, OpenCL, CUDA, etc, are based on C language due to its relative connection to lower level hardware compared with other languages.</p>
 
-<h3 id="c-is-root-of-all-goodness"><strong>4. C is root of all goodness</strong></h3>
+<h3 id="c-is-root-of-all-goodness">C is root of all goodness</h3>
 
 <p>You can pretty much stand on opinion that C is different compared to <em>C++</em> or <em>ObjectiveC</em>, but from pedagogical approach, lot of programming expert will tell you to learn basic things from C, e.g. <em>overflow</em>, <em>memory addressing</em>, <em>pointer</em>, <em>profiling</em> and <em>debugging</em>. A true concept of those languages can be learned from C.</p>
 
-<h3 id="c-is-still-alive-and-sound"><strong>5. C is still alive and sound</strong></h3>
+<h3 id="c-is-alive-and-sound">C is alive and sound</h3>
 
 <p>The number one reason C is the best programming language today is still the fact that it simply powers everything. From your phone to your <code>Wii</code>, no other language provides the level of hardware interaction with the practicality of a concise and expressive syntax. Unless you’re still using an early <code>IBM</code> (please switch soon, if so), the screen you’re reading this article on is probably powered by C.</p>
 

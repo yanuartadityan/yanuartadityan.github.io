@@ -174,7 +174,7 @@
 
 <p>Variable name can be composed of letters (both uppercase and lowercase letters), digits and underscore ‘_’ only. However, it is discouraged to use underscore as first letter on variable name even though it is permittable and legal. Just keep in mind, that some system and compiler specific names also uses variable with underscore as the first letter, thus it can become an unwanted conflict.</p>
 
-<p><strong>line:01</strong> and <strong>line:02</strong> show two instances of variable declaration. Both variables are <code>integer</code> type. This means each of <code>numX</code> and <code>numY</code> will use 4 bytes in memory, as once those variables are declared, 32 bits (for each) is allocated to store the value. In integer, with 32 bits of length, there are 4,294,967,296 decimal values that can be computed. The minimal and maximal value however, will start from -2,147,483,648 and end at 2,147,483,647. If you are confident enough that your data values will never become negative integer, then you can initiate an <code>unsigned</code> integer to make the value start from zero and end at 4,294,967,295.</p>
+<p><strong>line:01</strong> and <strong>line:02</strong> show two instances of variable declaration. Both variables are <code>integer</code> type. This means each of <code>numX</code> and <code>numY</code> will use 4 bytes in memory, as once those variables are declared, 32 bits (for each) is allocated to store the value. In integer, with 32 bits of length, there are 4,294,967,296 decimal values that can be computed. The minimal and maximal value however, will start from -2,147,483,648 and end at 2,147,483,647. If you are confident enough that your data values will never become negative integer, then you can initiate an <code>unsigned integer</code> to make the value start from zero and end at 4,294,967,295.</p>
 
 <p><code>float</code> variable in <strong>line:04</strong> are the numeric constants that has either fractional form or exponent form. This type of data store a floating point value in single precision (32 bits). An example, <code>float pi = 3.14159265;</code>, will let the system to have Phi value stored as floating point. The accuracy of floating point however, is something that still be quite problematic for some programmers. Some certain value will be rounded here and there to get closest representation. The fact about floating point is that it can’t represent precisely all real numbers, thus for a highly critical computation that requires very precise numbers, this problem can be circumvented by utilising <code>double</code> precision (64 bits) data type or with help from <code>long</code> type modifier.</p>
 
@@ -187,13 +187,13 @@
 <p>A compiler defines whether the default is signed or unsigned, so to be safe you should declare which type you want to use. Still, using signed or unsigned modifiers to a type data, <em>e.g.</em> integer, will not change the size of the variable inside the memory. An integer stays 32 bit no matter it is signed or unsigned. Since introduction of <a href="https://en.wikipedia.org/wiki/C99">C99</a>, the newest C-programming language standard, modifier <code>long</code> is supported to enhance the precision of integer, float and double.</p>
 
 <div class="highlight"><pre><code class="language-c" data-lang="c"><span class="cm">/* OK */</span>
-<span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">A</span> <span class="o">=</span> <span class="mi">4</span><span class="p">,</span><span class="mi">294</span><span class="p">,</span><span class="mi">967</span><span class="p">,</span><span class="mi">295</span><span class="p">;</span> 	
+<span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">A</span> <span class="o">=</span> <span class="mi">4294967295</span><span class="p">;</span> 	
 
 <span class="cm">/* overflow problem */</span>
-<span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">B</span> <span class="o">=</span> <span class="mi">4</span><span class="p">,</span><span class="mi">294</span><span class="p">,</span><span class="mi">967</span><span class="p">,</span><span class="mi">296</span><span class="p">;</span>	
+<span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">B</span> <span class="o">=</span> <span class="mi">4294967296</span><span class="p">;</span>	
 
 <span class="cm">/* OK */</span>
-<span class="kt">unsigned</span> <span class="kt">long</span> <span class="kt">int</span> <span class="n">C</span> <span class="o">=</span> <span class="mi">4</span><span class="p">,</span><span class="mi">294</span><span class="p">,</span><span class="mi">967</span><span class="p">,</span><span class="mi">296</span><span class="p">;</span></code></pre></div>
+<span class="kt">unsigned</span> <span class="kt">long</span> <span class="kt">int</span> <span class="n">C</span> <span class="o">=</span> <span class="mi">4294967296</span><span class="p">;</span></code></pre></div>
 
 <p>Another modifier, <code>const</code> will let the corresponding variable fixed throughout the runtime.</p>
 
@@ -207,6 +207,25 @@
 <span class="n">printf</span><span class="p">(</span><span class="s">&quot;%d&quot;</span><span class="p">,</span> <span class="n">A</span><span class="p">);</span></code></pre></div>
 
 <p>Still there are more modifiers in C99 standard, but we are not gonna look for it too deep for now. However, C can be quite demanding on how it stores the datas. This required more knowledge in order to master for ones to get the most of the C.</p>
+
+<h3 id="a-good-example">A Good Example</h3>
+
+<p>Here, an example that contains everything, from comments, macro variables, signed versus unsigned integers, and simple implementation of format tag inside <code>printf</code>.</p>
+
+<noscript><pre>400: Invalid request
+</pre></noscript>
+<script src="https://gist.github.com/575de6ff4302449a1a7a.js"> </script>
+
+<p>Basically, the code tells you to assign maximum signed integer value to <code>a</code>, and <code>b</code> will have the minimum signed integer value. Afterward, by adding one decimal to <code>a</code> is enough to let an overflow happens. When an overflow happens, the value of <code>a</code> will be wrapped around to the minimum one, or equal to current <code>b</code> value. The workaround for this is to use unsigned integer, demonstrated by variable <code>c</code>. You can expect the output of code above to be shown like this,</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">A</span> <span class="n">value</span> <span class="n">is</span> <span class="mi">2147483647</span>
+<span class="n">B</span> <span class="n">value</span> <span class="n">is</span> <span class="o">-</span><span class="mi">2147483648</span>
+<span class="n">now</span><span class="p">,</span> <span class="n">add</span> <span class="n">one</span> <span class="n">decimal</span> <span class="n">to</span> <span class="n">A</span>
+<span class="n">A</span> <span class="n">value</span> <span class="n">now</span> <span class="n">is</span> <span class="o">-</span><span class="mi">2147483648</span>
+<span class="n">C</span> <span class="n">value</span> <span class="n">using</span> <span class="n">signed</span> <span class="n">decimal</span> <span class="n">tag</span> <span class="ss">is</span><span class="p">:</span> <span class="o">-</span><span class="mi">2147483648</span>
+<span class="n">C</span> <span class="n">value</span> <span class="n">using</span> <span class="n">unsigned</span> <span class="n">decimal</span> <span class="n">tag</span> <span class="ss">is</span><span class="p">:</span> <span class="mi">2147483648</span></code></pre></div>
+
+<p>If you haven’t understand the idea of comment or <code>printf</code>, you can check my <a href="http://yanuartadityan.github.io/tutorial/c-tutor-2">previous</a> tutorial. On the next tutorial, we will learn on how a <a href="http://yanuartadityan.github.io/tutorial/c-tutor-4">mathematical operations</a> in C.</p>
 
 
       <hr />

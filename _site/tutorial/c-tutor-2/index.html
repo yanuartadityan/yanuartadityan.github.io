@@ -177,6 +177,26 @@
 
 <p><strong>line:07</strong> with <code>return</code> statement terminates the execution. However, as the name implies, <code>return</code> gives certain value back to the calling function. If you call a function A within function <code>main</code>, and you invoke <code>return value</code> from within A, then <code>main</code> will get the value that computed inside A. More detailed about return statement can be found on <a href="https://en.wikipedia.org/wiki/Return_statement">Wiki</a> page.</p>
 
+<h3 id="how-to-comments">How to Comments</h3>
+
+<p>When you put some information inside <code>/*</code> and <code>*/</code>, you just made a comment. This is what we called with multi-line comment, or sometimes also called a block comment. Comments are used by the programmers to explain functionality of certain parts of codes, or to keep notes for themselves.</p>
+
+<noscript><pre>400: Invalid request
+</pre></noscript>
+<script src="https://gist.github.com/b3dc562143a8497a0dee.js"> </script>
+
+<p>On <strong>line:01</strong>, it shows how block comment works. Any characters between <code>/*</code> and <code>*/</code> are ignored by the compiler. On <strong>line:9</strong> and <strong>10</strong>, a single line comments are provided. A single line comment starts with <code>//</code> and everything after it is ignored by the compiler until end of the line. This is originated from C++ style comment, but nowadays most of C compilers support this comment.</p>
+
+<h3 id="quick-explanation-on-printf">Quick Explanation on printf()</h3>
+
+<p>Originall, <code>printf()</code> is declared with,</p>
+
+<div class="highlight"><pre><code class="language-c" data-lang="c"><span class="kt">int</span> <span class="n">printf</span><span class="p">(</span><span class="k">const</span> <span class="kt">char</span> <span class="o">*</span><span class="n">format</span><span class="p">,</span> <span class="p">...)</span><span class="err">`</span></code></pre></div>
+
+<p><code>format</code> in here is the string that contains the text to be displayed. In sort, this is the text you wanted to see. It can be accompanied by the variables. An example of <code>printf("Hi World")</code> will bring texts “Hi World” to be displayed on terminal. You can add format tags to determine data types, and point it out to the corresponding variables. If you have <code>int a</code> and want to show it after “Hi World”, then the command will be <code>printf("Hi World %d", a)</code>. The tag is <code>%</code>, and <code>d</code> represents signed decimal integer. <code>%f</code> is format tag for floating point data type, <code>%s</code> for characters, and <code>%x</code> for hexadecimal integer. To check all of available format tags for C, you can see it <a href="http://www.tutorialspoint.com/c_standard_library/c_function_printf.htm">here</a>. For the tutorial about variables, please refer to the end of this tutorial.</p>
+
+<h3 id="spaces-on-c">Spaces on C</h3>
+
 <p>Also, one thing to notice about C-syntax is, it does not care about spaces.</p>
 
 <noscript><pre>400: Invalid request
@@ -185,7 +205,7 @@
 
 <p>Those lines will resulted on same result with previous codes. But, remember humans will read your codes as well. So, keep it mind to make readable codes for your colleagues, friend or bosses.</p>
 
-<p>Next, we will go through the basic compilation using command line with <code>gcc</code>.</p>
+<p>Next, we will go through the basic but one of the core in C, <a href="http://yanuartadityan.github.com/tutorial/c-tutor-3">variables and data types</a>.</p>
 
 
       <hr />

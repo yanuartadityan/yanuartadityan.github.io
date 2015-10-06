@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2015-10-05T15:18:17+02:00</updated>
+<updated>2015-10-06T02:15:13+02:00</updated>
 <id>/</id>
 <author>
   <name>Yanuar Aditya</name>
@@ -50,7 +50,7 @@
 
 &lt;p&gt;Variable name can be composed of letters (both uppercase and lowercase letters), digits and underscore ‘_’ only. However, it is discouraged to use underscore as first letter on variable name even though it is permittable and legal. Just keep in mind, that some system and compiler specific names also uses variable with underscore as the first letter, thus it can become an unwanted conflict.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;line:01&lt;/strong&gt; and &lt;strong&gt;line:02&lt;/strong&gt; show two instances of variable declaration. Both variables are &lt;code&gt;integer&lt;/code&gt; type. This means each of &lt;code&gt;numX&lt;/code&gt; and &lt;code&gt;numY&lt;/code&gt; will use 4 bytes in memory, as once those variables are declared, 32 bits (for each) is allocated to store the value. In integer, with 32 bits of length, there are 4,294,967,296 decimal values that can be computed. The minimal and maximal value however, will start from -2,147,483,648 and end at 2,147,483,647. If you are confident enough that your data values will never become negative integer, then you can initiate an &lt;code&gt;unsigned&lt;/code&gt; integer to make the value start from zero and end at 4,294,967,295.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;line:01&lt;/strong&gt; and &lt;strong&gt;line:02&lt;/strong&gt; show two instances of variable declaration. Both variables are &lt;code&gt;integer&lt;/code&gt; type. This means each of &lt;code&gt;numX&lt;/code&gt; and &lt;code&gt;numY&lt;/code&gt; will use 4 bytes in memory, as once those variables are declared, 32 bits (for each) is allocated to store the value. In integer, with 32 bits of length, there are 4,294,967,296 decimal values that can be computed. The minimal and maximal value however, will start from -2,147,483,648 and end at 2,147,483,647. If you are confident enough that your data values will never become negative integer, then you can initiate an &lt;code&gt;unsigned integer&lt;/code&gt; to make the value start from zero and end at 4,294,967,295.&lt;/p&gt;
 
 &lt;p&gt;&lt;code&gt;float&lt;/code&gt; variable in &lt;strong&gt;line:04&lt;/strong&gt; are the numeric constants that has either fractional form or exponent form. This type of data store a floating point value in single precision (32 bits). An example, &lt;code&gt;float pi = 3.14159265;&lt;/code&gt;, will let the system to have Phi value stored as floating point. The accuracy of floating point however, is something that still be quite problematic for some programmers. Some certain value will be rounded here and there to get closest representation. The fact about floating point is that it can’t represent precisely all real numbers, thus for a highly critical computation that requires very precise numbers, this problem can be circumvented by utilising &lt;code&gt;double&lt;/code&gt; precision (64 bits) data type or with help from &lt;code&gt;long&lt;/code&gt; type modifier.&lt;/p&gt;
 
@@ -63,13 +63,13 @@
 &lt;p&gt;A compiler defines whether the default is signed or unsigned, so to be safe you should declare which type you want to use. Still, using signed or unsigned modifiers to a type data, &lt;em&gt;e.g.&lt;/em&gt; integer, will not change the size of the variable inside the memory. An integer stays 32 bit no matter it is signed or unsigned. Since introduction of &lt;a href=&quot;https://en.wikipedia.org/wiki/C99&quot;&gt;C99&lt;/a&gt;, the newest C-programming language standard, modifier &lt;code&gt;long&lt;/code&gt; is supported to enhance the precision of integer, float and double.&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;cm&quot;&gt;/* OK */&lt;/span&gt;
-&lt;span class=&quot;kt&quot;&gt;unsigned&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;A&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;294&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;967&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;295&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 	
+&lt;span class=&quot;kt&quot;&gt;unsigned&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;A&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4294967295&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; 	
 
 &lt;span class=&quot;cm&quot;&gt;/* overflow problem */&lt;/span&gt;
-&lt;span class=&quot;kt&quot;&gt;unsigned&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;B&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;294&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;967&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;296&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;	
+&lt;span class=&quot;kt&quot;&gt;unsigned&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;B&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4294967296&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;	
 
 &lt;span class=&quot;cm&quot;&gt;/* OK */&lt;/span&gt;
-&lt;span class=&quot;kt&quot;&gt;unsigned&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;long&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;C&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;294&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;967&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;296&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;kt&quot;&gt;unsigned&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;long&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;C&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;4294967296&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Another modifier, &lt;code&gt;const&lt;/code&gt; will let the corresponding variable fixed throughout the runtime.&lt;/p&gt;
 
@@ -83,6 +83,25 @@
 &lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;%d&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;A&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;Still there are more modifiers in C99 standard, but we are not gonna look for it too deep for now. However, C can be quite demanding on how it stores the datas. This required more knowledge in order to master for ones to get the most of the C.&lt;/p&gt;
+
+&lt;h3 id=&quot;a-good-example&quot;&gt;A Good Example&lt;/h3&gt;
+
+&lt;p&gt;Here, an example that contains everything, from comments, macro variables, signed versus unsigned integers, and simple implementation of format tag inside &lt;code&gt;printf&lt;/code&gt;.&lt;/p&gt;
+
+&lt;noscript&gt;&lt;pre&gt;400: Invalid request
+&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/575de6ff4302449a1a7a.js&quot;&gt; &lt;/script&gt;
+
+&lt;p&gt;Basically, the code tells you to assign maximum signed integer value to &lt;code&gt;a&lt;/code&gt;, and &lt;code&gt;b&lt;/code&gt; will have the minimum signed integer value. Afterward, by adding one decimal to &lt;code&gt;a&lt;/code&gt; is enough to let an overflow happens. When an overflow happens, the value of &lt;code&gt;a&lt;/code&gt; will be wrapped around to the minimum one, or equal to current &lt;code&gt;b&lt;/code&gt; value. The workaround for this is to use unsigned integer, demonstrated by variable &lt;code&gt;c&lt;/code&gt;. You can expect the output of code above to be shown like this,&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;n&quot;&gt;A&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2147483647&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;B&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2147483648&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;now&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;add&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;one&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;decimal&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;A&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;A&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;now&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2147483648&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;C&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;using&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;signed&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;decimal&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;is&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2147483648&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;C&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;using&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;unsigned&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;decimal&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;is&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2147483648&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;If you haven’t understand the idea of comment or &lt;code&gt;printf&lt;/code&gt;, you can check my &lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-2&quot;&gt;previous&lt;/a&gt; tutorial. On the next tutorial, we will learn on how a &lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-4&quot;&gt;mathematical operations&lt;/a&gt; in C.&lt;/p&gt;
 
 
     &lt;p&gt;&lt;a href=&quot;/tutorial/c-tutor-3/&quot;&gt;C Tutorial #3 | Types and Variables&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 04, 2015.&lt;/p&gt;
@@ -130,6 +149,26 @@
 
 &lt;p&gt;&lt;strong&gt;line:07&lt;/strong&gt; with &lt;code&gt;return&lt;/code&gt; statement terminates the execution. However, as the name implies, &lt;code&gt;return&lt;/code&gt; gives certain value back to the calling function. If you call a function A within function &lt;code&gt;main&lt;/code&gt;, and you invoke &lt;code&gt;return value&lt;/code&gt; from within A, then &lt;code&gt;main&lt;/code&gt; will get the value that computed inside A. More detailed about return statement can be found on &lt;a href=&quot;https://en.wikipedia.org/wiki/Return_statement&quot;&gt;Wiki&lt;/a&gt; page.&lt;/p&gt;
 
+&lt;h3 id=&quot;how-to-comments&quot;&gt;How to Comments&lt;/h3&gt;
+
+&lt;p&gt;When you put some information inside &lt;code&gt;/*&lt;/code&gt; and &lt;code&gt;*/&lt;/code&gt;, you just made a comment. This is what we called with multi-line comment, or sometimes also called a block comment. Comments are used by the programmers to explain functionality of certain parts of codes, or to keep notes for themselves.&lt;/p&gt;
+
+&lt;noscript&gt;&lt;pre&gt;400: Invalid request
+&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/b3dc562143a8497a0dee.js&quot;&gt; &lt;/script&gt;
+
+&lt;p&gt;On &lt;strong&gt;line:01&lt;/strong&gt;, it shows how block comment works. Any characters between &lt;code&gt;/*&lt;/code&gt; and &lt;code&gt;*/&lt;/code&gt; are ignored by the compiler. On &lt;strong&gt;line:9&lt;/strong&gt; and &lt;strong&gt;10&lt;/strong&gt;, a single line comments are provided. A single line comment starts with &lt;code&gt;//&lt;/code&gt; and everything after it is ignored by the compiler until end of the line. This is originated from C++ style comment, but nowadays most of C compilers support this comment.&lt;/p&gt;
+
+&lt;h3 id=&quot;quick-explanation-on-printf&quot;&gt;Quick Explanation on printf()&lt;/h3&gt;
+
+&lt;p&gt;Originall, &lt;code&gt;printf()&lt;/code&gt; is declared with,&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;...)&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;`&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code&gt;format&lt;/code&gt; in here is the string that contains the text to be displayed. In sort, this is the text you wanted to see. It can be accompanied by the variables. An example of &lt;code&gt;printf(&quot;Hi World&quot;)&lt;/code&gt; will bring texts “Hi World” to be displayed on terminal. You can add format tags to determine data types, and point it out to the corresponding variables. If you have &lt;code&gt;int a&lt;/code&gt; and want to show it after “Hi World”, then the command will be &lt;code&gt;printf(&quot;Hi World %d&quot;, a)&lt;/code&gt;. The tag is &lt;code&gt;%&lt;/code&gt;, and &lt;code&gt;d&lt;/code&gt; represents signed decimal integer. &lt;code&gt;%f&lt;/code&gt; is format tag for floating point data type, &lt;code&gt;%s&lt;/code&gt; for characters, and &lt;code&gt;%x&lt;/code&gt; for hexadecimal integer. To check all of available format tags for C, you can see it &lt;a href=&quot;http://www.tutorialspoint.com/c_standard_library/c_function_printf.htm&quot;&gt;here&lt;/a&gt;. For the tutorial about variables, please refer to the end of this tutorial.&lt;/p&gt;
+
+&lt;h3 id=&quot;spaces-on-c&quot;&gt;Spaces on C&lt;/h3&gt;
+
 &lt;p&gt;Also, one thing to notice about C-syntax is, it does not care about spaces.&lt;/p&gt;
 
 &lt;noscript&gt;&lt;pre&gt;400: Invalid request
@@ -138,7 +177,7 @@
 
 &lt;p&gt;Those lines will resulted on same result with previous codes. But, remember humans will read your codes as well. So, keep it mind to make readable codes for your colleagues, friend or bosses.&lt;/p&gt;
 
-&lt;p&gt;Next, we will go through the basic compilation using command line with &lt;code&gt;gcc&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Next, we will go through the basic but one of the core in C, &lt;a href=&quot;http://yanuartadityan.github.com/tutorial/c-tutor-3&quot;&gt;variables and data types&lt;/a&gt;.&lt;/p&gt;
 
 
     &lt;p&gt;&lt;a href=&quot;/tutorial/c-tutor-2/&quot;&gt;C Tutorial #2 | The First Program&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 03, 2015.&lt;/p&gt;
@@ -164,56 +203,39 @@
 
 &lt;p&gt;There are several top reasons why C is still a good language to learn, here I’ve compiled some.&lt;/p&gt;
 
-&lt;h3 id=&quot;c-has-nice-syntax&quot;&gt;&lt;strong&gt;1. C has nice syntax&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;c-has-nice-syntax&quot;&gt;C has nice syntax&lt;/h3&gt;
 
-&lt;p&gt;As a language that often interacts with the &lt;code&gt;machine&lt;/code&gt;, C is considered to be a &lt;em&gt;pretty&lt;/em&gt; language with beautiful syntax.&lt;/p&gt;
+&lt;p&gt;As a language that often interacts with the machine, C is considered to be a pretty language with beautiful syntax.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;lineno&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;#include &amp;lt;stdio.h&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;2&lt;/span&gt; 
-&lt;span class=&quot;lineno&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;5&lt;/span&gt;   &lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;Hi World&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;6&lt;/span&gt;   
-&lt;span class=&quot;lineno&quot;&gt;7&lt;/span&gt;   &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;8&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;noscript&gt;&lt;pre&gt;400: Invalid request
+&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/300a69849266f41b58c9.js&quot;&gt; &lt;/script&gt;
 
 &lt;p&gt;As we can see, &lt;code&gt;Pygments&lt;/code&gt; rendered C-syntax (with line numbers) beautifully. Now, time for a trivia. Can you guess, how many programmers which are saved by C-syntax from obfuscating codes? Count me one!&lt;/p&gt;
 
-&lt;h3 id=&quot;c-macros-are-the-best&quot;&gt;&lt;strong&gt;2. C macros are the best&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;c-macros-are-the-best&quot;&gt;C macros are the best&lt;/h3&gt;
 
 &lt;p&gt;Macros is one of the most important preprocessor &lt;code&gt;#&lt;/code&gt; implementation in C. It can be used to create a fast function without putting everything on the stack. Check this out,&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;lineno&quot;&gt; 1&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;#include &amp;lt;stdio.h&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 2&lt;/span&gt; 
-&lt;span class=&quot;lineno&quot;&gt; 3&lt;/span&gt; &lt;span class=&quot;cm&quot;&gt;/* preprocessor for a logical OR */&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 4&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;#define MACRO_OR(a, b) (a || b)&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 5&lt;/span&gt; 
-&lt;span class=&quot;lineno&quot;&gt; 6&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 7&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 8&lt;/span&gt; 	&lt;span class=&quot;kt&quot;&gt;bool&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt; 9&lt;/span&gt; 	&lt;span class=&quot;kt&quot;&gt;bool&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;10&lt;/span&gt; 
-&lt;span class=&quot;lineno&quot;&gt;11&lt;/span&gt; 	&lt;span class=&quot;cm&quot;&gt;/* invoke the MACRO_OR */&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;12&lt;/span&gt; 	&lt;span class=&quot;kt&quot;&gt;bool&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;MACRO_OR&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;13&lt;/span&gt; 
-&lt;span class=&quot;lineno&quot;&gt;14&lt;/span&gt; 	&lt;span class=&quot;n&quot;&gt;return0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;lineno&quot;&gt;15&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;noscript&gt;&lt;pre&gt;400: Invalid request
+&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/b7a1b47ffdff16237ae1.js&quot;&gt; &lt;/script&gt;
 
 &lt;p&gt;In &lt;strong&gt;line:4&lt;/strong&gt;, we define the macro function &lt;code&gt;MACRO_OR&lt;/code&gt; that takes &lt;em&gt;a&lt;/em&gt; and &lt;em&gt;b&lt;/em&gt; as an input. Then, this macro will return the logical &lt;code&gt;OR&lt;/code&gt; result from &lt;em&gt;a&lt;/em&gt; and &lt;em&gt;b&lt;/em&gt;. Super neat!&lt;/p&gt;
 
 &lt;p&gt;In &lt;strong&gt;line:12&lt;/strong&gt;, the macro is invoked to compute the logical &lt;code&gt;OR&lt;/code&gt; between &lt;em&gt;a&lt;/em&gt; and &lt;em&gt;b&lt;/em&gt; and return the result to &lt;em&gt;c&lt;/em&gt;.&lt;/p&gt;
 
-&lt;h3 id=&quot;c-is-small&quot;&gt;&lt;strong&gt;3. C is small&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;c-is-small&quot;&gt;C is small&lt;/h3&gt;
 
 &lt;p&gt;C utilised merely variables, macros, functions and structures. Therefore, C is considered small in size, complexity and that much of it. Due to this, C has been heavily used on embedded system, modern microprocessor, even modern &lt;code&gt;Arduino&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;More about this, lot of parallel programming languages, OpenMP, OpenCL, CUDA, etc, are based on C language due to its relative connection to lower level hardware compared with other languages.&lt;/p&gt;
 
-&lt;h3 id=&quot;c-is-root-of-all-goodness&quot;&gt;&lt;strong&gt;4. C is root of all goodness&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;c-is-root-of-all-goodness&quot;&gt;C is root of all goodness&lt;/h3&gt;
 
 &lt;p&gt;You can pretty much stand on opinion that C is different compared to &lt;em&gt;C++&lt;/em&gt; or &lt;em&gt;ObjectiveC&lt;/em&gt;, but from pedagogical approach, lot of programming expert will tell you to learn basic things from C, e.g. &lt;em&gt;overflow&lt;/em&gt;, &lt;em&gt;memory addressing&lt;/em&gt;, &lt;em&gt;pointer&lt;/em&gt;, &lt;em&gt;profiling&lt;/em&gt; and &lt;em&gt;debugging&lt;/em&gt;. A true concept of those languages can be learned from C.&lt;/p&gt;
 
-&lt;h3 id=&quot;c-is-still-alive-and-sound&quot;&gt;&lt;strong&gt;5. C is still alive and sound&lt;/strong&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;c-is-alive-and-sound&quot;&gt;C is alive and sound&lt;/h3&gt;
 
 &lt;p&gt;The number one reason C is the best programming language today is still the fact that it simply powers everything. From your phone to your &lt;code&gt;Wii&lt;/code&gt;, no other language provides the level of hardware interaction with the practicality of a concise and expressive syntax. Unless you’re still using an early &lt;code&gt;IBM&lt;/code&gt; (please switch soon, if so), the screen you’re reading this article on is probably powered by C.&lt;/p&gt;
 
