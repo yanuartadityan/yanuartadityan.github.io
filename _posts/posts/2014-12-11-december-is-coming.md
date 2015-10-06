@@ -18,13 +18,15 @@ Anyway, I do not celebrate Christmas, and I will have full 3 weeks of holiday be
 
 
 |-------+----------+-------|
-||First Day | |
+||**First Day** | |
 |:------|:----------|:------|
 | 19th Dec 	|Lab Demonstration 		|Hope it will go great 			|
 |			|Göteborg Nils Ericson Terminal 	|Travel to Copenhagen by Bus 	|
 |			|Copenhagen Terminal 	|Travel to Copenhagen Airport by Bus 	|
 |			|Copenhagen Airport 	|Travel to Kevlafik Airport, ICE by WOWAir® 	|
 |		|			|		|
+|-------+-----------+-------|
+
 |-------+-----------+-------|
 ||**Second Day** | |
 |:------|:----------|:------|
@@ -35,12 +37,16 @@ Anyway, I do not celebrate Christmas, and I will have full 3 weeks of holiday be
 |			|						|	> Outskirt of Reykjavik		|
 |		|			|		|
 |-------+-----------+-------|
+
+|-------+-----------+-------|
 ||**Third Day** | |
 |:------|:----------|:------|
 | 21st Dec	|Apartment				|Wake up and buy stuffs, cooking meals	|
 |			|Reykjavik 				|Local Trip guided by no-one	|
 |			|Chasing Nortern Light Trip |Whole night trip to watch earth's wonder	|
 |		|			|		|
+|-------+-----------+-------|
+
 |-------+-----------+-------|
 ||**Fourth Day** | |
 |:------|:----------|:------|
@@ -51,6 +57,8 @@ Anyway, I do not celebrate Christmas, and I will have full 3 weeks of holiday be
 |			|Reykjavik				|Another northern lights trip (optional) 	|
 |		|			|		|
 |-------+-----------+-------|
+
+|-------+-----------+-------|
 ||**Fifth Day** | |
 |:------|:----------|:------|
 | 23rd Dec	|Apartment				|Wake up and prepare for the final trip	|
@@ -60,6 +68,8 @@ Anyway, I do not celebrate Christmas, and I will have full 3 weeks of holiday be
 |			|						|	> Seljavallalaug Nature Swimming Pool 	|
 |		|			|		|
 |-----------+-------+-------|
+
+|-------+-----------+-------|
 ||**Sixth Day** | |
 |:------|:----------|:------|
 | 24th Dec	|Apartment				|Prepare for the flight back to Copenhagen	|
@@ -67,6 +77,8 @@ Anyway, I do not celebrate Christmas, and I will have full 3 weeks of holiday be
 |			|Copenhagen				|Take a walk and enjoy Copenhagen afternoon	|
 |		|			|		|
 |-----------+-------+-------|
+
+|-------+-----------+-------|
 ||**Seventh Day** | |
 |:------|:----------|:------|
 | 25th Dec	|Apartment				|Breakfast or maybe look for a café	|
@@ -74,6 +86,8 @@ Anyway, I do not celebrate Christmas, and I will have full 3 weeks of holiday be
 |			|						|Copenhagen is very close to shore. Visit shore! 	|
 |		|			|		|
 |-----------+-------+-------|
+
+|-------+-----------+-------|
 ||**Eighth Day** | |
 |:------|:----------|:------|
 | 26th Dec	|Apartment				|Time to go back	|

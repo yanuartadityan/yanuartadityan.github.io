@@ -1,0 +1,374 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>C Tutorial #5 | Function & Math Operations &#8211; Mirkwood Ape</title>
+<meta name="description" content="Get to know on how to perform basic math computations, arithmetic and logic.">
+<meta name="keywords" content="tutorial, C">
+
+
+
+<!-- Twitter Cards -->
+<meta name="twitter:title" content="C Tutorial #5 | Function & Math Operations">
+<meta name="twitter:description" content="Get to know on how to perform basic math computations, arithmetic and logic.">
+<meta name="twitter:site" content="@yanuartadityan">
+<meta name="twitter:creator" content="@yanuartadityan">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="/images/default-thumb.png">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="C Tutorial #5 | Function & Math Operations">
+<meta property="og:description" content="Get to know on how to perform basic math computations, arithmetic and logic.">
+<meta property="og:url" content="/tutorial/c-tutor-5/">
+<meta property="og:site_name" content="Mirkwood Ape">
+
+
+
+
+
+<link rel="canonical" href="/tutorial/c-tutor-5/">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Mirkwood Ape Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- HTML5 Shiv and Media Query Support -->
+<!--[if lt IE 9]>
+	<script src="/assets/js/vendor/html5shiv.min.js"></script>
+	<script src="/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+
+<!-- Modernizr -->
+<script src="/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+<link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+
+<!-- added by adit -->
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css'>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/apple-touch-icon-144x144-precomposed.png">
+
+</head>
+
+<body class="post">
+
+<!--[if lt IE 9]><div class="browser-upgrade alert alert-info">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div><![endif]-->
+
+<div class="navigation-wrapper">
+	<div class="site-name">
+		<a href="/">Mirkwood Ape</a>
+	</div><!-- /.site-name -->
+	<div class="top-navigation">
+		<nav role="navigation" id="site-nav" class="nav">
+		    <ul>
+		        
+				    
+				        
+				    
+				    <li><a href="/posts/" >Blog</a></li>
+				
+				    
+				        
+				    
+				    <li><a href="/tutorial/" >Tutorial</a></li>
+				
+				    
+				        
+				    
+				    <li><a href="/about/" >About</a></li>
+				
+		    </ul>
+		</nav>
+	</div><!-- /.top-navigation -->
+</div><!-- /.navigation-wrapper -->
+
+
+
+<div id="main" role="main">
+  <div class="article-author-side">
+    
+
+
+<div itemscope itemtype="http://schema.org/Person">
+
+
+	<img src="/images/bio-tauriel.jpg" class="bio-photo" alt="Yanuar Aditya bio photo">
+
+
+  <h3 itemprop="name">Yanuar Aditya</h3>
+  <p>grad student in chalmers</p>
+  <a href="mailto:yanuart.adityan@gmail.com" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-square"></i> Email</a>
+  <a href="http://twitter.com/yanuartadityan" class="author-social" target="_blank"><i class="fa fa-fw fa-twitter-square"></i> Twitter</a>
+  <a href="http://facebook.com/yanuartriaditya" class="author-social" target="_blank"><i class="fa fa-fw fa-facebook-square"></i> Facebook</a>
+  <a href="http://plus.google.com/+YanuarTriAdityaNugraha" class="author-social" target="_blank"><i class="fa fa-fw fa-google-plus-square"></i> Google+</a>
+  <a href="http://linkedin.com/in/yanuartadityan" class="author-social" target="_blank"><i class="fa fa-fw fa-linkedin-square"></i> LinkedIn</a>
+  
+  <a href="http://instagram.com/yanuartadityan" class="author-social" target="_blank"><i class="fa fa-fw fa-instagram"></i> Instagram</a>
+  
+  <a href="http://github.com/yanuartadityan" class="author-social" target="_blank"><i class="fa fa-fw fa-github"></i> Github</a>
+  
+  
+  
+  
+  
+  <a href="http://steamcommunity.com/id/thekonar" class="author-social" target="_blank"><i class="fa fa-fw fa-steam-square"></i> Steam</a>
+  
+  
+  
+  
+</div>
+
+  </div>
+  <article class="post">
+    <div class="headline-wrap">
+      
+        <h1><a href="/tutorial/c-tutor-5/" rel="bookmark" title="C Tutorial #5 | Function & Math Operations">C Tutorial #5 | Function & Math Operations</a></h1>
+      
+    </div><!--/ .headline-wrap -->
+    <div class="article-wrap">
+      <p>Now that you should have some basic on C, such as variables, data type, basic I/O, and control flow (conditional &amp; loops), this part of the tutorial, we will learn more about function and math operations in C. Some compile-able examples are provided to help you to gain better understanding. We will try to design a C code to compute a math quadratic polynomial with specific inputs.</p>
+
+<h3 id="function-in-c">Function in C</h3>
+
+<p>Function is a group statements that together they perform a specific task. At least, one function <code>main()</code>always be found on C program. A programmer can divide his code into separate functions. These functions can be located in different files, later on we will call this source codes. A group of source codes containing independent functions called library.</p>
+
+<p>The C standard library provides numerous built-in functions that can be called without us defining them. We have used <code>printf()</code> function so far to let some texts to be displayed. Each built-in functions have specific purposes and mostly, we have to include corresponding header <code>#include &lt;header&gt;</code> to be able to use the built-in functions.</p>
+
+<p>We can define our own function that will work depends on how we want them to. However, ones must know the general form of a function within C language.</p>
+
+<div class="highlight"><pre><code class="language-c" data-lang="c"><span class="n">return_type</span> <span class="nf">function_name</span><span class="p">(</span> <span class="n">arg_type</span> <span class="n">parameters</span><span class="p">,</span> <span class="p">...</span> <span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">body</span> <span class="n">of</span> <span class="n">the</span> <span class="n">function</span>
+
+    <span class="k">return</span> <span class="p">(</span><span class="n">return_type</span><span class="p">)</span> <span class="n">value</span>
+<span class="p">}</span></code></pre></div>
+
+<p><code>return_type</code> is the type datas of the value that the function will return. In other words, when we call a function <strong>B</strong> from function <strong>A</strong>, we’re expecting something happen inside the function <strong>B</strong> and when the function ends, it has some values that will be used by the calling function <strong>A</strong>. There are several ways for function <strong>B</strong> to pass this value to <strong>A</strong>, but for now we will use <code>return</code>. If the function does not have any value to return, then the <code>return_type</code> can be set to <code>void</code>, <em>e.g</em>, <code>void main()</code>. <code>arg_type</code> defines type of the data for the input arguments, <em>e.g</em>, int, char, float, etc. It is exactly similar with how you declare a variable in the main code block.</p>
+
+<noscript><pre>400: Invalid request
+</pre></noscript>
+<script src="https://gist.github.com/801bff698247982f2d20.js"> </script>
+
+<p>To find a square root product in C, the native built-in function is <code>sqrt()</code>.To use this function, we must include corresponding library for it in <strong>line:02</strong>. As you observe the whole codes, we have two additional functions to the <code>main()</code> function, <code>quadratic()</code> and <code>squareRoot()</code>.</p>
+
+<p>In <strong>line:5</strong>, on function <code>quadratic()</code> declaration, it has <code>int</code> return type because in the application, whenever we call it, we expect the function to return the result of a quadratic computation from variable <code>int a</code>. Meanwhile, <code>squareRoot()</code> function has different return type, which is <code>float</code> because we’re gonna deal with real numbers as a result of square root computation from <code>float b</code>.</p>
+
+<p>Another difference between these two functions, is how the declaration and code blocks are located. <code>quadratic()</code> function has both declaration and code block located before <code>main()</code>. The code block spans from <strong>line:6</strong> to <strong>8</strong>. While <code>squareRoot()</code> has been declared before <code>main()</code> in <strong>line:11</strong> with the code block is presented after <code>main()</code> from <strong>line:23</strong> to <strong>26</strong>. This will have same result in the end, just matter of preference on how you as the programmer feel comfort with one of them. Please do notice on latter method, you have to write the full function name twice.</p>
+
+<p>Now, when you started to develop a big C program, probably you will encounter numerous of independent function that needs to be called from different files. Next section will give you the big picture with examples.</p>
+
+<h3 id="multiple-source-codes-in-c">Multiple Source Codes in C</h3>
+
+<p>Now, let’s split the code into separate files. First, create header <code>source.h</code> that consist declaration of every functions. Generally, other than the function declarations, macro parameters are found in header as well.</p>
+
+<noscript><pre>400: Invalid request
+</pre></noscript>
+<script src="https://gist.github.com/8bd26165ecf6b6e9ab3c.js"> </script>
+
+<p>Afterward, define what will happen inside of each functions on the source file, <code>source.c</code>. Start by including the header file on top of the code. This is optional actually if you use C99 compiler. If the name of the header and the source (just the name, without file extension) are same, in this case <code>source</code>, then actually you don’t have to write <code>#include "source.h"</code> inside <code>source.c</code>. It will linked automatically thanks to the smart compiler.</p>
+
+<noscript><pre>400: Invalid request
+</pre></noscript>
+<script src="https://gist.github.com/4f6941f3a7a50fb7d7a7.js"> </script>
+
+<p>For now, we have fully modular source codes for function <code>quadratic()</code> and <code>squareRoot()</code>. As the functions are ready, now other functions can use those functions just by calling the header name. Let’s <code>main()</code> inside <code>main.c</code> calls both functions. Keep in mind, that here we assume that all of these files are located in same directory.</p>
+
+<pre>
++ directory
+|__ source.h
+|__ source.c
+|__ main.c
+</pre>
+
+<p>However, you can also put the source codes inside a directory, <em>e.g.</em> <code>src</code> like this,</p>
+
+<pre>
++ directory
+|__ + src
+|   |__ source.h
+|   |__ source.h
+|__ main.c
+</pre>
+
+<p>and modify the <code>main.c</code> to link to the proper directory of <code>source.h</code> like this <code>#include "src/source.h"</code>.</p>
+
+<noscript><pre>400: Invalid request
+</pre></noscript>
+<script src="https://gist.github.com/765314056037b7a3f37a.js"> </script>
+
+<p>Neat!</p>
+
+<h3 id="arithmetic-operators">Arithmetic Operators</h3>
+
+<p>C programming language contains some mathematical operators. All of the arithmetic operators are shown on table below. Assume that two variables are given, <code>A</code> and <code>B</code> with assigned values are 10 and 5 respectively. These two variables are called operands. From the table you can find the result from each operations.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center"><strong>symbols</strong></th>
+      <th style="text-align: left"><strong>functions</strong></th>
+      <th style="text-align: left"><strong>results</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">+</td>
+      <td style="text-align: left">adding two operands</td>
+      <td style="text-align: left">A + B equals to 15</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">-</td>
+      <td style="text-align: left">subtract two operands</td>
+      <td style="text-align: left">A - B equals to 5</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">*</td>
+      <td style="text-align: left">multiply two operands</td>
+      <td style="text-align: left">A * B equals to 50</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">/</td>
+      <td style="text-align: left">divide two operands</td>
+      <td style="text-align: left">A / B equals to 2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">%</td>
+      <td style="text-align: left">modulus, remainder</td>
+      <td style="text-align: left">A % B equals to 0</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">++</td>
+      <td style="text-align: left">increment, increase value</td>
+      <td style="text-align: left">A++ will give 11</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">–</td>
+      <td style="text-align: left">decrement, decrease value</td>
+      <td style="text-align: left">B– will give 4</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Keep in mind that each operations can be used to form more complex calculations and over time, performance of your C codes is judged by how efficient the design of algorithm on C level. Now, let’s put an example on how we can use operations in practical.</p>
+
+<script type="math/tex; mode=display">% <![CDATA[
+\begin{align*}
+	& y = x^2 + x + 5
+\end{align*} %]]></script>
+
+<p>We have a quadratic polynomial function that takes <code>x</code> as an input and store the result on <code>y</code>.</p>
+
+      <hr />
+      <footer role="contentinfo">
+        <div class="social-share">
+  <h4>Share on</h4>
+  <ul>
+    <li>
+      <a href="https://twitter.com/intent/tweet?text=/tutorial/c-tutor-5/" class="twitter" title="Share on Twitter"><i class="fa fa-twitter"></i><span> Twitter</span></a>
+    </li>
+    <li>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=/tutorial/c-tutor-5/" class="facebook" title="Share on Facebook"><i class="fa fa-facebook"></i><span> Facebook</span></a>
+    </li>
+    <li>
+      <a href="https://plus.google.com/share?url=/tutorial/c-tutor-5/" class="google-plus" title="Share on Google Plus"><i class="fa fa-google-plus"></i><span> Google+</span></a>
+    </li>
+  </ul>
+</div><!-- /.social-share -->
+        <p class="byline"><strong>C Tutorial #5 | Function & Math Operations</strong> was published on <time datetime="2015-10-05T00:00:00+02:00">October 05, 2015</time>.</p>
+      </footer>
+    </div><!-- /.article-wrap -->
+  
+    <section id="disqus_thread"></section><!-- /#disqus_thread -->
+  
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrap">
+  <div class="related-articles">
+  <h4>You might also enjoy <small class="pull-right">(<a href="/posts/">View all posts</a>)</small></h4>
+    <ul>
+    
+      <li><a href="/tutorial/c-tutor-4/" title="C Tutorial #4 | Conditional Statement and Loops">C Tutorial #4 | Conditional Statement and Loops</a></li>
+    
+      <li><a href="/tutorial/c-tutor-3/" title="C Tutorial #3 | Types and Variables">C Tutorial #3 | Types and Variables</a></li>
+    
+      <li><a href="/tutorial/c-tutor-2/" title="C Tutorial #2 | The First Program">C Tutorial #2 | The First Program</a></li>
+    
+    </ul>
+    <hr />
+  </div><!-- /.related-articles -->
+  <footer>
+    
+
+<span>&copy; 2015 Yanuar Aditya</span>
+
+<!--
+<span>&copy; 2015 Yanuar Aditya. <a href="http://jekyllrb.com" rel="nofollow">Jekyll </a> on <a href="http://mademistakes.com/minimal-mistakes/" rel="nofollow">MM</a>.</span>
+-->
+
+  </footer>
+</div><!-- /.footer-wrap -->
+
+<!-- added by adit -->
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+<!-- original -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="/assets/js/scripts.min.js"></script>
+
+
+  
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'yanuartadityan'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+	        
+
+</body>
+</html>

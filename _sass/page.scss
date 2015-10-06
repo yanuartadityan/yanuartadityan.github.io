@@ -250,6 +250,16 @@ $button-size: 1.5rem;
 	p > a {
 		color: #0099FF;
 	}
+
+	/* create fancy table */
+	table, th, td {
+		/*border: 1px solid #98bf21;*/
+	}
+
+	th {
+		background-color: #A7C942;
+    	color: #ffffff;
+	}
 }
 
 /* Index listing specific styling */

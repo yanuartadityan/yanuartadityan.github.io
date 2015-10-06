@@ -4,13 +4,185 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2015-10-06T02:24:52+02:00</updated>
+<updated>2015-10-06T19:12:19+02:00</updated>
 <id>/</id>
 <author>
   <name>Yanuar Aditya</name>
   <uri>/</uri>
   <email>yanuart.adityan@gmail.com</email>
 </author>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[C Tutorial #5 | Function & Math Operations]]></title>
+  <link rel="alternate" type="text/html" href="/tutorial/c-tutor-5/" />
+  <id>/tutorial/c-tutor-5</id>
+  <published>2015-10-05T00:00:00+02:00</published>
+  <updated>2015-10-05T00:00:00+02:00</updated>
+  <author>
+    <name>Yanuar Aditya</name>
+    <uri></uri>
+    <email>yanuart.adityan@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Now that you should have some basic on C, such as variables, data type, basic I/O, and control flow (conditional &amp;amp; loops), this part of the tutorial, we will learn more about function and math operations in C. Some compile-able examples are provided to help you to gain better understanding. We will try to design a C code to compute a math quadratic polynomial with specific inputs.&lt;/p&gt;
+
+&lt;h3 id=&quot;function-in-c&quot;&gt;Function in C&lt;/h3&gt;
+
+&lt;p&gt;Function is a group statements that together they perform a specific task. At least, one function &lt;code&gt;main()&lt;/code&gt;always be found on C program. A programmer can divide his code into separate functions. These functions can be located in different files, later on we will call this source codes. A group of source codes containing independent functions called library.&lt;/p&gt;
+
+&lt;p&gt;The C standard library provides numerous built-in functions that can be called without us defining them. We have used &lt;code&gt;printf()&lt;/code&gt; function so far to let some texts to be displayed. Each built-in functions have specific purposes and mostly, we have to include corresponding header &lt;code&gt;#include &amp;lt;header&amp;gt;&lt;/code&gt; to be able to use the built-in functions.&lt;/p&gt;
+
+&lt;p&gt;We can define our own function that will work depends on how we want them to. However, ones must know the general form of a function within C language.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;n&quot;&gt;return_type&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;function_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;arg_type&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;parameters&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;...&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;body&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;function&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;return_type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;code&gt;return_type&lt;/code&gt; is the type datas of the value that the function will return. In other words, when we call a function &lt;strong&gt;B&lt;/strong&gt; from function &lt;strong&gt;A&lt;/strong&gt;, we’re expecting something happen inside the function &lt;strong&gt;B&lt;/strong&gt; and when the function ends, it has some values that will be used by the calling function &lt;strong&gt;A&lt;/strong&gt;. There are several ways for function &lt;strong&gt;B&lt;/strong&gt; to pass this value to &lt;strong&gt;A&lt;/strong&gt;, but for now we will use &lt;code&gt;return&lt;/code&gt;. If the function does not have any value to return, then the &lt;code&gt;return_type&lt;/code&gt; can be set to &lt;code&gt;void&lt;/code&gt;, &lt;em&gt;e.g&lt;/em&gt;, &lt;code&gt;void main()&lt;/code&gt;. &lt;code&gt;arg_type&lt;/code&gt; defines type of the data for the input arguments, &lt;em&gt;e.g&lt;/em&gt;, int, char, float, etc. It is exactly similar with how you declare a variable in the main code block.&lt;/p&gt;
+
+&lt;noscript&gt;&lt;pre&gt;400: Invalid request
+&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/801bff698247982f2d20.js&quot;&gt; &lt;/script&gt;
+
+&lt;p&gt;To find a square root product in C, the native built-in function is &lt;code&gt;sqrt()&lt;/code&gt;.To use this function, we must include corresponding library for it in &lt;strong&gt;line:02&lt;/strong&gt;. As you observe the whole codes, we have two additional functions to the &lt;code&gt;main()&lt;/code&gt; function, &lt;code&gt;quadratic()&lt;/code&gt; and &lt;code&gt;squareRoot()&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;In &lt;strong&gt;line:5&lt;/strong&gt;, on function &lt;code&gt;quadratic()&lt;/code&gt; declaration, it has &lt;code&gt;int&lt;/code&gt; return type because in the application, whenever we call it, we expect the function to return the result of a quadratic computation from variable &lt;code&gt;int a&lt;/code&gt;. Meanwhile, &lt;code&gt;squareRoot()&lt;/code&gt; function has different return type, which is &lt;code&gt;float&lt;/code&gt; because we’re gonna deal with real numbers as a result of square root computation from &lt;code&gt;float b&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Another difference between these two functions, is how the declaration and code blocks are located. &lt;code&gt;quadratic()&lt;/code&gt; function has both declaration and code block located before &lt;code&gt;main()&lt;/code&gt;. The code block spans from &lt;strong&gt;line:6&lt;/strong&gt; to &lt;strong&gt;8&lt;/strong&gt;. While &lt;code&gt;squareRoot()&lt;/code&gt; has been declared before &lt;code&gt;main()&lt;/code&gt; in &lt;strong&gt;line:11&lt;/strong&gt; with the code block is presented after &lt;code&gt;main()&lt;/code&gt; from &lt;strong&gt;line:23&lt;/strong&gt; to &lt;strong&gt;26&lt;/strong&gt;. This will have same result in the end, just matter of preference on how you as the programmer feel comfort with one of them. Please do notice on latter method, you have to write the full function name twice.&lt;/p&gt;
+
+&lt;p&gt;Now, when you started to develop a big C program, probably you will encounter numerous of independent function that needs to be called from different files. Next section will give you the big picture with examples.&lt;/p&gt;
+
+&lt;h3 id=&quot;multiple-source-codes-in-c&quot;&gt;Multiple Source Codes in C&lt;/h3&gt;
+
+&lt;p&gt;Now, let’s split the code into separate files. First, create header &lt;code&gt;source.h&lt;/code&gt; that consist declaration of every functions. Generally, other than the function declarations, macro parameters are found in header as well.&lt;/p&gt;
+
+&lt;noscript&gt;&lt;pre&gt;400: Invalid request
+&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/8bd26165ecf6b6e9ab3c.js&quot;&gt; &lt;/script&gt;
+
+&lt;p&gt;Afterward, define what will happen inside of each functions on the source file, &lt;code&gt;source.c&lt;/code&gt;. Start by including the header file on top of the code. This is optional actually if you use C99 compiler. If the name of the header and the source (just the name, without file extension) are same, in this case &lt;code&gt;source&lt;/code&gt;, then actually you don’t have to write &lt;code&gt;#include &quot;source.h&quot;&lt;/code&gt; inside &lt;code&gt;source.c&lt;/code&gt;. It will linked automatically thanks to the smart compiler.&lt;/p&gt;
+
+&lt;noscript&gt;&lt;pre&gt;400: Invalid request
+&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/4f6941f3a7a50fb7d7a7.js&quot;&gt; &lt;/script&gt;
+
+&lt;p&gt;For now, we have fully modular source codes for function &lt;code&gt;quadratic()&lt;/code&gt; and &lt;code&gt;squareRoot()&lt;/code&gt;. As the functions are ready, now other functions can use those functions just by calling the header name. Let’s &lt;code&gt;main()&lt;/code&gt; inside &lt;code&gt;main.c&lt;/code&gt; calls both functions. Keep in mind, that here we assume that all of these files are located in same directory.&lt;/p&gt;
+
+&lt;pre&gt;
++ directory
+|__ source.h
+|__ source.c
+|__ main.c
+&lt;/pre&gt;
+
+&lt;p&gt;However, you can also put the source codes inside a directory, &lt;em&gt;e.g.&lt;/em&gt; &lt;code&gt;src&lt;/code&gt; like this,&lt;/p&gt;
+
+&lt;pre&gt;
++ directory
+|__ + src
+|   |__ source.h
+|   |__ source.h
+|__ main.c
+&lt;/pre&gt;
+
+&lt;p&gt;and modify the &lt;code&gt;main.c&lt;/code&gt; to link to the proper directory of &lt;code&gt;source.h&lt;/code&gt; like this &lt;code&gt;#include &quot;src/source.h&quot;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;noscript&gt;&lt;pre&gt;400: Invalid request
+&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/765314056037b7a3f37a.js&quot;&gt; &lt;/script&gt;
+
+&lt;p&gt;Neat!&lt;/p&gt;
+
+&lt;h3 id=&quot;arithmetic-operators&quot;&gt;Arithmetic Operators&lt;/h3&gt;
+
+&lt;p&gt;C programming language contains some mathematical operators. All of the arithmetic operators are shown on table below. Assume that two variables are given, &lt;code&gt;A&lt;/code&gt; and &lt;code&gt;B&lt;/code&gt; with assigned values are 10 and 5 respectively. These two variables are called operands. From the table you can find the result from each operations.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;&lt;strong&gt;symbols&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;functions&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;results&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;+&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;adding two operands&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;A + B equals to 15&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;subtract two operands&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;A - B equals to 5&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;*&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;multiply two operands&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;A * B equals to 50&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;/&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;divide two operands&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;A / B equals to 2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;%&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;modulus, remainder&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;A % B equals to 0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;++&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;increment, increase value&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;A++ will give 11&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;–&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;decrement, decrease value&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;B– will give 4&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Keep in mind that each operations can be used to form more complex calculations and over time, performance of your C codes is judged by how efficient the design of algorithm on C level. Now, let’s put an example on how we can use operations in practical.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
+\begin{align*}
+	&amp; y = x^2 + x + 5
+\end{align*} %]]&gt;&lt;/script&gt;
+
+&lt;p&gt;We have a quadratic polynomial function that takes &lt;code&gt;x&lt;/code&gt; as an input and store the result on &lt;code&gt;y&lt;/code&gt;.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/tutorial/c-tutor-5/&quot;&gt;C Tutorial #5 | Function &amp; Math Operations&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 05, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[C Tutorial #4 | Conditional Statement and Loops]]></title>
+  <link rel="alternate" type="text/html" href="/tutorial/c-tutor-4/" />
+  <id>/tutorial/c-tutor-4</id>
+  <published>2015-10-04T00:00:00+02:00</published>
+  <updated>2015-10-04T00:00:00+02:00</updated>
+  <author>
+    <name>Yanuar Aditya</name>
+    <uri></uri>
+    <email>yanuart.adityan@gmail.com</email>
+  </author>
+  <content type="html">
+    
+
+    &lt;p&gt;&lt;a href=&quot;/tutorial/c-tutor-4/&quot;&gt;C Tutorial #4 | Conditional Statement and Loops&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 04, 2015.&lt;/p&gt;
+  </content>
+</entry>
 
 
   
@@ -101,7 +273,7 @@
 &lt;span class=&quot;n&quot;&gt;C&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;using&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;signed&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;decimal&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;is&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2147483648&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;C&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;using&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;unsigned&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;decimal&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;is&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2147483648&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;If you haven’t understand the idea of comment or &lt;code&gt;printf&lt;/code&gt;, you can check my &lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-2&quot;&gt;previous&lt;/a&gt; tutorial. On the next tutorial, we will learn on how a &lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-4&quot;&gt;mathematical operations&lt;/a&gt; in C.&lt;/p&gt;
+&lt;p&gt;If you haven’t understand the idea of comment or &lt;code&gt;printf&lt;/code&gt;, you can check my &lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-2&quot;&gt;previous&lt;/a&gt; tutorial. On the next tutorial, we will learn on how to perform &lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-4&quot;&gt;conditional statements and loops&lt;/a&gt; on C.&lt;/p&gt;
 
 
     &lt;p&gt;&lt;a href=&quot;/tutorial/c-tutor-3/&quot;&gt;C Tutorial #3 | Types and Variables&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 04, 2015.&lt;/p&gt;
@@ -188,7 +360,7 @@
   
 
 <entry>
-  <title type="html"><![CDATA[C Tutorial #1 | Getting Acquintance]]></title>
+  <title type="html"><![CDATA[C Tutorial #1 | Getting Acquainted with C]]></title>
   <link rel="alternate" type="text/html" href="/tutorial/c-tutor-1/" />
   <id>/tutorial/c-tutor-1</id>
   <published>2015-10-02T00:00:00+02:00</published>
@@ -242,7 +414,7 @@
 &lt;p&gt;With C, we can forget writing thousands of complex &lt;em&gt;Assembly&lt;/em&gt; routines, thousands of processor-specific instructions, and spaghetti like code. Because of C, the CPU, memory, and graphics cards have turned from their messy, low-level pasts into an easier, readable format&lt;/p&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;/tutorial/c-tutor-1/&quot;&gt;C Tutorial #1 | Getting Acquintance&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 02, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;/tutorial/c-tutor-1/&quot;&gt;C Tutorial #1 | Getting Acquainted with C&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 02, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -1050,7 +1222,7 @@ d3.select(&quot;div.second&quot;)
   &lt;thead&gt;
     &lt;tr&gt;
       &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;First Day&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;First Day&lt;/strong&gt;&lt;/th&gt;
       &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
@@ -1081,13 +1253,16 @@ d3.select(&quot;div.second&quot;)
       &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-  &lt;tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Second Day&lt;/strong&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Second Day&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
     &lt;/tr&gt;
-  &lt;/tbody&gt;
+  &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;20th Dec&lt;/td&gt;
@@ -1120,13 +1295,16 @@ d3.select(&quot;div.second&quot;)
       &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-  &lt;tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Third Day&lt;/strong&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Third Day&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
     &lt;/tr&gt;
-  &lt;/tbody&gt;
+  &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;21st Dec&lt;/td&gt;
@@ -1149,13 +1327,16 @@ d3.select(&quot;div.second&quot;)
       &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-  &lt;tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Fourth Day&lt;/strong&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Fourth Day&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
     &lt;/tr&gt;
-  &lt;/tbody&gt;
+  &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;22nd Dec&lt;/td&gt;
@@ -1188,13 +1369,16 @@ d3.select(&quot;div.second&quot;)
       &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-  &lt;tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Fifth Day&lt;/strong&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Fifth Day&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
     &lt;/tr&gt;
-  &lt;/tbody&gt;
+  &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;23rd Dec&lt;/td&gt;
@@ -1227,13 +1411,16 @@ d3.select(&quot;div.second&quot;)
       &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-  &lt;tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Sixth Day&lt;/strong&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Sixth Day&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
     &lt;/tr&gt;
-  &lt;/tbody&gt;
+  &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;24th Dec&lt;/td&gt;
@@ -1256,13 +1443,16 @@ d3.select(&quot;div.second&quot;)
       &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-  &lt;tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Seventh Day&lt;/strong&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Seventh Day&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
     &lt;/tr&gt;
-  &lt;/tbody&gt;
+  &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;25th Dec&lt;/td&gt;
@@ -1285,13 +1475,16 @@ d3.select(&quot;div.second&quot;)
       &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
-  &lt;tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Eighth Day&lt;/strong&gt;&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Eighth Day&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
     &lt;/tr&gt;
-  &lt;/tbody&gt;
+  &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td style=&quot;text-align: left&quot;&gt;26th Dec&lt;/td&gt;
