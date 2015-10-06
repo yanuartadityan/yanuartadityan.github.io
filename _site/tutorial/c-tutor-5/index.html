@@ -274,14 +274,54 @@
   </tbody>
 </table>
 
-<p>Keep in mind that each operations can be used to form more complex calculations and over time, performance of your C codes is judged by how efficient the design of algorithm on C level. Now, let’s put an example on how we can use operations in practical.</p>
+<p>Keep in mind that each operations can be used to form more complex calculations and over time, performance of your C codes is judged by how efficient the design of algorithm on C level. Now, let’s write a function to compute some practical math problems.</p>
 
 <script type="math/tex; mode=display">% <![CDATA[
 \begin{align*}
 	& y = x^2 + x + 5
 \end{align*} %]]></script>
 
-<p>We have a quadratic polynomial function that takes <code>x</code> as an input and store the result on <code>y</code>.</p>
+<p>We have a quadratic polynomial function that takes <code>x</code> as an input and store the result on <code>y</code>. The value of <code>x</code> can be arbitrary, thus we would like to use <code>float x</code> and store the output to <code>float y</code>.</p>
+
+<p>We can initiate the function, let’s call it <code>polyQuadratic</code>. It will take <code>float x</code> as an input and return a float value, thus the function itself has to be declared using float data type.</p>
+
+<p>Let’s add the function into <code>source.h</code> where two previous functions exist.</p>
+
+<div class="highlight"><pre><code class="language-c" data-lang="c"><span class="kt">float</span> <span class="nf">polyQuadratic</span> <span class="p">(</span><span class="kt">float</span> <span class="n">x</span><span class="p">);</span></code></pre></div>
+
+<p>The computation itself requires a quadratic operation and addition. For the quadratic, let’s utilise already defined <code>quadratic()</code> function. However, we will encounter an issue here because of the difference on data type between return value of <code>quadratic()</code> which is integer and the input data, which is <code>float x</code>. However, such this problem, can be solved using casting. The compiler will automatically change one type of data into another if it makes sense. For instance, if you assign an integer value to a floating-point variable, the compiler will insert code to convert the <code>int</code> to a <code>float</code>.</p>
+
+<div class="highlight"><pre><code class="language-c" data-lang="c"><span class="kt">float</span> <span class="nf">polyQuadratic</span> <span class="p">(</span><span class="kt">float</span> <span class="n">x</span><span class="p">)</span>
+<span class="p">{</span>
+	<span class="k">return</span> <span class="p">((</span><span class="kt">float</span><span class="p">)</span><span class="n">quadratic</span><span class="p">((</span><span class="kt">int</span><span class="p">)</span><span class="n">x</span><span class="p">)</span> <span class="o">+</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">5</span><span class="p">);</span>
+<span class="p">}</span></code></pre></div>
+
+<p>You can check the final <code>sourceModified.h</code>, <code>sourceModified.c</code> and <code>main.c</code> below.</p>
+
+<noscript><pre>400: Invalid request
+</pre></noscript>
+<script src="https://gist.github.com/89cc6dc613a569d46ad1.js"> </script>
+
+<noscript><pre>400: Invalid request
+</pre></noscript>
+<script src="https://gist.github.com/171211924000e11e8cf1.js"> </script>
+
+<noscript><pre>400: Invalid request
+</pre></noscript>
+<script src="https://gist.github.com/a09ab012f83eb6cb40ce.js"> </script>
+
+<p>The <code>x</code> as the input for the equation should be arbitrary. However, for the simplicity 5 is just the value that pops out in my head. Thus, <code>y</code> value after computation should be 35.</p>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">welcome</span> <span class="n">to</span> <span class="n">the</span> <span class="n">simplest</span> <span class="n">example</span> <span class="n">ever</span>
+<span class="n">calculate</span> <span class="n">y</span> <span class="o">=</span> <span class="n">x</span><span class="o">^</span><span class="mi">2</span> <span class="o">+</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">5</span> <span class="n">with</span> <span class="n">x</span> <span class="n">is</span> <span class="n">set</span> <span class="n">to</span> <span class="mi">5</span><span class="o">.</span><span class="mo">000000</span>
+<span class="n">entering</span> <span class="n">the</span> <span class="n">black</span><span class="o">-</span><span class="n">box</span><span class="o">.</span><span class="n">.</span><span class="o">.</span>
+<span class="n">we</span> <span class="n">got</span> <span class="n">the</span> <span class="n">result</span> <span class="n">now!</span>
+<span class="n">y</span><span class="o">-</span><span class="n">value</span> <span class="n">is</span> <span class="mi">35</span><span class="o">.</span><span class="mo">000000</span></code></pre></div>
+
+<p>Next tutorial will focused on <a href="http://yanuartadityan.github.io/tutorial/c-tutor-6">user inputs</a> because so far we’ve just used static variables value. Thus, we should let our C program to be accessible by the users without they change anything inside the code.</p>
+
+<p>Cheers!</p>
+
 
       <hr />
       <footer role="contentinfo">

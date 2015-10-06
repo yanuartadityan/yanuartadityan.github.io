@@ -260,6 +260,12 @@ $button-size: 1.5rem;
 		background-color: #A7C942;
     	color: #ffffff;
 	}
+
+	/* background for <pre></pre> */
+	pre {
+		background-color: #C2EBFF;
+		border-radius: 5px;
+	}
 }
 
 /* Index listing specific styling */
