@@ -12,7 +12,7 @@ image:
 comments: true
 ---
 
-Last yea November, I was in Dreamhack Winter 2014, Jönkoping. I was there with three friends of mine. David & Sushil, both are my classmates and avid Dota 2 fans (same with me), and Raymond. Raymond is from States and prolific Hearthstone player.
+Last year November, I was in Dreamhack Winter 2014, Jönkoping. I was there with three friends of mine. David & Sushil, both are my classmates and avid Dota 2 fans (same with me), and Raymond. Raymond is from States and prolific Hearthstone player.
 
 We left Göteborg at Saturday while Dreamhack took place since Wednesday. It was quite cold but there was no sign of snow coming in. I still remember when we arrived at Jönkoping Bus Terminal, we encountered several gamers sleeping in the terminal with their PCs inside their sleeping bag. Duh, those guys need some serious sleep after days of sleepless gaming I suppose.
 

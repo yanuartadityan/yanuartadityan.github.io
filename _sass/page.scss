@@ -42,6 +42,12 @@ body {
 	}
 }
 
+.head-image {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: -8px;
+}
+
 /* Top navigation links */
 .top-navigation {
 	@include grid(12,10);
