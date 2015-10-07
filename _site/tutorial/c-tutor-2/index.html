@@ -117,7 +117,7 @@
 <div itemscope itemtype="http://schema.org/Person">
 
 
-	<img src="/images/bio-tauriel.jpg" class="bio-photo" alt="Yanuar Aditya bio photo">
+	<img src="/images/bio-adit.jpg" class="bio-photo" alt="Yanuar Aditya bio photo">
 
 
   <h3 itemprop="name">Yanuar Aditya</h3>
@@ -163,11 +163,40 @@
 
 <p>Preprocessor is a separate step in the compilation process, thus is not part of the compiler. If you invoke a preprocessor in C, it will substitute the text with the one that is referred by the preprocessor, whether it is a macro function or a file header. Here a list of preprocessor that will be used frequently on this tutorial.</p>
 
-<div class="highlight"><pre><code class="language-java" data-lang="java"><span class="err">#</span><span class="n">define</span> 	<span class="cm">/* substitutes a preprocessor macro */</span>
-<span class="err">#</span><span class="n">include</span> 	<span class="cm">/* inserts a particular header from file */</span>
-<span class="err">#</span><span class="k">if</span> 		<span class="cm">/* test if a compile time condition is satisfied (true) */</span>
-<span class="err">#</span><span class="k">else</span> 		<span class="cm">/* alternative branch if #if does not satisfied the condition */</span>
-<span class="err">#</span><span class="n">endif</span> 		<span class="cm">/* end preprocessor conditional */</span></code></pre></div>
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"><strong>preprocessors</strong></th>
+      <th style="text-align: left"><strong>definition</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">#define</td>
+      <td style="text-align: left">substitutes a preprocessor macro</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">#include</td>
+      <td style="text-align: left">insert a particular header from file</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">#if</td>
+      <td style="text-align: left">test if a compile time condition is satisfied (true)</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">#else</td>
+      <td style="text-align: left">alternative branch if #if does not satisfied the condition</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">#endif</td>
+      <td style="text-align: left">end preprocessor conditional</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">#pragma</td>
+      <td style="text-align: left">method to provide additional information to the compiler</td>
+    </tr>
+  </tbody>
+</table>
 
 <p><strong>line:03</strong> is where you can find the first function called <code>main</code>. A bracket <code>()</code> after the function name collects the argument. Empty bracket means no argument passed onto the function.</p>
 
@@ -204,6 +233,57 @@
 <script src="https://gist.github.com/9b9901f6c2fcca06851b.js"> </script>
 
 <p>Those lines will resulted on same result with previous codes. But, remember humans will read your codes as well. So, keep it mind to make readable codes for your colleagues, friend or bosses.</p>
+
+<h3 id="how-to-run-c-program">How to Run C-program</h3>
+
+<p>In order to execute a C program, we have to make sure <code>main()</code> function does exist in our code. For now, it is located in <code>main.c</code> C file. Then, there are two important steps to make it executable, by compiling and linking.</p>
+
+<p>Nowadays, there are lot of GUI (Graphical User Interface) development tools available for you to use. If you are full time Windows user, then probably most of the time you will use <a href="https://www.visualstudio.com">Visual Studio</a>. For Mac, <a href="https://developer.apple.com/xcode/">Xcode</a> probably is the best IDE (Integrated Development Environment) to use. UNIX based users probably know how good <a href="https://eclipse.org/cdt/">Eclipse CDT</a> is, probably also considered as IDE with the most complete features yet. Still, there are many 3rd party IDEs out there for everyone to check. But, one thing to notice here is, every operating systems and IDE has different C standard and thus, sometimes you have to design cross-platform friendly codes if you want your code to be executable (compile-able) in different platforms. However, you’ll gonna deal with specific platform dependancies that probably will hinder you from working efficiently. Myself, I’d rather stick with UNIX C standard (C99) as I’m using Mac OSX. I’m using GCC as my compiler and it comes as native compiler in most of UNIX based operating systems like Linux. GCC is also available in Windows with help of <a href="http://www.mingw.org">MinGW</a>.</p>
+
+<p>By using IDEs, programmers do not need to bring down their feet into command line and deal with manual compilation. But, ones should understand that GUI based IDEs are basically using same commands with automation. Also, on learning phase, compiling using command line compiler will let you learn how units of code are compiled, linked and mapped together. You have to tell explicitely compiler which files to compile and library to link. You will gain better understanding on how your whole program works. An IDE will save you lot of time, but probably if you’re still learning, then it will keep you ignorant and that’s something that we don’t want you to become.</p>
+
+<p>You then take it a step further and learn to create your own make-file. This is a valuable skill. Your make-file makes the build cycle approach the convenience of “IDE magic” while still retaining full understanding and learning. There will be a specific tutorial for makefile, however if you want to jump as soon as possible, please check <a href="http://mrbook.org/blog/tutorials/make/">Makefile</a> guide.</p>
+
+<h3 id="how-to-compile">How to Compile</h3>
+
+<p>We’re gonna use <code>gcc</code> for all of the compilation. <code>gcc</code> is the C and C++ compiler developed by GNU project. It is widely used as the default compiler of UNIX-like systems. If you are using Mac, you may get it automatically installed by installing Xcode Command Line Tools.</p>
+
+<p>Open command line or terminal if you’re using Mac, and navigate to your source codes directory. First, check whether you have <code>gcc</code> installed or not.</p>
+
+<p><code>
+$ gcc --version
+</code></p>
+
+<p>If you’re using Mac OSX (Yosemite or later), most of the chance you will have this result instead,</p>
+
+<pre>
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 7.0.0 (clang-700.0.72)
+Target: x86_64-apple-darwin15.0.0
+Thread model: posix
+</pre>
+
+<p>This is because from Mac OSX 10.9 onwards, the <code>gcc</code> that came has <code>LLVM clang</code> as back-end, still we can use <code>gcc</code> command for general compilation.</p>
+
+<p>To compile <code>main.c</code> to get executable program <code>myapp</code>, then the <code>gcc</code> or <code>clang</code> command will be,</p>
+
+<pre>
+$ gcc main.c -o myapp
+</pre>
+
+<p>To execute the program <code>myapp</code>, you can type</p>
+
+<pre>
+$ ./myapp
+</pre>
+
+<p>And this result will appear,</p>
+
+<pre>
+Hi World
+</pre>
+
+<p>If you’re dealing with compiling multiple file sources, then refer to <a href="http://yanuartadityan.github.io/tutorial/c-tutor-5">Tutorial 5</a> which talks about functions in C.</p>
 
 <p>Next, we will go through the basic but one of the core in C, <a href="http://yanuartadityan.github.com/tutorial/c-tutor-3">variables and data types</a>.</p>
 

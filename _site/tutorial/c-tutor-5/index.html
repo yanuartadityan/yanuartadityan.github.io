@@ -117,7 +117,7 @@
 <div itemscope itemtype="http://schema.org/Person">
 
 
-	<img src="/images/bio-tauriel.jpg" class="bio-photo" alt="Yanuar Aditya bio photo">
+	<img src="/images/bio-adit.jpg" class="bio-photo" alt="Yanuar Aditya bio photo">
 
 
   <h3 itemprop="name">Yanuar Aditya</h3>
@@ -221,7 +221,30 @@
 </pre></noscript>
 <script src="https://gist.github.com/765314056037b7a3f37a.js"> </script>
 
-<p>Neat!</p>
+<h3 id="compile-multiple-source-files">Compile Multiple Source Files</h3>
+
+<p>Allright, so we have <code>source.c</code> in addition to <code>main.c</code>. Both have to be compiled in order to make an executable program. As there is a function inside <code>source.c</code> that is invoked within <code>main.c</code>, we have to link the corresponding object in compilation. Following command is the fastest and straightforward to generate an executable program named <code>programTest</code>:</p>
+
+<pre>
+$ gcc main.c source.c -o programTest
+</pre>
+
+<p>In sort, when the compilation happen, it transforms source code written in C language into some binary codes which known as object code. This object code can only be read by the machine. However, as the compiling process is done, both object files from the sources are deleted and leave only the executable program. Same result can also be achieved using a method that compiles each source files separately to retain the object files.</p>
+
+<pre>
+$ gcc -c source.c
+$ gcc -c main.c 
+$ gcc source.o main.o -o programTest
+</pre>
+
+<p>This second method will give you two object files <code>*.o</code>. Then the third line will link both of them to become an executable program named <code>programTest</code>. Now, when there is a modifincation on certain file, <em>e.g.</em>, <code>source.c</code>, then we have to update the object file of <code>source.o</code>, thus we just need to compile the corresponding source to update the object code.</p>
+
+<pre>
+$ gcc -c source.c 
+$ gcc source.o main.o -o programTest
+</pre>
+
+<p>Note that <code>main.c</code> does not need to be compiled. Thus, time to rebuild the whole program is much shorter considering that probably we’ll gonna have much more source codes than our circumstance right now.</p>
 
 <h3 id="arithmetic-operators">Arithmetic Operators</h3>
 
@@ -296,6 +319,8 @@
 	<span class="k">return</span> <span class="p">((</span><span class="kt">float</span><span class="p">)</span><span class="n">quadratic</span><span class="p">((</span><span class="kt">int</span><span class="p">)</span><span class="n">x</span><span class="p">)</span> <span class="o">+</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">5</span><span class="p">);</span>
 <span class="p">}</span></code></pre></div>
 
+<p>The idea is, as <code>quadratic()</code> takes an integer input, while the input here is <code>float</code>, we have to tell compiler to assume that it is an integer. Thus, <code>(int)x</code> will cast <code>float x</code> into something similar with <code>int x</code>. But you should be warned that the value of <code>float</code> will be rounded to closest decimal. Second implementation of casting here is to cast return value of <code>quadratic()</code> to <code>float</code> although it is not necessary. An integer value doesn’t need a casting if it is gonna be used with float numbers. You will get some potential warning from the compiler though.</p>
+
 <p>You can check the final <code>sourceModified.h</code>, <code>sourceModified.c</code> and <code>main.c</code> below.</p>
 
 <noscript><pre>400: Invalid request
@@ -315,7 +340,7 @@
 <div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">welcome</span> <span class="n">to</span> <span class="n">the</span> <span class="n">simplest</span> <span class="n">example</span> <span class="n">ever</span>
 <span class="n">calculate</span> <span class="n">y</span> <span class="o">=</span> <span class="n">x</span><span class="o">^</span><span class="mi">2</span> <span class="o">+</span> <span class="n">x</span> <span class="o">+</span> <span class="mi">5</span> <span class="n">with</span> <span class="n">x</span> <span class="n">is</span> <span class="n">set</span> <span class="n">to</span> <span class="mi">5</span><span class="o">.</span><span class="mo">000000</span>
 <span class="n">entering</span> <span class="n">the</span> <span class="n">black</span><span class="o">-</span><span class="n">box</span><span class="o">.</span><span class="n">.</span><span class="o">.</span>
-<span class="n">we</span> <span class="n">got</span> <span class="n">the</span> <span class="n">result</span> <span class="n">now!</span>
+<span class="n">we</span><span class="err">&#39;</span><span class="n">ve</span> <span class="n">got</span> <span class="n">the</span> <span class="n">result</span> <span class="n">now!</span>
 <span class="n">y</span><span class="o">-</span><span class="n">value</span> <span class="n">is</span> <span class="mi">35</span><span class="o">.</span><span class="mo">000000</span></code></pre></div>
 
 <p>Next tutorial will focused on <a href="http://yanuartadityan.github.io/tutorial/c-tutor-6">user inputs</a> because so far we’ve just used static variables value. Thus, we should let our C program to be accessible by the users without they change anything inside the code.</p>

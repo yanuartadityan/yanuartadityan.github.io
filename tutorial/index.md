@@ -1,5 +1,5 @@
 ---
 layout: tutorial-index
-title: All Posts
+title: All Tutorials
 excerpt: "A List of Posts"
 ---

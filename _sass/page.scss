@@ -244,7 +244,7 @@ $button-size: 1.5rem;
 	}
 	/* added by adit */
 	/* modify margin between two paragraphs*/
-	p {margin: 6px 0 6px 0;}
+	p {margin: 8px 0 8px 0;}
 	
 	/* change the URL color on paragraphs */
 	p > a {
@@ -400,6 +400,9 @@ $button-size: 1.5rem;
 	.bio-photo {
 		max-width: 110px;
 		@include rounded(150px);
+
+		/* added by adit */
+		margin-left: -10px;
 	}
 	@media #{$small} {
 		display: block;
