@@ -6,9 +6,9 @@ category: blog
 excerpt: "Suddenly, I missed Dreamhack this early."
 tags: [blog, mumbling]
 image:
-  feature: 
-  credit: 
-  creditlink: 
+  feature: post-dreamhack.jpg
+  credit: Yanuar Aditya
+  creditlink: yanuartadityan.github.io
 comments: true
 ---
 

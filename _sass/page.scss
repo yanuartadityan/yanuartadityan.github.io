@@ -22,7 +22,7 @@ body {
 }
 
 /* Site name */
-.site-name {
+.site-name{
 	@include grid(12,10);
 	@include prefix(12,1);
 	@include suffix(12,1);
@@ -40,12 +40,6 @@ body {
 		@include grid(12,1.5);
 		@include prefix(12,2);
 	}
-}
-
-.head-image {
-	display: inline-block;
-	vertical-align: top;
-	margin-top: -8px;
 }
 
 /* Top navigation links */

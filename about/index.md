@@ -4,9 +4,9 @@ title: A Regular Ordinary Blog
 tags: [about, krazypapas, who]
 modified: 2014-08-08T20:53:07.573882-04:00
 image:
-  feature: 
+  feature: post-lindholmen.jpg
   credit: 
-  creditlink: 
+  creditlink:
 comments: true
 ---
 
