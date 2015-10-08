@@ -5,14 +5,14 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>C Tutorial #4 | Conditional Statement and Loops &#8211; Mirkwood Ape</title>
+<title>C Tutorial #4 | Conditional Statement &#8211; Mirkwood Ape</title>
 <meta name="description" content="Learn how to control the flow of your C program and making decisions.">
 <meta name="keywords" content="tutorial, C">
 
 
 
 <!-- Twitter Cards -->
-<meta name="twitter:title" content="C Tutorial #4 | Conditional Statement and Loops">
+<meta name="twitter:title" content="C Tutorial #4 | Conditional Statement">
 <meta name="twitter:description" content="Learn how to control the flow of your C program and making decisions.">
 <meta name="twitter:site" content="@yanuartadityan">
 <meta name="twitter:creator" content="@yanuartadityan">
@@ -23,7 +23,7 @@
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="C Tutorial #4 | Conditional Statement and Loops">
+<meta property="og:title" content="C Tutorial #4 | Conditional Statement">
 <meta property="og:description" content="Learn how to control the flow of your C program and making decisions.">
 <meta property="og:url" content="/tutorial/c-tutor-4/">
 <meta property="og:site_name" content="Mirkwood Ape">
@@ -148,11 +148,147 @@
   <article class="post">
     <div class="headline-wrap">
       
-        <h1><a href="/tutorial/c-tutor-4/" rel="bookmark" title="C Tutorial #4 | Conditional Statement and Loops">C Tutorial #4 | Conditional Statement and Loops</a></h1>
+        <h1><a href="/tutorial/c-tutor-4/" rel="bookmark" title="C Tutorial #4 | Conditional Statement">C Tutorial #4 | Conditional Statement</a></h1>
       
     </div><!--/ .headline-wrap -->
     <div class="article-wrap">
-      
+      <p>One of the most important ability of programmer is to how to handle flow of the program. This includes how the program takes decision when there is a conditional statement. The <code>if</code> statement in C is used to check the certain conditions and will proceed to the next action if the result is true. For example, you want your code to execute a computation if a variable <code>x</code> is bigger than <code>y</code> value. If <code>y</code> value is smaller than <code>x</code>, then the condition is not fulfilled and the flow of the codes will be redirected to a different branch.</p>
+
+<p>In this tutorial, we will learn about relational operations within C programming language and use them to determine the outcome of a certain condition.</p>
+
+<h3 id="logical-operators">Logical Operators</h3>
+
+<p>A <code>true</code> statement is one that evaluates to a non zero number, while <code>false</code> is always represented by zero number. When we’re dealing with relational or operators, the operator will return 1 if the comparison is true, and return 0 if comparison is false.</p>
+
+<p>Here are listed relational operators available in C:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"><strong>preprocessors</strong></th>
+      <th style="text-align: left"><strong>definition</strong></th>
+      <th style="text-align: left"><strong>usage example</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">&gt;</td>
+      <td style="text-align: left">greater than</td>
+      <td style="text-align: left"><code>if (3&gt;2)</code> is true</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">&lt;</td>
+      <td style="text-align: left">less than</td>
+      <td style="text-align: left"><code>if (2&lt;3)</code> is true</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">&gt;=</td>
+      <td style="text-align: left">greater than or equal</td>
+      <td style="text-align: left"><code>if (4&gt;=4)</code> is true</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">&lt;=</td>
+      <td style="text-align: left">less than or equal</td>
+      <td style="text-align: left"><code>if (5&lt;=5)</code> is true</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">==</td>
+      <td style="text-align: left">equal</td>
+      <td style="text-align: left"><code>if (2==2)</code> is true</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">!=</td>
+      <td style="text-align: left">not equal</td>
+      <td style="text-align: left"><code>if (10!=5)</code> is true</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Now let’s use those operators in conditional statements.</p>
+
+<h3 id="conditional-statements-if">Conditional Statements: IF</h3>
+
+<p>The structure of an if statement in C is as follows:</p>
+
+<pre>
+if (statement is true)
+	execute this line of code
+</pre>
+
+<p>or if you have more than one line of codes, now we called it a compound of a statement, or in sort, a block. This block is in between braces <code>{}</code>.article-wrap</p>
+
+<pre>
+if (statements is true)
+{
+	execute these lines of code
+}
+</pre>
+
+<p>Now, given <code>x</code> and <code>y</code>, we want to print out something using <code>printf()</code> function, if <code>x</code> value is bigger than <code>y</code>, thus the example C codes will be:</p>
+
+<pre>
+if (x &gt; y)
+{
+	/* comment lines do not count as code line, 
+	   thus braces are optional */
+	printf("Yeah, we have x that is bigger than y\n");
+}
+
+/* lines after */
+...
+</pre>
+
+<p>As commented inside the code snippet above, whenever <code>x</code> value is bigger than <code>y</code>, then the program flow will execute the code block inside. However, if the conditional statement returns false, then the program flow will ignore the code block and execute lines after.</p>
+
+<h3 id="conditional-statements-else">Conditional Statements: ELSE</h3>
+
+<p>So when the condition in an <code>if</code> statement returns a false value, we can redirect the program to execute different block of codes instead of the code executed when the statement evaluates to true. The <code>else</code> statement means that whatever code after it (whether a single line or code between brackets) is executed if the <code>if</code> statement is false.</p>
+
+<p>In C codes, <code>if</code> and <code>else</code> implementation will look like this:</p>
+
+<pre>
+if (TRUE)
+{
+	/* executes this code block if true */
+}
+else
+{
+	/* otherwise execute this code block if false */
+}
+</pre>
+
+<h3 id="conditional-statements-multiple-conditional-statements-with-else-if">Conditional Statements: Multiple conditional statements with ELSE IF</h3>
+
+<p>Sometimes, when there are multiple conditional statements that all of them probably will be evaluated as true, but you want only the code block from the first conditional statement that will be executed. On in other words, if the first <code>if</code> conditional statement is true, then the program will immediately execute corresponding code block, if not then it goes to the second conditional statement, which uses <code>else if</code>. If it is evaluated as a true result, then <code>else</code> will be ignored and the program will execute second code block. If not, then the program will go to the last code block related to the <code>else</code> conditional.</p>
+
+<p>Check this complete example to get a grasp on this conditional statement tutorial:</p>
+
+<noscript><pre>400: Invalid request
+</pre></noscript>
+<script src="https://gist.github.com/12f7eb68ef47d6367520.js"> </script>
+
+<p>The result of this quite concise example with <code>MYAGE</code> macro variable 25 years old will be like this:</p>
+
+<pre>
+you're just 25? You're young!
+</pre>
+
+<p>Then, change <code>MYAGE</code> value to 30 years old, and the result will be:</p>
+
+<pre>
+you're 30! you're in a perfect shape!
+</pre>
+
+<p>And lastly, let’s assume that this guy is 59 years old. Then the result will be:</p>
+
+<pre>
+well, at 59, you're quite old!
+</pre>
+
+<p>If you feel you already got some basics on conditional statements, then later on there will be an advanced flow control, <em>e.g</em> for-loops and do-while. We will learn this later on.</p>
+
+<p>For now, let’s proceed onto tutorial about how to deal with multiple functions, how to organize them and how to compile them in <a href="http://yanuartadityan.github.io/tutorial/c-tutor-5">next tutorial</a>.</p>
+
 
       <hr />
       <footer role="contentinfo">
@@ -170,7 +306,7 @@
     </li>
   </ul>
 </div><!-- /.social-share -->
-        <p class="byline"><strong>C Tutorial #4 | Conditional Statement and Loops</strong> was published on <time datetime="2015-10-04T00:00:00+02:00">October 04, 2015</time>.</p>
+        <p class="byline"><strong>C Tutorial #4 | Conditional Statement</strong> was published on <time datetime="2015-10-04T00:00:00+02:00">October 04, 2015</time>.</p>
       </footer>
     </div><!-- /.article-wrap -->
   

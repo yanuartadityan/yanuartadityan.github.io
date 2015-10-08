@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2015-10-08T10:27:07+02:00</updated>
+<updated>2015-10-09T01:12:16+02:00</updated>
 <id>/</id>
 <author>
   <name>Yanuar Aditya</name>
@@ -232,7 +232,7 @@ $ gcc source.o main.o -o programTest
   
 
 <entry>
-  <title type="html"><![CDATA[C Tutorial #4 | Conditional Statement and Loops]]></title>
+  <title type="html"><![CDATA[C Tutorial #4 | Conditional Statement]]></title>
   <link rel="alternate" type="text/html" href="/tutorial/c-tutor-4/" />
   <id>/tutorial/c-tutor-4</id>
   <published>2015-10-04T00:00:00+02:00</published>
@@ -243,9 +243,145 @@ $ gcc source.o main.o -o programTest
     <email>yanuart.adityan@gmail.com</email>
   </author>
   <content type="html">
-    
+    &lt;p&gt;One of the most important ability of programmer is to how to handle flow of the program. This includes how the program takes decision when there is a conditional statement. The &lt;code&gt;if&lt;/code&gt; statement in C is used to check the certain conditions and will proceed to the next action if the result is true. For example, you want your code to execute a computation if a variable &lt;code&gt;x&lt;/code&gt; is bigger than &lt;code&gt;y&lt;/code&gt; value. If &lt;code&gt;y&lt;/code&gt; value is smaller than &lt;code&gt;x&lt;/code&gt;, then the condition is not fulfilled and the flow of the codes will be redirected to a different branch.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/tutorial/c-tutor-4/&quot;&gt;C Tutorial #4 | Conditional Statement and Loops&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 04, 2015.&lt;/p&gt;
+&lt;p&gt;In this tutorial, we will learn about relational operations within C programming language and use them to determine the outcome of a certain condition.&lt;/p&gt;
+
+&lt;h3 id=&quot;logical-operators&quot;&gt;Logical Operators&lt;/h3&gt;
+
+&lt;p&gt;A &lt;code&gt;true&lt;/code&gt; statement is one that evaluates to a non zero number, while &lt;code&gt;false&lt;/code&gt; is always represented by zero number. When we’re dealing with relational or operators, the operator will return 1 if the comparison is true, and return 0 if comparison is false.&lt;/p&gt;
+
+&lt;p&gt;Here are listed relational operators available in C:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;preprocessors&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;definition&lt;/strong&gt;&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;&lt;strong&gt;usage example&lt;/strong&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&amp;gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;greater than&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;if (3&amp;gt;2)&lt;/code&gt; is true&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&amp;lt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;less than&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;if (2&amp;lt;3)&lt;/code&gt; is true&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&amp;gt;=&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;greater than or equal&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;if (4&amp;gt;=4)&lt;/code&gt; is true&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&amp;lt;=&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;less than or equal&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;if (5&amp;lt;=5)&lt;/code&gt; is true&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;==&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;equal&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;if (2==2)&lt;/code&gt; is true&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;!=&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;not equal&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;code&gt;if (10!=5)&lt;/code&gt; is true&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Now let’s use those operators in conditional statements.&lt;/p&gt;
+
+&lt;h3 id=&quot;conditional-statements-if&quot;&gt;Conditional Statements: IF&lt;/h3&gt;
+
+&lt;p&gt;The structure of an if statement in C is as follows:&lt;/p&gt;
+
+&lt;pre&gt;
+if (statement is true)
+	execute this line of code
+&lt;/pre&gt;
+
+&lt;p&gt;or if you have more than one line of codes, now we called it a compound of a statement, or in sort, a block. This block is in between braces &lt;code&gt;{}&lt;/code&gt;.article-wrap&lt;/p&gt;
+
+&lt;pre&gt;
+if (statements is true)
+{
+	execute these lines of code
+}
+&lt;/pre&gt;
+
+&lt;p&gt;Now, given &lt;code&gt;x&lt;/code&gt; and &lt;code&gt;y&lt;/code&gt;, we want to print out something using &lt;code&gt;printf()&lt;/code&gt; function, if &lt;code&gt;x&lt;/code&gt; value is bigger than &lt;code&gt;y&lt;/code&gt;, thus the example C codes will be:&lt;/p&gt;
+
+&lt;pre&gt;
+if (x &amp;gt; y)
+{
+	/* comment lines do not count as code line, 
+	   thus braces are optional */
+	printf(&quot;Yeah, we have x that is bigger than y\n&quot;);
+}
+
+/* lines after */
+...
+&lt;/pre&gt;
+
+&lt;p&gt;As commented inside the code snippet above, whenever &lt;code&gt;x&lt;/code&gt; value is bigger than &lt;code&gt;y&lt;/code&gt;, then the program flow will execute the code block inside. However, if the conditional statement returns false, then the program flow will ignore the code block and execute lines after.&lt;/p&gt;
+
+&lt;h3 id=&quot;conditional-statements-else&quot;&gt;Conditional Statements: ELSE&lt;/h3&gt;
+
+&lt;p&gt;So when the condition in an &lt;code&gt;if&lt;/code&gt; statement returns a false value, we can redirect the program to execute different block of codes instead of the code executed when the statement evaluates to true. The &lt;code&gt;else&lt;/code&gt; statement means that whatever code after it (whether a single line or code between brackets) is executed if the &lt;code&gt;if&lt;/code&gt; statement is false.&lt;/p&gt;
+
+&lt;p&gt;In C codes, &lt;code&gt;if&lt;/code&gt; and &lt;code&gt;else&lt;/code&gt; implementation will look like this:&lt;/p&gt;
+
+&lt;pre&gt;
+if (TRUE)
+{
+	/* executes this code block if true */
+}
+else
+{
+	/* otherwise execute this code block if false */
+}
+&lt;/pre&gt;
+
+&lt;h3 id=&quot;conditional-statements-multiple-conditional-statements-with-else-if&quot;&gt;Conditional Statements: Multiple conditional statements with ELSE IF&lt;/h3&gt;
+
+&lt;p&gt;Sometimes, when there are multiple conditional statements that all of them probably will be evaluated as true, but you want only the code block from the first conditional statement that will be executed. On in other words, if the first &lt;code&gt;if&lt;/code&gt; conditional statement is true, then the program will immediately execute corresponding code block, if not then it goes to the second conditional statement, which uses &lt;code&gt;else if&lt;/code&gt;. If it is evaluated as a true result, then &lt;code&gt;else&lt;/code&gt; will be ignored and the program will execute second code block. If not, then the program will go to the last code block related to the &lt;code&gt;else&lt;/code&gt; conditional.&lt;/p&gt;
+
+&lt;p&gt;Check this complete example to get a grasp on this conditional statement tutorial:&lt;/p&gt;
+
+&lt;noscript&gt;&lt;pre&gt;400: Invalid request
+&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/12f7eb68ef47d6367520.js&quot;&gt; &lt;/script&gt;
+
+&lt;p&gt;The result of this quite concise example with &lt;code&gt;MYAGE&lt;/code&gt; macro variable 25 years old will be like this:&lt;/p&gt;
+
+&lt;pre&gt;
+you&#39;re just 25? You&#39;re young!
+&lt;/pre&gt;
+
+&lt;p&gt;Then, change &lt;code&gt;MYAGE&lt;/code&gt; value to 30 years old, and the result will be:&lt;/p&gt;
+
+&lt;pre&gt;
+you&#39;re 30! you&#39;re in a perfect shape!
+&lt;/pre&gt;
+
+&lt;p&gt;And lastly, let’s assume that this guy is 59 years old. Then the result will be:&lt;/p&gt;
+
+&lt;pre&gt;
+well, at 59, you&#39;re quite old!
+&lt;/pre&gt;
+
+&lt;p&gt;If you feel you already got some basics on conditional statements, then later on there will be an advanced flow control, &lt;em&gt;e.g&lt;/em&gt; for-loops and do-while. We will learn this later on.&lt;/p&gt;
+
+&lt;p&gt;For now, let’s proceed onto tutorial about how to deal with multiple functions, how to organize them and how to compile them in &lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-5&quot;&gt;next tutorial&lt;/a&gt;.&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;/tutorial/c-tutor-4/&quot;&gt;C Tutorial #4 | Conditional Statement&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 04, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -604,7 +740,7 @@ Hi World
 
 &lt;p&gt;Well, I hope this is quite enough motivation for you to start learning C more than just for gaining basic programming language skill. Then when it comes the time when you woke up at the wrong side of the bed, you aren’t rambling about how bad, stressful, and obfuscated low-level programming is.&lt;/p&gt;
 
-&lt;p&gt;Cheers!&lt;/p&gt;
+&lt;p&gt;So, are you ready now? If yes, then let’s get started on writing your &lt;a href=&quot;http://www.woohooitsbacon.com/10-reasons-why-c-is-still-the-best-programming-language/&quot;&gt;first program&lt;/a&gt; on the next tutorial.&lt;/p&gt;
 
 
     &lt;p&gt;&lt;a href=&quot;/tutorial/c-tutor-1/&quot;&gt;C Tutorial #1 | Getting Acquainted with C&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 02, 2015.&lt;/p&gt;
