@@ -15,6 +15,7 @@ sass:
   style: compressed
 gems:
   - jekyll-sitemap
+  - jekyll-twitter-plugin
 
 kramdown:
   auto_ids: true
@@ -54,6 +55,14 @@ owner:
   soundcloud: #username
   weibo: #username
   flickr: #username
+
+# Twitter
+# _config.yml
+twitter:
+  consumer_key: rCaWLli0kwjJcIPMjBFhB77UK
+  consumer_secret: yThEywwFWOtPcUohzc3SBmEM8HGs3LQKAmmzNvjgg1x2XriY5i
+  access_token: 318889419-4EM5k67rwUszuRuXbVsEvQIwvJvuquBrkdmXwNNm
+  access_token_secret: 2kvXpCoGUX68GNj9PWUILxyzRzeuTUvlyr5aIJzJOzLab
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]

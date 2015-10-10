@@ -1,10 +1,13 @@
 # Site navigation links
 
-- title: Blog
+- title: /Blog
   url: /posts/
 
-- title: Tutorial
+- title: /Tutorial
   url: /tutorial/
 
-- title: About
+- title: /Tips
+  url: /tips/
+
+- title: /About
   url: /about/
