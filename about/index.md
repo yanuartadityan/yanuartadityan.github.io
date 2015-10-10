@@ -22,10 +22,6 @@ So I create this blog just for fun. One sided model of reading materials. Noneth
 
 I am a big fans of **James May** and Top Gear car entertainment TV show. Can't wait for the next release of episodes with Amazon! For now, just staring at the James' tweets all the time.
 
-<br>
-{% twitter oembed https://twitter.com/MrJamesMay/status/651095456919998465 align='center' %}
-<br>
-
 I love **Dota 2** and I'm avid fans of [Alliance Dota 2][1] team and they have their gaming house here in Göteborg! I played lot of games, spent too many times streaming games, watching pro players making money out of tournaments and I have to say, I enjoy those stuffs.
 
 Enjoy this blog and leave a comment, will ya?
