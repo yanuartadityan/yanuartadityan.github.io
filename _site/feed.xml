@@ -4,13 +4,59 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2015-10-11T09:18:36+02:00</updated>
+<updated>2015-10-11T22:04:25+02:00</updated>
 <id>/</id>
 <author>
   <name>Yanuar Aditya</name>
   <uri>/</uri>
   <email>yanuart.adityan@gmail.com</email>
 </author>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Real-Time 3D Globe Site Visitor Monitoring]]></title>
+  <link rel="alternate" type="text/html" href="/tips/globe-real-time-monitoring/" />
+  <id>/tips/globe-real-time-monitoring</id>
+  <published>2015-10-10T00:00:00+02:00</published>
+  <updated>2015-10-10T00:00:00+02:00</updated>
+  <author>
+    <name>Yanuar Aditya</name>
+    <uri></uri>
+    <email>yanuart.adityan@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Yeah, I just roamed through some JavaScript tutorial when I’ve found out about this thing called &lt;a href=&quot;https://www.revolvermaps.com&quot;&gt;RevolverMap&lt;/a&gt;. It collects the visitor of your site and showing it with cool &lt;strong&gt;GL&lt;/strong&gt; based 2D/3D globe as a widget on your site. It is free of charge, very easy to install and customisable in size and appearance.&lt;/p&gt;
+
+&lt;p&gt;Here I’ll try to provide you with some of the widges in action.&lt;/p&gt;
+
+&lt;h3 id=&quot;regular-globe&quot;&gt;Regular Globe&lt;/h3&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;//ra.revolvermaps.com/0/0/6.js?i=0314opn7pot&amp;amp;m=7&amp;amp;s=341&amp;amp;c=ff0000&amp;amp;cr1=ffffff&amp;amp;f=ubuntu&amp;amp;l=0&amp;amp;bv=100&amp;amp;lx=-700&amp;amp;ly=-320&amp;amp;hi=40&amp;amp;rs=100&amp;amp;as=10&quot; async=&quot;async&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;The regular globe is the latest one and the most updated I presume. You can attach the widget as new stuff or as an update to your previous attached widget. This is my favourite for now.&lt;/p&gt;
+
+&lt;h3 id=&quot;mini-globe&quot;&gt;Mini Globe&lt;/h3&gt;
+
+&lt;p&gt;They also offer the regular globe but on smaller size. Probably it is a good widget for your multiple column sites. I’m thinking to put this mini globe right at the footer (think think think…).&lt;/p&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;//ra.revolvermaps.com/0/0/5.js?i=0g90dd9kyof&amp;amp;m=1c&amp;amp;s=180&amp;amp;c=ff0000&amp;amp;cr1=ffffff&amp;amp;cw=ffffff&amp;amp;cb=000000&quot; async=&quot;async&quot;&gt;&lt;/script&gt;
+
+&lt;h3 id=&quot;d-map&quot;&gt;2D Map&lt;/h3&gt;
+
+&lt;p&gt;If you don’t like a round globe, then probably a flat world map suits you better. It does come with several options for the map, &lt;em&gt;e.g.&lt;/em&gt;, different seasons setup, transparent, and regular. Check the website for complete features.&lt;/p&gt;
+
+&lt;script type=&quot;text/javascript&quot; src=&quot;//ra.revolvermaps.com/0/0/7.js?i=0tgvdwyy5bw&amp;amp;m=6&amp;amp;c=ff0000&amp;amp;cr1=ffffff&amp;amp;sx=0&quot; async=&quot;async&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;Pretty cool huh? Try to customise everything by yourself, from color, transparency, background, size and how you can embed the widget on your website.&lt;/p&gt;
+
+&lt;p&gt;Cheers!&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;/tips/globe-real-time-monitoring/&quot;&gt;Real-Time 3D Globe Site Visitor Monitoring&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 10, 2015.&lt;/p&gt;
+  </content>
+</entry>
 
 
   
@@ -2050,70 +2096,6 @@ And since then, Arianne 5 has been working really great. From 75 rockets launche
 
 
     &lt;p&gt;&lt;a href=&quot;/blog/embrace-the-uncomfortable-again/&quot;&gt;Embrace the Uncomfortable...Again&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on November 05, 2014.&lt;/p&gt;
-  </content>
-</entry>
-
-
-  
-
-<entry>
-  <title type="html"><![CDATA[A Month in Sweden]]></title>
-  <link rel="alternate" type="text/html" href="/blog/all-about-sweden/" />
-  <id>/blog/all-about-sweden</id>
-  <published>2014-10-01T00:00:00+02:00</published>
-  <updated>2014-10-01T00:00:00+02:00</updated>
-  <author>
-    <name>Yanuar Aditya</name>
-    <uri></uri>
-    <email>yanuart.adityan@gmail.com</email>
-  </author>
-  <content type="html">
-    &lt;hr /&gt;
-&lt;section id=&quot;table-of-contents&quot; class=&quot;toc&quot;&gt;
-  &lt;header&gt;
-    &lt;h3&gt;1st Month in Göteborg&lt;/h3&gt;
-  &lt;/header&gt;
-&lt;div id=&quot;drawer&quot;&gt;
-&lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#first-impression&quot; id=&quot;markdown-toc-first-impression&quot;&gt;First Impression!&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#apartemen&quot; id=&quot;markdown-toc-apartemen&quot;&gt;Apartemen&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#transportasi&quot; id=&quot;markdown-toc-transportasi&quot;&gt;Transportasi&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#makanan&quot; id=&quot;markdown-toc-makanan&quot;&gt;Makanan&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#kuliah&quot; id=&quot;markdown-toc-kuliah&quot;&gt;Kuliah&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#does-it-satisfy-my-expectation-on-chalmers-gteborg-and-sweden&quot; id=&quot;markdown-toc-does-it-satisfy-my-expectation-on-chalmers-gteborg-and-sweden&quot;&gt;Does it satisfy my expectation on Chalmers, Göteborg and Sweden?&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-  &lt;/div&gt;
-&lt;/section&gt;
-&lt;!-- /#table-of-contents --&gt;
-
-&lt;p&gt;Secara ga sadar, ini post pertama saya pake Bahasa Indonesia selama nulis di blog ini (ouyeah). Ada banyak hal yang saya dapet selama 30 hari pertama di Göteborg (Gothenburg). Ini mau saya ulas satu per satu deh.&lt;/p&gt;
-
-&lt;h2 id=&quot;first-impression&quot;&gt;First Impression!&lt;/h2&gt;
-
-&lt;p&gt;OK, bandara Landvetter bukanlah bandara besar, jadi ga rame-rame amat cem Changi, Attaturk, ato Cengkareng punya. Pesawat-pesawat yang parkir juga namanya ga ada yang kenal selain Turkish Airline, wong itu pesawat saya. Ada macem Ryan Air, Finnish Airline, KLM dkk. Katanya sih Ryan Air ini Air Asia sini, tapi lom sempet coba sih jadi ga bisa klarifikasi :P. Malah pengen klarifikasi kenapa namanya Ryan, ga menjual pisan. Proses pengecekan stuffs dan personal ID juga lancar dan ngantri deh di Bus. Tiketnya waktu itu beli dahulu secara online, seharga 80:- saja. FYI, notasi simbolik Krona itu ‘:-‘, jadi kalau mau nulis 1 juta Krona cukup tulis aja 1E6:- gitu deh. Busnya OK, selama 40 menit perjalanan ke central Göteborg, bisa nyimpulin nih kota dengan 3 kata: batu, Batu dan BATU!&lt;/p&gt;
-
-&lt;h2 id=&quot;apartemen&quot;&gt;Apartemen&lt;/h2&gt;
-
-&lt;p&gt;Ceileh, selama 6 tahun cuman pake istilah kos, 1 tahun istilah numpang, sekarang boleh lah pake kata apartemen. Cukup hoki nih, dapet CIS code, jadi apartemen ga perlu susah-susah antri, langsung dikasih ama Chalmers gitu ceritanya, tapi sharing ama 6 penghuni yang lain. Sedikit ngarep ada cewek diantara kita sih, tapi apa daya, isinya dominator semua. Two tall guys dari Jerman, one handsome guy dari Bulgaria, one charming guy dari France, one macho padre dari Spain dan two dudes dari Indonesia. Kita semua sharing satu bathroom gede yang isinya dua shower spot (pake tirai kok), dan 2 toilet. So far, ga ada antri-antrian, toh jarang mandi kali. Cuman sekali-duakali shower chat bareng. Asik juga, melatih naked instinct while talking in English. Di Swedia, apartemen kebanyakan sudah berisi gitu, kasur, meja, wajan, panci, vacuum, heater, and stuffs. Enak lah, paling beli cem karpet ato pernak-pernik dari IKEA. Saya sengaja beli pernak-pernik yang ga Asia-Asia banget gitu, biar ga cepet mabuk pengen pulang. So far, benda paling mahal yang dibeli buat rias-rias kamar adalah…Gitar!&lt;/p&gt;
-
-&lt;h2 id=&quot;transportasi&quot;&gt;Transportasi&lt;/h2&gt;
-
-&lt;p&gt;Di region Västra Götaland ini, transportasi dipegang oleh konsorsium independen, Västraffik. Dia melayani, bus innercity, tram dan ferry. Ferry-nya ini bisa dipakai untuk jalan-jalan ke pulau di daerah barat kota dan nyebrang sungai yang ngebelah Göteborg jadi utara dan selatan. Selama sebulan ini udah 3x naik Ferry, so far cuman dipakai untuk ngeceng. Untuk biayanya, ada yang perbulan, per tiga bulan, ada yang model pulsa. Belinya bisa di toko-toko serba ada gitu, saya tapi cuman nyaranin ke Pressbyrån aja, karena neng-neng Swedishnya well selected (if you know what I mean). Saya beli tiga bulan harga normal 1400:- karena untuk yang diskon, hanya untuk yang umurnya tidak lebih tua dari 26 tahun. Padahal, udah coba ngaku muda, tapi tetep aja diminta nunjukin passport. Udah pinter, fasih English, jujur lagi nih mbak-mbak Pressbyrån-nya, suka deh. Ahahahaha.&lt;/p&gt;
-
-&lt;h2 id=&quot;makanan&quot;&gt;Makanan&lt;/h2&gt;
-
-&lt;p&gt;Aman bro, so far saya ga masalah. Kekhawatiran dini seperti terbatasnya barang halal ga terbukti kok, banyak imigran di Göteborg, terutama dari timur tengah, jadinya banyak juga toko-toko kebab gitu, bahkan kayaknya selalu ada menu Vegetarisk untuk mereka yang khawatir cacingan :P. Cuman untuk menu jadi yang obvious babi susah juga dibedain, kek Köttbullar, yang baksonya Swedia itu, ingredientnya sih cuman beef, tapi ternyata daging baby, jadinya haram untuk Moslem. Untung nih deket apartemen ada toko oriental gitu, saya ngiranya sih oriental alá Chinatown, tapi ternyata Turkiyé punya. Ilmu baru disini, Halal dan Helal itu sama bro :).&lt;/p&gt;
-
-&lt;h2 id=&quot;kuliah&quot;&gt;Kuliah&lt;/h2&gt;
-
-&lt;p&gt;30 hari pertama, isinya have fun doang. Ada serangkaian acara seru cem tram race dan challenges gitu. Tiap kelompok biasanya berisi 10-12 orang dari berbagai negara. Kelompok saya lumayan kompak dan kocak, terutama anak-anak India dan Spain sih, cenderung open dan ga garing. Mirip orang Jawanya Eropa kali ya ahahaha. Nah di grup ini, kenalan ama cew dari Delft, doi cakeparat sih. Trus kita ngobrol-ngobrol dan akhirnya dia tahu kalo saya lepas Delft demi Chalmers dan saya expect dia bakal kek kaget trus tapi responnya malah cenderung setuju ama saya (yey). Soalnya, dari atmosfernya, Chalmers lebih fun dan lebih non study-oriented. Doi sih cuman exchange student selama 6 bulan karena Delft ama Chalmers itu ternyata masuk ke IDEA League (bareng RWTH Aachen dan ETH Zurich). Jadi peluang exchange gitu banyak amit-amit kayaknya sih. OK, beda kuliah sini ama ITB apa? Hmmm…PERIOD vs SEMESTER! Satu semester disini diisi 2 period. Per period ambil cuman 2 courses, dan dihabisin di satu period. Jadi jangan heran, tiap hari ketemunya kuliah itu-itu mulu. Plusnya, kita jadi fokus, minusnya? Sekali ketinggalan, makin jauh bro kalau ga dikejar. Tapi Chalmers punya banyak tempat seru kok buat break the ice, pas summer sih kita bisa gulung-gulung di rumput, makan rumput, atau minum air dari air mancur gitu. Tapi hawanya udah mulai dingin karena uda mau masuk Fall ’14, jadi gulung-gulungnya dikurangin deh.&lt;/p&gt;
-
-&lt;h2 id=&quot;does-it-satisfy-my-expectation-on-chalmers-gteborg-and-sweden&quot;&gt;Does it satisfy my expectation on Chalmers, Göteborg and Sweden?&lt;/h2&gt;
-
-&lt;p&gt;Absolutely YES, salah satu motivasi saya pilih Chalmers vs Delft, yang paling penting, adalah lingkup profesional yang lebih bagus di Swedia. Baru masuk minggu ketiga kuliah, sudah diundang ama Spotify AB untuk study evening, Cisco Sweden untuk Fika &amp;amp; Lunch Class, bahkan Volvo dan Ericsson juga ngadain Lunch Class juga. Göteborg sendiri walaupun secara statistik, kota paling ramai kedua di Swedia dan Skandinavia, tetep aja boleh dibilang sepi dari standar ex Jakartanian. Tapi justru itu yang aciek. Orang-orangnya? Bule-bulenya? Swedish-swedish? So far, they stand by their reputation kok, friendly, cenderung low profile (lagom) dan tidak seronok. Suka belajar bareng dan baca buku, trus logat English-nya absolutely inhuman.&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;/blog/all-about-sweden/&quot;&gt;A Month in Sweden&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 01, 2014.&lt;/p&gt;
   </content>
 </entry>
 
