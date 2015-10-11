@@ -163,19 +163,15 @@
 
 <p>Let’s start by knowing what <code>printf</code> can do.</p>
 
-<pre>
-printf("Hello World");
-</pre>
+<div class="highlight"><pre><code class="language-c" data-lang="c"><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Hello World&quot;</span><span class="p">);</span></code></pre></div>
 
 <p>That is pretty much regular usage of <code>printf</code>, printing <strong>Hello World</strong> string into the display. If you have a variable, then you can let <code>printf</code> to put it with help of format specifier <code>%</code>.</p>
 
-<pre>
-int a = 5;
-int b = 10;
-int c = a + b;
+<div class="highlight"><pre><code class="language-c" data-lang="c"><span class="kt">int</span> <span class="n">a</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
+<span class="kt">int</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
+<span class="kt">int</span> <span class="n">c</span> <span class="o">=</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">;</span>
 
-printf("a is %d, b is %d, the sum would be %d", a, b, c);
-</pre>
+<span class="n">printf</span><span class="p">(</span><span class="s">&quot;a is %d, b is %d, the sum would be %d&quot;</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">);</span></code></pre></div>
 
 <p>And the output will exactly the same as this more efficient, less variable usage <code>printf</code>:</p>
 

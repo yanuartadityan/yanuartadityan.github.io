@@ -226,7 +226,7 @@
 
 <p>Originall, <code>printf()</code> is declared with,</p>
 
-<div class="highlight"><pre><code class="language-c" data-lang="c"><span class="kt">int</span> <span class="n">printf</span><span class="p">(</span><span class="k">const</span> <span class="kt">char</span> <span class="o">*</span><span class="n">format</span><span class="p">,</span> <span class="p">...)</span><span class="err">`</span></code></pre></div>
+<div class="highlight"><pre><code class="language-c" data-lang="c"><span class="kt">int</span> <span class="nf">printf</span><span class="p">(</span><span class="k">const</span> <span class="kt">char</span> <span class="o">*</span><span class="n">format</span><span class="p">,</span> <span class="p">...);</span></code></pre></div>
 
 <p><code>format</code> in here is the string that contains the text to be displayed. In sort, this is the text you wanted to see. It can be accompanied by the variables. An example of <code>printf("Hi World")</code> will bring texts “Hi World” to be displayed on terminal. You can add format tags to determine data types, and point it out to the corresponding variables. If you have <code>int a</code> and want to show it after “Hi World”, then the command will be <code>printf("Hi World %d", a)</code>. The tag is <code>%</code>, and <code>d</code> represents signed decimal integer. <code>%f</code> is format tag for floating point data type, <code>%s</code> for characters, and <code>%x</code> for hexadecimal integer. To check all of available format tags for C, you can see it <a href="http://www.tutorialspoint.com/c_standard_library/c_function_printf.htm">here</a>. For the tutorial about variables, please refer to the end of this tutorial.</p>
 

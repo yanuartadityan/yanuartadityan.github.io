@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2015-10-10T11:31:01+02:00</updated>
+<updated>2015-10-11T00:22:02+02:00</updated>
 <id>/</id>
 <author>
   <name>Yanuar Aditya</name>
@@ -79,19 +79,15 @@ thirdDir $
 
 &lt;p&gt;Let’s start by knowing what &lt;code&gt;printf&lt;/code&gt; can do.&lt;/p&gt;
 
-&lt;pre&gt;
-printf(&quot;Hello World&quot;);
-&lt;/pre&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;Hello World&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;That is pretty much regular usage of &lt;code&gt;printf&lt;/code&gt;, printing &lt;strong&gt;Hello World&lt;/strong&gt; string into the display. If you have a variable, then you can let &lt;code&gt;printf&lt;/code&gt; to put it with help of format specifier &lt;code&gt;%&lt;/code&gt;.&lt;/p&gt;
 
-&lt;pre&gt;
-int a = 5;
-int b = 10;
-int c = a + b;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 
-printf(&quot;a is %d, b is %d, the sum would be %d&quot;, a, b, c);
-&lt;/pre&gt;
+&lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;a is %d, b is %d, the sum would be %d&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;And the output will exactly the same as this more efficient, less variable usage &lt;code&gt;printf&lt;/code&gt;:&lt;/p&gt;
 
@@ -666,7 +662,7 @@ well, at 59, you&#39;re quite old!
 
 &lt;p&gt;Originall, &lt;code&gt;printf()&lt;/code&gt; is declared with,&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;...)&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;`&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;...);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;code&gt;format&lt;/code&gt; in here is the string that contains the text to be displayed. In sort, this is the text you wanted to see. It can be accompanied by the variables. An example of &lt;code&gt;printf(&quot;Hi World&quot;)&lt;/code&gt; will bring texts “Hi World” to be displayed on terminal. You can add format tags to determine data types, and point it out to the corresponding variables. If you have &lt;code&gt;int a&lt;/code&gt; and want to show it after “Hi World”, then the command will be &lt;code&gt;printf(&quot;Hi World %d&quot;, a)&lt;/code&gt;. The tag is &lt;code&gt;%&lt;/code&gt;, and &lt;code&gt;d&lt;/code&gt; represents signed decimal integer. &lt;code&gt;%f&lt;/code&gt; is format tag for floating point data type, &lt;code&gt;%s&lt;/code&gt; for characters, and &lt;code&gt;%x&lt;/code&gt; for hexadecimal integer. To check all of available format tags for C, you can see it &lt;a href=&quot;http://www.tutorialspoint.com/c_standard_library/c_function_printf.htm&quot;&gt;here&lt;/a&gt;. For the tutorial about variables, please refer to the end of this tutorial.&lt;/p&gt;
 

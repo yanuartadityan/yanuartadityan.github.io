@@ -263,8 +263,9 @@ $button-size: 1.5rem;
 
 	/* background for <pre></pre> */
 	pre {
-		background-color: #C2EBFF;
-		border-radius: 5px;
+		background-color: white;
+		border-radius: 2px;
+		border: 0.5px solid #181818;
 	}
 }
 
