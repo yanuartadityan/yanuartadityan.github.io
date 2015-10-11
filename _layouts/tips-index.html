@@ -61,7 +61,7 @@
             </a>
           </h2>
           <!-- modified by adit-->
-          <p><font color="#cc0000">{{ post.date | date: '%Y' }}</font> | {{ post.excerpt | strip_html | truncate: 160 }}</p>
+          <p><font color="#cc0000">{{ post.date | date: '%Y.%m.%d' }}</font> | {{ post.excerpt | strip_html | truncate: 160 }}</p>
         {% endif %}
       </article>
     {% endfor %}
