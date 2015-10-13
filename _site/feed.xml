@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2015-10-11T22:04:25+02:00</updated>
+<updated>2015-10-13T22:17:44+02:00</updated>
 <id>/</id>
 <author>
   <name>Yanuar Aditya</name>
@@ -27,7 +27,7 @@
     <email>yanuart.adityan@gmail.com</email>
   </author>
   <content type="html">
-    &lt;p&gt;Yeah, I just roamed through some JavaScript tutorial when I’ve found out about this thing called &lt;a href=&quot;https://www.revolvermaps.com&quot;&gt;RevolverMap&lt;/a&gt;. It collects the visitor of your site and showing it with cool &lt;strong&gt;GL&lt;/strong&gt; based 2D/3D globe as a widget on your site. It is free of charge, very easy to install and customisable in size and appearance.&lt;/p&gt;
+    &lt;p&gt;Yeah, I just roamed through some JavaScript tutorials when I’ve found out about this thing called &lt;a href=&quot;https://www.revolvermaps.com&quot;&gt;RevolverMap&lt;/a&gt;. It collects the visitor of your site and showing it with cool &lt;strong&gt;GL&lt;/strong&gt; based 2D/3D globe as a widget on your site. It is free of charge, very easy to install and customisable in size and appearance.&lt;/p&gt;
 
 &lt;p&gt;Here I’ll try to provide you with some of the widges in action.&lt;/p&gt;
 
@@ -108,9 +108,9 @@ thirdDir $
   
 
 <entry>
-  <title type="html"><![CDATA[C Tutorial #6 | I/O in C]]></title>
-  <link rel="alternate" type="text/html" href="/tutorial/c-tutor-6/" />
-  <id>/tutorial/c-tutor-6</id>
+  <title type="html"><![CDATA[C Tutorial #8 | I/O in C]]></title>
+  <link rel="alternate" type="text/html" href="/tutorial/c-tutor-8/" />
+  <id>/tutorial/c-tutor-8</id>
   <published>2015-10-08T00:00:00+02:00</published>
   <updated>2015-10-08T00:00:00+02:00</updated>
   <author>
@@ -127,7 +127,7 @@ thirdDir $
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;Hello World&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;That is pretty much regular usage of &lt;code&gt;printf&lt;/code&gt;, printing &lt;strong&gt;Hello World&lt;/strong&gt; string into the display. If you have a variable, then you can let &lt;code&gt;printf&lt;/code&gt; to put it with help of format specifier &lt;code&gt;%&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;That is pretty much regular usage of printf, printing &lt;strong&gt;Hello World&lt;/strong&gt; string into the display. If you have a variable, then you can let printf to put it with help of format specifier &lt;code&gt;%&lt;/code&gt;.&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
@@ -135,7 +135,7 @@ thirdDir $
 
 &lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;a is %d, b is %d, the sum would be %d&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;And the output will exactly the same as this more efficient, less variable usage &lt;code&gt;printf&lt;/code&gt;:&lt;/p&gt;
+&lt;p&gt;And the output will exactly the same as this more efficient, less variable usage printf:&lt;/p&gt;
 
 &lt;pre&gt;
 printf(&quot;a is %d, b is %d, the sum would be %d&quot;, a, b, a+b);
@@ -151,7 +151,96 @@ printf(&quot;the value of phi is %d&quot;, (int)phi);
 
 &lt;p&gt;Always make sure that you watch your variables value, as rounded values could lead into different meaning from several constant, &lt;em&gt;e.g&lt;/em&gt;, &lt;strong&gt;phi&lt;/strong&gt; value. Always use float or double to represent these kind of constants.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/tutorial/c-tutor-6/&quot;&gt;C Tutorial #6 | I/O in C&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 08, 2015.&lt;/p&gt;
+&lt;p&gt;Now, if printf display some informations to the user, C is capable to record users input using several methods, &lt;em&gt;e.g.&lt;/em&gt; reading files, command-line argument and using run time function, &lt;code&gt;scanf()&lt;/code&gt;. However, we’ll gonna use only scanf for now to design some kind of computer-to-user interview program. Here, the program will ask user and user will have to prepare answers. Each of the answer is recorded using scanf and saved to a variable.&lt;/p&gt;
+
+&lt;p&gt;Basically, scanf requires you to include &lt;code&gt;#include &amp;lt;stdio.h&amp;gt;&lt;/code&gt;, similar with printf.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;cm&quot;&gt;/* create a variable named userInput */&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;userInput&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;cm&quot;&gt;/* ask user about something */&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;What is your age?&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;When you compile above code and let it runs, the output will be a question &lt;strong&gt;What is your age?&lt;/strong&gt; to any users who are using the program. When they want to answer with age numbers, program catch the entered value with scanf. Expected input should be stored in a memory address of correlated variable (with suitable data type), which in this case an integer.&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;span class=&quot;cm&quot;&gt;/* create a variable named userInput */&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;userInput&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;cm&quot;&gt;/* ask user about something */&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;What is your age?&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;cm&quot;&gt;/* retrieve the user input */&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;scanf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;%d&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;userInput&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;The scanf function ignores blanks and tabs in its format string, and will skip over white space as it looks for the proper input values. Whenever the question appears on the screen, then the program will prompt user to provide an answer. Any valid numbers will then stored on the &lt;code&gt;userInput&lt;/code&gt; variable.&lt;/p&gt;
+
+&lt;p&gt;Now, let’s make a simple program that will ask user’s informations, &lt;em&gt;e.g.&lt;/em&gt; age, lastname and firstname. Then, at the end, we give the user the table-like summary (of course using command line).
+First of all, we will learn how to retrieve user’s name as string arrays. It’s little bit different than how we record integer. Take a look at the complete program first:&lt;/p&gt;
+
+&lt;noscript&gt;&lt;pre&gt;400: Invalid request
+&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/0097f3678b1c6b986b4e.js&quot;&gt; &lt;/script&gt;
+
+&lt;p&gt;First, declare two arrays variables, first is &lt;code&gt;char userLastName[256]&lt;/code&gt; and the second is &lt;code&gt;char userFirstName[256]&lt;/code&gt;. The number here means the length of the reserved memory for each variable is 256 &lt;code&gt;char&lt;/code&gt; or equals to 256 bytes due to 1 char equals to 1 byte of memory space (1 char is 8 bits, 8 bits is 1 byte).&lt;/p&gt;
+
+&lt;p&gt;Then, after asking the user about his/her age, next question is for the name. We will use &lt;code&gt;%s&lt;/code&gt; to capture strings or characters. We will store the user’s name into declared variable arrays. As now we want to treat those input as sequence of some characters, we want to reserve memory space through the variable array. Now, we will point scanf to write the captured input to the address of the first index of the array. Thus we have to pass &lt;code&gt;&amp;amp;arrayName[0]&lt;/code&gt; instead of just &lt;code&gt;&amp;amp;arrayName&lt;/code&gt; as you can see on &lt;strong&gt;line:19&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Now, we have user’s age, last name and first name. &lt;strong&gt;line:26&lt;/strong&gt; to &lt;strong&gt;29&lt;/strong&gt; are used to format the summary. Keep in mind that you can represent the summary as you wish with your own preferences.&lt;/p&gt;
+
+&lt;p&gt;Here’s the output from my terminal:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;o&quot;&gt;=====&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;USER&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;INFORMATION&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=====&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;Full&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Name&lt;/span&gt;	 &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Janu&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Aditya&lt;/span&gt;
+&lt;span class=&quot;no&quot;&gt;Age&lt;/span&gt; 		 &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;27&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;==========================&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Next, we will try to exploit another way to pass user’s inputs into our program by &lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-8&quot;&gt;reading files and passing arguments&lt;/a&gt;.&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;/tutorial/c-tutor-8/&quot;&gt;C Tutorial #8 | I/O in C&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 08, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[C Tutorial #7 | Pointers]]></title>
+  <link rel="alternate" type="text/html" href="/tutorial/c-tutor-7/" />
+  <id>/tutorial/c-tutor-7</id>
+  <published>2015-10-07T00:00:00+02:00</published>
+  <updated>2015-10-07T00:00:00+02:00</updated>
+  <author>
+    <name>Yanuar Aditya</name>
+    <uri></uri>
+    <email>yanuart.adityan@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Next tutorial will focused on &lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-6&quot;&gt;user inputs&lt;/a&gt; because so far we’ve just used static variables value. Thus, we should let our C program to be accessible by the users without they change anything inside the code.&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;/tutorial/c-tutor-7/&quot;&gt;C Tutorial #7 | Pointers&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 07, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[C Tutorial #6 | Arrays]]></title>
+  <link rel="alternate" type="text/html" href="/tutorial/c-tutor-6/" />
+  <id>/tutorial/c-tutor-6</id>
+  <published>2015-10-06T00:00:00+02:00</published>
+  <updated>2015-10-06T00:00:00+02:00</updated>
+  <author>
+    <name>Yanuar Aditya</name>
+    <uri></uri>
+    <email>yanuart.adityan@gmail.com</email>
+  </author>
+  <content type="html">
+    
+
+    &lt;p&gt;&lt;a href=&quot;/tutorial/c-tutor-6/&quot;&gt;C Tutorial #6 | Arrays&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 06, 2015.&lt;/p&gt;
   </content>
 </entry>
 
@@ -362,7 +451,7 @@ $ gcc source.o main.o -o programTest
 &lt;span class=&quot;n&quot;&gt;we&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ve&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;got&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;now!&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;35&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;000000&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;Next tutorial will focused on &lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-6&quot;&gt;user inputs&lt;/a&gt; because so far we’ve just used static variables value. Thus, we should let our C program to be accessible by the users without they change anything inside the code.&lt;/p&gt;
+&lt;p&gt;Next, we will learn about how C stores sequences of same element datas, known as &lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-6&quot;&gt;array&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Cheers!&lt;/p&gt;
 
@@ -1993,109 +2082,6 @@ d3.select(&quot;div.second&quot;)
 
 
     &lt;p&gt;&lt;a href=&quot;/blog/december-is-coming/&quot;&gt;What to do in December?&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on December 11, 2014.&lt;/p&gt;
-  </content>
-</entry>
-
-
-  
-
-<entry>
-  <title type="html"><![CDATA[Autumn and Post Exam...Hibernation Time?]]></title>
-  <link rel="alternate" type="text/html" href="/blog/autumn-hibernation/" />
-  <id>/blog/autumn-hibernation</id>
-  <published>2014-11-06T10:40:37+01:00</published>
-  <updated>2014-11-06T10:40:37+01:00</updated>
-  <author>
-    <name>Yanuar Aditya</name>
-    <uri></uri>
-    <email>yanuart.adityan@gmail.com</email>
-  </author>
-  <content type="html">
-    &lt;hr /&gt;
-&lt;p&gt;If you ask me, “When is the best in Sweden?”. I don’t think I can answer that. It is my 75th day in Göteborg and temperature is decreasing so quickly. I can still remember that last September the temperature was around 15-20 degree Celcius and now less than 5. And good news is, it won’t get any better until April.&lt;/p&gt;
-
-&lt;p class=&quot;image-pull-right&quot;&gt;&lt;img src=&quot;/images/post-arianne53-1.jpg&quot; alt=&quot;Arianne 5 Computer Image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;However, no time for blabbing and regret this. Even for my first exam in Chalmers. It was quite a mixed-bag for me, with two courses all about Fault Tolerant Computer Systems and Self Stabilizing Algorithm. The first one was good but the latter…mmmm…I don’t know. The course was Computer Networks, but we had three examiners or lecturers and the focus on the course was all about how to design a self-stabilizing distributed systems. Why self-stabilizing? It grants you an independent system which can be started in any &lt;code&gt;arbitrary-condition&lt;/code&gt; and will eventually recover to its desireable state in finite step executions. How? By communicating with their neighbours. It is a distributed systems! Stop! I’m not gonna continue this…&lt;/p&gt;
-
-&lt;p&gt;And what was fault-tolerant thing all about? Hmmmm…Two words, damn good! The idea is when you are working on something which potentially has a very big impact and severe risks when failed, you don’t want it to be failed. Use self-stabilizing then! No, we’re talking about serious stuff for a sake of gazillion bucks and human lifes. We’re talking about space shuttle, big aircraft, etc. Those are example of stuffs which you have to put &lt;code&gt;zero tolerate&lt;/code&gt; on errors.&lt;/p&gt;
-
-&lt;p&gt;This course is all about putting spare system here and there, adding some redundancy and hazard analysis while at the same time, inviting several guest lecturers from the the best men in the field. One of them was the designer of ESA Arianne 5 computer system. We took several pictures and my God, it was real thing, I got my hand on that super familiar computer featured in one of the world most expensive fireworks.&lt;/p&gt;
-
-&lt;p&gt;Well, in 1996, Europe Space Agency or ESA, was ready to launch their new rocket, Arianne 5. Some components were new, some of them were derived from previous Arianne 4. Everything seems good when after launch, different arc direction when it was leaving earth, brought an overflow into the computer system, triggering self-destruct mode as its final resolve. And the infamous computer, was brought to my class.
-And since then, Arianne 5 has been working really great. From 75 rockets launched, only the first failed on a catastrophic failure.&lt;/p&gt;
-
-&lt;p&gt;It is great to know that I still have ‘WOW’ feeling. I’m easily impressed with such thing, yet I’m just wanting and hoping to stand at that level sometimes in the future. So, no hibernating for sure. Lot of ladder steps need to be taken, effort is a function within time so, give your best effort in this finite time of your life. Make great stuffs for the sake of billion people on earth, will you?&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Ariane_5&quot;&gt;Arianne 5 - Wikipedia&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.ruag.com/aviation/aviation-home/&quot;&gt;RUAG Aviation&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-    &lt;p&gt;&lt;a href=&quot;/blog/autumn-hibernation/&quot;&gt;Autumn and Post Exam...Hibernation Time?&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on November 06, 2014.&lt;/p&gt;
-  </content>
-</entry>
-
-
-  
-
-<entry>
-  <title type="html"><![CDATA[Embrace the Uncomfortable...Again]]></title>
-  <link rel="alternate" type="text/html" href="/blog/embrace-the-uncomfortable-again/" />
-  <id>/blog/embrace-the-uncomfortable-again</id>
-  <published>2014-11-05T22:48:44+01:00</published>
-  <updated>2014-11-05T22:48:44+01:00</updated>
-  <author>
-    <name>Yanuar Aditya</name>
-    <uri></uri>
-    <email>yanuart.adityan@gmail.com</email>
-  </author>
-  <content type="html">
-    &lt;hr /&gt;
-
-&lt;p&gt;Alright, if you do Google Image for &lt;code&gt;embrace&lt;/code&gt;, then I’m quite sure it will turn you on. Yes, it will. Lot of hugs and kisses. Yeah, the definition of embrace is ‘holding somebody closely in your arms’. Then &lt;code&gt;embrace the uncomfortable&lt;/code&gt; is trying to hold and live closely with your uncomfortable sides. I know you have one or twos, I know we have it.&lt;/p&gt;
-
-&lt;p&gt;I ain’t a programmer, just happens to be able to finish some stuffs with programming. Yet, programming, similar with other occupations, is kinda boring if you feel that you start to get stuck. So, what ordinary programmers secret to prevent this? The answer is embrace something you are unconfident, you are weak on them, you are ugly on them and everything you are certainly uncomfortable. Yeah, lot of Google queries about how this approach can become a really great solution to cherish your daily lives.&lt;/p&gt;
-
-&lt;p&gt;For a reason which I don’t really know, I get easily bored, even when I’m doing something really fun, e.g. &lt;code&gt;gaming&lt;/code&gt;, &lt;code&gt;movie&lt;/code&gt;, &lt;code&gt;book&lt;/code&gt; etc. Even, for some people, to fulfil their nasty desire, they’re willing to invest a lot of money in which they never used it after the momentum is gone. I’ll take myself for an example. I love to play game and I want to do game properly. I bought my own games and spent not cheap money for that since 2009. Yet, only 15% of them which I’ve played, and rest of them I didn’t even try to install it. Then, I’m trying to follow the waves and bought myself a big camera. Yet, &lt;code&gt;seldom&lt;/code&gt; is how frequent I am using that gear. Thus, what then? New hobby didn’t work out, so how I should tackle this bland routine and get some fun out of the moments?&lt;/p&gt;
-
-&lt;p&gt;The answer is my friend, one of the best answers is to &lt;code&gt;embrace&lt;/code&gt; it, like I said twice or thrice before. If &lt;code&gt;excitement&lt;/code&gt; is the thing you’re looking for, then it is my best approach. How we should do this? To make it short, I will just use three simple steps,&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Start exploring yourself, from top of your head to your toes.&lt;/li&gt;
-  &lt;li&gt;Find what kind of weakness do you have, in which, there are few folks out there that good at it. Best words for this, find your &lt;code&gt;limitation&lt;/code&gt;. Improve the threshold and work on it!&lt;/li&gt;
-  &lt;li&gt;Try to match them!&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;For example,&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;I’ve done, I’m doing and always do a lot of typing.&lt;/li&gt;
-  &lt;li&gt;Yet, I realize that I’m just using 5 fingers from 10 possibilities. Then I realize that there’s a lot of people out there that can type flawlesly using 10 fingers.&lt;/li&gt;
-  &lt;li&gt;I’m trying to match them, kinda killing me all the time, but it is a nice flavour addition to my life. And for a bonus, now I can type faster and more efficient.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Another example, this is my friend’s,&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;He realized that he is having a hard time talking to a stranger.&lt;/li&gt;
-  &lt;li&gt;Found a goals, in which, he has to talk to 5 strangers in a day.&lt;/li&gt;
-  &lt;li&gt;Now, he’s a king of pickup around here.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;I know those examples are too specific and not so common, but you can always start with something that really simple,&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Arrange your schedule, so that you can go analog once in a week for entire day. Without your laptop, without your phones, no chargers, no internet. Just social!&lt;/li&gt;
-  &lt;li&gt;I know you are pretty bad with drawings LOL, start drawing back what you can remember from your first drawing in kindergarten and compare, which one is prettier? Kid-version of yours or present?&lt;/li&gt;
-  &lt;li&gt;If you’re wearing glasses, try to walk carefully around your area without it.&lt;/li&gt;
-  &lt;li&gt;If reading books is to common, then try to read something really nonsense, e.g. scientific journals and papers.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I know that it is more like a trivial steps on how to fight your limitation, but at least it gives me a &lt;code&gt;variation&lt;/code&gt; that I need to keep my day cherished. Lot of things you can harvest from doing those silly stuffs. Believe me. It is nonsense at start, then you will realize that world is too big to be left doing nothing. Start from now my friends.&lt;/p&gt;
-
-
-    &lt;p&gt;&lt;a href=&quot;/blog/embrace-the-uncomfortable-again/&quot;&gt;Embrace the Uncomfortable...Again&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on November 05, 2014.&lt;/p&gt;
   </content>
 </entry>
 

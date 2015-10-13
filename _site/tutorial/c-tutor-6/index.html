@@ -5,15 +5,15 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>C Tutorial #6 | I/O in C &#8211; Mirkwood Ape</title>
-<meta name="description" content="Further materials on how C handles user inputs, how users can pass input as arguments, and how program can save what users typed.">
+<title>C Tutorial #6 | Arrays &#8211; Mirkwood Ape</title>
+<meta name="description" content="Learn how to group elements of the same type, or array, where the elements are stored sequentially in memory.">
 <meta name="keywords" content="tutorial, C">
 
 
 
 <!-- Twitter Cards -->
-<meta name="twitter:title" content="C Tutorial #6 | I/O in C">
-<meta name="twitter:description" content="Further materials on how C handles user inputs, how users can pass input as arguments, and how program can save what users typed.">
+<meta name="twitter:title" content="C Tutorial #6 | Arrays">
+<meta name="twitter:description" content="Learn how to group elements of the same type, or array, where the elements are stored sequentially in memory.">
 <meta name="twitter:site" content="@yanuartadityan">
 <meta name="twitter:creator" content="@yanuartadityan">
 
@@ -23,8 +23,8 @@
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="C Tutorial #6 | I/O in C">
-<meta property="og:description" content="Further materials on how C handles user inputs, how users can pass input as arguments, and how program can save what users typed.">
+<meta property="og:title" content="C Tutorial #6 | Arrays">
+<meta property="og:description" content="Learn how to group elements of the same type, or array, where the elements are stored sequentially in memory.">
 <meta property="og:url" content="/tutorial/c-tutor-6/">
 <meta property="og:site_name" content="Mirkwood Ape">
 
@@ -153,41 +153,11 @@
   <article class="post">
     <div class="headline-wrap">
       
-        <h1><a href="/tutorial/c-tutor-6/" rel="bookmark" title="C Tutorial #6 | I/O in C">C Tutorial #6 | I/O in C</a></h1>
+        <h1><a href="/tutorial/c-tutor-6/" rel="bookmark" title="C Tutorial #6 | Arrays">C Tutorial #6 | Arrays</a></h1>
       
     </div><!--/ .headline-wrap -->
     <div class="article-wrap">
-      <p>Allright, so far we’ve just used all static values. Every values are staticly predefined and a program would be useless without some way to talk to the users of the program. If you consider yourself a user, and your colleague as a program, then you’ll supply him with informations about stuffs. And your colleague has to be able to catch those supplies and do something as predetermined before else.</p>
-
-<p>This way of communication is called <strong>input output</strong> (I/O). One way to communicate that we’ve learned and implemented is <code>printf()</code>, which tells the program to deliver some informations to users.</p>
-
-<p>Let’s start by knowing what <code>printf</code> can do.</p>
-
-<div class="highlight"><pre><code class="language-c" data-lang="c"><span class="n">printf</span><span class="p">(</span><span class="s">&quot;Hello World&quot;</span><span class="p">);</span></code></pre></div>
-
-<p>That is pretty much regular usage of <code>printf</code>, printing <strong>Hello World</strong> string into the display. If you have a variable, then you can let <code>printf</code> to put it with help of format specifier <code>%</code>.</p>
-
-<div class="highlight"><pre><code class="language-c" data-lang="c"><span class="kt">int</span> <span class="n">a</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
-<span class="kt">int</span> <span class="n">b</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
-<span class="kt">int</span> <span class="n">c</span> <span class="o">=</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">;</span>
-
-<span class="n">printf</span><span class="p">(</span><span class="s">&quot;a is %d, b is %d, the sum would be %d&quot;</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">);</span></code></pre></div>
-
-<p>And the output will exactly the same as this more efficient, less variable usage <code>printf</code>:</p>
-
-<pre>
-printf("a is %d, b is %d, the sum would be %d", a, b, a+b);
-</pre>
-
-<p><strong>Casting</strong> also can be used, to let compiler treat some values to a different type, for example you want to print integer values from float (albeit the value will be rounded) like this:</p>
-
-<pre>
-float phi = 3.14;
-
-printf("the value of phi is %d", (int)phi);
-</pre>
-
-<p>Always make sure that you watch your variables value, as rounded values could lead into different meaning from several constant, <em>e.g</em>, <strong>phi</strong> value. Always use float or double to represent these kind of constants.</p>
+      
 
       <hr />
       <footer role="contentinfo">
@@ -205,7 +175,7 @@ printf("the value of phi is %d", (int)phi);
     </li>
   </ul>
 </div><!-- /.social-share -->
-        <p class="byline"><strong>C Tutorial #6 | I/O in C</strong> was published on <time datetime="2015-10-08T00:00:00+02:00">October 08, 2015</time>.</p>
+        <p class="byline"><strong>C Tutorial #6 | Arrays</strong> was published on <time datetime="2015-10-06T00:00:00+02:00">October 06, 2015</time>.</p>
       </footer>
     </div><!-- /.article-wrap -->
   
@@ -223,7 +193,7 @@ printf("the value of phi is %d", (int)phi);
     
       <li><a href="/tips/hide-directory-terminal/" title="Hide Working Directory in Terminal">Hide Working Directory in Terminal</a></li>
     
-      <li><a href="/tutorial/c-tutor-5/" title="C Tutorial #5 | Function & Math Operations">C Tutorial #5 | Function & Math Operations</a></li>
+      <li><a href="/tutorial/c-tutor-8/" title="C Tutorial #8 | I/O in C">C Tutorial #8 | I/O in C</a></li>
     
     </ul>
     <hr />

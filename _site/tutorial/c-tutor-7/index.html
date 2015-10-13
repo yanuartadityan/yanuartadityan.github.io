@@ -5,15 +5,15 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>C Tutorial #1 | Getting Acquainted with C &#8211; Mirkwood Ape</title>
-<meta name="description" content="Get to know with some reasons why it still good to learn.">
+<title>C Tutorial #7 | Pointers &#8211; Mirkwood Ape</title>
+<meta name="description" content="Learn the workaround on one of the most powerful features of C, ability to manipulate memory using pointers.">
 <meta name="keywords" content="tutorial, C">
 
 
 
 <!-- Twitter Cards -->
-<meta name="twitter:title" content="C Tutorial #1 | Getting Acquainted with C">
-<meta name="twitter:description" content="Get to know with some reasons why it still good to learn.">
+<meta name="twitter:title" content="C Tutorial #7 | Pointers">
+<meta name="twitter:description" content="Learn the workaround on one of the most powerful features of C, ability to manipulate memory using pointers.">
 <meta name="twitter:site" content="@yanuartadityan">
 <meta name="twitter:creator" content="@yanuartadityan">
 
@@ -23,16 +23,16 @@
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="C Tutorial #1 | Getting Acquainted with C">
-<meta property="og:description" content="Get to know with some reasons why it still good to learn.">
-<meta property="og:url" content="/tutorial/c-tutor-1/">
+<meta property="og:title" content="C Tutorial #7 | Pointers">
+<meta property="og:description" content="Learn the workaround on one of the most powerful features of C, ability to manipulate memory using pointers.">
+<meta property="og:url" content="/tutorial/c-tutor-7/">
 <meta property="og:site_name" content="Mirkwood Ape">
 
 
 
 
 
-<link rel="canonical" href="/tutorial/c-tutor-1/">
+<link rel="canonical" href="/tutorial/c-tutor-7/">
 <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Mirkwood Ape Feed">
 
 <!-- http://t.co/dKP3o1e -->
@@ -153,55 +153,11 @@
   <article class="post">
     <div class="headline-wrap">
       
-        <h1><a href="/tutorial/c-tutor-1/" rel="bookmark" title="C Tutorial #1 | Getting Acquainted with C">C Tutorial #1 | Getting Acquainted with C</a></h1>
+        <h1><a href="/tutorial/c-tutor-7/" rel="bookmark" title="C Tutorial #7 | Pointers">C Tutorial #7 | Pointers</a></h1>
       
     </div><!--/ .headline-wrap -->
     <div class="article-wrap">
-      <p>Probably, you will see C-language as nothing special. You might even say C sucks compared to Java, Ruby or Python nowadays. But, is it? Well, if you start coding from 90s, probably you’ve encountered a hard time developing with <code>Fortran</code>, or <code>Assembly</code> and C came as a saviour from the darkness, it’s like a <a href="http://www.woohooitsbacon.com/10-reasons-why-c-is-still-the-best-programming-language/">programming heaven</a>.</p>
-
-<p>There are several top reasons why C is still a good language to learn, here I’ve compiled some.</p>
-
-<h3 id="c-has-nice-syntax">C has nice syntax</h3>
-
-<p>As a language that often interacts with the machine, C is considered to be a pretty language with beautiful syntax.</p>
-
-<noscript><pre>400: Invalid request
-</pre></noscript>
-<script src="https://gist.github.com/300a69849266f41b58c9.js"> </script>
-
-<p>As we can see, <code>Pygments</code> rendered C-syntax (with line numbers) beautifully. Now, time for a trivia. Can you guess, how many programmers which are saved by C-syntax from obfuscating codes? Count me one!</p>
-
-<h3 id="c-macros-are-the-best">C macros are the best</h3>
-
-<p>Macros is one of the most important preprocessor <code>#</code> implementation in C. It can be used to create a fast function without putting everything on the stack. Check this out,</p>
-
-<noscript><pre>400: Invalid request
-</pre></noscript>
-<script src="https://gist.github.com/b7a1b47ffdff16237ae1.js"> </script>
-
-<p>In <strong>line:4</strong>, we define the macro function <code>MACRO_OR</code> that takes <em>a</em> and <em>b</em> as an input. Then, this macro will return the logical <code>OR</code> result from <em>a</em> and <em>b</em>. Super neat!</p>
-
-<p>In <strong>line:12</strong>, the macro is invoked to compute the logical <code>OR</code> between <em>a</em> and <em>b</em> and return the result to <em>c</em>.</p>
-
-<h3 id="c-is-small">C is small</h3>
-
-<p>C utilised merely variables, macros, functions and structures. Therefore, C is considered small in size, complexity and that much of it. Due to this, C has been heavily used on embedded system, modern microprocessor, even modern <code>Arduino</code>.</p>
-
-<p>More about this, lot of parallel programming languages, OpenMP, OpenCL, CUDA, etc, are based on C language due to its relative connection to lower level hardware compared with other languages.</p>
-
-<h3 id="c-is-root-of-all-goodness">C is root of all goodness</h3>
-
-<p>You can pretty much stand on opinion that C is different compared to <em>C++</em> or <em>ObjectiveC</em>, but from pedagogical approach, lot of programming expert will tell you to learn basic things from C, e.g. <em>overflow</em>, <em>memory addressing</em>, <em>pointer</em>, <em>profiling</em> and <em>debugging</em>. A true concept of those languages can be learned from C.</p>
-
-<h3 id="c-is-alive-and-sound">C is alive and sound</h3>
-
-<p>The number one reason C is the best programming language today is still the fact that it simply powers everything. From your phone to your <code>Wii</code>, no other language provides the level of hardware interaction with the practicality of a concise and expressive syntax. Unless you’re still using an early <code>IBM</code> (please switch soon, if so), the screen you’re reading this article on is probably powered by C.</p>
-
-<p>With C, we can forget writing thousands of complex <em>Assembly</em> routines, thousands of processor-specific instructions, and spaghetti like code. Because of C, the CPU, memory, and graphics cards have turned from their messy, low-level pasts into an easier, readable format</p>
-
-<p>Well, I hope this is quite enough motivation for you to start learning C more than just for gaining basic programming language skill. Then when it comes the time when you woke up at the wrong side of the bed, you aren’t rambling about how bad, stressful, and obfuscated low-level programming is.</p>
-
-<p>So, are you ready now? If yes, then let’s get started on writing your <a href="http://yanuartadityan.github.io/tutorial/c-tutor-2">first program</a> on the next tutorial.</p>
+      <p>Next tutorial will focused on <a href="http://yanuartadityan.github.io/tutorial/c-tutor-6">user inputs</a> because so far we’ve just used static variables value. Thus, we should let our C program to be accessible by the users without they change anything inside the code.</p>
 
 
       <hr />
@@ -210,17 +166,17 @@
   <h4>Share on</h4>
   <ul>
     <li>
-      <a href="https://twitter.com/intent/tweet?text=/tutorial/c-tutor-1/" class="twitter" title="Share on Twitter"><i class="fa fa-twitter"></i><span> Twitter</span></a>
+      <a href="https://twitter.com/intent/tweet?text=/tutorial/c-tutor-7/" class="twitter" title="Share on Twitter"><i class="fa fa-twitter"></i><span> Twitter</span></a>
     </li>
     <li>
-      <a href="https://www.facebook.com/sharer/sharer.php?u=/tutorial/c-tutor-1/" class="facebook" title="Share on Facebook"><i class="fa fa-facebook"></i><span> Facebook</span></a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=/tutorial/c-tutor-7/" class="facebook" title="Share on Facebook"><i class="fa fa-facebook"></i><span> Facebook</span></a>
     </li>
     <li>
-      <a href="https://plus.google.com/share?url=/tutorial/c-tutor-1/" class="google-plus" title="Share on Google Plus"><i class="fa fa-google-plus"></i><span> Google+</span></a>
+      <a href="https://plus.google.com/share?url=/tutorial/c-tutor-7/" class="google-plus" title="Share on Google Plus"><i class="fa fa-google-plus"></i><span> Google+</span></a>
     </li>
   </ul>
 </div><!-- /.social-share -->
-        <p class="byline"><strong>C Tutorial #1 | Getting Acquainted with C</strong> was published on <time datetime="2015-10-02T00:00:00+02:00">October 02, 2015</time>.</p>
+        <p class="byline"><strong>C Tutorial #7 | Pointers</strong> was published on <time datetime="2015-10-07T00:00:00+02:00">October 07, 2015</time>.</p>
       </footer>
     </div><!-- /.article-wrap -->
   

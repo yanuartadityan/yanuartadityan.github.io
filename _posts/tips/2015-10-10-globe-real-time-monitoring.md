@@ -7,7 +7,7 @@ comments: true
 tags: [tips, javascript, internet, web]
 ---
 
-Yeah, I just roamed through some JavaScript tutorial when I've found out about this thing called [RevolverMap][1]. It collects the visitor of your site and showing it with cool **GL** based 2D/3D globe as a widget on your site. It is free of charge, very easy to install and customisable in size and appearance. 
+Yeah, I just roamed through some JavaScript tutorials when I've found out about this thing called [RevolverMap][1]. It collects the visitor of your site and showing it with cool **GL** based 2D/3D globe as a widget on your site. It is free of charge, very easy to install and customisable in size and appearance. 
 
 Here I'll try to provide you with some of the widges in action.
 
