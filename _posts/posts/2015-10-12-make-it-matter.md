@@ -44,13 +44,7 @@ This is one of the result that I've posted on my [Youtube][yt] channel.
 
 Not that much of something you have expected to see, but I am open for new stuffs and new experiences. 
 
-By this August, I was appointed to become one of the student ambassador in the university to help them promoting Chalmers abroad, especially Indonesia. I would like to carry Spotify name, alongside with other Swedish multinational companies, *e.g.*, Volvo, Ericsson, Scania, SKF, DICE, etc. However, I don't feel that I'm good enough since I never really involved directly with Spotify, other than just a member and spending a night on Study Night with Spotify last year. Somehow I want to contribute more than that.
-
-<br>
-
-> https://twitter.com/johanbrook/status/511589867198107648
-
-<br>
+By this August, I was appointed to become one of the student ambassador in the university to help them promoting Chalmers abroad, especially Indonesia. I would like to carry Spotify name, alongside with other Swedish multinational companies, *e.g.*, Volvo, Ericsson, Scania, SKF, DICE, etc. However, I don't feel that I'm good enough since I never really involved directly with Spotify, other than just a member and spending a night on [Study Night with Spotify][spot] last year. Somehow I want to contribute more than that.
 
 ### Make IT Matter
 
@@ -71,3 +65,4 @@ Thanks a lot and warm regards,
 [kelager]: http://image.diku.dk/projects/media/kelager.06.pdf
 [amada]: http://www.ss.iij4u.or.jp/~amada/fluid/
 [mash]: http://mashable.com/2013/10/06/spotify-music-economy/#tRqM_1G.SSqa
+[spot]: https://twitter.com/johanbrook/status/511589867198107648
