@@ -2,7 +2,7 @@
 
 title:            Mirkwood Ape
 locale:           en_US
-url:              
+url:
 
 
 # Jekyll configuration
@@ -32,14 +32,14 @@ owner:
   email: yanuart.adityan@gmail.com
   disqus-shortname: yanuartadityan
   twitter: yanuartadityan
-  facebook: yanuartriaditya
+  facebook: #yanuartriaditya
   google:
-    plus: YanuarTriAdityaNugraha
-    analytics: 
-    verify: 
-    ad-client: 
-    ad-slot: 
-  bing-verify: 
+    plus: #YanuarTriAdityaNugraha
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
   github: yanuartadityan
   stackoverflow: #http://stackoverflow.com/users/123456/username
   linkedin: yanuartadityan
