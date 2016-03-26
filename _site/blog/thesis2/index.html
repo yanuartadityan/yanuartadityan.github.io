@@ -5,34 +5,34 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>What's Wrong with May Weather? &#8211; Mirkwood Ape</title>
-<meta name="description" content="There is no such thing as bad weather, it's just bad clothing.">
-<meta name="keywords" content="sweden, season, chalmers">
+<title>Thesis: The Pandora Box &#8211; Mirkwood Ape</title>
+<meta name="description" content="Early struggle, brainstorming and the path">
+<meta name="keywords" content="school, study, work">
 
 
 
 <!-- Twitter Cards -->
-<meta name="twitter:title" content="What's Wrong with May Weather?">
-<meta name="twitter:description" content="There is no such thing as bad weather, it's just bad clothing.">
+<meta name="twitter:title" content="Thesis: The Pandora Box">
+<meta name="twitter:description" content="Early struggle, brainstorming and the path">
 <meta name="twitter:site" content="@yanuartadityan">
 <meta name="twitter:creator" content="@yanuartadityan">
 
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="/images/post-season.jpg">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="/images/default-thumb.png">
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="What's Wrong with May Weather?">
-<meta property="og:description" content="There is no such thing as bad weather, it's just bad clothing.">
-<meta property="og:url" content="/blog/summer/">
+<meta property="og:title" content="Thesis: The Pandora Box">
+<meta property="og:description" content="Early struggle, brainstorming and the path">
+<meta property="og:url" content="/blog/thesis2/">
 <meta property="og:site_name" content="Mirkwood Ape">
 
 
 
 
 
-<link rel="canonical" href="/blog/summer/">
+<link rel="canonical" href="/blog/thesis2/">
 <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Mirkwood Ape Feed">
 
 <!-- http://t.co/dKP3o1e -->
@@ -114,15 +114,6 @@
 </div><!-- /.navigation-wrapper -->
 
 
-  <div class="image-wrap">
-  <img src=
-    
-      "/images/post-season.jpg"
-    
-  alt="What's Wrong with May Weather? feature image">
-  
-  </div><!-- /.image-wrap -->
-
 
 <div id="main" role="main">
   <div class="article-author-side">
@@ -162,25 +153,21 @@
   <article class="post">
     <div class="headline-wrap">
       
-        <h1><a href="/blog/summer/" rel="bookmark" title="What's Wrong with May Weather?">What's Wrong with May Weather?</a></h1>
+        <h1><a href="/blog/thesis2/" rel="bookmark" title="Thesis: The Pandora Box">Thesis: The Pandora Box</a></h1>
       
     </div><!--/ .headline-wrap -->
     <div class="article-wrap">
-      <h3 id="season-in-gothenburg">Season in Gothenburg</h3>
+      <p>Kära alla!</p>
 
-<p>If we talk about season in western archipelago of Sweden, then Gothenburg, so to speak, is representing what you may call unforeseen forecasted weather. It is May already, several parts of Europe already bathing in 20-hours of sunlight, pretty close to body temperature warmth that attracts Summer’s Mood of everyone to come out. However, it is still 10 Degree Celcius here in Gothenburg. Valkommn till Sverige!</p>
+<p>Arghhh…Sebulan udah lamanya ga kerasa ngerjain thesis bareng Volvo Cars. Kita udah dapet sketsa problem buat thesis, konteks dan juga approach yang mereka minati untuk kita pake. Next step adalah mencari dosen pembimbing. Well, jurusan gue sedikit aneh emang, MPCSN atau <em>Master Programme in Computer Systems and Networks</em>, tapi memperbolehkan kita untuk cari thesis apapun selama kita bisa. Thesis ini, dimana permasalahan ada di domain sinyal dan sistem, membuat kita agak kelabakan cari supervisor sih kalau boleh jujur. Walau akhirnya Volvo ngasih kita saran buat kontak salah satu Lead Professor di Computer Vision lab, Professor Fredrik Kahl.</p>
 
-<h3 id="so-whats-next">So, What’s Next?</h3>
+<p>Awal Februari, kita ketemu dengan Fredrik, barengan bersama Jonathan dari Volvo buat brainstorming tentang berbagai macam penyelesaian masalah yang kita hadapi. Inti dari permasalahan dimulai ketika GPS tidak lagi reliabel untuk dijadikan positioning device di keadaan tertentu, misal didalam <em>tunnel</em>. Alhasil, trajektori kendaraan ketika berada di dalam tunnel, murni hanya merupakan estimasi dari perubahan state kendaraan, e.g. kecepatan, akselerasi, steering angle, etc. Semestinya <em>bad estimation</em> harus di drop ketika filter menunjukkan pengukuran (menggunakan GPS) menghasilkan <em>covariance matrix</em> yang lebih bagus. Jadi filter disini adalah semacam algoritma yang akan menentukan mana yang bisa lebih dipercaya, estimasi atau pengukuran. State estimation paling umum yang digunakan adalah Kalman Filter. Tetapi, ketika GPS tidak lagi reliabel, murni kita hanya bisa menghitung estimasi dari model kendaraan, karena ketika di dalam tunnel, sinyal GPS lebih banyak menghasilkan <em>noise</em> dengan covariance yang terlalu besar.</p>
 
-<p>Prepare for the worst. It’s a routine to check today’s weather before you leave home. Always make sure to dress properly and do not forget to bring your worst case suit all the time. I do prefer wearing my trusty waterproof hardshell everytime anytime, probably with fleece and a shirt. Always come with spare of shirts and socks on the backpack.</p>
+<p>Well, ada beberapa metode yang telah diterapkan untuk mengatasi problem ini. Salah satunya adalah menggunakan GPS point repeater di dalam tunnel, yang diletakkan setiap beberapa checkpoint sepanjang jalan. Metode ini efektif sehingga kendaraan masih bisa menggunakan GPS, tetapi tidak efisien dan menghabiskan banyak biaya, terutama jika tunnel sangat panjang. Metode yang lain adalah menggunakan <em>dead reckoning</em> dan biasanya digunakan untuk komputasi offline. Jadi menggunakan dua kendaraan yang masuk ke tunnel dari dua arah yang berbeda. Seiiring makin jauhnya kedua kendaraan tersebut masuk ke dalam tunnel, semakin tinggi pula error dari estimasi trajektori kendaraan (drifted). Ketika dua trajektori tersebut bertemu, dengan teknik bernama <em>bundle adjust</em>, drift bisa dikurangi dan trayektori dari kedua kendaraan akan dideteksi lebih akurat. Kelemahan dari <em>dead reckoning</em>, selain offline, tetapi juga tidak efisien ketika rute di dalam tunnel berkelok kelok, karena drift akan jauh lebih susah untuk dikoreksi.</p>
 
-<h3 id="killing-time">Killing Time</h3>
+<p>Akhirnya, di akhir meeting, kita sepakat untuk menggunakan monocular perspective camera untuk dijadikan mainan utama kita. Domain permasalahan dipersempit menjadi <em>solving camera pose using multiple image sequences inside tunnel</em>. Jadi dengan diberikan hasil rekaman video dari kamera yang dipasang di kendaraan, dengan diketahui posisi terakhir kamera relatif ke unit GPS sebelum masuk tunnel, dengan menggunakan teknik bernama Visual Odometry, kita bisa mencari <em>pose</em> dari kamera dengan membandingkan pergeseran piksel tiap framenya.</p>
 
-<p>The weather can change quickly. Always think positive, if you don’t wanna get <em>jinxed</em>. When the weather is good, just enjoy. Do not think about probability of raining or cloud will come in a glimpse of your eye.</p>
-
-<h3 id="so-what">So What?</h3>
-
-<p>Sweden is pretty country. Gothenburg itself is amazing. Fantastic public transportation, superb education and industry, big port and ships and the weather as well. So, please come and enjoy Gothenburg.</p>
+<p>Untuk detailnya, bakal diulas lebih jauh di post berikut-berikutnya, tetapi paling tidak sekarang The Pandora Box is here, time to digest it and defeat it.</p>
 
       <hr />
       <footer role="contentinfo">
@@ -188,17 +175,17 @@
   <h4>Share on</h4>
   <ul>
     <li>
-      <a href="https://twitter.com/intent/tweet?text=/blog/summer/" class="twitter" title="Share on Twitter"><i class="fa fa-twitter"></i><span> Twitter</span></a>
+      <a href="https://twitter.com/intent/tweet?text=/blog/thesis2/" class="twitter" title="Share on Twitter"><i class="fa fa-twitter"></i><span> Twitter</span></a>
     </li>
     <li>
-      <a href="https://www.facebook.com/sharer/sharer.php?u=/blog/summer/" class="facebook" title="Share on Facebook"><i class="fa fa-facebook"></i><span> Facebook</span></a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=/blog/thesis2/" class="facebook" title="Share on Facebook"><i class="fa fa-facebook"></i><span> Facebook</span></a>
     </li>
     <li>
-      <a href="https://plus.google.com/share?url=/blog/summer/" class="google-plus" title="Share on Google Plus"><i class="fa fa-google-plus"></i><span> Google+</span></a>
+      <a href="https://plus.google.com/share?url=/blog/thesis2/" class="google-plus" title="Share on Google Plus"><i class="fa fa-google-plus"></i><span> Google+</span></a>
     </li>
   </ul>
 </div><!-- /.social-share -->
-        <p class="byline"><strong>What's Wrong with May Weather?</strong> was published on <time datetime="2015-06-04T00:00:00+02:00">June 04, 2015</time>.</p>
+        <p class="byline"><strong>Thesis: The Pandora Box</strong> was published on <time datetime="2016-03-10T00:00:00+01:00">March 10, 2016</time>.</p>
       </footer>
     </div><!-- /.article-wrap -->
   
@@ -212,11 +199,11 @@
   <h4>You might also enjoy <small class="pull-right">(<a href="/posts/">View all posts</a>)</small></h4>
     <ul>
     
-      <li><a href="/blog/thesis2/" title="Thesis: The Pandora Box">Thesis: The Pandora Box</a></li>
-    
       <li><a href="/blog/thesis/" title="Thesis: The Introduction">Thesis: The Introduction</a></li>
     
       <li><a href="/blog/make-it-matter/" title="Make IT Matter">Make IT Matter</a></li>
+    
+      <li><a href="/tips/globe-real-time-monitoring/" title="Real-Time 3D Globe Site Visitor Monitoring">Real-Time 3D Globe Site Visitor Monitoring</a></li>
     
     </ul>
     <hr />

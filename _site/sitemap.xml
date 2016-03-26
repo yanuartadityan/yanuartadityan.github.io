@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>/blog/thesis2/</loc>
+    <lastmod>2016-03-10T00:00:00+01:00</lastmod>
+  </url>
+  <url>
     <loc>/blog/thesis/</loc>
-    <lastmod>2016-03-15T00:00:00+01:00</lastmod>
+    <lastmod>2016-02-02T00:00:00+01:00</lastmod>
   </url>
   <url>
     <loc>/blog/make-it-matter/</loc>
@@ -99,6 +103,10 @@
   <url>
     <loc>/blog/all-about-sweden/</loc>
     <lastmod>2014-10-01T00:00:00+02:00</lastmod>
+  </url>
+  <url>
+    <loc>/blog/why-chalmers/</loc>
+    <lastmod>2014-08-01T00:00:00+02:00</lastmod>
   </url>
   <url>
     <loc>/blog/last-week-on-jakarta/</loc>
