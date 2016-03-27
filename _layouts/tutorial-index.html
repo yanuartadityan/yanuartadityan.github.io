@@ -34,7 +34,8 @@
   </div>
   <div id="index">
     <h1>{{ page.title }}</h1>
-    {% for post in site.categories.tutorial %}  
+    {% for post in site.categories.tutorial %}
+    {% if post.visible == 1 %}
     {% unless post.next %}
       <!--<h3>{{ post.date | date: '%Y' }}</h3>-->
       {% else %}
@@ -49,7 +50,7 @@
           <h2 class="link-post">
             <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">
               {{ post.date | date: '%Y' }}{{ post.title }}
-            </a> 
+            </a>
             <a href="{{ post.link }}" target="_blank" title="{{ post.title }}">
               <i class="fa fa-link"></i>
             </a>
@@ -64,6 +65,7 @@
           <p><font color="#cc0000">{{ post.date | date: '%Y.%m.%d' }}</font> | {{ post.excerpt | strip_html | truncate: 160 }}</p>
         {% endif %}
       </article>
+      {% endif %}
     {% endfor %}
   </div><!-- /#index -->
 </div><!-- /#main -->
@@ -75,6 +77,6 @@
 </div><!-- /.footer-wrap -->
 
 {% include _scripts.html %}
-  
+
 </body>
 </html>
