@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2016-04-01T11:51:42+02:00</updated>
+<updated>2016-04-03T10:38:38+02:00</updated>
 <id>/</id>
 <author>
   <name>Yanuar Aditya</name>
@@ -251,7 +251,20 @@ thirdDir $
     <email>yanuart.adityan@gmail.com</email>
   </author>
   <content type="html">
-    &lt;p&gt;Allright, so far we’ve just used all static values. Every values are staticly predefined and a program would be useless without some way to talk to the users of the program. If you consider yourself a user, and your colleague as a program, then you’ll supply him with informations about stuffs. And your colleague has to be able to catch those supplies and do something as predetermined before else.&lt;/p&gt;
+    &lt;p&gt;For the complete list of the tutorial on this blog, you can check these following links:&lt;/p&gt;
+
+&lt;p&gt;[1. Introduction][0] &lt;br /&gt;
+[2. First C-Program][2] &lt;br /&gt;
+[3. Types and Variables][3] &lt;br /&gt;
+[4. Conditional Statements][4] &lt;br /&gt;
+[5. Function and Math Operations][5] &lt;br /&gt;
+[6. Arrays][6] &lt;br /&gt;
+[7. Pointers][7] &lt;br /&gt;
+[&lt;strong&gt;8. I/O in C&lt;/strong&gt;][8] &lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Allright, so far we’ve just used all static values. Every values are staticly predefined and a program would be useless without some way to talk to the users of the program. If you consider yourself a user, and your colleague as a program, then you’ll supply him with informations about stuffs. And your colleague has to be able to catch those supplies and do something as predetermined before else.&lt;/p&gt;
 
 &lt;p&gt;This way of communication is called &lt;strong&gt;input output&lt;/strong&gt; (I/O). One way to communicate that we’ve learned and implemented is &lt;code&gt;printf()&lt;/code&gt;, which tells the program to deliver some informations to users.&lt;/p&gt;
 
@@ -348,7 +361,20 @@ First of all, we will learn how to retrieve user’s name as string arrays. It�
     <email>yanuart.adityan@gmail.com</email>
   </author>
   <content type="html">
-    &lt;p&gt;Next tutorial will focused on &lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-6&quot;&gt;user inputs&lt;/a&gt; because so far we’ve just used static variables value. Thus, we should let our C program to be accessible by the users without they change anything inside the code.&lt;/p&gt;
+    &lt;p&gt;For the complete list of the tutorial on this blog, you can check these following links:&lt;/p&gt;
+
+&lt;p&gt;[1. Introduction][0] &lt;br /&gt;
+[2. First C-Program][2] &lt;br /&gt;
+[3. Types and Variables][3] &lt;br /&gt;
+[4. Conditional Statements][4] &lt;br /&gt;
+[5. Function and Math Operations][5] &lt;br /&gt;
+[6. Arrays][6] &lt;br /&gt;
+[&lt;strong&gt;7. Pointers&lt;/strong&gt;][7] &lt;br /&gt;
+[8. I/O in C][8] &lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Next tutorial will focused on &lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-6&quot;&gt;user inputs&lt;/a&gt; because so far we’ve just used static variables value. Thus, we should let our C program to be accessible by the users without they change anything inside the code.&lt;/p&gt;
 
 
     &lt;p&gt;&lt;a href=&quot;/tutorial/c-tutor-7/&quot;&gt;C #7 | Pointers&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 07, 2015.&lt;/p&gt;
@@ -370,7 +396,18 @@ First of all, we will learn how to retrieve user’s name as string arrays. It�
     <email>yanuart.adityan@gmail.com</email>
   </author>
   <content type="html">
-    
+    &lt;p&gt;For the complete list of the tutorial on this blog, you can check these following links:&lt;/p&gt;
+
+&lt;p&gt;[1. Introduction][0] &lt;br /&gt;
+[2. First C-Program][2] &lt;br /&gt;
+[3. Types and Variables][3] &lt;br /&gt;
+[4. Conditional Statements][4] &lt;br /&gt;
+[5. Function and Math Operations][5] &lt;br /&gt;
+[&lt;strong&gt;6. Arrays&lt;/strong&gt;][6] &lt;br /&gt;
+[7. Pointers][7] &lt;br /&gt;
+[8. I/O in C][8] &lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
 
     &lt;p&gt;&lt;a href=&quot;/tutorial/c-tutor-6/&quot;&gt;C #6 | Arrays&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 06, 2015.&lt;/p&gt;
   </content>
@@ -391,7 +428,20 @@ First of all, we will learn how to retrieve user’s name as string arrays. It�
     <email>yanuart.adityan@gmail.com</email>
   </author>
   <content type="html">
-    &lt;p&gt;Now that you should have some basic on C, such as variables, data type, basic I/O, and control flow (conditional &amp;amp; loops), this part of the tutorial, we will learn more about function and math operations in C. Some compile-able examples are provided to help you to gain better understanding. We will try to design a C code to compute a math quadratic polynomial with specific inputs.&lt;/p&gt;
+    &lt;p&gt;For the complete list of the tutorial on this blog, you can check these following links:&lt;/p&gt;
+
+&lt;p&gt;[1. Introduction][0] &lt;br /&gt;
+[2. First C-Program][2] &lt;br /&gt;
+[3. Types and Variables][3] &lt;br /&gt;
+[4. Conditional Statements][4] &lt;br /&gt;
+[&lt;strong&gt;5. Function and Math Operations&lt;/strong&gt;][5] &lt;br /&gt;
+[6. Arrays][6] &lt;br /&gt;
+[7. Pointers][7] &lt;br /&gt;
+[8. I/O in C][8] &lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Now that you should have some basic on C, such as variables, data type, basic I/O, and control flow (conditional &amp;amp; loops), this part of the tutorial, we will learn more about function and math operations in C. Some compile-able examples are provided to help you to gain better understanding. We will try to design a C code to compute a math quadratic polynomial with specific inputs.&lt;/p&gt;
 
 &lt;h3 id=&quot;function-in-c&quot;&gt;Function in C&lt;/h3&gt;
 
@@ -607,7 +657,20 @@ $ gcc source.o main.o -o programTest
     <email>yanuart.adityan@gmail.com</email>
   </author>
   <content type="html">
-    &lt;p&gt;One of the most important ability of programmer is to how to handle flow of the program. This includes how the program takes decision when there is a conditional statement. The &lt;code&gt;if&lt;/code&gt; statement in C is used to check the certain conditions and will proceed to the next action if the result is true. For example, you want your code to execute a computation if a variable &lt;code&gt;x&lt;/code&gt; is bigger than &lt;code&gt;y&lt;/code&gt; value. If &lt;code&gt;y&lt;/code&gt; value is smaller than &lt;code&gt;x&lt;/code&gt;, then the condition is not fulfilled and the flow of the codes will be redirected to a different branch.&lt;/p&gt;
+    &lt;p&gt;For the complete list of the tutorial on this blog, you can check these following links:&lt;/p&gt;
+
+&lt;p&gt;[1. Introduction][0] &lt;br /&gt;
+[2. First C-Program][2] &lt;br /&gt;
+[3. Types and Variables][3] &lt;br /&gt;
+[&lt;strong&gt;4. Conditional Statements&lt;/strong&gt;][4] &lt;br /&gt;
+[5. Function and Math Operations][5] &lt;br /&gt;
+[6. Arrays][6] &lt;br /&gt;
+[7. Pointers][7] &lt;br /&gt;
+[8. I/O in C][8] &lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;One of the most important ability of programmer is to how to handle flow of the program. This includes how the program takes decision when there is a conditional statement. The &lt;code&gt;if&lt;/code&gt; statement in C is used to check the certain conditions and will proceed to the next action if the result is true. For example, you want your code to execute a computation if a variable &lt;code&gt;x&lt;/code&gt; is bigger than &lt;code&gt;y&lt;/code&gt; value. If &lt;code&gt;y&lt;/code&gt; value is smaller than &lt;code&gt;x&lt;/code&gt;, then the condition is not fulfilled and the flow of the codes will be redirected to a different branch.&lt;/p&gt;
 
 &lt;p&gt;In this tutorial, we will learn about relational operations within C programming language and use them to determine the outcome of a certain condition.&lt;/p&gt;
 
@@ -764,7 +827,20 @@ well, at 59, you&#39;re quite old!
     <email>yanuart.adityan@gmail.com</email>
   </author>
   <content type="html">
-    &lt;p&gt;As we start working on every programming languages, we will encounter datas. Each programming languages have different approach on how to store and manipulate datas. C for example, it is known for quite strict on data types, due to the native environment of C that is often considered low-level compared to &lt;code&gt;Python&lt;/code&gt;, &lt;code&gt;Ruby&lt;/code&gt; or even &lt;code&gt;Java&lt;/code&gt;. Without understanding data types on C, it can lead into a situation where ‘supposed-to-be-efficient’ code becomes ‘resource-consuming’ code. It is certainly an opposite of the motivation people use C at the beginning, to build fast, small and efficient program. Even, unwanted issues that should be hindered, &lt;em&gt;e.g.&lt;/em&gt;, buffer overrun, memory leaks, or segmentation fault could be there causing potential bugs.&lt;/p&gt;
+    &lt;p&gt;For the complete list of the tutorial on this blog, you can check these following links:&lt;/p&gt;
+
+&lt;p&gt;[1. Introduction][0] &lt;br /&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/C99&quot;&gt;2. First C-Program&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-2&quot;&gt;&lt;strong&gt;3. Types and Variables&lt;/strong&gt;&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-4&quot;&gt;4. Conditional Statements&lt;/a&gt; &lt;br /&gt;
+[5. Function and Math Operations][5] &lt;br /&gt;
+[6. Arrays][6] &lt;br /&gt;
+[7. Pointers][7] &lt;br /&gt;
+[8. I/O in C][8] &lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;As we start working on every programming languages, we will encounter datas. Each programming languages have different approach on how to store and manipulate datas. C for example, it is known for quite strict on data types, due to the native environment of C that is often considered low-level compared to &lt;code&gt;Python&lt;/code&gt;, &lt;code&gt;Ruby&lt;/code&gt; or even &lt;code&gt;Java&lt;/code&gt;. Without understanding data types on C, it can lead into a situation where ‘supposed-to-be-efficient’ code becomes ‘resource-consuming’ code. It is certainly an opposite of the motivation people use C at the beginning, to build fast, small and efficient program. Even, unwanted issues that should be hindered, &lt;em&gt;e.g.&lt;/em&gt;, buffer overrun, memory leaks, or segmentation fault could be there causing potential bugs.&lt;/p&gt;
 
 &lt;h3 id=&quot;variables&quot;&gt;Variables&lt;/h3&gt;
 
@@ -860,7 +936,20 @@ well, at 59, you&#39;re quite old!
     <email>yanuart.adityan@gmail.com</email>
   </author>
   <content type="html">
-    &lt;p&gt;Wise and experienced programmers will always tell you this, &lt;em&gt;the only way to learn a programming language is to write programs&lt;/em&gt;. It is true and I will just jumpstart by creating the very first simple C program. This program will simply prints some words, and play with how to bring the texts appear on the screen with &lt;code&gt;printf&lt;/code&gt; function.&lt;/p&gt;
+    &lt;p&gt;For the complete list of the tutorial on this blog, you can check these following links:&lt;/p&gt;
+
+&lt;p&gt;[1. Introduction][0] &lt;br /&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Return_statement&quot;&gt;&lt;strong&gt;2. First C-Program&lt;/strong&gt;&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.com/tutorial/c-tutor-3&quot;&gt;3. Types and Variables&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://www.tutorialspoint.com/c_standard_library/c_function_printf.htm&quot;&gt;4. Conditional Statements&lt;/a&gt; &lt;br /&gt;
+[5. Function and Math Operations][5] &lt;br /&gt;
+[6. Arrays][6] &lt;br /&gt;
+[7. Pointers][7] &lt;br /&gt;
+[8. I/O in C][8] &lt;br /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Wise and experienced programmers will always tell you this, &lt;em&gt;the only way to learn a programming language is to write programs&lt;/em&gt;. It is true and I will just jumpstart by creating the very first simple C program. This program will simply prints some words, and play with how to bring the texts appear on the screen with &lt;code&gt;printf&lt;/code&gt; function.&lt;/p&gt;
 
 &lt;p&gt;First thing to know is that, C-language are written in &lt;code&gt;.c&lt;/code&gt; and &lt;code&gt;.h&lt;/code&gt; file extensions. &lt;code&gt;.c&lt;/code&gt; is the compile-able file that consist every functions and routines while &lt;code&gt;.h&lt;/code&gt; is where you stores function names, variables, headers etc. You can live with &lt;code&gt;.c&lt;/code&gt; alone but sometimes in order for programmer to be able to hide the intellectual property of, &lt;em&gt;e.g&lt;/em&gt; the functions inside &lt;code&gt;.c&lt;/code&gt;, programmers  merely write the function name inside &lt;code&gt;.h&lt;/code&gt; and let the compiler transform &lt;code&gt;.c&lt;/code&gt; with the definition of the function into either static or dynamic &lt;em&gt;library&lt;/em&gt;. Thus, everyone who wants to use corresponding function, they will be provided by just the &lt;code&gt;.h&lt;/code&gt; and the library, without requiring them to have the original &lt;code&gt;.c&lt;/code&gt; code.&lt;/p&gt;
 
@@ -1062,7 +1151,7 @@ Hi World
   <content type="html">
     &lt;p&gt;For the complete list of the tutorial on this blog, you can check these following links:&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-1&quot;&gt;1. Introduction&lt;/a&gt; &lt;br /&gt;
+&lt;p&gt;&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-1&quot;&gt;&lt;strong&gt;1. Introduction&lt;/strong&gt;&lt;/a&gt; &lt;br /&gt;
 &lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-2&quot;&gt;2. First C-Program&lt;/a&gt; &lt;br /&gt;
 &lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-3&quot;&gt;3. Types and Variables&lt;/a&gt; &lt;br /&gt;
 &lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-4&quot;&gt;4. Conditional Statements&lt;/a&gt; &lt;br /&gt;
