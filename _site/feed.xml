@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2016-04-03T10:44:50+02:00</updated>
+<updated>2016-04-03T10:48:43+02:00</updated>
 <id>/</id>
 <author>
   <name>Yanuar Aditya</name>
@@ -253,14 +253,14 @@ thirdDir $
   <content type="html">
     &lt;p&gt;For the complete list of the tutorial on this blog, you can check these following links:&lt;/p&gt;
 
-&lt;p&gt;[1. Introduction][0] &lt;br /&gt;
-[2. First C-Program][2] &lt;br /&gt;
-[3. Types and Variables][3] &lt;br /&gt;
-[4. Conditional Statements][4] &lt;br /&gt;
-[5. Function and Math Operations][5] &lt;br /&gt;
-[6. Arrays][6] &lt;br /&gt;
-[7. Pointers][7] &lt;br /&gt;
-[8. I/O in C][8] &lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-1&quot;&gt;1. Introduction&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-2&quot;&gt;2. First C-Program&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-3&quot;&gt;3. Types and Variables&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-4&quot;&gt;4. Conditional Statements&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-5&quot;&gt;5. Function and Math Operations&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-6&quot;&gt;6. Arrays&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-7&quot;&gt;7. Pointers&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-8&quot;&gt;&lt;strong&gt;8. I/O in C&lt;/strong&gt;&lt;/a&gt; &lt;br /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -363,14 +363,14 @@ First of all, we will learn how to retrieve userâ€™s name as string arrays. Itâ€
   <content type="html">
     &lt;p&gt;For the complete list of the tutorial on this blog, you can check these following links:&lt;/p&gt;
 
-&lt;p&gt;[1. Introduction][0] &lt;br /&gt;
-[2. First C-Program][2] &lt;br /&gt;
-[3. Types and Variables][3] &lt;br /&gt;
-[4. Conditional Statements][4] &lt;br /&gt;
-[5. Function and Math Operations][5] &lt;br /&gt;
-[6. Arrays][6] &lt;br /&gt;
-[7. Pointers][7] &lt;br /&gt;
-[8. I/O in C][8] &lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-1&quot;&gt;1. Introduction&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-2&quot;&gt;2. First C-Program&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-3&quot;&gt;3. Types and Variables&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-4&quot;&gt;4. Conditional Statements&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-5&quot;&gt;5. Function and Math Operations&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-6&quot;&gt;6. Arrays&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-7&quot;&gt;&lt;strong&gt;7. Pointers&lt;/strong&gt;&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-8&quot;&gt;8. I/O in C&lt;/a&gt; &lt;br /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -398,16 +398,17 @@ First of all, we will learn how to retrieve userâ€™s name as string arrays. Itâ€
   <content type="html">
     &lt;p&gt;For the complete list of the tutorial on this blog, you can check these following links:&lt;/p&gt;
 
-&lt;p&gt;[1. Introduction][0] &lt;br /&gt;
-[2. First C-Program][2] &lt;br /&gt;
-[3. Types and Variables][3] &lt;br /&gt;
-[4. Conditional Statements][4] &lt;br /&gt;
-[5. Function and Math Operations][5] &lt;br /&gt;
-[6. Arrays][6] &lt;br /&gt;
-[7. Pointers][7] &lt;br /&gt;
-[8. I/O in C][8] &lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-1&quot;&gt;1. Introduction&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-2&quot;&gt;2. First C-Program&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-3&quot;&gt;3. Types and Variables&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-4&quot;&gt;4. Conditional Statements&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-5&quot;&gt;5. Function and Math Operations&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-6&quot;&gt;&lt;strong&gt;6. Arrays&lt;/strong&gt;&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-7&quot;&gt;7. Pointers&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-8&quot;&gt;8. I/O in C&lt;/a&gt; &lt;br /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
+
 
     &lt;p&gt;&lt;a href=&quot;/tutorial/c-tutor-6/&quot;&gt;C #6 | Arrays&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 06, 2015.&lt;/p&gt;
   </content>
@@ -430,14 +431,14 @@ First of all, we will learn how to retrieve userâ€™s name as string arrays. Itâ€
   <content type="html">
     &lt;p&gt;For the complete list of the tutorial on this blog, you can check these following links:&lt;/p&gt;
 
-&lt;p&gt;[1. Introduction][0] &lt;br /&gt;
-[2. First C-Program][2] &lt;br /&gt;
-[3. Types and Variables][3] &lt;br /&gt;
-[4. Conditional Statements][4] &lt;br /&gt;
-[5. Function and Math Operations][5] &lt;br /&gt;
-[6. Arrays][6] &lt;br /&gt;
-[7. Pointers][7] &lt;br /&gt;
-[8. I/O in C][8] &lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-1&quot;&gt;1. Introduction&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-2&quot;&gt;2. First C-Program&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-3&quot;&gt;3. Types and Variables&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-4&quot;&gt;4. Conditional Statements&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-5&quot;&gt;&lt;strong&gt;5. Function and Math Operations&lt;/strong&gt;&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-6&quot;&gt;6. Arrays&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-7&quot;&gt;7. Pointers&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-8&quot;&gt;8. I/O in C&lt;/a&gt; &lt;br /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -659,14 +660,14 @@ $ gcc source.o main.o -o programTest
   <content type="html">
     &lt;p&gt;For the complete list of the tutorial on this blog, you can check these following links:&lt;/p&gt;
 
-&lt;p&gt;[1. Introduction][0] &lt;br /&gt;
-[2. First C-Program][2] &lt;br /&gt;
-[3. Types and Variables][3] &lt;br /&gt;
-[4. Conditional Statements][4] &lt;br /&gt;
-[5. Function and Math Operations][5] &lt;br /&gt;
-[6. Arrays][6] &lt;br /&gt;
-[7. Pointers][7] &lt;br /&gt;
-[8. I/O in C][8] &lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-1&quot;&gt;1. Introduction&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-2&quot;&gt;2. First C-Program&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-3&quot;&gt;3. Types and Variables&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-4&quot;&gt;&lt;strong&gt;4. Conditional Statements&lt;/strong&gt;&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-5&quot;&gt;5. Function and Math Operations&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-6&quot;&gt;6. Arrays&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-7&quot;&gt;7. Pointers&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-8&quot;&gt;8. I/O in C&lt;/a&gt; &lt;br /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -829,14 +830,14 @@ well, at 59, you&#39;re quite old!
   <content type="html">
     &lt;p&gt;For the complete list of the tutorial on this blog, you can check these following links:&lt;/p&gt;
 
-&lt;p&gt;[1. Introduction][0] &lt;br /&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/C99&quot;&gt;2. First C-Program&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-2&quot;&gt;3. Types and Variables&lt;/a&gt; &lt;br /&gt;
+&lt;p&gt;&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-1&quot;&gt;1. Introduction&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-2&quot;&gt;2. First C-Program&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-3&quot;&gt;&lt;strong&gt;3. Types and Variables&lt;/strong&gt;&lt;/a&gt; &lt;br /&gt;
 &lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-4&quot;&gt;4. Conditional Statements&lt;/a&gt; &lt;br /&gt;
-[5. Function and Math Operations][5] &lt;br /&gt;
-[6. Arrays][6] &lt;br /&gt;
-[7. Pointers][7] &lt;br /&gt;
-[8. I/O in C][8] &lt;br /&gt;&lt;/p&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-5&quot;&gt;5. Function and Math Operations&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-6&quot;&gt;6. Arrays&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-7&quot;&gt;7. Pointers&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-8&quot;&gt;8. I/O in C&lt;/a&gt; &lt;br /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -938,14 +939,14 @@ well, at 59, you&#39;re quite old!
   <content type="html">
     &lt;p&gt;For the complete list of the tutorial on this blog, you can check these following links:&lt;/p&gt;
 
-&lt;p&gt;[1. Introduction][0] &lt;br /&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/Return_statement&quot;&gt;2. First C-Program&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.com/tutorial/c-tutor-3&quot;&gt;3. Types and Variables&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://www.tutorialspoint.com/c_standard_library/c_function_printf.htm&quot;&gt;4. Conditional Statements&lt;/a&gt; &lt;br /&gt;
-[5. Function and Math Operations][5] &lt;br /&gt;
-[6. Arrays][6] &lt;br /&gt;
-[7. Pointers][7] &lt;br /&gt;
-[8. I/O in C][8] &lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-1&quot;&gt;1. Introduction&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-2&quot;&gt;&lt;strong&gt;2. First C-Program&lt;/strong&gt;&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-3&quot;&gt;3. Types and Variables&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-4&quot;&gt;4. Conditional Statements&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-5&quot;&gt;5. Function and Math Operations&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-6&quot;&gt;6. Arrays&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-7&quot;&gt;7. Pointers&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-8&quot;&gt;8. I/O in C&lt;/a&gt; &lt;br /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -1151,7 +1152,7 @@ Hi World
   <content type="html">
     &lt;p&gt;For the complete list of the tutorial on this blog, you can check these following links:&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-1&quot;&gt;1. Introduction&lt;/a&gt; &lt;br /&gt;
+&lt;p&gt;&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-1&quot;&gt;&lt;strong&gt;1. Introduction&lt;/strong&gt;&lt;/a&gt; &lt;br /&gt;
 &lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-2&quot;&gt;2. First C-Program&lt;/a&gt; &lt;br /&gt;
 &lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-3&quot;&gt;3. Types and Variables&lt;/a&gt; &lt;br /&gt;
 &lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-4&quot;&gt;4. Conditional Statements&lt;/a&gt; &lt;br /&gt;
