@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2016-04-04T09:09:00+02:00</updated>
+<updated>2016-04-04T22:49:01+02:00</updated>
 <id>/</id>
 <author>
   <name>Yanuar Aditya</name>
@@ -1342,6 +1342,109 @@ transportation system, utilizing tram, bus and ferry, got my highest admiration 
   
 
 <entry>
+  <title type="html"><![CDATA[Remembering X Squad]]></title>
+  <link rel="alternate" type="text/html" href="/blog/x-mars/" />
+  <id>/blog/x-mars</id>
+  <published>2015-09-01T00:00:00+02:00</published>
+  <updated>2015-09-01T00:00:00+02:00</updated>
+  <author>
+    <name>Yanuar Aditya</name>
+    <uri></uri>
+    <email>yanuart.adityan@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;pre&gt;
+Intro
+   C Bb F               (Semangat juang kami....)
+
+Verse
+   F C F Bb F C Bb F    (Kami pemuda pemudi.....)
+   C F C F-Bb-C         (Integritas dijunjung...)
+
+Chorus
+   Bb F C F Bb F C Bb F (PK Sepuluh semangat....)
+&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;200&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/145596982&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;intro&quot;&gt;Intro:&lt;/h4&gt;
+
+&lt;p&gt;Semangat juang kami takkan lekang&lt;/p&gt;
+
+&lt;h4 id=&quot;verse&quot;&gt;Verse:&lt;/h4&gt;
+
+&lt;p&gt;Kami pemuda pemudi Indonesia&lt;/p&gt;
+
+&lt;p&gt;Angkatan sepuluh LPDP&lt;/p&gt;
+
+&lt;p&gt;Bertakwa belajar dan bekerja&lt;/p&gt;
+
+&lt;p&gt;Bekal membangun Negeri Tercinta&lt;/p&gt;
+
+&lt;p&gt;Integritas dijunjung tinggi&lt;/p&gt;
+
+&lt;p&gt;Profesional dalam mengabdi&lt;/p&gt;
+
+&lt;p&gt;Sinergi untuk membangun negeri&lt;/p&gt;
+
+&lt;p&gt;Itulah pedoman kami&lt;/p&gt;
+
+&lt;h4 id=&quot;chorus&quot;&gt;Chorus:&lt;/h4&gt;
+
+&lt;p&gt;PK sepuluh semangat bersatu&lt;/p&gt;
+
+&lt;p&gt;Tunjukkan tanggung jawabmu&lt;/p&gt;
+
+&lt;p&gt;LPDP wadahnya, LPDP jalannya&lt;/p&gt;
+
+&lt;p&gt;Semangat PK kami takkan lekang&lt;/p&gt;
+
+&lt;h4 id=&quot;verse-1&quot;&gt;Verse:&lt;/h4&gt;
+
+&lt;p&gt;Bermitra dalam membangun bangsa&lt;/p&gt;
+
+&lt;p&gt;Kolaborasi bersama&lt;/p&gt;
+
+&lt;p&gt;Kamilah pemimpin muda&lt;/p&gt;
+
+&lt;p&gt;Generasi emas Indonesia&lt;/p&gt;
+
+&lt;p&gt;Mandiri dalam beraksi&lt;/p&gt;
+
+&lt;p&gt;Inovasi dalam kreasi&lt;/p&gt;
+
+&lt;p&gt;Efektif efisien dan responsif&lt;/p&gt;
+
+&lt;p&gt;Itulah angkatan kami&lt;/p&gt;
+
+&lt;h4 id=&quot;chorus-1&quot;&gt;Chorus:&lt;/h4&gt;
+
+&lt;p&gt;PK sepuluh semangat bersatu&lt;/p&gt;
+
+&lt;p&gt;Tunjukkan janji bhaktimu&lt;/p&gt;
+
+&lt;p&gt;Tak peduli rintangan dan hadapi tantangan&lt;/p&gt;
+
+&lt;p&gt;Semangat juang kami takkan lekang&lt;/p&gt;
+
+&lt;p&gt;Semangat juang kami takkan lekang&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;(&lt;strong&gt;by&lt;/strong&gt; LPDP Indonesia Batch X)&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/blog/x-mars/&quot;&gt;Remembering X Squad&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on September 01, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
   <title type="html"><![CDATA[What's Wrong with May Weather?]]></title>
   <link rel="alternate" type="text/html" href="/blog/summer/" />
   <id>/blog/summer</id>
@@ -1821,72 +1924,6 @@ protocol : ICMP, flag: reply &amp;gt; DROP | &lt;strong&gt;prevent smurf attack&
 &lt;p&gt;Can’t wait for this year Dreamhack Winter again to visit!&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;/blog/dreamhack-memory/&quot;&gt;Dreamhack&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on May 26, 2015.&lt;/p&gt;
-  </content>
-</entry>
-
-
-  
-
-<entry>
-  <title type="html"><![CDATA[Superspring]]></title>
-  <link rel="alternate" type="text/html" href="/blog/superspring/" />
-  <id>/blog/superspring</id>
-  <published>2015-04-22T00:00:00+02:00</published>
-  <updated>2015-04-22T00:00:00+02:00</updated>
-  <author>
-    <name>Yanuar Aditya</name>
-    <uri></uri>
-    <email>yanuart.adityan@gmail.com</email>
-  </author>
-  <content type="html">
-    &lt;section id=&quot;table-of-contents&quot; class=&quot;toc&quot;&gt;
-  &lt;header&gt;
-    &lt;h3&gt;tic toc&lt;/h3&gt;
-  &lt;/header&gt;
-&lt;div id=&quot;drawer&quot;&gt;
-&lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#first-failed-exam&quot; id=&quot;markdown-toc-first-failed-exam&quot;&gt;First Failed Exam&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#first-bike-oh-wait&quot; id=&quot;markdown-toc-first-bike-oh-wait&quot;&gt;First Bike, oh Wait…&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#first-sakura-sightseeing&quot; id=&quot;markdown-toc-first-sakura-sightseeing&quot;&gt;First Sakura Sightseeing&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-  &lt;/div&gt;
-&lt;/section&gt;
-&lt;!-- /#table-of-contents --&gt;
-
-&lt;h3 id=&quot;first-failed-exam&quot;&gt;First Failed Exam&lt;/h3&gt;
-
-&lt;p&gt;Two exams in 4 days, 1 whole week of preparation, just to study the first one. Looking down at the latter. Result? 21 from 60. Couldn’t even get PASS result.&lt;/p&gt;
-
-&lt;p&gt;Do I feel regret? Yes of course, but from 8 problems of nightmare, what could even be worse than somebody triggered the class fire alarm right in the middle of the exam?&lt;/p&gt;
-
-&lt;p&gt;Watching the exam guards walking in and out, while thinking on how to mitigate this chaotic situation. Well, I was thinking that maybe they will move us to a new class. But then, those guys just came in with earplug instead. Later on, thanks God, finally one guy raised his hand and asking if there’s any better solution than just wearing earplug. Then here it comes, the &lt;code&gt;whoa&lt;/code&gt; moment. One of the guard asking all of us to raise our hands if we would like to have new room. How many people do you think raised their hands?&lt;/p&gt;
-
-&lt;p&gt;Two…&lt;/p&gt;
-
-&lt;h3 id=&quot;first-bike-oh-wait&quot;&gt;First Bike, oh Wait…&lt;/h3&gt;
-
-&lt;p&gt;I used to have a bicycle in Indonesia. It was a roadbike and I hate it. Because I did not like it. The road condition was terrible, slightly better than Cyprus rally courses I presume. Also, lot of dust and the worst part is too many humans in the street, either walking or riding vehicles.&lt;/p&gt;
-
-&lt;p&gt;Now, after 8 months in Sweden, I’m ready to have my own bike. But my God, everything is not cheap in here. Even second hand 3-years ago bike. I really admire Lance Armstrong, even now. I know Trek was famous before Lance used it on pro tour. Known for its superlight frame, sophisticated design and in-house Bontrager non-moving components gives you a thrill whenever you look at every Trek bikes in Gothenburg.&lt;/p&gt;
-
-&lt;p&gt;Then, I’ve found someone selling Superfly 6, nonsense hardtail butted aluminum with SRAM components, Bontrager and FSA mixed all together. But, for 9000 SEK price? 2 years ago it was &amp;gt;10000, but now why it still hang in there?&lt;/p&gt;
-
-&lt;p&gt;So, another wait I guess…&lt;/p&gt;
-
-&lt;h3 id=&quot;first-sakura-sightseeing&quot;&gt;First Sakura Sightseeing&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p style=&quot;text-align: center;&quot;&gt;
-  &lt;img src=&quot;/images/post-sakura.jpg&quot; /&gt;
-&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Sweden is my first experience on winter, minus Celcius, and lot more. New addition is sakura! Swedish are very kind to plant cherry trees everywhere in Gothenburg and I have to admit, they’re beautiful.&lt;/p&gt;
-
-&lt;p&gt;Saaaaa ku raaaaaaaaaa…&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;/blog/superspring/&quot;&gt;Superspring&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on April 22, 2015.&lt;/p&gt;
   </content>
 </entry>
 

@@ -11,11 +11,11 @@ share: true
 > <p style="text-align: center;">
 >   <img src="{{site.url}}/images/post-frontier.jpg">
 > </p>
-> 
+>
 > <p style="text-align: center;">
 >   &#8220;A thousand of old men are just able to dream. A young man is able to change the world.&#8221;
 > </p>
-> 
+>
 > <p style="text-align: center;">
 >   -Ir. Soekarno
 > </p>
