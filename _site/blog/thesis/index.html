@@ -5,15 +5,15 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Thesis: The Introduction &#8211; Mirkwood Ape</title>
-<meta name="description" content="The backstory, the battle of luck and some efforts">
+<title>The Six Months of Battle &#8211; Mirkwood Ape</title>
+<meta name="description" content="The backstory, the luck and uncertainty, and some efforts on understanding a battle with my master thesis">
 <meta name="keywords" content="school, study, work">
 
 
 
 <!-- Twitter Cards -->
-<meta name="twitter:title" content="Thesis: The Introduction">
-<meta name="twitter:description" content="The backstory, the battle of luck and some efforts">
+<meta name="twitter:title" content="The Six Months of Battle">
+<meta name="twitter:description" content="The backstory, the luck and uncertainty, and some efforts on understanding a battle with my master thesis">
 <meta name="twitter:site" content="@yanuartadityan">
 <meta name="twitter:creator" content="@yanuartadityan">
 
@@ -23,8 +23,8 @@
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Thesis: The Introduction">
-<meta property="og:description" content="The backstory, the battle of luck and some efforts">
+<meta property="og:title" content="The Six Months of Battle">
+<meta property="og:description" content="The backstory, the luck and uncertainty, and some efforts on understanding a battle with my master thesis">
 <meta property="og:url" content="/blog/thesis/">
 <meta property="og:site_name" content="Mirkwood Ape">
 
@@ -158,11 +158,28 @@
   <article class="post">
     <div class="headline-wrap">
       
-        <h1><a href="/blog/thesis/" rel="bookmark" title="Thesis: The Introduction">Thesis: The Introduction</a></h1>
+        <h1><a href="/blog/thesis/" rel="bookmark" title="The Six Months of Battle">The Six Months of Battle</a></h1>
       
     </div><!--/ .headline-wrap -->
     <div class="article-wrap">
-      <p>Kära alla!</p>
+      <section id="table-of-contents" class="toc">
+  <header>
+    <h3>tic toc</h3>
+  </header>
+<div id="drawer">
+<ul id="markdown-toc">
+  <li><a href="#the-backstory" id="markdown-toc-the-backstory">The Backstory</a></li>
+  <li><a href="#pandora-box" id="markdown-toc-pandora-box">Pandora Box</a></li>
+  <li><a href="#outrun-the-ticking-clock" id="markdown-toc-outrun-the-ticking-clock">Outrun the ticking clock</a></li>
+</ul>
+
+  </div>
+</section>
+<!-- /#table-of-contents -->
+
+<h2 id="the-backstory">The Backstory</h2>
+
+<p>Kära alla!</p>
 
 <p>sudah lumayan lama ga nulis blog. Soalnya entah kenapa rasanya males banget nulis, ketika bisa nulis dan sharing cepet di sosmed. Bahan yang mau ditulis sih sebenarnya banyak banget, spontant nongol tapi gara-gara ga ditulis, spontan juga hilangnya. Walo setelah dipikir-pikir, udah lumayan effort juga dahulu bikin ini blog yang niatnya untuk catat cerita hidup pas S2 jauh-jauh di Swedia, jadi ya sayang kalau ga dibudidayakan hoho. Okeh, jadi ini mau cerita tentang pengalaman cari thesis bareng company gitu yang akhirnya ngebawa saya kerja di perusahaan otomotif (sementara, tp <em>well</em> siapa tahu nanti). Halfway to one of my dreams, kerja di dunia otomotif.</p>
 
@@ -176,7 +193,21 @@
 
 <p>Di tanggal 20, kita interview pagi jam 8:00 CET. Ga tanggung-tanggung, ada 3 orang dari Volvo yang gonta-ganti tanyain tentang <em>almost everything</em>. Sepertinya mereka juga udah mode liburan jadi santai, cuman paling ga jadi kebayang kalo kerja ama mereka situasinya bakal kayak gimana. But in the end, it was quite good interview, meski kita uda mencoba sebaik mungkin, ada beberapa pertanyaan yang kita ga bisa jawab. Dan sorenya mereka nelpon lagi ngasih kabar bahwa kita diterima buat ngerjain thesis di Volvo Cars!</p>
 
-<p>To be continued!</p>
+<h2 id="pandora-box">Pandora Box</h2>
+
+<p>Arghhh…Sebulan udah lamanya ga kerasa ngerjain thesis bareng Volvo Cars. Kita udah dapet sketsa problem buat thesis, konteks dan juga approach yang mereka minati untuk kita pake. Next step adalah mencari dosen pembimbing. Well, jurusan gue sedikit aneh emang, MPCSN atau <em>Master Programme in Computer Systems and Networks</em>, tapi memperbolehkan kita untuk cari thesis apapun selama kita bisa. Thesis ini, dimana permasalahan ada di domain sinyal dan sistem, membuat kita agak kelabakan cari supervisor sih kalau boleh jujur. Walau akhirnya Volvo ngasih kita saran buat kontak salah satu Lead Professor di Computer Vision lab, Professor Fredrik Kahl.</p>
+
+<p>Awal Februari, kita ketemu dengan Fredrik, barengan bersama Jonathan dari Volvo buat brainstorming tentang berbagai macam penyelesaian masalah yang kita hadapi. Inti dari permasalahan dimulai ketika GPS tidak lagi reliabel untuk dijadikan positioning device di keadaan tertentu, misal didalam <em>tunnel</em>. Alhasil, trajektori kendaraan ketika berada di dalam tunnel, murni hanya merupakan estimasi dari perubahan state kendaraan, e.g. kecepatan, akselerasi, steering angle, etc. Semestinya <em>bad estimation</em> harus di drop ketika filter menunjukkan pengukuran (menggunakan GPS) menghasilkan <em>covariance matrix</em> yang lebih bagus. Jadi filter disini adalah semacam algoritma yang akan menentukan mana yang bisa lebih dipercaya, estimasi atau pengukuran. State estimation paling umum yang digunakan adalah Kalman Filter. Tetapi, ketika GPS tidak lagi reliabel, murni kita hanya bisa menghitung estimasi dari model kendaraan, karena ketika di dalam tunnel, sinyal GPS lebih banyak menghasilkan <em>noise</em> dengan covariance yang terlalu besar.</p>
+
+<p>Well, ada beberapa metode yang telah diterapkan untuk mengatasi problem ini. Salah satunya adalah menggunakan GPS point repeater di dalam tunnel, yang diletakkan setiap beberapa checkpoint sepanjang jalan. Metode ini efektif sehingga kendaraan masih bisa menggunakan GPS, tetapi tidak efisien dan menghabiskan banyak biaya, terutama jika tunnel sangat panjang. Metode yang lain adalah menggunakan <em>dead reckoning</em> dan biasanya digunakan untuk komputasi offline. Jadi menggunakan dua kendaraan yang masuk ke tunnel dari dua arah yang berbeda. Seiiring makin jauhnya kedua kendaraan tersebut masuk ke dalam tunnel, semakin tinggi pula error dari estimasi trajektori kendaraan (drifted). Ketika dua trajektori tersebut bertemu, dengan teknik bernama <em>bundle adjust</em>, drift bisa dikurangi dan trayektori dari kedua kendaraan akan dideteksi lebih akurat. Kelemahan dari <em>dead reckoning</em>, selain offline, tetapi juga tidak efisien ketika rute di dalam tunnel berkelok kelok, karena drift akan jauh lebih susah untuk dikoreksi.</p>
+
+<p>Akhirnya, di akhir meeting, kita sepakat untuk menggunakan monocular perspective camera untuk dijadikan mainan utama kita. Domain permasalahan dipersempit menjadi <em>solving camera pose using multiple image sequences inside tunnel</em>. Jadi dengan diberikan hasil rekaman video dari kamera yang dipasang di kendaraan, dengan diketahui posisi terakhir kamera relatif ke unit GPS sebelum masuk tunnel, dengan menggunakan teknik bernama Visual Odometry, kita bisa mencari <em>pose</em> dari kamera dengan membandingkan pergeseran piksel tiap framenya.</p>
+
+<p>Paling tidak sekarang The Pandora Box is here, time to digest it and defeat it.</p>
+
+<h2 id="outrun-the-ticking-clock">Outrun the ticking clock</h2>
+
+<p>(April project)</p>
 
       <hr />
       <footer role="contentinfo">
@@ -194,7 +225,7 @@
     </li>
   </ul>
 </div><!-- /.social-share -->
-        <p class="byline"><strong>Thesis: The Introduction</strong> was published on <time datetime="2016-02-02T00:00:00+01:00">February 02, 2016</time>.</p>
+        <p class="byline"><strong>The Six Months of Battle</strong> was published on <time datetime="2016-02-02T00:00:00+01:00">February 02, 2016</time>.</p>
       </footer>
     </div><!-- /.article-wrap -->
   
@@ -208,11 +239,11 @@
   <h4>You might also enjoy <small class="pull-right">(<a href="/posts/">View all posts</a>)</small></h4>
     <ul>
     
-      <li><a href="/blog/thesis2/" title="Thesis: The Pandora Box">Thesis: The Pandora Box</a></li>
-    
       <li><a href="/blog/make-it-matter/" title="Make IT Matter">Make IT Matter</a></li>
     
       <li><a href="/tips/globe-real-time-monitoring/" title="Real-Time 3D Globe Site Visitor Monitoring">Real-Time 3D Globe Site Visitor Monitoring</a></li>
+    
+      <li><a href="/tips/hide-directory-terminal/" title="Hide Working Directory in Terminal">Hide Working Directory in Terminal</a></li>
     
     </ul>
     <hr />

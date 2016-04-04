@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2016-04-03T10:48:43+02:00</updated>
+<updated>2016-04-04T09:09:00+02:00</updated>
 <id>/</id>
 <author>
   <name>Yanuar Aditya</name>
@@ -16,38 +16,7 @@
   
 
 <entry>
-  <title type="html"><![CDATA[Thesis: The Pandora Box]]></title>
-  <link rel="alternate" type="text/html" href="/blog/thesis2/" />
-  <id>/blog/thesis2</id>
-  <published>2016-03-10T00:00:00+01:00</published>
-  <updated>2016-03-10T00:00:00+01:00</updated>
-  <author>
-    <name>Yanuar Aditya</name>
-    <uri></uri>
-    <email>yanuart.adityan@gmail.com</email>
-  </author>
-  <content type="html">
-    &lt;p&gt;Kära alla!&lt;/p&gt;
-
-&lt;p&gt;Arghhh…Sebulan udah lamanya ga kerasa ngerjain thesis bareng Volvo Cars. Kita udah dapet sketsa problem buat thesis, konteks dan juga approach yang mereka minati untuk kita pake. Next step adalah mencari dosen pembimbing. Well, jurusan gue sedikit aneh emang, MPCSN atau &lt;em&gt;Master Programme in Computer Systems and Networks&lt;/em&gt;, tapi memperbolehkan kita untuk cari thesis apapun selama kita bisa. Thesis ini, dimana permasalahan ada di domain sinyal dan sistem, membuat kita agak kelabakan cari supervisor sih kalau boleh jujur. Walau akhirnya Volvo ngasih kita saran buat kontak salah satu Lead Professor di Computer Vision lab, Professor Fredrik Kahl.&lt;/p&gt;
-
-&lt;p&gt;Awal Februari, kita ketemu dengan Fredrik, barengan bersama Jonathan dari Volvo buat brainstorming tentang berbagai macam penyelesaian masalah yang kita hadapi. Inti dari permasalahan dimulai ketika GPS tidak lagi reliabel untuk dijadikan positioning device di keadaan tertentu, misal didalam &lt;em&gt;tunnel&lt;/em&gt;. Alhasil, trajektori kendaraan ketika berada di dalam tunnel, murni hanya merupakan estimasi dari perubahan state kendaraan, e.g. kecepatan, akselerasi, steering angle, etc. Semestinya &lt;em&gt;bad estimation&lt;/em&gt; harus di drop ketika filter menunjukkan pengukuran (menggunakan GPS) menghasilkan &lt;em&gt;covariance matrix&lt;/em&gt; yang lebih bagus. Jadi filter disini adalah semacam algoritma yang akan menentukan mana yang bisa lebih dipercaya, estimasi atau pengukuran. State estimation paling umum yang digunakan adalah Kalman Filter. Tetapi, ketika GPS tidak lagi reliabel, murni kita hanya bisa menghitung estimasi dari model kendaraan, karena ketika di dalam tunnel, sinyal GPS lebih banyak menghasilkan &lt;em&gt;noise&lt;/em&gt; dengan covariance yang terlalu besar.&lt;/p&gt;
-
-&lt;p&gt;Well, ada beberapa metode yang telah diterapkan untuk mengatasi problem ini. Salah satunya adalah menggunakan GPS point repeater di dalam tunnel, yang diletakkan setiap beberapa checkpoint sepanjang jalan. Metode ini efektif sehingga kendaraan masih bisa menggunakan GPS, tetapi tidak efisien dan menghabiskan banyak biaya, terutama jika tunnel sangat panjang. Metode yang lain adalah menggunakan &lt;em&gt;dead reckoning&lt;/em&gt; dan biasanya digunakan untuk komputasi offline. Jadi menggunakan dua kendaraan yang masuk ke tunnel dari dua arah yang berbeda. Seiiring makin jauhnya kedua kendaraan tersebut masuk ke dalam tunnel, semakin tinggi pula error dari estimasi trajektori kendaraan (drifted). Ketika dua trajektori tersebut bertemu, dengan teknik bernama &lt;em&gt;bundle adjust&lt;/em&gt;, drift bisa dikurangi dan trayektori dari kedua kendaraan akan dideteksi lebih akurat. Kelemahan dari &lt;em&gt;dead reckoning&lt;/em&gt;, selain offline, tetapi juga tidak efisien ketika rute di dalam tunnel berkelok kelok, karena drift akan jauh lebih susah untuk dikoreksi.&lt;/p&gt;
-
-&lt;p&gt;Akhirnya, di akhir meeting, kita sepakat untuk menggunakan monocular perspective camera untuk dijadikan mainan utama kita. Domain permasalahan dipersempit menjadi &lt;em&gt;solving camera pose using multiple image sequences inside tunnel&lt;/em&gt;. Jadi dengan diberikan hasil rekaman video dari kamera yang dipasang di kendaraan, dengan diketahui posisi terakhir kamera relatif ke unit GPS sebelum masuk tunnel, dengan menggunakan teknik bernama Visual Odometry, kita bisa mencari &lt;em&gt;pose&lt;/em&gt; dari kamera dengan membandingkan pergeseran piksel tiap framenya.&lt;/p&gt;
-
-&lt;p&gt;Untuk detailnya, bakal diulas lebih jauh di post berikut-berikutnya, tetapi paling tidak sekarang The Pandora Box is here, time to digest it and defeat it.&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;/blog/thesis2/&quot;&gt;Thesis: The Pandora Box&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on March 10, 2016.&lt;/p&gt;
-  </content>
-</entry>
-
-
-  
-
-<entry>
-  <title type="html"><![CDATA[Thesis: The Introduction]]></title>
+  <title type="html"><![CDATA[The Six Months of Battle]]></title>
   <link rel="alternate" type="text/html" href="/blog/thesis/" />
   <id>/blog/thesis</id>
   <published>2016-02-02T00:00:00+01:00</published>
@@ -58,7 +27,24 @@
     <email>yanuart.adityan@gmail.com</email>
   </author>
   <content type="html">
-    &lt;p&gt;Kära alla!&lt;/p&gt;
+    &lt;section id=&quot;table-of-contents&quot; class=&quot;toc&quot;&gt;
+  &lt;header&gt;
+    &lt;h3&gt;tic toc&lt;/h3&gt;
+  &lt;/header&gt;
+&lt;div id=&quot;drawer&quot;&gt;
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#the-backstory&quot; id=&quot;markdown-toc-the-backstory&quot;&gt;The Backstory&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#pandora-box&quot; id=&quot;markdown-toc-pandora-box&quot;&gt;Pandora Box&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#outrun-the-ticking-clock&quot; id=&quot;markdown-toc-outrun-the-ticking-clock&quot;&gt;Outrun the ticking clock&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/section&gt;
+&lt;!-- /#table-of-contents --&gt;
+
+&lt;h2 id=&quot;the-backstory&quot;&gt;The Backstory&lt;/h2&gt;
+
+&lt;p&gt;Kära alla!&lt;/p&gt;
 
 &lt;p&gt;sudah lumayan lama ga nulis blog. Soalnya entah kenapa rasanya males banget nulis, ketika bisa nulis dan sharing cepet di sosmed. Bahan yang mau ditulis sih sebenarnya banyak banget, spontant nongol tapi gara-gara ga ditulis, spontan juga hilangnya. Walo setelah dipikir-pikir, udah lumayan effort juga dahulu bikin ini blog yang niatnya untuk catat cerita hidup pas S2 jauh-jauh di Swedia, jadi ya sayang kalau ga dibudidayakan hoho. Okeh, jadi ini mau cerita tentang pengalaman cari thesis bareng company gitu yang akhirnya ngebawa saya kerja di perusahaan otomotif (sementara, tp &lt;em&gt;well&lt;/em&gt; siapa tahu nanti). Halfway to one of my dreams, kerja di dunia otomotif.&lt;/p&gt;
 
@@ -72,9 +58,23 @@
 
 &lt;p&gt;Di tanggal 20, kita interview pagi jam 8:00 CET. Ga tanggung-tanggung, ada 3 orang dari Volvo yang gonta-ganti tanyain tentang &lt;em&gt;almost everything&lt;/em&gt;. Sepertinya mereka juga udah mode liburan jadi santai, cuman paling ga jadi kebayang kalo kerja ama mereka situasinya bakal kayak gimana. But in the end, it was quite good interview, meski kita uda mencoba sebaik mungkin, ada beberapa pertanyaan yang kita ga bisa jawab. Dan sorenya mereka nelpon lagi ngasih kabar bahwa kita diterima buat ngerjain thesis di Volvo Cars!&lt;/p&gt;
 
-&lt;p&gt;To be continued!&lt;/p&gt;
+&lt;h2 id=&quot;pandora-box&quot;&gt;Pandora Box&lt;/h2&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/blog/thesis/&quot;&gt;Thesis: The Introduction&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on February 02, 2016.&lt;/p&gt;
+&lt;p&gt;Arghhh…Sebulan udah lamanya ga kerasa ngerjain thesis bareng Volvo Cars. Kita udah dapet sketsa problem buat thesis, konteks dan juga approach yang mereka minati untuk kita pake. Next step adalah mencari dosen pembimbing. Well, jurusan gue sedikit aneh emang, MPCSN atau &lt;em&gt;Master Programme in Computer Systems and Networks&lt;/em&gt;, tapi memperbolehkan kita untuk cari thesis apapun selama kita bisa. Thesis ini, dimana permasalahan ada di domain sinyal dan sistem, membuat kita agak kelabakan cari supervisor sih kalau boleh jujur. Walau akhirnya Volvo ngasih kita saran buat kontak salah satu Lead Professor di Computer Vision lab, Professor Fredrik Kahl.&lt;/p&gt;
+
+&lt;p&gt;Awal Februari, kita ketemu dengan Fredrik, barengan bersama Jonathan dari Volvo buat brainstorming tentang berbagai macam penyelesaian masalah yang kita hadapi. Inti dari permasalahan dimulai ketika GPS tidak lagi reliabel untuk dijadikan positioning device di keadaan tertentu, misal didalam &lt;em&gt;tunnel&lt;/em&gt;. Alhasil, trajektori kendaraan ketika berada di dalam tunnel, murni hanya merupakan estimasi dari perubahan state kendaraan, e.g. kecepatan, akselerasi, steering angle, etc. Semestinya &lt;em&gt;bad estimation&lt;/em&gt; harus di drop ketika filter menunjukkan pengukuran (menggunakan GPS) menghasilkan &lt;em&gt;covariance matrix&lt;/em&gt; yang lebih bagus. Jadi filter disini adalah semacam algoritma yang akan menentukan mana yang bisa lebih dipercaya, estimasi atau pengukuran. State estimation paling umum yang digunakan adalah Kalman Filter. Tetapi, ketika GPS tidak lagi reliabel, murni kita hanya bisa menghitung estimasi dari model kendaraan, karena ketika di dalam tunnel, sinyal GPS lebih banyak menghasilkan &lt;em&gt;noise&lt;/em&gt; dengan covariance yang terlalu besar.&lt;/p&gt;
+
+&lt;p&gt;Well, ada beberapa metode yang telah diterapkan untuk mengatasi problem ini. Salah satunya adalah menggunakan GPS point repeater di dalam tunnel, yang diletakkan setiap beberapa checkpoint sepanjang jalan. Metode ini efektif sehingga kendaraan masih bisa menggunakan GPS, tetapi tidak efisien dan menghabiskan banyak biaya, terutama jika tunnel sangat panjang. Metode yang lain adalah menggunakan &lt;em&gt;dead reckoning&lt;/em&gt; dan biasanya digunakan untuk komputasi offline. Jadi menggunakan dua kendaraan yang masuk ke tunnel dari dua arah yang berbeda. Seiiring makin jauhnya kedua kendaraan tersebut masuk ke dalam tunnel, semakin tinggi pula error dari estimasi trajektori kendaraan (drifted). Ketika dua trajektori tersebut bertemu, dengan teknik bernama &lt;em&gt;bundle adjust&lt;/em&gt;, drift bisa dikurangi dan trayektori dari kedua kendaraan akan dideteksi lebih akurat. Kelemahan dari &lt;em&gt;dead reckoning&lt;/em&gt;, selain offline, tetapi juga tidak efisien ketika rute di dalam tunnel berkelok kelok, karena drift akan jauh lebih susah untuk dikoreksi.&lt;/p&gt;
+
+&lt;p&gt;Akhirnya, di akhir meeting, kita sepakat untuk menggunakan monocular perspective camera untuk dijadikan mainan utama kita. Domain permasalahan dipersempit menjadi &lt;em&gt;solving camera pose using multiple image sequences inside tunnel&lt;/em&gt;. Jadi dengan diberikan hasil rekaman video dari kamera yang dipasang di kendaraan, dengan diketahui posisi terakhir kamera relatif ke unit GPS sebelum masuk tunnel, dengan menggunakan teknik bernama Visual Odometry, kita bisa mencari &lt;em&gt;pose&lt;/em&gt; dari kamera dengan membandingkan pergeseran piksel tiap framenya.&lt;/p&gt;
+
+&lt;p&gt;Paling tidak sekarang The Pandora Box is here, time to digest it and defeat it.&lt;/p&gt;
+
+&lt;h2 id=&quot;outrun-the-ticking-clock&quot;&gt;Outrun the ticking clock&lt;/h2&gt;
+
+&lt;p&gt;(April project)&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/blog/thesis/&quot;&gt;The Six Months of Battle&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on February 02, 2016.&lt;/p&gt;
   </content>
 </entry>
 
@@ -1821,6 +1821,72 @@ protocol : ICMP, flag: reply &amp;gt; DROP | &lt;strong&gt;prevent smurf attack&
 &lt;p&gt;Can’t wait for this year Dreamhack Winter again to visit!&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;/blog/dreamhack-memory/&quot;&gt;Dreamhack&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on May 26, 2015.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Superspring]]></title>
+  <link rel="alternate" type="text/html" href="/blog/superspring/" />
+  <id>/blog/superspring</id>
+  <published>2015-04-22T00:00:00+02:00</published>
+  <updated>2015-04-22T00:00:00+02:00</updated>
+  <author>
+    <name>Yanuar Aditya</name>
+    <uri></uri>
+    <email>yanuart.adityan@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;section id=&quot;table-of-contents&quot; class=&quot;toc&quot;&gt;
+  &lt;header&gt;
+    &lt;h3&gt;tic toc&lt;/h3&gt;
+  &lt;/header&gt;
+&lt;div id=&quot;drawer&quot;&gt;
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#first-failed-exam&quot; id=&quot;markdown-toc-first-failed-exam&quot;&gt;First Failed Exam&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#first-bike-oh-wait&quot; id=&quot;markdown-toc-first-bike-oh-wait&quot;&gt;First Bike, oh Wait…&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#first-sakura-sightseeing&quot; id=&quot;markdown-toc-first-sakura-sightseeing&quot;&gt;First Sakura Sightseeing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  &lt;/div&gt;
+&lt;/section&gt;
+&lt;!-- /#table-of-contents --&gt;
+
+&lt;h3 id=&quot;first-failed-exam&quot;&gt;First Failed Exam&lt;/h3&gt;
+
+&lt;p&gt;Two exams in 4 days, 1 whole week of preparation, just to study the first one. Looking down at the latter. Result? 21 from 60. Couldn’t even get PASS result.&lt;/p&gt;
+
+&lt;p&gt;Do I feel regret? Yes of course, but from 8 problems of nightmare, what could even be worse than somebody triggered the class fire alarm right in the middle of the exam?&lt;/p&gt;
+
+&lt;p&gt;Watching the exam guards walking in and out, while thinking on how to mitigate this chaotic situation. Well, I was thinking that maybe they will move us to a new class. But then, those guys just came in with earplug instead. Later on, thanks God, finally one guy raised his hand and asking if there’s any better solution than just wearing earplug. Then here it comes, the &lt;code&gt;whoa&lt;/code&gt; moment. One of the guard asking all of us to raise our hands if we would like to have new room. How many people do you think raised their hands?&lt;/p&gt;
+
+&lt;p&gt;Two…&lt;/p&gt;
+
+&lt;h3 id=&quot;first-bike-oh-wait&quot;&gt;First Bike, oh Wait…&lt;/h3&gt;
+
+&lt;p&gt;I used to have a bicycle in Indonesia. It was a roadbike and I hate it. Because I did not like it. The road condition was terrible, slightly better than Cyprus rally courses I presume. Also, lot of dust and the worst part is too many humans in the street, either walking or riding vehicles.&lt;/p&gt;
+
+&lt;p&gt;Now, after 8 months in Sweden, I’m ready to have my own bike. But my God, everything is not cheap in here. Even second hand 3-years ago bike. I really admire Lance Armstrong, even now. I know Trek was famous before Lance used it on pro tour. Known for its superlight frame, sophisticated design and in-house Bontrager non-moving components gives you a thrill whenever you look at every Trek bikes in Gothenburg.&lt;/p&gt;
+
+&lt;p&gt;Then, I’ve found someone selling Superfly 6, nonsense hardtail butted aluminum with SRAM components, Bontrager and FSA mixed all together. But, for 9000 SEK price? 2 years ago it was &amp;gt;10000, but now why it still hang in there?&lt;/p&gt;
+
+&lt;p&gt;So, another wait I guess…&lt;/p&gt;
+
+&lt;h3 id=&quot;first-sakura-sightseeing&quot;&gt;First Sakura Sightseeing&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;/images/post-sakura.jpg&quot; /&gt;
+&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Sweden is my first experience on winter, minus Celcius, and lot more. New addition is sakura! Swedish are very kind to plant cherry trees everywhere in Gothenburg and I have to admit, they’re beautiful.&lt;/p&gt;
+
+&lt;p&gt;Saaaaa ku raaaaaaaaaa…&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/blog/superspring/&quot;&gt;Superspring&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on April 22, 2015.&lt;/p&gt;
   </content>
 </entry>
 
