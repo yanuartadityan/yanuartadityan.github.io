@@ -35,7 +35,6 @@
   <div id="index">
     <h1>{{ page.title }}</h1>
     {% for post in site.categories.tutorial %}
-    {% if post.visible == 1 %}
     {% unless post.next %}
       <!--<h3>{{ post.date | date: '%Y' }}</h3>-->
       {% else %}
@@ -65,7 +64,6 @@
           <p><font color="#cc0000">{{ post.date | date: '%Y.%m.%d' }}</font> | {{ post.excerpt | strip_html | truncate: 160 }}</p>
         {% endif %}
       </article>
-      {% endif %}
     {% endfor %}
   </div><!-- /#index -->
 </div><!-- /#main -->

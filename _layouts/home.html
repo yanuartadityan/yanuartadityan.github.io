@@ -28,13 +28,13 @@
   </div><!-- /.image-wrap -->
 {% endif %}
 
-<div id="main" role="main"> 
+<div id="main" role="main">
   <div class="article-author-side">
     {% include _author-bio.html %}
   </div>
   <div id="index">
     <h3><a href="{{ site.url}}/posts/">Recent Blog Posts</a></h3>
-    {% for post in site.categories.blog limit:5 %}    
+    {% for post in site.categories.blog limit:5 %}
     <article>
       {% if post.link %}
         <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></h2>
@@ -49,8 +49,8 @@
     <br>
     <br>
 
-    <h3><a href="{{ site.url}}/posts/">Recent Tips Posts</a></h3>
-    {% for post in site.categories.tips limit:5 %}    
+    <h3><a href="{{ site.url}}/tips/">Recent Tips Posts</a></h3>
+    {% for post in site.categories.tips limit:5 %}
     <article>
       {% if post.link %}
         <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></h2>
@@ -65,8 +65,8 @@
     <br>
     <br>
 
-    <h3><a href="{{ site.url}}/posts/">Recent Tutorial Posts</a></h3>
-    {% for post in site.categories.tutorial limit:5 %}    
+    <h3><a href="{{ site.url}}/tutorial/">Recent Tutorial Posts</a></h3>
+    {% for post in site.categories.tutorial limit:5 %}
     <article>
       {% if post.link %}
         <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></h2>
@@ -87,6 +87,6 @@
 </div><!-- /.footer-wrap -->
 
 {% include _scripts.html %}
-  
+
 </body>
 </html>
