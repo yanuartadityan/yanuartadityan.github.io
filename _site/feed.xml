@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2016-04-07T18:29:18+02:00</updated>
+<updated>2016-04-07T18:33:54+02:00</updated>
 <id>/</id>
 <author>
   <name>Yanuar Aditya</name>
@@ -954,9 +954,7 @@ well, at 59, you&#39;re quite old!
 
 &lt;p&gt;First thing to know is that, C-language are written in &lt;code&gt;.c&lt;/code&gt; and &lt;code&gt;.h&lt;/code&gt; file extensions. &lt;code&gt;.c&lt;/code&gt; is the compile-able file that consist every functions and routines while &lt;code&gt;.h&lt;/code&gt; is where you stores function names, variables, headers etc. You can live with &lt;code&gt;.c&lt;/code&gt; alone but sometimes in order for programmer to be able to hide the intellectual property of, &lt;em&gt;e.g&lt;/em&gt; the functions inside &lt;code&gt;.c&lt;/code&gt;, programmers  merely write the function name inside &lt;code&gt;.h&lt;/code&gt; and let the compiler transform &lt;code&gt;.c&lt;/code&gt; with the definition of the function into either static or dynamic &lt;em&gt;library&lt;/em&gt;. Thus, everyone who wants to use corresponding function, they will be provided by just the &lt;code&gt;.h&lt;/code&gt; and the library, without requiring them to have the original &lt;code&gt;.c&lt;/code&gt; code.&lt;/p&gt;
 
-&lt;noscript&gt;&lt;pre&gt;400: Invalid request
-&lt;/pre&gt;&lt;/noscript&gt;
-&lt;script src=&quot;https://gist.github.com/300a69849266f41b58c9.js&quot;&gt; &lt;/script&gt;
+&lt;p&gt;true&lt;script src=&quot;https://gist.github.com/300a69849266f41b58c9.js&quot;&gt; &lt;/script&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;line:01&lt;/strong&gt; demonstrates the use of a &lt;code&gt;#&lt;/code&gt; preprocessor. A preprocessor provides the ability for the inclusion of header files, macro expansions, conditional compilation, and line control. In many C implementations, it is a separate program invoked by the compiler as the first part of translation. &lt;a href=&quot;https://en.wikipedia.org/wiki/C_preprocessor&quot;&gt;Check…&lt;/a&gt;&lt;/p&gt;
 
@@ -1009,9 +1007,7 @@ well, at 59, you&#39;re quite old!
 
 &lt;p&gt;When you put some information inside &lt;code&gt;/*&lt;/code&gt; and &lt;code&gt;*/&lt;/code&gt;, you just made a comment. This is what we called with multi-line comment, or sometimes also called a block comment. Comments are used by the programmers to explain functionality of certain parts of codes, or to keep notes for themselves.&lt;/p&gt;
 
-&lt;noscript&gt;&lt;pre&gt;400: Invalid request
-&lt;/pre&gt;&lt;/noscript&gt;
-&lt;script src=&quot;https://gist.github.com/b3dc562143a8497a0dee.js&quot;&gt; &lt;/script&gt;
+&lt;p&gt;true&lt;script src=&quot;https://gist.github.com/b3dc562143a8497a0dee.js&quot;&gt; &lt;/script&gt;&lt;/p&gt;
 
 &lt;p&gt;On &lt;strong&gt;line:01&lt;/strong&gt;, it shows how block comment works. Any characters between &lt;code&gt;/*&lt;/code&gt; and &lt;code&gt;*/&lt;/code&gt; are ignored by the compiler. On &lt;strong&gt;line:9&lt;/strong&gt; and &lt;strong&gt;10&lt;/strong&gt;, a single line comments are provided. A single line comment starts with &lt;code&gt;//&lt;/code&gt; and everything after it is ignored by the compiler until end of the line. This is originated from C++ style comment, but nowadays most of C compilers support this comment.&lt;/p&gt;
 
@@ -1171,9 +1167,7 @@ Hi World
 
 &lt;p&gt;As a language that often interacts with the machine, C is considered to be a pretty language with beautiful syntax.&lt;/p&gt;
 
-&lt;noscript&gt;&lt;pre&gt;400: Invalid request
-&lt;/pre&gt;&lt;/noscript&gt;
-&lt;script src=&quot;https://gist.github.com/300a69849266f41b58c9.js&quot;&gt; &lt;/script&gt;
+&lt;p&gt;true&lt;script src=&quot;https://gist.github.com/300a69849266f41b58c9.js&quot;&gt; &lt;/script&gt;&lt;/p&gt;
 
 &lt;p&gt;As we can see, &lt;code&gt;Pygments&lt;/code&gt; rendered C-syntax (with line numbers) beautifully. Now, time for a trivia. Can you guess, how many programmers which are saved by C-syntax from obfuscating codes? Count me one!&lt;/p&gt;
 
@@ -1181,9 +1175,7 @@ Hi World
 
 &lt;p&gt;Macros is one of the most important preprocessor &lt;code&gt;#&lt;/code&gt; implementation in C. It can be used to create a fast function without putting everything on the stack. Check this out,&lt;/p&gt;
 
-&lt;noscript&gt;&lt;pre&gt;400: Invalid request
-&lt;/pre&gt;&lt;/noscript&gt;
-&lt;script src=&quot;https://gist.github.com/b7a1b47ffdff16237ae1.js&quot;&gt; &lt;/script&gt;
+&lt;p&gt;true&lt;script src=&quot;https://gist.github.com/b7a1b47ffdff16237ae1.js&quot;&gt; &lt;/script&gt;&lt;/p&gt;
 
 &lt;p&gt;In &lt;strong&gt;line:4&lt;/strong&gt;, we define the macro function &lt;code&gt;MACRO_OR&lt;/code&gt; that takes &lt;em&gt;a&lt;/em&gt; and &lt;em&gt;b&lt;/em&gt; as an input. Then, this macro will return the logical &lt;code&gt;OR&lt;/code&gt; result from &lt;em&gt;a&lt;/em&gt; and &lt;em&gt;b&lt;/em&gt;. Super neat!&lt;/p&gt;
 
