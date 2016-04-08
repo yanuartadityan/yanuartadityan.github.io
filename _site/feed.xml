@@ -4,13 +4,49 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2016-04-07T18:33:54+02:00</updated>
+<updated>2016-04-08T09:30:54+02:00</updated>
 <id>/</id>
 <author>
   <name>Yanuar Aditya</name>
   <uri>/</uri>
   <email>yanuart.adityan@gmail.com</email>
 </author>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[People Changed, I Did and You Can]]></title>
+  <link rel="alternate" type="text/html" href="/blog/working-with-people/" />
+  <id>/blog/working-with-people</id>
+  <published>2016-04-08T00:00:00+02:00</published>
+  <updated>2016-04-08T00:00:00+02:00</updated>
+  <author>
+    <name>Yanuar Aditya</name>
+    <uri></uri>
+    <email>yanuart.adityan@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;Long story short,&lt;/p&gt;
+
+&lt;p&gt;I never really enjoyed working in a team as much as now. In my 5 year of sabbatical bachelor (uh, long time for just a bachelor), working with student colleagues for me was not more than just a nuisance. I wasn’t a good teamworker back then, I prefer to do everything alone because always felt faster. I’m gonna be a &lt;em&gt;greedy algorithm&lt;/em&gt; person all the time, so rushing toward something gimme more chill than sometime, slow but well prepared approach. It was like this even after I moved to professional environment. Continuing some works from previous workers did was good enough for me to have an headache. The way I overcame this wasn’t not even better, starting from scratch, doesn’t want people to spill my codes. But then, when pressure keep coming in, I just realised (oh really), that this is not even faster. This solitude won’t gimme any slight second faster execution time. So, I just rubbed my face, clinging my emotion to a very small dark corner, open my eyes and telling myself, &lt;em&gt;a pressure is meant to be shared&lt;/em&gt;. Then, start talking to the boss and share this burden. Well, an unexpected decision but slowly, started to get attached to this kind of conversation. Started to like the idea of four-eyes discussion and glad I’m between nice people (yey!.&lt;/p&gt;
+
+&lt;p&gt;Now, people keep saying I’m one of the most indulgent, lenient and patient person they have been working with. I don’t really like the idea but it’s a compliment I guess. See? Even I don’t want people to recognise that I have changed. No one in this world, except for the closest one probably, that will taste my wrath. Haha just kidding, seldom is just the best word to describe how often the temper of mine is rising. Flat, bland and boring describe my emotional probably.&lt;/p&gt;
+
+&lt;p&gt;So enough for the intro, this post basically just my argument on how working with different people, sometime brings either happiness or tears. Why? Because people are unique. Bounded by some similarities, for example in sense of geographical references does not make relation between Indonesian in Sweden as solid as rock. Small friction in a pep talk could rise into a big dispute (wow it’s real). Small strife and ignorance towards other, will do make some keeping a social distance. This distance contributes significantly to their social circles. In a way that we supposed to have very small or even no boundaries, now we have gap as big as Red Sea in between.&lt;/p&gt;
+
+&lt;p&gt;I see old myself on those people, either the bad or good actors. The one that never embrace themselves to be a person who open to others more. Like wise man said, when someone slaps you on the right cheek, touch him gently on his left cheek. I believe on an idea in where you do a good deeds to someone, immeasurable retaliation is something you’ll get somewhere in the future. And for a bonus, you’re gonna be as lenient as a soft butter because now you could maintain your good mood. Not really affected by surroundings. Becoming more ignorant, but in positive way. You build your filter for negative moods and believe me, this will affect your circles. Start by yourself.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;to &lt;strong&gt;Angga &amp;amp; Ade&lt;/strong&gt;,&lt;/p&gt;
+
+&lt;p&gt;two persons which I must say, have been in a situation which most people could not handle but now I’m nothing but sort of proud. Congratulations for both of you. Now you guys lead a small family and can’t wait to see her this year.&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/blog/working-with-people/&quot;&gt;People Changed, I Did and You Can&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on April 08, 2016.&lt;/p&gt;
+  </content>
+</entry>
 
 
   
@@ -254,13 +290,13 @@ thirdDir $
     &lt;p&gt;For the complete list of the tutorial on this blog, you can check these following links:&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-1&quot;&gt;1. Introduction&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-2&quot;&gt;2. First C-Program&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-3&quot;&gt;3. Types and Variables&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-4&quot;&gt;4. Conditional Statements&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-5&quot;&gt;5. Function and Math Operations&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-6&quot;&gt;6. Arrays&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-7&quot;&gt;7. Pointers&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-8&quot;&gt;&lt;strong&gt;8. I/O in C&lt;/strong&gt;&lt;/a&gt; &lt;br /&gt;&lt;/p&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-2&quot;&gt;2. First C-Program&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-3&quot;&gt;3. Types and Variables&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-4&quot;&gt;4. Conditional Statements&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-5&quot;&gt;5. Function and Math Operations&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-6&quot;&gt;6. Arrays&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-7&quot;&gt;7. Pointers&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-8&quot;&gt;&lt;strong&gt;8. I/O in C&lt;/strong&gt;&lt;/a&gt; &lt;br /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -339,7 +375,7 @@ First of all, we will learn how to retrieve user’s name as string arrays. It�
 &lt;span class=&quot;no&quot;&gt;Age&lt;/span&gt; 		 &lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;27&lt;/span&gt;
 &lt;span class=&quot;o&quot;&gt;==========================&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;Next, we will try to exploit another way to pass user’s inputs into our program by &lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-8&quot;&gt;reading files and passing arguments&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Next, we will try to exploit another way to pass user’s inputs into our program by &lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-8&quot;&gt;reading files and passing arguments&lt;/a&gt;.&lt;/p&gt;
 
 
     &lt;p&gt;&lt;a href=&quot;/waga/c-tutor-8/&quot;&gt;C #8 | I/O in C&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 08, 2015.&lt;/p&gt;
@@ -364,17 +400,17 @@ First of all, we will learn how to retrieve user’s name as string arrays. It�
     &lt;p&gt;For the complete list of the tutorial on this blog, you can check these following links:&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-1&quot;&gt;1. Introduction&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-2&quot;&gt;2. First C-Program&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-3&quot;&gt;3. Types and Variables&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-4&quot;&gt;4. Conditional Statements&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-5&quot;&gt;5. Function and Math Operations&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-6&quot;&gt;6. Arrays&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-7&quot;&gt;&lt;strong&gt;7. Pointers&lt;/strong&gt;&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-8&quot;&gt;8. I/O in C&lt;/a&gt; &lt;br /&gt;&lt;/p&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-2&quot;&gt;2. First C-Program&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-3&quot;&gt;3. Types and Variables&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-4&quot;&gt;4. Conditional Statements&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-5&quot;&gt;5. Function and Math Operations&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-6&quot;&gt;6. Arrays&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-7&quot;&gt;&lt;strong&gt;7. Pointers&lt;/strong&gt;&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-8&quot;&gt;8. I/O in C&lt;/a&gt; &lt;br /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;Next tutorial will focused on &lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-6&quot;&gt;user inputs&lt;/a&gt; because so far we’ve just used static variables value. Thus, we should let our C program to be accessible by the users without they change anything inside the code.&lt;/p&gt;
+&lt;p&gt;Next tutorial will focused on &lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-6&quot;&gt;user inputs&lt;/a&gt; because so far we’ve just used static variables value. Thus, we should let our C program to be accessible by the users without they change anything inside the code.&lt;/p&gt;
 
 
     &lt;p&gt;&lt;a href=&quot;/waga/c-tutor-7/&quot;&gt;C #7 | Pointers&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 07, 2015.&lt;/p&gt;
@@ -399,13 +435,13 @@ First of all, we will learn how to retrieve user’s name as string arrays. It�
     &lt;p&gt;For the complete list of the tutorial on this blog, you can check these following links:&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-1&quot;&gt;1. Introduction&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-2&quot;&gt;2. First C-Program&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-3&quot;&gt;3. Types and Variables&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-4&quot;&gt;4. Conditional Statements&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-5&quot;&gt;5. Function and Math Operations&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-6&quot;&gt;&lt;strong&gt;6. Arrays&lt;/strong&gt;&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-7&quot;&gt;7. Pointers&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-8&quot;&gt;8. I/O in C&lt;/a&gt; &lt;br /&gt;&lt;/p&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-2&quot;&gt;2. First C-Program&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-3&quot;&gt;3. Types and Variables&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-4&quot;&gt;4. Conditional Statements&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-5&quot;&gt;5. Function and Math Operations&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-6&quot;&gt;&lt;strong&gt;6. Arrays&lt;/strong&gt;&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-7&quot;&gt;7. Pointers&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-8&quot;&gt;8. I/O in C&lt;/a&gt; &lt;br /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -432,13 +468,13 @@ First of all, we will learn how to retrieve user’s name as string arrays. It�
     &lt;p&gt;For the complete list of the tutorial on this blog, you can check these following links:&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-1&quot;&gt;1. Introduction&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-2&quot;&gt;2. First C-Program&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-3&quot;&gt;3. Types and Variables&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-4&quot;&gt;4. Conditional Statements&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-5&quot;&gt;&lt;strong&gt;5. Function and Math Operations&lt;/strong&gt;&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-6&quot;&gt;6. Arrays&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-7&quot;&gt;7. Pointers&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-8&quot;&gt;8. I/O in C&lt;/a&gt; &lt;br /&gt;&lt;/p&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-2&quot;&gt;2. First C-Program&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-3&quot;&gt;3. Types and Variables&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-4&quot;&gt;4. Conditional Statements&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-5&quot;&gt;&lt;strong&gt;5. Function and Math Operations&lt;/strong&gt;&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-6&quot;&gt;6. Arrays&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-7&quot;&gt;7. Pointers&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-8&quot;&gt;8. I/O in C&lt;/a&gt; &lt;br /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -634,7 +670,7 @@ $ gcc source.o main.o -o programTest
 &lt;span class=&quot;n&quot;&gt;we&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;#39;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ve&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;got&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;now!&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;35&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mo&quot;&gt;000000&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;Next, we will learn about how C stores sequences of same element datas, known as &lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-6&quot;&gt;array&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Next, we will learn about how C stores sequences of same element datas, known as &lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-6&quot;&gt;array&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Cheers!&lt;/p&gt;
 
@@ -661,13 +697,13 @@ $ gcc source.o main.o -o programTest
     &lt;p&gt;For the complete list of the tutorial on this blog, you can check these following links:&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-1&quot;&gt;1. Introduction&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-2&quot;&gt;2. First C-Program&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-3&quot;&gt;3. Types and Variables&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-4&quot;&gt;&lt;strong&gt;4. Conditional Statements&lt;/strong&gt;&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-5&quot;&gt;5. Function and Math Operations&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-6&quot;&gt;6. Arrays&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-7&quot;&gt;7. Pointers&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-8&quot;&gt;8. I/O in C&lt;/a&gt; &lt;br /&gt;&lt;/p&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-2&quot;&gt;2. First C-Program&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-3&quot;&gt;3. Types and Variables&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-4&quot;&gt;&lt;strong&gt;4. Conditional Statements&lt;/strong&gt;&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-5&quot;&gt;5. Function and Math Operations&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-6&quot;&gt;6. Arrays&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-7&quot;&gt;7. Pointers&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-8&quot;&gt;8. I/O in C&lt;/a&gt; &lt;br /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -806,7 +842,7 @@ well, at 59, you&#39;re quite old!
 
 &lt;p&gt;If you feel you already got some basics on conditional statements, then later on there will be an advanced flow control, &lt;em&gt;e.g&lt;/em&gt; for-loops and do-while. We will learn this later on.&lt;/p&gt;
 
-&lt;p&gt;For now, let’s proceed onto tutorial about how to deal with multiple functions, how to organize them and how to compile them in &lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-5&quot;&gt;next tutorial&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For now, let’s proceed onto tutorial about how to deal with multiple functions, how to organize them and how to compile them in &lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-5&quot;&gt;next tutorial&lt;/a&gt;.&lt;/p&gt;
 
 
     &lt;p&gt;&lt;a href=&quot;/waga/c-tutor-4/&quot;&gt;C #4 | Conditional Statement&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 04, 2015.&lt;/p&gt;
@@ -831,13 +867,13 @@ well, at 59, you&#39;re quite old!
     &lt;p&gt;For the complete list of the tutorial on this blog, you can check these following links:&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-1&quot;&gt;1. Introduction&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-2&quot;&gt;2. First C-Program&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-3&quot;&gt;&lt;strong&gt;3. Types and Variables&lt;/strong&gt;&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-4&quot;&gt;4. Conditional Statements&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-5&quot;&gt;5. Function and Math Operations&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-6&quot;&gt;6. Arrays&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-7&quot;&gt;7. Pointers&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-8&quot;&gt;8. I/O in C&lt;/a&gt; &lt;br /&gt;&lt;/p&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-2&quot;&gt;2. First C-Program&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-3&quot;&gt;&lt;strong&gt;3. Types and Variables&lt;/strong&gt;&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-4&quot;&gt;4. Conditional Statements&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-5&quot;&gt;5. Function and Math Operations&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-6&quot;&gt;6. Arrays&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-7&quot;&gt;7. Pointers&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-8&quot;&gt;8. I/O in C&lt;/a&gt; &lt;br /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -915,7 +951,7 @@ well, at 59, you&#39;re quite old!
 &lt;span class=&quot;n&quot;&gt;C&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;using&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;signed&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;decimal&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;is&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2147483648&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;C&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;using&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;unsigned&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;decimal&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;is&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2147483648&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-&lt;p&gt;If you haven’t understand the idea of comment or &lt;code&gt;printf&lt;/code&gt;, you can check my &lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-2&quot;&gt;previous&lt;/a&gt; tutorial. On the next tutorial, we will learn on how to perform &lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-4&quot;&gt;conditional statements&lt;/a&gt; on C.&lt;/p&gt;
+&lt;p&gt;If you haven’t understand the idea of comment or &lt;code&gt;printf&lt;/code&gt;, you can check my &lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-2&quot;&gt;previous&lt;/a&gt; tutorial. On the next tutorial, we will learn on how to perform &lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-4&quot;&gt;conditional statements&lt;/a&gt; on C.&lt;/p&gt;
 
 
     &lt;p&gt;&lt;a href=&quot;/waga/c-tutor-3/&quot;&gt;C #3 | Types and Variables&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 04, 2015.&lt;/p&gt;
@@ -940,13 +976,13 @@ well, at 59, you&#39;re quite old!
     &lt;p&gt;For the complete list of the tutorial on this blog, you can check these following links:&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-1&quot;&gt;1. Introduction&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-2&quot;&gt;&lt;strong&gt;2. First C-Program&lt;/strong&gt;&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-3&quot;&gt;3. Types and Variables&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-4&quot;&gt;4. Conditional Statements&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-5&quot;&gt;5. Function and Math Operations&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-6&quot;&gt;6. Arrays&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-7&quot;&gt;7. Pointers&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-8&quot;&gt;8. I/O in C&lt;/a&gt; &lt;br /&gt;&lt;/p&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-2&quot;&gt;&lt;strong&gt;2. First C-Program&lt;/strong&gt;&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-3&quot;&gt;3. Types and Variables&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-4&quot;&gt;4. Conditional Statements&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-5&quot;&gt;5. Function and Math Operations&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-6&quot;&gt;6. Arrays&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-7&quot;&gt;7. Pointers&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-8&quot;&gt;8. I/O in C&lt;/a&gt; &lt;br /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -954,7 +990,9 @@ well, at 59, you&#39;re quite old!
 
 &lt;p&gt;First thing to know is that, C-language are written in &lt;code&gt;.c&lt;/code&gt; and &lt;code&gt;.h&lt;/code&gt; file extensions. &lt;code&gt;.c&lt;/code&gt; is the compile-able file that consist every functions and routines while &lt;code&gt;.h&lt;/code&gt; is where you stores function names, variables, headers etc. You can live with &lt;code&gt;.c&lt;/code&gt; alone but sometimes in order for programmer to be able to hide the intellectual property of, &lt;em&gt;e.g&lt;/em&gt; the functions inside &lt;code&gt;.c&lt;/code&gt;, programmers  merely write the function name inside &lt;code&gt;.h&lt;/code&gt; and let the compiler transform &lt;code&gt;.c&lt;/code&gt; with the definition of the function into either static or dynamic &lt;em&gt;library&lt;/em&gt;. Thus, everyone who wants to use corresponding function, they will be provided by just the &lt;code&gt;.h&lt;/code&gt; and the library, without requiring them to have the original &lt;code&gt;.c&lt;/code&gt; code.&lt;/p&gt;
 
-&lt;p&gt;true&lt;script src=&quot;https://gist.github.com/300a69849266f41b58c9.js&quot;&gt; &lt;/script&gt;&lt;/p&gt;
+&lt;noscript&gt;&lt;pre&gt;400: Invalid request
+&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/300a69849266f41b58c9.js&quot;&gt; &lt;/script&gt;
 
 &lt;p&gt;&lt;strong&gt;line:01&lt;/strong&gt; demonstrates the use of a &lt;code&gt;#&lt;/code&gt; preprocessor. A preprocessor provides the ability for the inclusion of header files, macro expansions, conditional compilation, and line control. In many C implementations, it is a separate program invoked by the compiler as the first part of translation. &lt;a href=&quot;https://en.wikipedia.org/wiki/C_preprocessor&quot;&gt;Check…&lt;/a&gt;&lt;/p&gt;
 
@@ -1007,7 +1045,9 @@ well, at 59, you&#39;re quite old!
 
 &lt;p&gt;When you put some information inside &lt;code&gt;/*&lt;/code&gt; and &lt;code&gt;*/&lt;/code&gt;, you just made a comment. This is what we called with multi-line comment, or sometimes also called a block comment. Comments are used by the programmers to explain functionality of certain parts of codes, or to keep notes for themselves.&lt;/p&gt;
 
-&lt;p&gt;true&lt;script src=&quot;https://gist.github.com/b3dc562143a8497a0dee.js&quot;&gt; &lt;/script&gt;&lt;/p&gt;
+&lt;noscript&gt;&lt;pre&gt;400: Invalid request
+&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/b3dc562143a8497a0dee.js&quot;&gt; &lt;/script&gt;
 
 &lt;p&gt;On &lt;strong&gt;line:01&lt;/strong&gt;, it shows how block comment works. Any characters between &lt;code&gt;/*&lt;/code&gt; and &lt;code&gt;*/&lt;/code&gt; are ignored by the compiler. On &lt;strong&gt;line:9&lt;/strong&gt; and &lt;strong&gt;10&lt;/strong&gt;, a single line comments are provided. A single line comment starts with &lt;code&gt;//&lt;/code&gt; and everything after it is ignored by the compiler until end of the line. This is originated from C++ style comment, but nowadays most of C compilers support this comment.&lt;/p&gt;
 
@@ -1078,7 +1118,7 @@ $ ./myapp
 Hi World
 &lt;/pre&gt;
 
-&lt;p&gt;If you’re dealing with compiling multiple file sources, then refer to &lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-5&quot;&gt;Tutorial 5&lt;/a&gt; which talks about functions in C.&lt;/p&gt;
+&lt;p&gt;If you’re dealing with compiling multiple file sources, then refer to &lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-5&quot;&gt;Tutorial 5&lt;/a&gt; which talks about functions in C.&lt;/p&gt;
 
 &lt;p&gt;Next, we will go through the basic but one of the core in C, &lt;a href=&quot;http://yanuartadityan.github.com/tutorial/c-tutor-3&quot;&gt;variables and data types&lt;/a&gt;.&lt;/p&gt;
 
@@ -1149,13 +1189,13 @@ Hi World
     &lt;p&gt;For the complete list of the tutorial on this blog, you can check these following links:&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-1&quot;&gt;&lt;strong&gt;1. Introduction&lt;/strong&gt;&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-2&quot;&gt;2. First C-Program&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-3&quot;&gt;3. Types and Variables&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-4&quot;&gt;4. Conditional Statements&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-5&quot;&gt;5. Function and Math Operations&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-6&quot;&gt;6. Arrays&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-7&quot;&gt;7. Pointers&lt;/a&gt; &lt;br /&gt;
-&lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-8&quot;&gt;8. I/O in C&lt;/a&gt; &lt;br /&gt;&lt;/p&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-2&quot;&gt;2. First C-Program&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-3&quot;&gt;3. Types and Variables&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-4&quot;&gt;4. Conditional Statements&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-5&quot;&gt;5. Function and Math Operations&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-6&quot;&gt;6. Arrays&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-7&quot;&gt;7. Pointers&lt;/a&gt; &lt;br /&gt;
+&lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-8&quot;&gt;8. I/O in C&lt;/a&gt; &lt;br /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -1167,7 +1207,9 @@ Hi World
 
 &lt;p&gt;As a language that often interacts with the machine, C is considered to be a pretty language with beautiful syntax.&lt;/p&gt;
 
-&lt;p&gt;true&lt;script src=&quot;https://gist.github.com/300a69849266f41b58c9.js&quot;&gt; &lt;/script&gt;&lt;/p&gt;
+&lt;noscript&gt;&lt;pre&gt;400: Invalid request
+&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/300a69849266f41b58c9.js&quot;&gt; &lt;/script&gt;
 
 &lt;p&gt;As we can see, &lt;code&gt;Pygments&lt;/code&gt; rendered C-syntax (with line numbers) beautifully. Now, time for a trivia. Can you guess, how many programmers which are saved by C-syntax from obfuscating codes? Count me one!&lt;/p&gt;
 
@@ -1175,7 +1217,9 @@ Hi World
 
 &lt;p&gt;Macros is one of the most important preprocessor &lt;code&gt;#&lt;/code&gt; implementation in C. It can be used to create a fast function without putting everything on the stack. Check this out,&lt;/p&gt;
 
-&lt;p&gt;true&lt;script src=&quot;https://gist.github.com/b7a1b47ffdff16237ae1.js&quot;&gt; &lt;/script&gt;&lt;/p&gt;
+&lt;noscript&gt;&lt;pre&gt;400: Invalid request
+&lt;/pre&gt;&lt;/noscript&gt;
+&lt;script src=&quot;https://gist.github.com/b7a1b47ffdff16237ae1.js&quot;&gt; &lt;/script&gt;
 
 &lt;p&gt;In &lt;strong&gt;line:4&lt;/strong&gt;, we define the macro function &lt;code&gt;MACRO_OR&lt;/code&gt; that takes &lt;em&gt;a&lt;/em&gt; and &lt;em&gt;b&lt;/em&gt; as an input. Then, this macro will return the logical &lt;code&gt;OR&lt;/code&gt; result from &lt;em&gt;a&lt;/em&gt; and &lt;em&gt;b&lt;/em&gt;. Super neat!&lt;/p&gt;
 
@@ -1199,7 +1243,7 @@ Hi World
 
 &lt;p&gt;Well, I hope this is quite enough motivation for you to start learning C more than just for gaining basic programming language skill. Then when it comes the time when you woke up at the wrong side of the bed, you aren’t rambling about how bad, stressful, and obfuscated low-level programming is.&lt;/p&gt;
 
-&lt;p&gt;So, are you ready now? If yes, then let’s get started on writing your &lt;a href=&quot;http://yanuartadityan.github.io/tutorial/c-tutor-2&quot;&gt;first program&lt;/a&gt; on the next tutorial.&lt;/p&gt;
+&lt;p&gt;So, are you ready now? If yes, then let’s get started on writing your &lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-2&quot;&gt;first program&lt;/a&gt; on the next tutorial.&lt;/p&gt;
 
 
     &lt;p&gt;&lt;a href=&quot;/tutorial/c-tutor-1/&quot;&gt;C-Programming: Getting Acquainted with C&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 02, 2015.&lt;/p&gt;
@@ -1885,37 +1929,6 @@ protocol : ICMP, flag: reply &amp;gt; DROP | &lt;strong&gt;prevent smurf attack&
 &lt;/blockquote&gt;
 
     &lt;p&gt;&lt;a href=&quot;/blog/netsec-exams/&quot;&gt;Network Security Recap&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on June 01, 2015.&lt;/p&gt;
-  </content>
-</entry>
-
-
-  
-
-<entry>
-  <title type="html"><![CDATA[Dreamhack]]></title>
-  <link rel="alternate" type="text/html" href="/blog/dreamhack-memory/" />
-  <id>/blog/dreamhack-memory</id>
-  <published>2015-05-26T00:00:00+02:00</published>
-  <updated>2015-05-26T00:00:00+02:00</updated>
-  <author>
-    <name>Yanuar Aditya</name>
-    <uri></uri>
-    <email>yanuart.adityan@gmail.com</email>
-  </author>
-  <content type="html">
-    &lt;p&gt;Last year November, I was in Dreamhack Winter 2014, Jönkoping. I was there with three friends of mine. David &amp;amp; Sushil, both are my classmates and avid Dota 2 fans (same with me), and Raymond. Raymond is from States and prolific Hearthstone player.&lt;/p&gt;
-
-&lt;p&gt;We left Göteborg at Saturday while Dreamhack took place since Wednesday. It was quite cold but there was no sign of snow coming in. I still remember when we arrived at Jönkoping Bus Terminal, we encountered several gamers sleeping in the terminal with their PCs inside their sleeping bag. Duh, those guys need some serious sleep after days of sleepless gaming I suppose.&lt;/p&gt;
-
-&lt;p&gt;WE ARE IN DREAMHACK DUDE!&lt;/p&gt;
-
-&lt;p&gt;I don’t know but Dreamhack is something very special to me. I know Dreamhack since 2004 when I played World of Warcraft III for the first time. I know there was Starcraft back then that’s quite popular on some unknown event called Dreamhack. But I know that it is a serious stuff 3 years later when I was in 2nd year on college. I started to play Dota and with generous help from so-thing-called Internet, I’ve found what I need about Dreamhack.&lt;/p&gt;
-
-&lt;p&gt;Back then I’ve put Dreamhack into my bucket list of place I must visit once in my life and in 2014, I was in Dream-come-true-Hack 2014! LIVE from Sweden! I met several pro players of Dota 2 and casters, e.g. whole Evil Geniuses, Cloud Nine, Virtus Pro, Sheever, LD, SingSing and not to mention [A] legends, Lod[A] and [A]kke.&lt;/p&gt;
-
-&lt;p&gt;Can’t wait for this year Dreamhack Winter again to visit!&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;/blog/dreamhack-memory/&quot;&gt;Dreamhack&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on May 26, 2015.&lt;/p&gt;
   </content>
 </entry>
 

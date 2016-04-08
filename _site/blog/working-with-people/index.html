@@ -5,15 +5,15 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>d3.js on Jekyll &#8211; Mirkwood Ape</title>
-<meta name="description" content="Not really practical, but doable and beautiful.">
-<meta name="keywords" content="js, d3js, plot">
+<title>People Changed, I Did and You Can &#8211; Mirkwood Ape</title>
+<meta name="description" content="The way I see the problem of horizontal relationship.">
+<meta name="keywords" content="school, study, work">
 
 
 
 <!-- Twitter Cards -->
-<meta name="twitter:title" content="d3.js on Jekyll">
-<meta name="twitter:description" content="Not really practical, but doable and beautiful.">
+<meta name="twitter:title" content="People Changed, I Did and You Can">
+<meta name="twitter:description" content="The way I see the problem of horizontal relationship.">
 <meta name="twitter:site" content="@yanuartadityan">
 <meta name="twitter:creator" content="@yanuartadityan">
 
@@ -23,16 +23,16 @@
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="d3.js on Jekyll">
-<meta property="og:description" content="Not really practical, but doable and beautiful.">
-<meta property="og:url" content="/blog/first-d3js/">
+<meta property="og:title" content="People Changed, I Did and You Can">
+<meta property="og:description" content="The way I see the problem of horizontal relationship.">
+<meta property="og:url" content="/blog/working-with-people/">
 <meta property="og:site_name" content="Mirkwood Ape">
 
 
 
 
 
-<link rel="canonical" href="/blog/first-d3js/">
+<link rel="canonical" href="/blog/working-with-people/">
 <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Mirkwood Ape Feed">
 
 <!-- http://t.co/dKP3o1e -->
@@ -158,95 +158,26 @@
   <article class="post">
     <div class="headline-wrap">
       
-        <h1><a href="/blog/first-d3js/" rel="bookmark" title="d3.js on Jekyll">d3.js on Jekyll</a></h1>
+        <h1><a href="/blog/working-with-people/" rel="bookmark" title="People Changed, I Did and You Can">People Changed, I Did and You Can</a></h1>
       
     </div><!--/ .headline-wrap -->
     <div class="article-wrap">
-      <h2 id="intro">Intro</h2>
+      <p>Long story short,</p>
 
-<p>So, <a href="http://d3js.org">d3.js</a> has been around for a moment now and I guess it’s good time to start playing with it!</p>
+<p>I never really enjoyed working in a team as much as now. In my 5 year of sabbatical bachelor (uh, long time for just a bachelor), working with student colleagues for me was not more than just a nuisance. I wasn’t a good teamworker back then, I prefer to do everything alone because always felt faster. I’m gonna be a <em>greedy algorithm</em> person all the time, so rushing toward something gimme more chill than sometime, slow but well prepared approach. It was like this even after I moved to professional environment. Continuing some works from previous workers did was good enough for me to have an headache. The way I overcame this wasn’t not even better, starting from scratch, doesn’t want people to spill my codes. But then, when pressure keep coming in, I just realised (oh really), that this is not even faster. This solitude won’t gimme any slight second faster execution time. So, I just rubbed my face, clinging my emotion to a very small dark corner, open my eyes and telling myself, <em>a pressure is meant to be shared</em>. Then, start talking to the boss and share this burden. Well, an unexpected decision but slowly, started to get attached to this kind of conversation. Started to like the idea of four-eyes discussion and glad I’m between nice people (yey!.</p>
 
-<h2 id="trivia">Trivia</h2>
+<p>Now, people keep saying I’m one of the most indulgent, lenient and patient person they have been working with. I don’t really like the idea but it’s a compliment I guess. See? Even I don’t want people to recognise that I have changed. No one in this world, except for the closest one probably, that will taste my wrath. Haha just kidding, seldom is just the best word to describe how often the temper of mine is rising. Flat, bland and boring describe my emotional probably.</p>
 
-<p>It needs extra steps implementing d3.js onto Jekyll, especially when we’re working on Markdown instead of HTML. But, with
-proper anchor, it’s like taking a candy from a baby. Cheers.</p>
+<p>So enough for the intro, this post basically just my argument on how working with different people, sometime brings either happiness or tears. Why? Because people are unique. Bounded by some similarities, for example in sense of geographical references does not make relation between Indonesian in Sweden as solid as rock. Small friction in a pep talk could rise into a big dispute (wow it’s real). Small strife and ignorance towards other, will do make some keeping a social distance. This distance contributes significantly to their social circles. In a way that we supposed to have very small or even no boundaries, now we have gap as big as Red Sea in between.</p>
 
-<h2 id="first-bar-chart-with-div">First Bar Chart with #div</h2>
+<p>I see old myself on those people, either the bad or good actors. The one that never embrace themselves to be a person who open to others more. Like wise man said, when someone slaps you on the right cheek, touch him gently on his left cheek. I believe on an idea in where you do a good deeds to someone, immeasurable retaliation is something you’ll get somewhere in the future. And for a bonus, you’re gonna be as lenient as a soft butter because now you could maintain your good mood. Not really affected by surroundings. Becoming more ignorant, but in positive way. You build your filter for negative moods and believe me, this will affect your circles. Start by yourself.</p>
 
-<div class="second"> </div>
-<script type="text/javascript" src="http://mbostock.github.com/d3/d3.js"></script>
+<p><br />
+<br /></p>
 
-<style>
-.second div {
-  font: 10px sans-serif;
-  background-color: steelblue;
-  text-align: right;
-  padding: 3px;
-  margin: 1px;
-  color: white;
-}
-</style>
+<p>to <strong>Angga &amp; Ade</strong>,</p>
 
-<script type="text/javascript">
-
-var data = [4, 5, 6, 8, 12, 15, 16, 18, 21, 23, 27, 35, 42];
-
-d3.select("div.second")
-	.selectAll("div")
-		.data(data)
-	.enter().append("div")
-		.style("width", function(d) { return (d) * 10 + "px"; })
-    	.text(function(d) { return d; });
-
-</script>
-
-<h2 id="first-bar-chart-with-svg">First Bar Chart with SVG</h2>
-
-<div id="convas" style="background: rgb(105, 187, 210)"></div>
-<script type="text/javascript" src="http://mbostock.github.com/d3/d3.js"></script>
-
-<script type="text/javascript">
-      var w = 535,
-          h= 500,
-          z = d3.scale.category20(),
-          i = 0;
-      var svg = d3.select("div#convas").append("svg")
-          .attr("width", w)
-          .attr("height", h)
-          .style("pointer-events", "all")
-          .on("mousemove", heart_line);
-      var line = d3.svg.line()
-                    .interpolate("cardinal")
-                    .x(function(d) { return d[0]; })
-                    .y(function(d) { return d[1]; });
-      function heart_shape(x, y, r)
-      {
-        var points = [];
-        for (i=0; i<=360; i=i+12){
-          pointX = x -  r*(12*Math.sin(i*Math.PI/180) - 4*Math.sin(3*i*Math.PI/180));
-          pointY = y -  r*(13*Math.cos(i*Math.PI/180) - 5*Math.cos(2*i*Math.PI/180) - 2*Math.cos(3*i*Math.PI/180));
-          points.push([pointX, pointY]);
-        }
-        return points;
-      }
-      function heart_line() {
-        var m = d3.svg.mouse(this); 
-        svg.append("path")
-            .attr("d", function() {return line(heart_shape(m[0], m[1], 1e-6)); })
-            .style("stroke", function() { return z(parseInt(Math.random() * 100));})
-            .style("fill", "none")
-            .style("stroke-opacity", 1)
-            .style("stroke-width", 3.5)
-            .attr('class', 'heart_shape')
-            .transition()
-            .duration(1000)
-            .ease(Math.sqrt)
-            .attr("d", function() { return line(heart_shape(m[0], m[1], 10)); })
-            .style("stroke-opacity", 1e-4)
-            .remove();
-            }
-</script>
-
+<p>two persons which I must say, have been in a situation which most people could not handle but now I’m nothing but sort of proud. Congratulations for both of you. Now you guys lead a small family and can’t wait to see her this year.</p>
 
       <hr />
       <footer role="contentinfo">
@@ -254,17 +185,17 @@ d3.select("div.second")
   <h4>Share on</h4>
   <ul>
     <li>
-      <a href="https://twitter.com/intent/tweet?text=/blog/first-d3js/" class="twitter" title="Share on Twitter"><i class="fa fa-twitter"></i><span> Twitter</span></a>
+      <a href="https://twitter.com/intent/tweet?text=/blog/working-with-people/" class="twitter" title="Share on Twitter"><i class="fa fa-twitter"></i><span> Twitter</span></a>
     </li>
     <li>
-      <a href="https://www.facebook.com/sharer/sharer.php?u=/blog/first-d3js/" class="facebook" title="Share on Facebook"><i class="fa fa-facebook"></i><span> Facebook</span></a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=/blog/working-with-people/" class="facebook" title="Share on Facebook"><i class="fa fa-facebook"></i><span> Facebook</span></a>
     </li>
     <li>
-      <a href="https://plus.google.com/share?url=/blog/first-d3js/" class="google-plus" title="Share on Google Plus"><i class="fa fa-google-plus"></i><span> Google+</span></a>
+      <a href="https://plus.google.com/share?url=/blog/working-with-people/" class="google-plus" title="Share on Google Plus"><i class="fa fa-google-plus"></i><span> Google+</span></a>
     </li>
   </ul>
 </div><!-- /.social-share -->
-        <p class="byline"><strong>d3.js on Jekyll</strong> was published on <time datetime="2015-04-01T00:00:00+02:00">April 01, 2015</time>.</p>
+        <p class="byline"><strong>People Changed, I Did and You Can</strong> was published on <time datetime="2016-04-08T00:00:00+02:00">April 08, 2016</time>.</p>
       </footer>
     </div><!-- /.article-wrap -->
   
@@ -278,11 +209,11 @@ d3.select("div.second")
   <h4>You might also enjoy <small class="pull-right">(<a href="/posts/">View all posts</a>)</small></h4>
     <ul>
     
-      <li><a href="/blog/working-with-people/" title="People Changed, I Did and You Can">People Changed, I Did and You Can</a></li>
-    
       <li><a href="/blog/thesis/" title="The Six Months of Battle">The Six Months of Battle</a></li>
     
       <li><a href="/blog/make-it-matter/" title="Make IT Matter">Make IT Matter</a></li>
+    
+      <li><a href="/tips/globe-real-time-monitoring/" title="Real-Time 3D Globe Site Visitor Monitoring">Real-Time 3D Globe Site Visitor Monitoring</a></li>
     
     </ul>
     <hr />
