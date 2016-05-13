@@ -4,13 +4,86 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2016-04-20T09:48:05+02:00</updated>
+<updated>2016-05-13T03:48:05+02:00</updated>
 <id>/</id>
 <author>
   <name>Yanuar Aditya</name>
   <uri>/</uri>
   <email>yanuart.adityan@gmail.com</email>
 </author>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Interview QA]]></title>
+  <link rel="alternate" type="text/html" href="/tips/interview-session/" />
+  <id>/tips/interview-session</id>
+  <published>2016-05-02T00:00:00+02:00</published>
+  <updated>2016-05-02T00:00:00+02:00</updated>
+  <author>
+    <name>Yanuar Aditya</name>
+    <uri></uri>
+    <email>yanuart.adityan@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;This post is all about answers to some most popular interview questions on the market in my perspective.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;[update]&lt;/strong&gt; From my most recent interview with an automotive consultant last week, all of questions except number 4 were asked. So, it is a great deal to roll up your sleeves right before an interview.&lt;/p&gt;
+
+&lt;h4 id=&quot;tell-me-more-about-yourself&quot;&gt;1. Tell me more about yourself&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;(simple but most of the time, interviewer doesn’t want you to tell them about your life stories. Tell them more about your latest education, achievement and recent relevant project or experience to the job you’re applying to)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(start from recent education)&lt;/em&gt;
+My name is Jan and I am a master student in Computer Systems and Networks at Chalmers in which I’ve decided to take track specialization in Real-Time Systems. (calling my previous background) I have a degree in electrical engineering back then in 2011 and have been working for almost three years in three different companies. &lt;em&gt;(add some notable responsibility and gained experiences)&lt;/em&gt; Mostly, I’ve been working with various projects, from system-level programming, such as high performance computing and multicore DSP programming to Java-based applet for a smart card project.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(then, end the question with a latest or necessary experience which bring you closer to the company you’re being interviewed with)&lt;/em&gt; For the past 2 terms, I’ve been working with projects on autonomous driving and right now, &lt;em&gt;(referring to people you’re working with)&lt;/em&gt; me and my thesis partner are doing our thesis project with people from Active Safety Analysis and Verification Team at Volvo Cars. This project basically is trying to implement an alternative to the current approach to estimate the vehicle metric position inside indoor environment, which GPS is considered not reliable enough.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(closing statement)&lt;/em&gt;
+I think this project is the first experience for me to work with automotive industry and (to be honest that you think it’s new for you and challenging) while I don’t have that much of relevant experience to this, but I think it’s really challenging for me to learn and to be more involved.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-is-your-greatest-weakness&quot;&gt;2. What is your greatest weakness?&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;(whatever the answer is, prepare a backup for couple of example cases)&lt;/em&gt;
+I like to do lot of things at the same time but this context switching requires a lot of multitasking capability and demands extra attention and care on managing each task priorities. While it is good for most people, by getting new experiences, (the weakness starts from here) but consider myself to be more productive if I’m in focus.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(an example would be good)&lt;/em&gt;
+I’ve spent 5 years on bachelor because I’ve involved on lot of activities outside academic works, and it took tolls on me. I couldn’t catch up with my colleagues and in the end, had to take another year to finish it. However, I’ve learned a lot from that and I believe that I’m better at managing task and jobs priorities.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-is-your-greatest-strength&quot;&gt;3. What is your greatest strength?&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;(same with the previous question, try to express the details of the list you’ve brought in cover letter)&lt;/em&gt;
+I am flexible and fast to adapt. Technically, I’ve been working in various kind of project, ranging from low to high level programming. Most of the time, I didn’t have prior knowledge on the projects, but I have no problem working with those projects and some of the projects were quite terrific.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(give example on the details)&lt;/em&gt;
+So, I was working on this company … back then in … when I was responsible for …(continue). It was quite challenging for the team to deliver the solution that has to conform with some specifications with a very limited time. Finally, we had found the solution by using GPGPU and while it was quite new thing for us, I volunteered to handle this, learning everything from any reliable sources and it turned out to be a very positive result … (explain more on how good the achievement). It gave me and also the team a new priceless experience and good positive asset for the future, especially on how we will optimize entirely new project, in terms of performance.&lt;/p&gt;
+
+&lt;h4 id=&quot;where-do-you-see-yourself-being-in-3-5-years-from-now&quot;&gt;4. Where do you see yourself being in 3-5 years from now?&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;(this is a question to see your vision within the company. it can be related on how you will contribute more for the sake of company. avoid providing answer that is too ‘full-of-yourself’)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;If I could imagine, I see a projection of myself to be a better engineer, especially on the … &lt;em&gt;(specific topics you would like to focus on the job, prior knowledge of the job description would be nice to have)&lt;/em&gt;. I hope I will be able to contribute more to the team, already in a position where I can share my 3-5 experiences to my colleagues, already in a position where I can deliver better documentation and handle the pressures. The team should already take some benefits from all experiences so far.&lt;/p&gt;
+
+&lt;h4 id=&quot;do-you-have-any-questions-for-us&quot;&gt;5. Do you have any questions for us?&lt;/h4&gt;
+
+&lt;p&gt;&lt;em&gt;(this is a question that is always being asked. it could be a big chance for you to show them, how good your knowledge on the company. the bigger your knowledge, the better the questions and the better they think about your interests to work together with them. also, you can use this good chance to review some of the interviewer statements about his/her company.)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Sure, from … &lt;em&gt;(say a good reference)&lt;/em&gt;, big companies often hired people from their consultants. And surely, consultant companies, say some of them, do overlap on some expertise. How your company managed to stay competitive on this issue?&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;(another question is about your anxiety about some non-technical standpoint)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;If I may ask another question, from what you have been mentioned, your company focuses on delivering an embedded solution for automotive industry. however, …. &lt;em&gt;(start asking some issues, not exploiting some weakness, but just to show that you’re as aware about this as with the interviewer)&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Good luck and lycka till!&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/tips/interview-session/&quot;&gt;Interview QA&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on May 02, 2016.&lt;/p&gt;
+  </content>
+</entry>
 
 
   
@@ -47,6 +120,49 @@
 Cheers and happy coding.&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;/tips/atom-tree-view-size/&quot;&gt;Change Tree View Font Size in Atom&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on April 20, 2016.&lt;/p&gt;
+  </content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Git Add and Commit in Single Command]]></title>
+  <link rel="alternate" type="text/html" href="/tips/git-add-commit/" />
+  <id>/tips/git-add-commit</id>
+  <published>2016-04-19T00:00:00+02:00</published>
+  <updated>2016-04-19T00:00:00+02:00</updated>
+  <author>
+    <name>Yanuar Aditya</name>
+    <uri></uri>
+    <email>yanuart.adityan@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;If you are asking if there is a way to make these commands:&lt;/p&gt;
+
+&lt;pre&gt;
+$ git add .
+$ git commit -m &#39;commit message&#39;
+&lt;/pre&gt;
+
+&lt;p&gt;in a single command, then there is. Git developers are so smart they always think about this. Basically, you predefine the one line command that will perform both command &lt;code&gt;add&lt;/code&gt; and &lt;code&gt;commit&lt;/code&gt; using Git global alias.&lt;/p&gt;
+
+&lt;pre&gt;
+$ git config --global alias.addcommit &#39;!git add . &amp;amp;&amp;amp; git commit&#39;
+&lt;/pre&gt;
+
+&lt;p&gt;Then use it like this,&lt;/p&gt;
+
+&lt;pre&gt;
+$ git addcommit -m &#39;commit message&#39;
+&lt;/pre&gt;
+
+&lt;p&gt;Neat huh?&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Happy coding and cheers!&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;/tips/git-add-commit/&quot;&gt;Git Add and Commit in Single Command&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on April 19, 2016.&lt;/p&gt;
   </content>
 </entry>
 
@@ -1417,144 +1533,6 @@ transportation system, utilizing tram, bus and ferry, got my highest admiration 
 &lt;p&gt;The answer lies on what we know with &lt;strong&gt;Time Complexity&lt;/strong&gt;. Good luck study on this guys. Welcome to the Algorithm class.&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;/blog/addition-vs-multiplication/&quot;&gt;Addition vs Multiplication&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on September 05, 2015.&lt;/p&gt;
-  </content>
-</entry>
-
-
-  
-
-<entry>
-  <title type="html"><![CDATA[Remembering X Squad]]></title>
-  <link rel="alternate" type="text/html" href="/blog/x-mars/" />
-  <id>/blog/x-mars</id>
-  <published>2015-09-01T00:00:00+02:00</published>
-  <updated>2015-09-01T00:00:00+02:00</updated>
-  <author>
-    <name>Yanuar Aditya</name>
-    <uri></uri>
-    <email>yanuart.adityan@gmail.com</email>
-  </author>
-  <content type="html">
-    &lt;pre&gt;
-Intro
-   C Bb F               (Semangat juang kami....)
-
-Verse
-   F C F Bb F C Bb F    (Kami pemuda pemudi.....)
-   C F C F-Bb-C         (Integritas dijunjung...)
-
-Chorus
-   Bb F C F Bb F C Bb F (PK Sepuluh semangat....)
-&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;iframe width=&quot;100%&quot; height=&quot;200&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/145596982&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;visual=true&quot;&gt;&lt;/iframe&gt;
-
-&lt;hr /&gt;
-
-&lt;h4 id=&quot;intro&quot;&gt;Intro:&lt;/h4&gt;
-
-&lt;p&gt;Semangat juang kami takkan lekang&lt;/p&gt;
-
-&lt;h4 id=&quot;verse&quot;&gt;Verse:&lt;/h4&gt;
-
-&lt;p&gt;Kami pemuda pemudi Indonesia&lt;/p&gt;
-
-&lt;p&gt;Angkatan sepuluh LPDP&lt;/p&gt;
-
-&lt;p&gt;Bertakwa belajar dan bekerja&lt;/p&gt;
-
-&lt;p&gt;Bekal membangun Negeri Tercinta&lt;/p&gt;
-
-&lt;p&gt;Integritas dijunjung tinggi&lt;/p&gt;
-
-&lt;p&gt;Profesional dalam mengabdi&lt;/p&gt;
-
-&lt;p&gt;Sinergi untuk membangun negeri&lt;/p&gt;
-
-&lt;p&gt;Itulah pedoman kami&lt;/p&gt;
-
-&lt;h4 id=&quot;chorus&quot;&gt;Chorus:&lt;/h4&gt;
-
-&lt;p&gt;PK sepuluh semangat bersatu&lt;/p&gt;
-
-&lt;p&gt;Tunjukkan tanggung jawabmu&lt;/p&gt;
-
-&lt;p&gt;LPDP wadahnya, LPDP jalannya&lt;/p&gt;
-
-&lt;p&gt;Semangat PK kami takkan lekang&lt;/p&gt;
-
-&lt;h4 id=&quot;verse-1&quot;&gt;Verse:&lt;/h4&gt;
-
-&lt;p&gt;Bermitra dalam membangun bangsa&lt;/p&gt;
-
-&lt;p&gt;Kolaborasi bersama&lt;/p&gt;
-
-&lt;p&gt;Kamilah pemimpin muda&lt;/p&gt;
-
-&lt;p&gt;Generasi emas Indonesia&lt;/p&gt;
-
-&lt;p&gt;Mandiri dalam beraksi&lt;/p&gt;
-
-&lt;p&gt;Inovasi dalam kreasi&lt;/p&gt;
-
-&lt;p&gt;Efektif efisien dan responsif&lt;/p&gt;
-
-&lt;p&gt;Itulah angkatan kami&lt;/p&gt;
-
-&lt;h4 id=&quot;chorus-1&quot;&gt;Chorus:&lt;/h4&gt;
-
-&lt;p&gt;PK sepuluh semangat bersatu&lt;/p&gt;
-
-&lt;p&gt;Tunjukkan janji bhaktimu&lt;/p&gt;
-
-&lt;p&gt;Tak peduli rintangan dan hadapi tantangan&lt;/p&gt;
-
-&lt;p&gt;Semangat juang kami takkan lekang&lt;/p&gt;
-
-&lt;p&gt;Semangat juang kami takkan lekang&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;(&lt;strong&gt;by&lt;/strong&gt; LPDP Indonesia Batch X)&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;/blog/x-mars/&quot;&gt;Remembering X Squad&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on September 01, 2015.&lt;/p&gt;
-  </content>
-</entry>
-
-
-  
-
-<entry>
-  <title type="html"><![CDATA[What's Wrong with May Weather?]]></title>
-  <link rel="alternate" type="text/html" href="/blog/summer/" />
-  <id>/blog/summer</id>
-  <published>2015-06-04T00:00:00+02:00</published>
-  <updated>2015-06-04T00:00:00+02:00</updated>
-  <author>
-    <name>Yanuar Aditya</name>
-    <uri></uri>
-    <email>yanuart.adityan@gmail.com</email>
-  </author>
-  <content type="html">
-    &lt;h3 id=&quot;season-in-gothenburg&quot;&gt;Season in Gothenburg&lt;/h3&gt;
-
-&lt;p&gt;If we talk about season in western archipelago of Sweden, then Gothenburg, so to speak, is representing what you may call unforeseen forecasted weather. It is May already, several parts of Europe already bathing in 20-hours of sunlight, pretty close to body temperature warmth that attracts Summer’s Mood of everyone to come out. However, it is still 10 Degree Celcius here in Gothenburg. Valkommn till Sverige!&lt;/p&gt;
-
-&lt;h3 id=&quot;so-whats-next&quot;&gt;So, What’s Next?&lt;/h3&gt;
-
-&lt;p&gt;Prepare for the worst. It’s a routine to check today’s weather before you leave home. Always make sure to dress properly and do not forget to bring your worst case suit all the time. I do prefer wearing my trusty waterproof hardshell everytime anytime, probably with fleece and a shirt. Always come with spare of shirts and socks on the backpack.&lt;/p&gt;
-
-&lt;h3 id=&quot;killing-time&quot;&gt;Killing Time&lt;/h3&gt;
-
-&lt;p&gt;The weather can change quickly. Always think positive, if you don’t wanna get &lt;em&gt;jinxed&lt;/em&gt;. When the weather is good, just enjoy. Do not think about probability of raining or cloud will come in a glimpse of your eye.&lt;/p&gt;
-
-&lt;h3 id=&quot;so-what&quot;&gt;So What?&lt;/h3&gt;
-
-&lt;p&gt;Sweden is pretty country. Gothenburg itself is amazing. Fantastic public transportation, superb education and industry, big port and ships and the weather as well. So, please come and enjoy Gothenburg.&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;/blog/summer/&quot;&gt;What&#39;s Wrong with May Weather?&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on June 04, 2015.&lt;/p&gt;
   </content>
 </entry>
 
