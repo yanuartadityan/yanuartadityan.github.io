@@ -4,13 +4,42 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="/feed.xml" />
 <link rel="alternate" type="text/html" href="" />
-<updated>2016-05-13T03:48:05+02:00</updated>
+<updated>2016-09-18T10:10:32+02:00</updated>
 <id>/</id>
 <author>
   <name>Yanuar Aditya</name>
   <uri>/</uri>
   <email>yanuart.adityan@gmail.com</email>
 </author>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[360˚ of Myself]]></title>
+  <link rel="alternate" type="text/html" href="/blog/recap-of-my-life/" />
+  <id>/blog/recap-of-my-life</id>
+  <published>2016-09-18T00:00:00+02:00</published>
+  <updated>2016-09-18T00:00:00+02:00</updated>
+  <author>
+    <name>Yanuar Aditya</name>
+    <uri></uri>
+    <email>yanuart.adityan@gmail.com</email>
+  </author>
+  <content type="html">
+    &lt;p&gt;I’m writing this post in a cloudy Sunday morning, September 18th, in my favorite breakfast table inside my apartment. Mood is normal and everything seems to be awesome today.&lt;/p&gt;
+
+&lt;p&gt;It has been 2 years since I’ve started my life as (again) student here in lovely Göteborg. I did study much, play harder than ever before, explore so called nature even more than prior chapters of my life. But, I didn’t write that much though, I just don’t have the feeling to write anything. I had this kind of intention to regularly writing the day passed in this blog, but well yeah, not even close. Too much time invested on something else than writing which I like to achieve more. Achieve? Something silly when I haven’t achieved something lately, until this last month…&lt;/p&gt;
+
+&lt;p&gt;Let’s go flashback 8 months ago. I was granted an opportunity to work with Volvo Cars for my academic thesis. It is funded, lots of experiences await and (obviously) an exposure to the one of the Swedish pride, a Volvo.
+While it seems fine and fit within some kind of long term plan of mine, I felt like I didn’t possess sufficient knowledge to be involved within the project, but alas, I finished the thesis and presented on fourth week of August. Then I was offered a permanent position within the company, working together with awesome people, in an awesome company full of OCD people about &lt;em&gt;Active Safety&lt;/em&gt;, of course in a positive way. Now, I am writing this post right after I read something from the news, about Mr. Sebastian Thrun. If you don’t know him, he is the founding father of Udacity and ex-director of Google Self Driving Car which just made a statement that &lt;a href=&quot;http://www.recode.net/2016/9/17/12943214/sebastian-thrun-self-driving-talent-pool&quot;&gt;self driving car engineers worth $1M&lt;/a&gt; and industries are running out of this kind of engineers. They need plenty of people to work with and I was like HOLY F**K! Now, I’m in between being confused, happy, anxiety and also vigilant as crazy as you can imagine. Why? Because I didn’t foresee this and now there’s someone open a statement about a big opportunity waits ahead.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt; I never really capable of answering questions about what do you want in my life. Now, I do know the answer. I want to be an engineer worth $1M. I am in this state not because I foresaw this chance, I just followed the path in front of me and taking the turn just because I like to do with it. Opportunity does exist in any path to your dreams. But, it’s not gonna be your dream if you don’t like things you’ll encounter along the path.&lt;/p&gt;
+
+
+    &lt;p&gt;&lt;a href=&quot;/blog/recap-of-my-life/&quot;&gt;360˚ of Myself&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on September 18, 2016.&lt;/p&gt;
+  </content>
+</entry>
 
 
   
@@ -1496,43 +1525,6 @@ transportation system, utilizing tram, bus and ferry, got my highest admiration 
 &lt;p&gt;And the exam…Hmmm…Yeah, it’s hard, but realizing that exam is independent to the course itself, I can decide whenever I want to take exam in no hurry. And yes, it’s non stressful system I must say.&lt;/p&gt;
 
     &lt;p&gt;&lt;a href=&quot;/blog/one-year-in-sweden/&quot;&gt;One year in Sweden&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on September 07, 2015.&lt;/p&gt;
-  </content>
-</entry>
-
-
-  
-
-<entry>
-  <title type="html"><![CDATA[Addition vs Multiplication]]></title>
-  <link rel="alternate" type="text/html" href="/blog/addition-vs-multiplication/" />
-  <id>/blog/addition-vs-multiplication</id>
-  <published>2015-09-05T00:00:00+02:00</published>
-  <updated>2015-09-05T00:00:00+02:00</updated>
-  <author>
-    <name>Yanuar Aditya</name>
-    <uri></uri>
-    <email>yanuart.adityan@gmail.com</email>
-  </author>
-  <content type="html">
-    &lt;p&gt;OK, let’s settle this. If you’re given a question, which is faster, between addition and multiplication? Or in more formal concise way of problem set, given &lt;code&gt;x, y&lt;/code&gt; be two &lt;code&gt;integers&lt;/code&gt;. Which one is easier, an &lt;code&gt;addition&lt;/code&gt; or &lt;code&gt;multiplication&lt;/code&gt; for those two integers?&lt;/p&gt;
-
-&lt;p&gt;I’d rather believe that people will spontaneously chose to add is faster than to multiply. But in what sense people think that way? A conceptual framework is needed to motivate this answer. And I’ll help you on this post.&lt;/p&gt;
-
-&lt;p&gt;We’re going through some definitions here. &lt;code&gt;Addition&lt;/code&gt; and &lt;code&gt;multiplication&lt;/code&gt; are examples of &lt;strong&gt;problems&lt;/strong&gt;. Some inputs, in this case &lt;code&gt;x, y&lt;/code&gt; are the inputs, or precisely, instances for which the problem has to solve. In principle, a problem has infinite instances that should be able to be solved.&lt;/p&gt;
-
-&lt;p&gt;Problems are often solvable by &lt;strong&gt;algorithms&lt;/strong&gt;. Intuitively, an algorithm is an instruction saying how to do the calculation that solves the problem for every possible instance. It must be precise and unambiguous, such that it can be delegated to a machine. The steps of an algorithm must consist of simple operations which can be done mechanically, without human intervention or appeal to human intelligence. They must not leave any room for subjective interpretations.&lt;/p&gt;
-
-&lt;p&gt;Computer programs are nowadays the way to execute algorithms, but algorithms existed already long before the advent of computers. The word is derived from the name &lt;em&gt;al-Khoarizmi&lt;/em&gt;, an Persian scholar (780–850) who wrote an early textbook on arithmetic calculations. Much earlier, various algorithms were already known to ancient mathematicians.&lt;/p&gt;
-
-&lt;p&gt;Examples of algorithms are the well-known “school methods” for adding or multipling two numbers on paper. These methods fulfill all the above criteria. They specify which simple operations with digits we have to do in which order, and how these partial results have to be combined to the correct final result.&lt;/p&gt;
-
-&lt;p&gt;We stress that an algorithm and a computer program is not the same thing! A program implements an algorithm, i.e., it realizes an algorithm in a specific programming language. But an algorithm as such is an abstract mathematical entity. This distinction is more than just academic hair-splitting, rather, it has two major practical consequences.&lt;/p&gt;
-
-&lt;p&gt;OK, then which one is the answer mister?&lt;/p&gt;
-
-&lt;p&gt;The answer lies on what we know with &lt;strong&gt;Time Complexity&lt;/strong&gt;. Good luck study on this guys. Welcome to the Algorithm class.&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;/blog/addition-vs-multiplication/&quot;&gt;Addition vs Multiplication&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on September 05, 2015.&lt;/p&gt;
   </content>
 </entry>
 
