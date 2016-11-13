@@ -42,9 +42,9 @@ One can leave Sweden and can't go back without any VISA. Waiting for 'already 3.
 
 **October 2016**
 
-And here it comes, the October. It was a month of an illegal stay in Sweden here I tell you. I couldn't go in Sweden, but I could go home to Indonesia. But Allah is the Great. Allah is the One Who Knows Everything. His plan on me during October subdued me with tranquility. Done with the study and got my final academic transcript (FINALLY!). My mom was getting new chemo pills and her body seemed to accept it pretty well. But still, I would like to meet her and spend times and telling her all my stories during the last 1.5 years. Yet still, I couldn't go anywhere else and I was just being me. I played Dota 2 prolifically to set the highest record of playing time during the last 2 years. I admit it as a lame achievement, but I like it. Hell yeah!
+And here it comes, the October. It was a month of an illegal stay in Sweden here I tell you. I could leave Sweden to go home, but I couldn't enter Sweden. But Allah is the Great. Allah is the One Who Knows Everything. His plan on me during October subdued me with tranquility. Done with the study and got my final academic transcript (FINALLY!). My mom was getting new chemo pills and her body seemed to accept it pretty well. But still, I would like to meet her and spend times and telling her all my stories during the last 1.5 years. Yet still, I couldn't go anywhere else and I was just being me. I played Dota 2 prolifically to set the highest record of playing time during the last 2 years. I admit it as a lame achievement, but I like it. Hell yeah. Then, the boss gave me a call and asked me to apply for the official job ads after 3 months.
 
-Then, the boss gave me a call and asked me to apply for the official job ads. Official since it was registered in Arbetsförmedlingen! Waiting again...
+Interview phase. Waiting. Written test. Waiting. Another interview. Waiting. Another technical interview. Waiting...
 
 **November 2016**
 
