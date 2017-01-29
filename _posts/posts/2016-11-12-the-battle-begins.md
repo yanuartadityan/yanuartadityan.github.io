@@ -9,7 +9,7 @@ image:
   feature:
   credit:
   creditlink:
-comments: true
+comments: false
 ---
 
 **Waiting is Hard**

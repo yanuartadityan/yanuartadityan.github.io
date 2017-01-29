@@ -9,7 +9,7 @@ image:
   feature:
   credit:
   creditlink:
-comments: true
+comments: false
 ---
 
 I'm writing this post in a cloudy Sunday morning, September 18th, in my favorite breakfast table inside my apartment. Mood is normal and everything seems to be awesome today.
