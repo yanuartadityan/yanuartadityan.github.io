@@ -1,27 +1,20 @@
 ## Information
 
-This blog is based on [Minimal Mistakes][1] Jekyll theme. Jekyll is perfect for powering up your GitHub hosted blog.
+Hi, welcome to my personal blog which is based on [Minimal Mistakes][1] Jekyll theme. Jekyll is responsive and static front-end generator purely developed on Ruby and Liquid.
 
 ## Minimal Mistakes Theme:
 
-* Responsive templates. Looking good on mobile, tablet, and desktop.
-* Gracefully degrading in older browsers. Compatible with Internet Explorer 8+ and all modern browsers. 
-* Minimal embellishments -- content first.
-* Optional large feature images for posts and pages.
-* Simple and clear permalink structure.
-* [Custom 404 page](http://mmistakes.github.io/minimal-mistakes/404.html) to get you started.
-* Support for Disqus Comments
+To check about the details of this awesome theme, check its [Homepage][1]. 
 
-## Screenshot
+## How to use:
 
-![screenshot of Minimal Mistakes theme](http://mmistakes.github.io/minimal-mistakes/images/mm-theme-post-600.jpg)
-
-See a [live version of Minimal Mistakes](http://mmistakes.github.io/minimal-mistakes/) hosted on GitHub.
-
-## Contact
-
-For any inquiries, contact me via email at yanuart.adityan[at]gmail.com
+* Install Jekyll
+* Clone this repository
+* Create your **Markdown** based posts on *_post*, *_tips* and *_tutorial*
+* Read [tutorial][2] on how to host it in Github
+* Commit! 
 
 
 
 [1]: http://mmistakes.github.io/minimal-mistakes
+[2]: https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
