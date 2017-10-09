@@ -42,4 +42,8 @@ Setiap mereka yang ingin mendaftar SIM di swedia, wajib ikut materi pembekalan r
 
 #### Theory Test
 
+Setiap test harus pesan jadwal dahulu sebelumnya, meskipun pembayaran boleh dilakukan maks 30 hari setelah tes. Tes pertama adalah tes teori menggunakan komputer. Peserta diharapkan untuk datang 15 menit sebelum tes, dicek latar belakangnya baru dipersilahkan duduk di kursi yang sudah ditentukan. Di setiap meja akan tersedia satu layar komputer, satu buah *mouse* dan satu buah *headphone*, itu saja. 
+
+Tes teori berupa total 70 pertanyaan yang berisi dari 65 soal utama, dan 5 soal *beta* sampel. 5 sampel ini tidak akan diberitahu dimana posisinya, tapi benar salahnya tidak akan dihitung. Yang dihitung hanyalah dari soal utama yang untuk lulus, dibutuhkan minimal 52. Waktu yang diberikan adalah 50 menit dan gunakan 5 menit terakhir untuk koreksi. Gw perlu tes tiga kali sebelum akhirnya lulus. Skor dari tes pertama berurutan adalah 51, 51 dan 59. Gilaaaa.
+
 #### Practice Test
