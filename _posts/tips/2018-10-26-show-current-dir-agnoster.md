@@ -8,7 +8,7 @@ comments: false
 tags: [tips, macos, terminal]
 ---
 
-::Agnoster:: is one of the simplest and cleaner theme for your *oh-my-zsh* mod for your ZSH. However, having the entire *pwd* shown in your prompt would make the terminal less efficient.
+`Agnoster` is one of the simplest and cleaner theme for your *oh-my-zsh* mod for your ZSH. However, having the entire *pwd* shown in your prompt would make the terminal less efficient.
 
 To begin with, add these lines in your *.zshrc*:
 
@@ -18,4 +18,4 @@ prompt_dir() {
 }
 ```
 
-And do ::$ source .zshrc:: and you're good to go! VOILA!
+And do `$ source .zshrc` and you're good to go! VOILA!
