@@ -18,4 +18,8 @@ prompt_dir() {
 }
 ```
 
+<div style="text-align:center;">
+	<img src="{{site.url}}/images/post-agnoster.gif" alt="">
+</div>
+
 And do `$ source .zshrc` and you're good to go! VOILA!
