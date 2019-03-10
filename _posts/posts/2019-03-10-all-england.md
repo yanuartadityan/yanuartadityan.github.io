@@ -15,11 +15,11 @@ image:
 
 <br/>
 
-<p style="text-align: center;">
+<!-- <p style="text-align: center;">
 <img src="{{site.url}}/images/post-mtv.jpg">
-</p>
+</p> -->
 
-Tahun ini, Indonesia punya [2 pemain tunggal putra][01] di top 10 BWF, [3 ganda putra][2] dan [satu ganda campuran][3] dan tidak satupun nama di bagian tunggal ataupun ganda putri. Ganda putra selalu menjadi andalan dengan 3 pasangan ada di top 10 dengan Kevin Sanjaya Sukamuljo & Marcus Fernaldi Gideon memuncaki ranking 2 tahun terakhir ini. 
+Tahun ini, Indonesia punya [2 pemain tunggal putra][1] di top 10 BWF, [3 ganda putra][2] dan [satu ganda campuran][3] dan tidak satupun nama di bagian tunggal ataupun ganda putri. Ganda putra selalu menjadi andalan dengan 3 pasangan ada di top 10 dengan Kevin Sanjaya Sukamuljo & Marcus Fernaldi Gideon memuncaki ranking 2 tahun terakhir ini. 
 
 Sekilas memang sepertinya tidak ada problem mencari talenta dan bakat di sektor putra, tapi beberapa tahun terakhir ini memang Indonesia seperti *libur panjang* dalam mengisi top rank sektor putri. Yah, tapi memang mau berharap tinggi juga susah karena jaman sekarang talent-talent muda badminton Indonesia pasti lebih milih jadi *someone else* daripada lanjut main badminton. Tapi ini cuman sarkasme saya saja sih, mungkin di dalam Pelatnas sebenarnya banyak banget talent-talent terbaik dari seluruh penjuru Indonesia sedang berlatih keras menjadi pilihan negara di tiap kalender kompetisi BWF. 
 
