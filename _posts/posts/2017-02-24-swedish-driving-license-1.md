@@ -5,7 +5,7 @@ modified:
 category: blog
 excerpt: "Petualangan mencari SIM di Swedia"
 tags: [indonesian, driving license]
-image: 'https://blogs.transparent.com/swedish/files/2012/07/%C3%B6vningsk%C3%B6rning-privat1.jpeg'
+image: https://blogs.transparent.com/swedish/files/2012/07/%C3%B6vningsk%C3%B6rning-privat1.jpeg
   feature:
   credit:
   creditlink:
