@@ -11,9 +11,9 @@ comments: false
 
 <br/>
 
-<!-- <p style="text-align: center;">
-<img src="{{site.url}}/images/post-mtv.jpg">
-</p> -->
+<p style="text-align: center;">
+<img src="{{site.url}}/images/post-apt-1.png">
+</p>
 
 Shock adalah muka kita berdua tatkala sore-sore di akhir bulan Februari 2019kita menerima berita dari *landlord* bahwa kita hanya bisa tinggal di apartemen kita waktu itu sampai akhir April. Gimana ga lha wong dia menjanjikan bahwa kontrak kita (cuman sampai akhir Desember 2018) bisa di *prolong* sampai Juni 2019. Otomatis kita mah santai-santai saja, cuman ternyata kenyataan memang pahit.
 
