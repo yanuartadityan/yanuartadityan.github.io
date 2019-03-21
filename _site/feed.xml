@@ -2,33 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title type="text">Mirkwood Ape</title>
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="/feed.xml" />
-<link rel="alternate" type="text/html" href="" />
-<updated>2019-03-21T04:19:30+01:00</updated>
-<id>/</id>
+<link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml" />
+<link rel="alternate" type="text/html" href="http://localhost:4000" />
+<updated>2019-03-21T04:42:09+01:00</updated>
+<id>http://localhost:4000/</id>
 <author>
   <name>Yanuar Aditya</name>
-  <uri>/</uri>
+  <uri>http://localhost:4000/</uri>
   <email>yanuart.adityan@gmail.com</email>
 </author>
 
 
 <entry>
   <title type="html"><![CDATA[Hipster Apartment Story]]></title>
-  <link rel="alternate" type="text/html" href="/blog/new-apartment/" />
-  <id>/blog/new-apartment</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/blog/new-apartment/" />
+  <id>http://localhost:4000/blog/new-apartment</id>
   <published>2019-03-19T00:00:00+01:00</published>
   <updated>2019-03-19T00:00:00+01:00</updated>
   <author>
     <name>Yanuar Aditya</name>
-    <uri></uri>
+    <uri>http://localhost:4000</uri>
     <email>yanuart.adityan@gmail.com</email>
   </author>
   <content type="html">
     &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;p style=&quot;text-align: center;&quot;&gt;
-&lt;img src=&quot;/images/post-apt-1.png&quot; /&gt;
+&lt;img src=&quot;http://localhost:4000/images/post-apt-1.png&quot; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;Shock adalah muka kita berdua tatkala sore-sore di akhir bulan Februari 2019kita menerima berita dari &lt;em&gt;landlord&lt;/em&gt; bahwa kita hanya bisa tinggal di apartemen kita waktu itu sampai akhir April. Gimana ga lha wong dia menjanjikan bahwa kontrak kita (cuman sampai akhir Desember 2018) bisa di &lt;em&gt;prolong&lt;/em&gt; sampai Juni 2019. Otomatis kita mah santai-santai saja, cuman ternyata kenyataan memang pahit.&lt;/p&gt;
@@ -50,20 +50,20 @@
 &lt;p&gt;Semoga proses tanda tangan kontrak di minggu ini lancar sampai kita bisa pindah resmi kesini nanti di akhir April. &lt;em&gt;Wish us luck!&lt;/em&gt;&lt;/p&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;/blog/new-apartment/&quot;&gt;Hipster Apartment Story&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on March 19, 2019.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/blog/new-apartment/&quot;&gt;Hipster Apartment Story&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mirkwood Ape&lt;/a&gt; on March 19, 2019.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Update on Life #1]]></title>
-  <link rel="alternate" type="text/html" href="/blog/update/" />
-  <id>/blog/update</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/blog/update/" />
+  <id>http://localhost:4000/blog/update</id>
   <published>2019-03-10T00:00:00+01:00</published>
   <updated>2019-03-10T00:00:00+01:00</updated>
   <author>
     <name>Yanuar Aditya</name>
-    <uri></uri>
+    <uri>http://localhost:4000</uri>
     <email>yanuart.adityan@gmail.com</email>
   </author>
   <content type="html">
@@ -76,27 +76,27 @@
 &lt;p&gt;Kita tinggal di sebuah apartemen yang kita kontrak dari orang lain (&lt;em&gt;andrahand lägenhet&lt;/em&gt;) atau sekenhen kontrak. Problem dari kontrak ginian tuh, kita ga bisa seenaknya otak-atik isi rumah, karena masih banyak perabotan dan furnitur bawaan yang punya rumahnya. Mentok-mentok, kita nambah tanaman (sebulan beli satu pot, setahun jadi banyak banget), trus beli meja kerja istri, trus akhirnya beli &lt;em&gt;workstation desktop&lt;/em&gt; lagi. Pas istri kerja sambil gambar-gambar, di belakangnya saya akhirnya bisa main game lagi setelah 3 tahun engga nge-game. Ituuu niatnya, walau kenyataan lumayan juga nge-game, paling ngoding-ngoding dikit karena di kantor lama-lama dapet kerjaan yang lebih konsep, daripada ngoding, jadi harus pinter-pinter cari waktu buat ngasah skill di luar jam kerja. Fokus 2019, belajar DNN/CNN, Multiview Geometries dan Docker. Realisasi sampai bulat Maret adalah 0.5/100 persen.&lt;/p&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;/blog/update/&quot;&gt;Update on Life #1&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on March 10, 2019.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/blog/update/&quot;&gt;Update on Life #1&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mirkwood Ape&lt;/a&gt; on March 10, 2019.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Fight For Existency Indonesia!]]></title>
-  <link rel="alternate" type="text/html" href="/blog/all-england/" />
-  <id>/blog/all-england</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/blog/all-england/" />
+  <id>http://localhost:4000/blog/all-england</id>
   <published>2019-03-10T00:00:00+01:00</published>
   <updated>2019-03-10T00:00:00+01:00</updated>
   <author>
     <name>Yanuar Aditya</name>
-    <uri></uri>
+    <uri>http://localhost:4000</uri>
     <email>yanuart.adityan@gmail.com</email>
   </author>
   <content type="html">
     &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;!-- &lt;p style=&quot;text-align: center;&quot;&gt;
-&lt;img src=&quot;/images/post-mtv.jpg&quot;&gt;
+&lt;img src=&quot;http://localhost:4000/images/post-mtv.jpg&quot;&gt;
 &lt;/p&gt; --&gt;
 
 &lt;p&gt;Tahun ini, Indonesia punya &lt;a href=&quot;https://bwfbadminton.com/rankings/&quot;&gt;2 pemain tunggal putra&lt;/a&gt; di top 10 BWF, &lt;a href=&quot;https://bwfbadminton.com/rankings/2/bwf-world-rankings/8/men-s-doubles/2019/10/?rows=25&amp;amp;page_no=1\&quot;&gt;3 ganda putra&lt;/a&gt; dan &lt;a href=&quot;https://bwfbadminton.com/rankings/2/bwf-world-rankings/10/mixed-doubles/2019/10/?rows=25&amp;amp;page_no=1&quot;&gt;satu ganda campuran&lt;/a&gt; dan tidak satupun nama di bagian tunggal ataupun ganda putri. Ganda putra selalu menjadi andalan dengan 3 pasangan ada di top 10 dengan Kevin Sanjaya Sukamuljo &amp;amp; Marcus Fernaldi Gideon memuncaki ranking 2 tahun terakhir ini.&lt;/p&gt;
@@ -110,20 +110,20 @@
 &lt;p&gt;Go Indonesia!&lt;/p&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;/blog/all-england/&quot;&gt;Fight For Existency Indonesia!&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on March 10, 2019.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/blog/all-england/&quot;&gt;Fight For Existency Indonesia!&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mirkwood Ape&lt;/a&gt; on March 10, 2019.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Show only current directory in Agnoster]]></title>
-  <link rel="alternate" type="text/html" href="/tips/show-current-dir-agnoster/" />
-  <id>/tips/show-current-dir-agnoster</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/tips/show-current-dir-agnoster/" />
+  <id>http://localhost:4000/tips/show-current-dir-agnoster</id>
   <published>2018-10-26T00:00:00+02:00</published>
   <updated>2018-10-26T00:00:00+02:00</updated>
   <author>
     <name>Yanuar Aditya</name>
-    <uri></uri>
+    <uri>http://localhost:4000</uri>
     <email>yanuart.adityan@gmail.com</email>
   </author>
   <content type="html">
@@ -137,25 +137,25 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;div style=&quot;text-align:center;&quot;&gt;
-	&lt;img src=&quot;/images/post-agnoster.gif&quot; alt=&quot;&quot; /&gt;
+	&lt;img src=&quot;http://localhost:4000/images/post-agnoster.gif&quot; alt=&quot;&quot; /&gt;
 &lt;/div&gt;
 
 &lt;p&gt;And do &lt;code class=&quot;highlighter-rouge&quot;&gt;$ source .zshrc&lt;/code&gt; and you’re good to go! VOILA!&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/tips/show-current-dir-agnoster/&quot;&gt;Show only current directory in Agnoster&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 26, 2018.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/tips/show-current-dir-agnoster/&quot;&gt;Show only current directory in Agnoster&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 26, 2018.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Case-Insensitive Bash]]></title>
-  <link rel="alternate" type="text/html" href="/tips/bash-case-insensitive/" />
-  <id>/tips/bash-case-insensitive</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/tips/bash-case-insensitive/" />
+  <id>http://localhost:4000/tips/bash-case-insensitive</id>
   <published>2018-10-24T00:00:00+02:00</published>
   <updated>2018-10-24T00:00:00+02:00</updated>
   <author>
     <name>Yanuar Aditya</name>
-    <uri></uri>
+    <uri>http://localhost:4000</uri>
     <email>yanuart.adityan@gmail.com</email>
   </author>
   <content type="html">
@@ -168,20 +168,20 @@
 
 &lt;p&gt;Cheers!&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/tips/bash-case-insensitive/&quot;&gt;Case-Insensitive Bash&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 24, 2018.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/tips/bash-case-insensitive/&quot;&gt;Case-Insensitive Bash&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 24, 2018.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Enable APTX support on MacOS]]></title>
-  <link rel="alternate" type="text/html" href="/tips/enable-aptx-macos/" />
-  <id>/tips/enable-aptx-macos</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/tips/enable-aptx-macos/" />
+  <id>http://localhost:4000/tips/enable-aptx-macos</id>
   <published>2018-10-22T00:00:00+02:00</published>
   <updated>2018-10-22T00:00:00+02:00</updated>
   <author>
     <name>Yanuar Aditya</name>
-    <uri></uri>
+    <uri>http://localhost:4000</uri>
     <email>yanuart.adityan@gmail.com</email>
   </author>
   <content type="html">
@@ -190,20 +190,20 @@
 Run the explorer and enable APTX or AAC from the audio codec settings.
 Connect your APTX/AAC supported headphones and enjoy the free upgrade in your audio quality.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/tips/enable-aptx-macos/&quot;&gt;Enable APTX support on MacOS&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 22, 2018.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/tips/enable-aptx-macos/&quot;&gt;Enable APTX support on MacOS&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 22, 2018.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[July 30th 2017!]]></title>
-  <link rel="alternate" type="text/html" href="/blog/finally/" />
-  <id>/blog/finally</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/blog/finally/" />
+  <id>http://localhost:4000/blog/finally</id>
   <published>2017-08-26T00:00:00+02:00</published>
   <updated>2017-08-26T00:00:00+02:00</updated>
   <author>
     <name>Yanuar Aditya</name>
-    <uri></uri>
+    <uri>http://localhost:4000</uri>
     <email>yanuart.adityan@gmail.com</email>
   </author>
   <content type="html">
@@ -213,20 +213,20 @@ Connect your APTX/AAC supported headphones and enjoy the free upgrade in your au
 
 &lt;p&gt;Acara pernikahan berlangsung dua kali (seperti biasa di adat Jawa), satu di Jakarta dan satu di Madiun dengan 7 hari jeda diantaranya. Rasanya capek tapi beneran lega setelah melalui semuanya. Gilaaaaa capek banget, bahkan yang niatnya jalan-jalan seneng-seneng di 7 hari ini, isinya hanya &lt;em&gt;Game of Thrones&lt;/em&gt; dan jalan-jalan makan-makan tidur-tiduran &amp;lt;3. Untuk yang terakhir ini, emang gw ama Nesia cocok banget kayaknya ngabisini waktu kosong kita.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/blog/finally/&quot;&gt;July 30th 2017!&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on August 26, 2017.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/blog/finally/&quot;&gt;July 30th 2017!&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mirkwood Ape&lt;/a&gt; on August 26, 2017.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Swedish Driving License]]></title>
-  <link rel="alternate" type="text/html" href="/blog/swedish-driving-license-1/" />
-  <id>/blog/swedish-driving-license-1</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/blog/swedish-driving-license-1/" />
+  <id>http://localhost:4000/blog/swedish-driving-license-1</id>
   <published>2017-02-24T00:00:00+01:00</published>
   <updated>2017-02-24T00:00:00+01:00</updated>
   <author>
     <name>Yanuar Aditya</name>
-    <uri></uri>
+    <uri>http://localhost:4000</uri>
     <email>yanuart.adityan@gmail.com</email>
   </author>
   <content type="html">
@@ -271,20 +271,20 @@ Connect your APTX/AAC supported headphones and enjoy the free upgrade in your au
 
 &lt;p&gt;Setelah kamu masuk, jangan lupa untuk melakukan semuanya yang telah diajarkan di kelas seperti cek spion kiri kanan dan tengah, cek lampu DRL (&lt;em&gt;Daytime Running Light&lt;/em&gt;) dan sabuk pengaman. Setelah itu inspektur akan memberikan instruksi dengan singkat padat dan kadang kurang terlalu jelas. Jangan malu untuk bertanya jika kurang jelas.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/blog/swedish-driving-license-1/&quot;&gt;Swedish Driving License&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on February 24, 2017.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/blog/swedish-driving-license-1/&quot;&gt;Swedish Driving License&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mirkwood Ape&lt;/a&gt; on February 24, 2017.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Birthday Boy]]></title>
-  <link rel="alternate" type="text/html" href="/blog/29-yo/" />
-  <id>/blog/29-yo</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/blog/29-yo/" />
+  <id>http://localhost:4000/blog/29-yo</id>
   <published>2017-01-29T00:00:00+01:00</published>
   <updated>2017-01-29T00:00:00+01:00</updated>
   <author>
     <name>Yanuar Aditya</name>
-    <uri></uri>
+    <uri>http://localhost:4000</uri>
     <email>yanuart.adityan@gmail.com</email>
   </author>
   <content type="html">
@@ -303,20 +303,20 @@ Connect your APTX/AAC supported headphones and enjoy the free upgrade in your au
 &lt;h2 id=&quot;whats-in-february&quot;&gt;What’s in February?&lt;/h2&gt;
 &lt;p&gt;3 months of adaptation chapter has started to become less uncomfortable and more convenient. I know some people, mostly new colleagues and I’ve found some similar situations we are facing together. Bounded by lack of experiences has created a fun and positive atmosphere on a collective kind of study. Kind of entering new class with full of new students feeling. It is awesome and what is left now is just two main parts, a driving license and a proper apartment.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/blog/29-yo/&quot;&gt;Birthday Boy&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on January 29, 2017.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/blog/29-yo/&quot;&gt;Birthday Boy&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mirkwood Ape&lt;/a&gt; on January 29, 2017.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Chapter: Sweden]]></title>
-  <link rel="alternate" type="text/html" href="/blog/the-battle-begins/" />
-  <id>/blog/the-battle-begins</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/blog/the-battle-begins/" />
+  <id>http://localhost:4000/blog/the-battle-begins</id>
   <published>2016-11-12T00:00:00+01:00</published>
   <updated>2016-11-12T00:00:00+01:00</updated>
   <author>
     <name>Yanuar Aditya</name>
-    <uri></uri>
+    <uri>http://localhost:4000</uri>
     <email>yanuart.adityan@gmail.com</email>
   </author>
   <content type="html">
@@ -359,20 +359,20 @@ Connect your APTX/AAC supported headphones and enjoy the free upgrade in your au
 &lt;p&gt;Best of the best. I got both the fruits: 6 months extra stay and a piece of paper from the last test of the employment, a drug-test result form…
 The longer you wait, the bigger amount of uncertainty is introduced. In the end, a huge amount of surprise will follow a turnaround ending. In this story, a sweet ending it is. But I just couldn’t smile since I know the battle has just started, both for me, my mom and everyone else.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/blog/the-battle-begins/&quot;&gt;Chapter: Sweden&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on November 12, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/blog/the-battle-begins/&quot;&gt;Chapter: Sweden&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mirkwood Ape&lt;/a&gt; on November 12, 2016.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[360˚ of Myself]]></title>
-  <link rel="alternate" type="text/html" href="/blog/recap-of-my-life/" />
-  <id>/blog/recap-of-my-life</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/blog/recap-of-my-life/" />
+  <id>http://localhost:4000/blog/recap-of-my-life</id>
   <published>2016-09-18T00:00:00+02:00</published>
   <updated>2016-09-18T00:00:00+02:00</updated>
   <author>
     <name>Yanuar Aditya</name>
-    <uri></uri>
+    <uri>http://localhost:4000</uri>
     <email>yanuart.adityan@gmail.com</email>
   </author>
   <content type="html">
@@ -386,20 +386,20 @@ While it seems fine and fit within some kind of long term plan of mine, I felt l
 &lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt; I never really capable of answering questions about what do I always want with this life. Now, I do know the answer. I want to be an engineer worth $10M. It gives hope to me and hopefully more people to come. I am in this state not because I foresaw this chance, I just followed the path in front of me and taking the turn just because I like to do with it. Opportunity does exist in any path to your dreams. But, it’s not gonna be your dream if you don’t like things you’ll encounter along the path.&lt;/p&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;/blog/recap-of-my-life/&quot;&gt;360˚ of Myself&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on September 18, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/blog/recap-of-my-life/&quot;&gt;360˚ of Myself&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mirkwood Ape&lt;/a&gt; on September 18, 2016.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Interview QA]]></title>
-  <link rel="alternate" type="text/html" href="/tips/interview-session/" />
-  <id>/tips/interview-session</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/tips/interview-session/" />
+  <id>http://localhost:4000/tips/interview-session</id>
   <published>2016-05-02T00:00:00+02:00</published>
   <updated>2016-05-02T00:00:00+02:00</updated>
   <author>
     <name>Yanuar Aditya</name>
-    <uri></uri>
+    <uri>http://localhost:4000</uri>
     <email>yanuart.adityan@gmail.com</email>
   </author>
   <content type="html">
@@ -457,20 +457,20 @@ So, I was working on this company … back then in … when I was responsible fo
 
 &lt;p&gt;Good luck and lycka till!&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/tips/interview-session/&quot;&gt;Interview QA&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on May 02, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/tips/interview-session/&quot;&gt;Interview QA&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mirkwood Ape&lt;/a&gt; on May 02, 2016.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Change Tree View Font Size in Atom]]></title>
-  <link rel="alternate" type="text/html" href="/tips/atom-tree-view-size/" />
-  <id>/tips/atom-tree-view-size</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/tips/atom-tree-view-size/" />
+  <id>http://localhost:4000/tips/atom-tree-view-size</id>
   <published>2016-04-20T00:00:00+02:00</published>
   <updated>2016-04-20T00:00:00+02:00</updated>
   <author>
     <name>Yanuar Aditya</name>
-    <uri></uri>
+    <uri>http://localhost:4000</uri>
     <email>yanuart.adityan@gmail.com</email>
   </author>
   <content type="html">
@@ -490,7 +490,7 @@ So, I was working on this company … back then in … when I was responsible fo
 &lt;p&gt;Check it out with font-size 10 (side bar) and editor font-size 9.&lt;/p&gt;
 
 &lt;p style=&quot;text-align: center;&quot;&gt;
-  &lt;img src=&quot;/images/post-mac-tips-atom.png&quot; /&gt;
+  &lt;img src=&quot;http://localhost:4000/images/post-mac-tips-atom.png&quot; /&gt;
 &lt;/p&gt;
 
 &lt;p&gt;Now each window can fit on my 15” rMBP. Perfect!&lt;/p&gt;
@@ -498,20 +498,20 @@ So, I was working on this company … back then in … when I was responsible fo
 &lt;p&gt;&lt;br /&gt;
 Cheers and happy coding.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/tips/atom-tree-view-size/&quot;&gt;Change Tree View Font Size in Atom&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on April 20, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/tips/atom-tree-view-size/&quot;&gt;Change Tree View Font Size in Atom&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mirkwood Ape&lt;/a&gt; on April 20, 2016.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Git Add and Commit in Single Command]]></title>
-  <link rel="alternate" type="text/html" href="/tips/git-add-commit/" />
-  <id>/tips/git-add-commit</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/tips/git-add-commit/" />
+  <id>http://localhost:4000/tips/git-add-commit</id>
   <published>2016-04-19T00:00:00+02:00</published>
   <updated>2016-04-19T00:00:00+02:00</updated>
   <author>
     <name>Yanuar Aditya</name>
-    <uri></uri>
+    <uri>http://localhost:4000</uri>
     <email>yanuart.adityan@gmail.com</email>
   </author>
   <content type="html">
@@ -539,20 +539,20 @@ $ git addcommit -m 'commit message'
 &lt;p&gt;&lt;br /&gt;
 Happy coding and cheers!&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/tips/git-add-commit/&quot;&gt;Git Add and Commit in Single Command&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on April 19, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/tips/git-add-commit/&quot;&gt;Git Add and Commit in Single Command&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mirkwood Ape&lt;/a&gt; on April 19, 2016.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[People Changed, I Did and You Can]]></title>
-  <link rel="alternate" type="text/html" href="/blog/working-with-people/" />
-  <id>/blog/working-with-people</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/blog/working-with-people/" />
+  <id>http://localhost:4000/blog/working-with-people</id>
   <published>2016-04-08T00:00:00+02:00</published>
   <updated>2016-04-08T00:00:00+02:00</updated>
   <author>
     <name>Yanuar Aditya</name>
-    <uri></uri>
+    <uri>http://localhost:4000</uri>
     <email>yanuart.adityan@gmail.com</email>
   </author>
   <content type="html">
@@ -581,20 +581,20 @@ Happy coding and cheers!&lt;/p&gt;
 
 &lt;p&gt;I did, I am and will always admire you. I guess I am lucky to have you here, thousand miles from home. You’re very special person that first time on my life, I do feel that I always have a time to share with (you). The way you always seek forward and never look back was an inspiration for me. I would say, you’re a &lt;em&gt;dynamic programming&lt;/em&gt; person, are you not? You learned from what you did, and plan everything carefully. The perfectionist at its best, deliver only the best and with unrivaled focus ability. I apologize for defocusing you (often) these days.&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/blog/working-with-people/&quot;&gt;People Changed, I Did and You Can&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on April 08, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/blog/working-with-people/&quot;&gt;People Changed, I Did and You Can&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mirkwood Ape&lt;/a&gt; on April 08, 2016.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[The Six Months of Battle]]></title>
-  <link rel="alternate" type="text/html" href="/blog/thesis/" />
-  <id>/blog/thesis</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/blog/thesis/" />
+  <id>http://localhost:4000/blog/thesis</id>
   <published>2016-02-02T00:00:00+01:00</published>
   <updated>2016-02-02T00:00:00+01:00</updated>
   <author>
     <name>Yanuar Aditya</name>
-    <uri></uri>
+    <uri>http://localhost:4000</uri>
     <email>yanuart.adityan@gmail.com</email>
   </author>
   <content type="html">
@@ -645,20 +645,20 @@ Happy coding and cheers!&lt;/p&gt;
 
 &lt;p&gt;(April project)&lt;/p&gt;
 
-    &lt;p&gt;&lt;a href=&quot;/blog/thesis/&quot;&gt;The Six Months of Battle&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on February 02, 2016.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/blog/thesis/&quot;&gt;The Six Months of Battle&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mirkwood Ape&lt;/a&gt; on February 02, 2016.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Make IT Matter]]></title>
-  <link rel="alternate" type="text/html" href="/blog/make-it-matter/" />
-  <id>/blog/make-it-matter</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/blog/make-it-matter/" />
+  <id>http://localhost:4000/blog/make-it-matter</id>
   <published>2015-10-12T00:00:00+02:00</published>
   <updated>2015-10-12T00:00:00+02:00</updated>
   <author>
     <name>Yanuar Aditya</name>
-    <uri></uri>
+    <uri>http://localhost:4000</uri>
     <email>yanuart.adityan@gmail.com</email>
   </author>
   <content type="html">
@@ -709,20 +709,20 @@ Happy coding and cheers!&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Yanu&lt;/em&gt;&lt;/p&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;/blog/make-it-matter/&quot;&gt;Make IT Matter&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 12, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/blog/make-it-matter/&quot;&gt;Make IT Matter&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 12, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Real-Time 3D Globe Site Visitor Monitoring]]></title>
-  <link rel="alternate" type="text/html" href="/tips/globe-real-time-monitoring/" />
-  <id>/tips/globe-real-time-monitoring</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/tips/globe-real-time-monitoring/" />
+  <id>http://localhost:4000/tips/globe-real-time-monitoring</id>
   <published>2015-10-10T00:00:00+02:00</published>
   <updated>2015-10-10T00:00:00+02:00</updated>
   <author>
     <name>Yanuar Aditya</name>
-    <uri></uri>
+    <uri>http://localhost:4000</uri>
     <email>yanuart.adityan@gmail.com</email>
   </author>
   <content type="html">
@@ -753,20 +753,20 @@ Happy coding and cheers!&lt;/p&gt;
 &lt;p&gt;Cheers!&lt;/p&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;/tips/globe-real-time-monitoring/&quot;&gt;Real-Time 3D Globe Site Visitor Monitoring&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 10, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/tips/globe-real-time-monitoring/&quot;&gt;Real-Time 3D Globe Site Visitor Monitoring&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 10, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[C #8 | I/O in C]]></title>
-  <link rel="alternate" type="text/html" href="/waga/c-tutor-8/" />
-  <id>/waga/c-tutor-8</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/waga/c-tutor-8/" />
+  <id>http://localhost:4000/waga/c-tutor-8</id>
   <published>2015-10-08T00:00:00+02:00</published>
   <updated>2015-10-08T00:00:00+02:00</updated>
   <author>
     <name>Yanuar Aditya</name>
-    <uri></uri>
+    <uri>http://localhost:4000</uri>
     <email>yanuart.adityan@gmail.com</email>
   </author>
   <content type="html">
@@ -861,20 +861,20 @@ First of all, we will learn how to retrieve user’s name as string arrays. It�
 &lt;p&gt;Next, we will try to exploit another way to pass user’s inputs into our program by &lt;a href=&quot;http://yanuartadityan.github.io/waga/c-tutor-8&quot;&gt;reading files and passing arguments&lt;/a&gt;.&lt;/p&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;/waga/c-tutor-8/&quot;&gt;C #8 | I/O in C&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 08, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/waga/c-tutor-8/&quot;&gt;C #8 | I/O in C&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 08, 2015.&lt;/p&gt;
   </content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Hide Working Directory in Terminal]]></title>
-  <link rel="alternate" type="text/html" href="/tips/hide-directory-terminal/" />
-  <id>/tips/hide-directory-terminal</id>
+  <link rel="alternate" type="text/html" href="http://localhost:4000/tips/hide-directory-terminal/" />
+  <id>http://localhost:4000/tips/hide-directory-terminal</id>
   <published>2015-10-08T00:00:00+02:00</published>
   <updated>2015-10-08T00:00:00+02:00</updated>
   <author>
     <name>Yanuar Aditya</name>
-    <uri></uri>
+    <uri>http://localhost:4000</uri>
     <email>yanuart.adityan@gmail.com</email>
   </author>
   <content type="html">
@@ -905,7 +905,7 @@ thirdDir $
 &lt;p&gt;Look what you can do &lt;a href=&quot;http://www.ibm.com/developerworks/linux/library/l-tip-prompt/&quot;&gt;more&lt;/a&gt; on command prompt (UNIX/Linux).&lt;/p&gt;
 
 
-    &lt;p&gt;&lt;a href=&quot;/tips/hide-directory-terminal/&quot;&gt;Hide Working Directory in Terminal&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 08, 2015.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;http://localhost:4000/tips/hide-directory-terminal/&quot;&gt;Hide Working Directory in Terminal&lt;/a&gt; was originally published by Yanuar Aditya at &lt;a href=&quot;http://localhost:4000&quot;&gt;Mirkwood Ape&lt;/a&gt; on October 08, 2015.&lt;/p&gt;
   </content>
 </entry>
 
