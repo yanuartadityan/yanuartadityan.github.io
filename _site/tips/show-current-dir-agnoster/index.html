@@ -1,0 +1,207 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Show only current directory in Agnoster &#8211; Mirkwood Ape</title>
+<meta name="description" content="Making your ZSH a bit cleaner">
+<meta name="keywords" content="tips, macos, terminal">
+
+
+<!-- Twitter Cards -->
+<meta name="twitter:title" content="Show only current directory in Agnoster">
+<meta name="twitter:description" content="Making your ZSH a bit cleaner">
+<meta name="twitter:site" content="@yanuartadityan">
+<meta name="twitter:creator" content="@yanuartadityan">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="/images/default-thumb.png">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Show only current directory in Agnoster">
+<meta property="og:description" content="Making your ZSH a bit cleaner">
+<meta property="og:url" content="/tips/show-current-dir-agnoster/">
+<meta property="og:site_name" content="Mirkwood Ape">
+
+
+
+
+
+<link rel="canonical" href="/tips/show-current-dir-agnoster/">
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Mirkwood Ape Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- HTML5 Shiv and Media Query Support -->
+<!--[if lt IE 9]>
+	<script src="/assets/js/vendor/html5shiv.min.js"></script>
+	<script src="/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+
+<!-- Modernizr -->
+<script src="/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+<link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+
+<!-- added by adit -->
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200' rel='stylesheet' type='text/css'>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<!-- <link rel="shortcut icon" href="/favicon.ico"> -->
+<!-- 32x32 -->
+<!-- <link rel="shortcut icon" href="/favicon.png"> -->
+<link rel="shortcut icon" href="/icon_flame.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/apple-touch-icon-144x144-precomposed.png">
+
+</head>
+
+<body class="post">
+
+<!--[if lt IE 9]><div class="browser-upgrade alert alert-info">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div><![endif]-->
+
+<div class="navigation-wrapper">
+	<div class="site-name">
+		<a href="/">Mirkwood Ape</a>
+	</div><!-- /.site-name -->
+	<div class="top-navigation">
+		<nav role="navigation" id="site-nav" class="nav">
+		    <ul>
+		        
+				    
+					<!-- <li><a href="/posts/" style="color:red;" >/</a><a href="/posts/" >Blog</a></li> -->
+				    <li><a href="/posts/">Blog</a></li>
+				
+				    
+					<!-- <li><a href="/tutorial/" style="color:red;" >/</a><a href="/tutorial/" >Tutorial</a></li> -->
+				    <li><a href="/tutorial/">Tutorial</a></li>
+				
+				    
+					<!-- <li><a href="/tips/" style="color:red;" >/</a><a href="/tips/" >Tips</a></li> -->
+				    <li><a href="/tips/">Tips</a></li>
+				
+				    
+					<!-- <li><a href="/about/" style="color:red;" >/</a><a href="/about/" >About</a></li> -->
+				    <li><a href="/about/">About</a></li>
+				
+		    </ul>
+		</nav>
+	</div><!-- /.top-navigation -->
+</div><!-- /.navigation-wrapper -->
+
+
+
+
+<div id="main" role="main">
+  <div class="article-author-side">
+    
+
+<div itemscope itemtype="http://schema.org/Person">
+
+
+	<img src="/images/bio-birthday-boy.png" class="bio-photo" alt="Yanuar Aditya bio photo">
+
+
+  <h3 itemprop="name">Yanuar Aditya</h3>
+  <p>Dota & Volvo Cars</p>
+  <a href="mailto:yanuart.adityan@gmail.com" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-square"></i> Email</a>
+  <a href="http://twitter.com/yanuartadityan" class="author-social" target="_blank"><i class="fa fa-fw fa-twitter-square"></i> Twitter</a>
+  
+  
+  <a href="http://linkedin.com/in/yanuartadityan" class="author-social" target="_blank"><i class="fa fa-fw fa-linkedin-square"></i> LinkedIn</a>
+  
+  <a href="http://instagram.com/yanuartadityan" class="author-social" target="_blank"><i class="fa fa-fw fa-instagram"></i> Instagram</a>
+  
+  <a href="http://github.com/yanuartadityan" class="author-social" target="_blank"><i class="fa fa-fw fa-github"></i> Github</a>
+  
+  
+  
+  
+  
+  <a href="http://steamcommunity.com/id/thekonar" class="author-social" target="_blank"><i class="fa fa-fw fa-steam-square"></i> Steam</a>
+  
+  
+  
+  
+</div>
+
+  </div>
+  <article class="post">
+    <div class="headline-wrap">
+      
+        <h1><a href="/tips/show-current-dir-agnoster/" rel="bookmark" title="Show only current directory in Agnoster">Show only current directory in Agnoster</a></h1>
+      
+    </div><!--/ .headline-wrap -->
+    <div class="article-wrap">
+      <p><code class="highlighter-rouge">Agnoster</code> is one of the simplest and cleaner theme for your <em>oh-my-zsh</em> mod for your ZSH. However, having the entire <em>pwd</em> shown in your prompt would make the terminal less efficient.</p>
+
+<p>To begin with, add these lines in your <em>.zshrc</em>:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>prompt_dir() {
+    prompt_segment blue black "${PWD##*/}"
+}
+</code></pre></div></div>
+
+<div style="text-align:center;">
+	<img src="/images/post-agnoster.gif" alt="" />
+</div>
+
+<p>And do <code class="highlighter-rouge">$ source .zshrc</code> and you’re good to go! VOILA!</p>
+
+      <hr />
+      <footer role="contentinfo">
+        
+        <p class="byline"><strong>Show only current directory in Agnoster</strong> was published on <time datetime="2018-10-26T00:00:00+02:00">October 26, 2018</time>.</p>
+      </footer>
+    </div><!-- /.article-wrap -->
+  
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrap">
+  
+  <footer>
+    
+
+<span>&copy; 2019 Yanuar Aditya</span>
+
+<!--
+<span>&copy; 2019 Yanuar Aditya. <a href="http://jekyllrb.com" rel="nofollow">Jekyll </a> on <a href="http://mademistakes.com/minimal-mistakes/" rel="nofollow">MM</a>.</span>
+-->
+
+  </footer>
+</div><!-- /.footer-wrap -->
+
+<!-- added by adit -->
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+
+<!-- original -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="/assets/js/scripts.min.js"></script>
+
+	        
+
+</body>
+</html>

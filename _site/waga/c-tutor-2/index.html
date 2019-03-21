@@ -10,7 +10,6 @@
 <meta name="keywords" content="tutorial, c">
 
 
-
 <!-- Twitter Cards -->
 <meta name="twitter:title" content="C #2 | The First Program">
 <meta name="twitter:description" content="Build your first program written in C, learn about basic input output and how to include library.">
@@ -89,25 +88,17 @@
 		    <ul>
 		        
 				    
-				        
-				    
 					<!-- <li><a href="/posts/" style="color:red;" >/</a><a href="/posts/" >Blog</a></li> -->
 				    <li><a href="/posts/">Blog</a></li>
 				
-				    
-				        
 				    
 					<!-- <li><a href="/tutorial/" style="color:red;" >/</a><a href="/tutorial/" >Tutorial</a></li> -->
 				    <li><a href="/tutorial/">Tutorial</a></li>
 				
 				    
-				        
-				    
 					<!-- <li><a href="/tips/" style="color:red;" >/</a><a href="/tips/" >Tips</a></li> -->
 				    <li><a href="/tips/">Tips</a></li>
 				
-				    
-				        
 				    
 					<!-- <li><a href="/about/" style="color:red;" >/</a><a href="/about/" >About</a></li> -->
 				    <li><a href="/about/">About</a></li>
@@ -124,14 +115,13 @@
   <div class="article-author-side">
     
 
-
 <div itemscope itemtype="http://schema.org/Person">
 
 
-	<img src="/images/bio-birthday-boy.png" class="bio-photo" alt="Janu Aditya bio photo">
+	<img src="/images/bio-birthday-boy.png" class="bio-photo" alt="Yanuar Aditya bio photo">
 
 
-  <h3 itemprop="name">Janu Aditya</h3>
+  <h3 itemprop="name">Yanuar Aditya</h3>
   <p>Dota & Volvo Cars</p>
   <a href="mailto:yanuart.adityan@gmail.com" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-square"></i> Email</a>
   <a href="http://twitter.com/yanuartadityan" class="author-social" target="_blank"><i class="fa fa-fw fa-twitter-square"></i> Twitter</a>
@@ -175,15 +165,15 @@
 
 <hr />
 
-<p>Wise and experienced programmers will always tell you this, <em>the only way to learn a programming language is to write programs</em>. It is true and I will just jumpstart by creating the very first simple C program. This program will simply prints some words, and play with how to bring the texts appear on the screen with <code>printf</code> function.</p>
+<p>Wise and experienced programmers will always tell you this, <em>the only way to learn a programming language is to write programs</em>. It is true and I will just jumpstart by creating the very first simple C program. This program will simply prints some words, and play with how to bring the texts appear on the screen with <code class="highlighter-rouge">printf</code> function.</p>
 
-<p>First thing to know is that, C-language are written in <code>.c</code> and <code>.h</code> file extensions. <code>.c</code> is the compile-able file that consist every functions and routines while <code>.h</code> is where you stores function names, variables, headers etc. You can live with <code>.c</code> alone but sometimes in order for programmer to be able to hide the intellectual property of, <em>e.g</em> the functions inside <code>.c</code>, programmers  merely write the function name inside <code>.h</code> and let the compiler transform <code>.c</code> with the definition of the function into either static or dynamic <em>library</em>. Thus, everyone who wants to use corresponding function, they will be provided by just the <code>.h</code> and the library, without requiring them to have the original <code>.c</code> code.</p>
+<p>First thing to know is that, C-language are written in <code class="highlighter-rouge">.c</code> and <code class="highlighter-rouge">.h</code> file extensions. <code class="highlighter-rouge">.c</code> is the compile-able file that consist every functions and routines while <code class="highlighter-rouge">.h</code> is where you stores function names, variables, headers etc. You can live with <code class="highlighter-rouge">.c</code> alone but sometimes in order for programmer to be able to hide the intellectual property of, <em>e.g</em> the functions inside <code class="highlighter-rouge">.c</code>, programmers  merely write the function name inside <code class="highlighter-rouge">.h</code> and let the compiler transform <code class="highlighter-rouge">.c</code> with the definition of the function into either static or dynamic <em>library</em>. Thus, everyone who wants to use corresponding function, they will be provided by just the <code class="highlighter-rouge">.h</code> and the library, without requiring them to have the original <code class="highlighter-rouge">.c</code> code.</p>
 
 <noscript><pre>400: Invalid request
 </pre></noscript>
 <script src="https://gist.github.com/300a69849266f41b58c9.js"> </script>
 
-<p><strong>line:01</strong> demonstrates the use of a <code>#</code> preprocessor. A preprocessor provides the ability for the inclusion of header files, macro expansions, conditional compilation, and line control. In many C implementations, it is a separate program invoked by the compiler as the first part of translation. <a href="https://en.wikipedia.org/wiki/C_preprocessor">Check…</a></p>
+<p><strong>line:01</strong> demonstrates the use of a <code class="highlighter-rouge">#</code> preprocessor. A preprocessor provides the ability for the inclusion of header files, macro expansions, conditional compilation, and line control. In many C implementations, it is a separate program invoked by the compiler as the first part of translation. <a href="https://en.wikipedia.org/wiki/C_preprocessor">Check…</a></p>
 
 <p>Preprocessor is a separate step in the compilation process, thus is not part of the compiler. If you invoke a preprocessor in C, it will substitute the text with the one that is referred by the preprocessor, whether it is a macro function or a file header. Here a list of preprocessor that will be used frequently on this tutorial.</p>
 
@@ -222,31 +212,31 @@
   </tbody>
 </table>
 
-<p><strong>line:03</strong> is where you can find the first function called <code>main</code>. A bracket <code>()</code> after the function name collects the argument. Empty bracket means no argument passed onto the function.</p>
+<p><strong>line:03</strong> is where you can find the first function called <code class="highlighter-rouge">main</code>. A bracket <code class="highlighter-rouge">()</code> after the function name collects the argument. Empty bracket means no argument passed onto the function.</p>
 
-<p><strong>line:04</strong> and <strong>line:08</strong> contain the function braces <code>{}</code>. Statements of a function are enclosed in braces. <code>{</code> begins the statements and <code>}</code> ends the statements.</p>
+<p><strong>line:04</strong> and <strong>line:08</strong> contain the function braces <code class="highlighter-rouge">{}</code>. Statements of a function are enclosed in braces. <code class="highlighter-rouge">{</code> begins the statements and <code class="highlighter-rouge">}</code> ends the statements.</p>
 
-<p><strong>line:05</strong> shows the invocation of function <code>printf</code> and an argument <code>"Hi, world\n"</code>. This function is called from the library <code>stdio.h</code> that is described from <strong>line:01</strong>. <code>printf</code> prints output to the screen, in this case, strings from our argument between quotes <code>" "</code>. <code>\n</code> tells <code>printf</code> to give a newline after printing the argument.</p>
+<p><strong>line:05</strong> shows the invocation of function <code class="highlighter-rouge">printf</code> and an argument <code class="highlighter-rouge">"Hi, world\n"</code>. This function is called from the library <code class="highlighter-rouge">stdio.h</code> that is described from <strong>line:01</strong>. <code class="highlighter-rouge">printf</code> prints output to the screen, in this case, strings from our argument between quotes <code class="highlighter-rouge">" "</code>. <code class="highlighter-rouge">\n</code> tells <code class="highlighter-rouge">printf</code> to give a newline after printing the argument.</p>
 
-<p><strong>line:07</strong> with <code>return</code> statement terminates the execution. However, as the name implies, <code>return</code> gives certain value back to the calling function. If you call a function A within function <code>main</code>, and you invoke <code>return value</code> from within A, then <code>main</code> will get the value that computed inside A. More detailed about return statement can be found on <a href="https://en.wikipedia.org/wiki/Return_statement">Wiki</a> page.</p>
+<p><strong>line:07</strong> with <code class="highlighter-rouge">return</code> statement terminates the execution. However, as the name implies, <code class="highlighter-rouge">return</code> gives certain value back to the calling function. If you call a function A within function <code class="highlighter-rouge">main</code>, and you invoke <code class="highlighter-rouge">return value</code> from within A, then <code class="highlighter-rouge">main</code> will get the value that computed inside A. More detailed about return statement can be found on <a href="https://en.wikipedia.org/wiki/Return_statement">Wiki</a> page.</p>
 
 <h3 id="how-to-comments">How to Comments</h3>
 
-<p>When you put some information inside <code>/*</code> and <code>*/</code>, you just made a comment. This is what we called with multi-line comment, or sometimes also called a block comment. Comments are used by the programmers to explain functionality of certain parts of codes, or to keep notes for themselves.</p>
+<p>When you put some information inside <code class="highlighter-rouge">/*</code> and <code class="highlighter-rouge">*/</code>, you just made a comment. This is what we called with multi-line comment, or sometimes also called a block comment. Comments are used by the programmers to explain functionality of certain parts of codes, or to keep notes for themselves.</p>
 
 <noscript><pre>400: Invalid request
 </pre></noscript>
 <script src="https://gist.github.com/b3dc562143a8497a0dee.js"> </script>
 
-<p>On <strong>line:01</strong>, it shows how block comment works. Any characters between <code>/*</code> and <code>*/</code> are ignored by the compiler. On <strong>line:9</strong> and <strong>10</strong>, a single line comments are provided. A single line comment starts with <code>//</code> and everything after it is ignored by the compiler until end of the line. This is originated from C++ style comment, but nowadays most of C compilers support this comment.</p>
+<p>On <strong>line:01</strong>, it shows how block comment works. Any characters between <code class="highlighter-rouge">/*</code> and <code class="highlighter-rouge">*/</code> are ignored by the compiler. On <strong>line:9</strong> and <strong>10</strong>, a single line comments are provided. A single line comment starts with <code class="highlighter-rouge">//</code> and everything after it is ignored by the compiler until end of the line. This is originated from C++ style comment, but nowadays most of C compilers support this comment.</p>
 
 <h3 id="quick-explanation-on-printf">Quick Explanation on printf()</h3>
 
-<p>Originall, <code>printf()</code> is declared with,</p>
+<p>Originall, <code class="highlighter-rouge">printf()</code> is declared with,</p>
 
-<div class="highlight"><pre><code class="language-c" data-lang="c"><span class="kt">int</span> <span class="nf">printf</span><span class="p">(</span><span class="k">const</span> <span class="kt">char</span> <span class="o">*</span><span class="n">format</span><span class="p">,</span> <span class="p">...);</span></code></pre></div>
+<figure class="highlight"><pre><code class="language-c" data-lang="c"><span class="kt">int</span> <span class="n">printf</span><span class="p">(</span><span class="k">const</span> <span class="kt">char</span> <span class="o">*</span><span class="n">format</span><span class="p">,</span> <span class="p">...);</span></code></pre></figure>
 
-<p><code>format</code> in here is the string that contains the text to be displayed. In sort, this is the text you wanted to see. It can be accompanied by the variables. An example of <code>printf("Hi World")</code> will bring texts “Hi World” to be displayed on terminal. You can add format tags to determine data types, and point it out to the corresponding variables. If you have <code>int a</code> and want to show it after “Hi World”, then the command will be <code>printf("Hi World %d", a)</code>. The tag is <code>%</code>, and <code>d</code> represents signed decimal integer. <code>%f</code> is format tag for floating point data type, <code>%s</code> for characters, and <code>%x</code> for hexadecimal integer. To check all of available format tags for C, you can see it <a href="http://www.tutorialspoint.com/c_standard_library/c_function_printf.htm">here</a>. For the tutorial about variables, please refer to the end of this tutorial.</p>
+<p><code class="highlighter-rouge">format</code> in here is the string that contains the text to be displayed. In sort, this is the text you wanted to see. It can be accompanied by the variables. An example of <code class="highlighter-rouge">printf("Hi World")</code> will bring texts “Hi World” to be displayed on terminal. You can add format tags to determine data types, and point it out to the corresponding variables. If you have <code class="highlighter-rouge">int a</code> and want to show it after “Hi World”, then the command will be <code class="highlighter-rouge">printf("Hi World %d", a)</code>. The tag is <code class="highlighter-rouge">%</code>, and <code class="highlighter-rouge">d</code> represents signed decimal integer. <code class="highlighter-rouge">%f</code> is format tag for floating point data type, <code class="highlighter-rouge">%s</code> for characters, and <code class="highlighter-rouge">%x</code> for hexadecimal integer. To check all of available format tags for C, you can see it <a href="http://www.tutorialspoint.com/c_standard_library/c_function_printf.htm">here</a>. For the tutorial about variables, please refer to the end of this tutorial.</p>
 
 <h3 id="spaces-on-c">Spaces on C</h3>
 
@@ -260,7 +250,7 @@
 
 <h3 id="how-to-run-c-program">How to Run C-program</h3>
 
-<p>In order to execute a C program, we have to make sure <code>main()</code> function does exist in our code. For now, it is located in <code>main.c</code> C file. Then, there are two important steps to make it executable, by compiling and linking.</p>
+<p>In order to execute a C program, we have to make sure <code class="highlighter-rouge">main()</code> function does exist in our code. For now, it is located in <code class="highlighter-rouge">main.c</code> C file. Then, there are two important steps to make it executable, by compiling and linking.</p>
 
 <p>Nowadays, there are lot of GUI (Graphical User Interface) development tools available for you to use. If you are full time Windows user, then probably most of the time you will use <a href="https://www.visualstudio.com">Visual Studio</a>. For Mac, <a href="https://developer.apple.com/xcode/">Xcode</a> probably is the best IDE (Integrated Development Environment) to use. UNIX based users probably know how good <a href="https://eclipse.org/cdt/">Eclipse CDT</a> is, probably also considered as IDE with the most complete features yet. Still, there are many 3rd party IDEs out there for everyone to check. But, one thing to notice here is, every operating systems and IDE has different C standard and thus, sometimes you have to design cross-platform friendly codes if you want your code to be executable (compile-able) in different platforms. However, you’ll gonna deal with specific platform dependancies that probably will hinder you from working efficiently. Myself, I’d rather stick with UNIX C standard (C99) as I’m using Mac OSX. I’m using GCC as my compiler and it comes as native compiler in most of UNIX based operating systems like Linux. GCC is also available in Windows with help of <a href="http://www.mingw.org">MinGW</a>.</p>
 
@@ -270,13 +260,12 @@
 
 <h3 id="how-to-compile">How to Compile</h3>
 
-<p>We’re gonna use <code>gcc</code> for all of the compilation. <code>gcc</code> is the C and C++ compiler developed by GNU project. It is widely used as the default compiler of UNIX-like systems. If you are using Mac, you may get it automatically installed by installing Xcode Command Line Tools.</p>
+<p>We’re gonna use <code class="highlighter-rouge">gcc</code> for all of the compilation. <code class="highlighter-rouge">gcc</code> is the C and C++ compiler developed by GNU project. It is widely used as the default compiler of UNIX-like systems. If you are using Mac, you may get it automatically installed by installing Xcode Command Line Tools.</p>
 
-<p>Open command line or terminal if you’re using Mac, and navigate to your source codes directory. First, check whether you have <code>gcc</code> installed or not.</p>
+<p>Open command line or terminal if you’re using Mac, and navigate to your source codes directory. First, check whether you have <code class="highlighter-rouge">gcc</code> installed or not.</p>
 
-<p><code>
-$ gcc --version
-</code></p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ gcc --version
+</code></pre></div></div>
 
 <p>If you’re using Mac OSX (Yosemite or later), most of the chance you will have this result instead,</p>
 
@@ -287,15 +276,15 @@ Target: x86_64-apple-darwin15.0.0
 Thread model: posix
 </pre>
 
-<p>This is because from Mac OSX 10.9 onwards, the <code>gcc</code> that came has <code>LLVM clang</code> as back-end, still we can use <code>gcc</code> command for general compilation.</p>
+<p>This is because from Mac OSX 10.9 onwards, the <code class="highlighter-rouge">gcc</code> that came has <code class="highlighter-rouge">LLVM clang</code> as back-end, still we can use <code class="highlighter-rouge">gcc</code> command for general compilation.</p>
 
-<p>To compile <code>main.c</code> to get executable program <code>myapp</code>, then the <code>gcc</code> or <code>clang</code> command will be,</p>
+<p>To compile <code class="highlighter-rouge">main.c</code> to get executable program <code class="highlighter-rouge">myapp</code>, then the <code class="highlighter-rouge">gcc</code> or <code class="highlighter-rouge">clang</code> command will be,</p>
 
 <pre>
 $ gcc main.c -o myapp
 </pre>
 
-<p>To execute the program <code>myapp</code>, you can type</p>
+<p>To execute the program <code class="highlighter-rouge">myapp</code>, you can type</p>
 
 <pre>
 $ ./myapp
@@ -342,10 +331,10 @@ Hi World
   <footer>
     
 
-<span>&copy; 2017 Janu Aditya</span>
+<span>&copy; 2019 Yanuar Aditya</span>
 
 <!--
-<span>&copy; 2017 Janu Aditya. <a href="http://jekyllrb.com" rel="nofollow">Jekyll </a> on <a href="http://mademistakes.com/minimal-mistakes/" rel="nofollow">MM</a>.</span>
+<span>&copy; 2019 Yanuar Aditya. <a href="http://jekyllrb.com" rel="nofollow">Jekyll </a> on <a href="http://mademistakes.com/minimal-mistakes/" rel="nofollow">MM</a>.</span>
 -->
 
   </footer>
