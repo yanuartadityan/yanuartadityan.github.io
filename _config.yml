@@ -13,20 +13,22 @@ highlighter: rouge
 sass:
   sass_dir: _sass
   style: compressed
-gems:
+plugins:
   - jekyll-sitemap
+  - jekyll-gist
 
 kramdown:
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: false
+  enable_coderay: true
+  syntax_highlighter: rouge
 
 
 # Site owner
 owner:
-  name: Janu Aditya
+  name: Yanuar Aditya
   avatar: bio-birthday-boy.png
   bio: Dota & Volvo Cars
   email: yanuart.adityan@gmail.com
