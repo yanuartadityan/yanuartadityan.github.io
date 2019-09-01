@@ -46,9 +46,9 @@ Since I'll do this ssh command so often, I created an alias in `~/.bash_profile`
 
 Then reload your *bash* by doing `source ~/.bash_profile` and next time, just call *sshlightsail*. Voila!
 
-**Note** This will let you as the owner of the instance to connect to your instance and has all root access. It is, in fact, not a good practice. You may want to have multiple people working on your instance, one for this project and one for others. Thus, it is good to create an another user just to work for this tutorial. You can just follow the guide on it [here][s7].
+**Note** This will let you as the owner of the instance to connect to your instance and has all root access. It is, in fact, not a good practice. You may want to have multiple people working on your instance, one for this project and one for others. Thus, it is good to create an another user just to work for this tutorial. You can just follow the guide on it [here][s7]. For now, I'm using the default root user provided by the instance.
 
-# Step 3: Install necessary components
+# Step 3: All the necessary components
 
 Update your instance's Ubuntu by calling `sudo apt-get update`. This will take a while, but usually it's good time to brew your favorite coffee. 
 
@@ -58,8 +58,69 @@ Once you finished your coffee, you might want to know what are the components we
 * [Nginx][s5]. True magic here
 * [Certbot][s6]. To enable secure SSL/HTTPS in your web server
 
+# Step 4: Install Gogs
 
+The first step is to install Gogs. Make sure to get the latest Gogs version from [download page][s8] and make sure you get the AMD64 version of it. For me, I downloaded the .tar.gz version of it.
 
+1. Create a folder for the downloadable `mkdir ~/web/download/`
+2. Go into the folder and download `wget https://dl.gogs.io/0.11.91/gogs_0.11.91_linux_amd64.tar.gz`
+3. Unpack `tar zxf https://dl.gogs.io/0.11.91/gogs_0.11.91_linux_amd64.tar.gz`
+4. Then you'll see **gogs** folder and you can find the Gogs app inside.
+5. Try to launch it at port 80 by calling `./gogs web --port=XXXX`
+
+For the step 5, provide your desirable port for the server to listen to. Default HTTP request is 80 and by default Gogs is running at port 3000. Of course, you can redirect incoming request to Gogs to any location later on using Nginx.
+
+Remember your instance public IP and paste it in your browser and VOILA! You'll encounter Gogs' installation page. You don't have finish the installation as we'll configure everything later. At least, now your Gogs app is working fine. 
+
+# Step 5: Configure Gogs
+
+Few things you have to prepare before we continue.
+
+1. Gogs main app configuration file in `/gogs/custom/conf/app.ini`.
+2. Gogs *systemd* service file. This is for launching the Gogs as a service. The file is in `/gogs/scripts/systemd/gogs.service`.
+3. Note location where all Ubuntu services are located. It is located in `/etc/systemd/system/`.
+4. Note your current user and group. You can check it using command `groups [username]`. In my case, my username is of course *ubuntu* and the group is *ubuntu* as well.
+
+What you need to do now is to configure the Gogs app configuration to be like this:
+
+```
+...
+# make sure to use correct user (I use ubuntu)
+RUN_USER    = ubuntu
+...
+# is where your all Git repositories are located
+ROOT        = /home/ubuntu/web/gogs/gogs-repositories
+# point to your available domain, if you don't then it will be your public IP
+DOMAIN      = example.com
+# it is up to you to change the port for your server, I'm using default 3000 port
+HTTP_PORT   = 3000
+# since I want to use my main domain www.example.com for something else, I use a subdomain to host the Gogs
+ROOT_URL    = http://gogs.example.com
+...
+```
+
+Complete guidelines are available in well documented [Gogs doc page][s9]. Spend your time on this hacking cheat-sheet to master on Gogs.
+
+Then, the next step is to run Gogs app as Ubuntu service. That means, everytime your instance is rebooting, Gogs will be reloaded and your site will online in no time. To do this, copy Gogs *systemd* service file to `/etc/systemd/system/gogs.service` and then edit it with root access and follow this example:
+
+```
+...
+WorkingDirectory=/home/ubuntu/web/gogs
+ExecStart=/home/ubuntu/web/gogs/gogs web -p 3000
+...
+Environment=USER=ubuntu HOME=/home/ubuntu/web/gogs
+...
+```
+
+Don't forget to take the ownership of your Gogs exec file by calling `sudo chmod +x /home/ubuntu/web/gogs/gogs`. Now you can start the Gogs service by calling `sudo systemctl start gogs` and followed by `sudo systemctl enable gogs`. Make sure that Gogs' service is running by doing `sudo systemctl status gogs`. 
+
+Whenever you made an update, you can reload the service by calling `sudo systemctl daemon-reload`.
+
+# Step 6: Install Nginx
+
+Install the Nginx by invoking `sudo apt-get install nginx`.
+
+# Step 7: Secure access to your Gogs site
 
 [s1]: www.namecheap.com
 [s2]: lightsail.aws.amazon.com
@@ -68,3 +129,5 @@ Once you finished your coffee, you might want to know what are the components we
 [s5]: https://www.nginx.com/
 [s6]: https://certbot.eff.org/
 [s7]: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/managing-users.html
+[s8]: https://gogs.io/docs/installation
+[s9]: https://gogs.io/docs/advanced/configuration_cheat_sheet
