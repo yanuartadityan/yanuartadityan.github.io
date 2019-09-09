@@ -7,7 +7,7 @@ comments: true
 tags: [tutorial, aws, cloud, git]
 ---
 
-# Introduction
+## Introduction
 
 If you are often changing system when you are working on unfinished project, probably you realized that Github's limitation on the private repositories really suck. Because private repository is needed just for saving some state. There is a solution for this but what you need is:
 
@@ -16,7 +16,7 @@ If you are often changing system when you are working on unfinished project, pro
 3. A domain for you. I got mine from [Namecheap][s1]
 4. Patience :)
 
-# Step 1: Choose Lightsail Service and Build an Instance
+## Step 1: Choose Lightsail Service and Build an Instance
 
 Go to AWS home dashboard and choose Lightsail service or go straightaway to [Lightsail][s2] homepage. Then just create an instance by choosing your OS. For me, I picked bare Ubuntu 18.04 instance because I want to install all components manually. Don't forget to choose the closest server to you.
 
@@ -24,7 +24,7 @@ After everything is set, you can access the instance from in-built web based SSH
 
 Neat!
 
-# Step 2: Test SSH Connection
+## Step 2: Test SSH Connection
 
 To access your instance with SSH, what you need apart from your key is your instance's hostname and public IP. All these information you can get from your instance manage page. If your chosen OS is Ubuntu, then most likely your hostname is *ubuntu*. 
 
@@ -48,7 +48,7 @@ Then reload your *bash* by doing `source ~/.bash_profile` and next time, just ca
 
 **Note** This will let you as the owner of the instance to connect to your instance and has all root access. It is, in fact, not a good practice. You may want to have multiple people working on your instance, one for this project and one for others. Thus, it is good to create an another user just to work for this tutorial. You can just follow the guide on it [here][s7]. For now, I'm using the default root user provided by the instance.
 
-# Step 3: All the necessary components
+## Step 3: All the necessary components
 
 Update your instance's Ubuntu by calling `sudo apt-get update`. This will take a while, but usually it's good time to brew your favorite coffee. 
 
@@ -58,7 +58,7 @@ Once you finished your coffee, you might want to know what are the components we
 * [Nginx][s5]. True magic here
 * [Certbot][s6]. To enable secure SSL/HTTPS in your web server
 
-# Step 4: Install Gogs
+## Step 4: Install Gogs
 
 The first step is to install Gogs. Make sure to get the latest Gogs version from [download page][s8] and make sure you get the AMD64 version of it. For me, I downloaded the .tar.gz version of it.
 
@@ -72,7 +72,7 @@ For the step 5, provide your desirable port for the server to listen to. Default
 
 Remember your instance public IP and paste it in your browser and VOILA! You'll encounter Gogs' installation page. You don't have finish the installation as we'll configure everything later. At least, now your Gogs app is working fine. 
 
-# Step 5: Configure Gogs
+## Step 5: Configure Gogs
 
 Few things you have to prepare before we continue.
 
@@ -116,11 +116,11 @@ Don't forget to take the ownership of your Gogs exec file by calling `sudo chmod
 
 Whenever you made an update, you can reload the service by calling `sudo systemctl daemon-reload`.
 
-# Step 6: Install Nginx
+## Step 6: Install Nginx
 
 Install the Nginx by invoking `sudo apt-get install nginx`.
 
-# Step 7: Secure access to your Gogs site
+## Step 7: Secure access to your Gogs site
 
 [s1]: www.namecheap.com
 [s2]: lightsail.aws.amazon.com
