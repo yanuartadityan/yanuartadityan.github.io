@@ -12,9 +12,17 @@ tags: [tutorial, aws, cloud, git]
 If you are often changing system when you are working on unfinished project, probably you realized that Github's limitation on the private repositories really suck. Because private repository is needed just for saving some state. There is a solution for this but what you need is:
 
 1. An AWS root account
+
+   It is always good to have any of the big three cloud services, either Amazon Web Services, Microsoft Azure or Google Cloud. For this, we are gonna use AWS.
+
 2. Instance of AWS Lightsail (cheapest will do. I'm using $3.5/month Lightsail)
+
+   Create instance of one of the AWS app, Lightsail. Lightsail is a simple cloud platform that offers everything you need, e.g. compute power, memory, storage and as well as access to the internet given by the AWS.
+
 3. A domain for you. I got mine from [Namecheap][s1]
-4. Patience :)
+
+   We are going to make a web server for our private Git repositories. Find a coolname for your site!
+
 
 ## Step 1: Choose Lightsail Service and Build an Instance
 
@@ -63,9 +71,13 @@ Once you finished your coffee, you might want to know what are the components we
 The first step is to install Gogs. Make sure to get the latest Gogs version from [download page][s8] and make sure you get the AMD64 version of it. For me, I downloaded the .tar.gz version of it.
 
 1. Create a folder for the downloadable `mkdir ~/web/download/`
+
 2. Go into the folder and download `wget https://dl.gogs.io/0.11.91/gogs_0.11.91_linux_amd64.tar.gz`
+
 3. Unpack `tar zxf https://dl.gogs.io/0.11.91/gogs_0.11.91_linux_amd64.tar.gz`
+
 4. Then you'll see **gogs** folder and you can find the Gogs app inside.
+
 5. Try to launch it at port 80 by calling `./gogs web --port=XXXX`
 
 For the step 5, provide your desirable port for the server to listen to. Default HTTP request is 80 and by default Gogs is running at port 3000. Of course, you can redirect incoming request to Gogs to any location later on using Nginx.
